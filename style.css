@@ -782,13 +782,13 @@ main {
   top: 61%;
   right: clamp(1rem, 8vw, 9rem);
   transform: translateY(-50%);
-  padding: 0.65rem 1.4rem;
+  padding: 0.9rem 2rem;
   background: var(--accent-green);
   color: #fff;
   text-decoration: none;
   border-radius: var(--radius-md);
-  font-weight: 600;
-  font-size: 1rem;
+  font-weight: 700;
+  font-size: 1.15rem;
   transition: all var(--transition-slow);
   cursor: pointer;
   box-shadow: var(--shadow-md);
@@ -3163,8 +3163,8 @@ body.modal-open {
     right: 1.15rem;
     left: auto;
     transform: none;
-    font-size: 0.74rem;
-    padding: 0.35rem 0.65rem;
+    font-size: 0.84rem;
+    padding: 0.5rem 0.85rem;
     white-space: nowrap;
   }
 
@@ -3190,8 +3190,8 @@ body.modal-open {
   .btn-hero-cta {
     bottom: 2.35rem;
     right: 0.95rem;
-    font-size: 0.68rem;
-    padding: 0.3rem 0.55rem;
+    font-size: 0.76rem;
+    padding: 0.45rem 0.75rem;
   }
 
   .section-title,
@@ -3215,8 +3215,8 @@ body.modal-open {
   .btn-hero-cta {
     bottom: 2.5rem;
     right: 0.8rem;
-    font-size: 0.64rem;
-    padding: 0.28rem 0.5rem;
+    font-size: 0.7rem;
+    padding: 0.4rem 0.65rem;
   }
 }
 
