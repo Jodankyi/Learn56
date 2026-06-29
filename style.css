@@ -780,7 +780,7 @@ main {
 .btn-hero-cta {
   position: absolute;
   top: 61%;
-  right: clamp(1rem, 8vw, 9rem);
+  right: clamp(7rem, 16vw, 15rem);
   transform: translateY(-50%);
   padding: 0.9rem 2rem;
   background: var(--accent-green);
@@ -3160,7 +3160,7 @@ body.modal-open {
   .btn-hero-cta {
     top: auto;
     bottom: 2rem;
-    right: 1.15rem;
+    right: 4rem;
     left: auto;
     transform: none;
     font-size: 0.84rem;
@@ -3189,7 +3189,7 @@ body.modal-open {
 
   .btn-hero-cta {
     bottom: 2.35rem;
-    right: 0.95rem;
+    right: 3.2rem;
     font-size: 0.76rem;
     padding: 0.45rem 0.75rem;
   }
@@ -3214,7 +3214,7 @@ body.modal-open {
 @media (max-width: 390px) {
   .btn-hero-cta {
     bottom: 2.5rem;
-    right: 0.8rem;
+    right: 2.8rem;
     font-size: 0.7rem;
     padding: 0.4rem 0.65rem;
   }
