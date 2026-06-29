@@ -780,15 +780,15 @@ main {
 .btn-hero-cta {
   position: absolute;
   top: 61%;
-  right: clamp(7rem, 16vw, 15rem);
+  right: clamp(10rem, 20vw, 18rem);
   transform: translateY(-50%);
-  padding: 0.9rem 2rem;
-  background: var(--accent-green);
+  padding: 1.05rem 2.4rem;
+  background: var(--secondary);
   color: #fff;
   text-decoration: none;
   border-radius: var(--radius-md);
   font-weight: 700;
-  font-size: 1.15rem;
+  font-size: 1.35rem;
   transition: all var(--transition-slow);
   cursor: pointer;
   box-shadow: var(--shadow-md);
@@ -796,7 +796,7 @@ main {
 }
 
 .btn-hero-cta:hover {
-  background: var(--accent-green-light);
+  background: #d97706;
   transform: translateY(-50%) scale(1.08);
   box-shadow: var(--shadow-lg);
 }
@@ -3136,7 +3136,7 @@ body.modal-open {
 
   .btn-hero-cta {
     top: 68%;
-    right: 1.25rem;
+    right: 4rem;
   }
 
   .section-header {
@@ -3160,11 +3160,11 @@ body.modal-open {
   .btn-hero-cta {
     top: auto;
     bottom: 2rem;
-    right: 4rem;
+    right: 6rem;
     left: auto;
     transform: none;
-    font-size: 0.84rem;
-    padding: 0.5rem 0.85rem;
+    font-size: 0.96rem;
+    padding: 0.62rem 1rem;
     white-space: nowrap;
   }
 
@@ -3189,9 +3189,9 @@ body.modal-open {
 
   .btn-hero-cta {
     bottom: 2.35rem;
-    right: 3.2rem;
-    font-size: 0.76rem;
-    padding: 0.45rem 0.75rem;
+    right: 4.5rem;
+    font-size: 0.88rem;
+    padding: 0.55rem 0.9rem;
   }
 
   .section-title,
@@ -3214,9 +3214,9 @@ body.modal-open {
 @media (max-width: 390px) {
   .btn-hero-cta {
     bottom: 2.5rem;
-    right: 2.8rem;
-    font-size: 0.7rem;
-    padding: 0.4rem 0.65rem;
+    right: 3.8rem;
+    font-size: 0.82rem;
+    padding: 0.5rem 0.8rem;
   }
 }
 
