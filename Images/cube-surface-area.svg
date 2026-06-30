@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" role="img" aria-label="Cube surface area diagram">
+  <rect width="360" height="220" fill="#fff7f2"/>
+  <polygon points="110,70 210,70 250,105 150,105" fill="#ffd9bf" stroke="#8a4a21" stroke-width="2.5"/>
+  <polygon points="110,70 150,105 150,175 110,140" fill="#f7b98e" stroke="#8a4a21" stroke-width="2.5"/>
+  <polygon points="150,105 250,105 250,175 150,175" fill="#ffc9a8" stroke="#8a4a21" stroke-width="2.5"/>
+  <text x="180" y="30" text-anchor="middle" font-family="Arial" font-size="16" fill="#6f3916">Cube</text>
+  <text x="180" y="205" text-anchor="middle" font-family="Arial" font-size="15" fill="#6f3916">Surface Area = 6s²</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" role="img" aria-label="Line graph example">
+  <rect width="360" height="220" fill="#f4fbff"/>
+  <line x1="40" y1="190" x2="320" y2="190" stroke="#2f5679" stroke-width="2.5"/>
+  <line x1="40" y1="190" x2="40" y2="30" stroke="#2f5679" stroke-width="2.5"/>
+  <polyline points="60,170 110,145 170,120 230,85 290,60" fill="none" stroke="#d9534f" stroke-width="3"/>
+  <circle cx="60" cy="170" r="4" fill="#d9534f"/><circle cx="110" cy="145" r="4" fill="#d9534f"/>
+  <circle cx="170" cy="120" r="4" fill="#d9534f"/><circle cx="230" cy="85" r="4" fill="#d9534f"/><circle cx="290" cy="60" r="4" fill="#d9534f"/>
+  <text x="180" y="24" text-anchor="middle" font-family="Arial" font-size="16" fill="#234d76">Line Graph Trend</text>
+</svg>

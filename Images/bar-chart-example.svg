@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" role="img" aria-label="Bar chart example">
+  <rect width="360" height="220" fill="#f7fcff"/>
+  <line x1="40" y1="190" x2="320" y2="190" stroke="#2f5679" stroke-width="2.5"/>
+  <line x1="40" y1="190" x2="40" y2="35" stroke="#2f5679" stroke-width="2.5"/>
+  <rect x="70" y="130" width="36" height="60" fill="#6ea8de"/>
+  <rect x="130" y="90" width="36" height="100" fill="#5b9bd5"/>
+  <rect x="190" y="110" width="36" height="80" fill="#7cb5e3"/>
+  <rect x="250" y="70" width="36" height="120" fill="#4a90d6"/>
+  <text x="88" y="205" text-anchor="middle" font-family="Arial" font-size="12">A</text>
+  <text x="148" y="205" text-anchor="middle" font-family="Arial" font-size="12">B</text>
+  <text x="208" y="205" text-anchor="middle" font-family="Arial" font-size="12">C</text>
+  <text x="268" y="205" text-anchor="middle" font-family="Arial" font-size="12">D</text>
+  <text x="178" y="24" text-anchor="middle" font-family="Arial" font-size="16" fill="#234d76">Bar Chart</text>
+</svg>

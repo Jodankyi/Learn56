@@ -1,0 +1,3614 @@
+{
+  "p1": [
+    {
+      "prompt": "Solve: 7 + 5 = ?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "correctIndex": 2,
+      "steps": [
+        "Count forward 5 numbers from 7.",
+        "7 + 5 equals 12.",
+        "Write the final answer as 12."
+      ]
+    },
+    {
+      "prompt": "Solve: 14 - 6 = ?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Start with 14 objects.",
+        "Take away 6 objects.",
+        "8 objects remain."
+      ]
+    },
+    {
+      "prompt": "Solve: 9 + 4 = ?",
+      "options": [
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Start at 9.",
+        "Count 4 more: 10, 11, 12, 13.",
+        "So the answer is 13."
+      ]
+    },
+    {
+      "prompt": "Solve: 15 - 7 = ?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Begin with 15.",
+        "Count back 7 numbers.",
+        "You land on 8."
+      ]
+    },
+    {
+      "prompt": "Solve: 6 + 6 = ?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "correctIndex": 2,
+      "steps": [
+        "This is doubles.",
+        "6 and 6 make 12.",
+        "Answer is 12."
+      ]
+    },
+    {
+      "prompt": "Solve: 13 - 4 = ?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Start with 13.",
+        "Take away 4.",
+        "9 remains."
+      ]
+    },
+    {
+      "prompt": "Solve: 10 + 9 = ?",
+      "options": [
+        "18",
+        "19",
+        "20",
+        "21"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Adding to 10 is easy.",
+        "10 + 9 is one less than 20.",
+        "So the answer is 19."
+      ]
+    },
+    {
+      "prompt": "Solve: 18 - 9 = ?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Think of doubles: 9 + 9 = 18.",
+        "So 18 - 9 = 9.",
+        "Answer is 9."
+      ]
+    },
+    {
+      "prompt": "Solve: 5 + 8 = ?",
+      "options": [
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Start at 8.",
+        "Count on 5 more to get 13.",
+        "Answer is 13."
+      ]
+    },
+    {
+      "prompt": "Solve: 16 - 8 = ?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Half of 16 is 8.",
+        "So 16 minus 8 is 8.",
+        "Answer is 8."
+      ]
+    },
+    {
+      "prompt": "Solve: 16 + 9 = ?",
+      "options": [
+        "25",
+        "24",
+        "26",
+        "27"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Start at 16.",
+        "Count forward 9 steps.",
+        "The total is 25."
+      ]
+    },
+    {
+      "prompt": "Solve: 18 + 7 = ?",
+      "options": [
+        "25",
+        "24",
+        "26",
+        "27"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Start at 18.",
+        "Count forward 7 steps.",
+        "The total is 25."
+      ]
+    },
+    {
+      "prompt": "Solve: 6 + 5 = ?",
+      "options": [
+        "11",
+        "10",
+        "12",
+        "13"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Start at 6.",
+        "Count forward 5 steps.",
+        "The total is 11."
+      ]
+    },
+    {
+      "prompt": "Solve: 8 + 3 = ?",
+      "options": [
+        "11",
+        "10",
+        "12",
+        "13"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Start at 8.",
+        "Count forward 3 steps.",
+        "The total is 11."
+      ]
+    },
+    {
+      "prompt": "Solve: 10 + 9 = ?",
+      "options": [
+        "19",
+        "18",
+        "20",
+        "21"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Start at 10.",
+        "Count forward 9 steps.",
+        "The total is 19."
+      ]
+    },
+    {
+      "prompt": "Solve: 12 + 7 = ?",
+      "options": [
+        "19",
+        "18",
+        "20",
+        "21"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Start at 12.",
+        "Count forward 7 steps.",
+        "The total is 19."
+      ]
+    },
+    {
+      "prompt": "Solve: 14 + 5 = ?",
+      "options": [
+        "19",
+        "18",
+        "20",
+        "21"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Start at 14.",
+        "Count forward 5 steps.",
+        "The total is 19."
+      ]
+    },
+    {
+      "prompt": "Solve: 16 + 3 = ?",
+      "options": [
+        "19",
+        "18",
+        "20",
+        "21"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Start at 16.",
+        "Count forward 3 steps.",
+        "The total is 19."
+      ]
+    },
+    {
+      "prompt": "Solve: 18 + 9 = ?",
+      "options": [
+        "27",
+        "26",
+        "28",
+        "29"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Start at 18.",
+        "Count forward 9 steps.",
+        "The total is 27."
+      ]
+    },
+    {
+      "prompt": "Solve: 6 + 7 = ?",
+      "options": [
+        "13",
+        "12",
+        "14",
+        "15"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Start at 6.",
+        "Count forward 7 steps.",
+        "The total is 13."
+      ]
+    },
+    {
+      "prompt": "Solve: 8 + 5 = ?",
+      "options": [
+        "13",
+        "12",
+        "14",
+        "15"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Start at 8.",
+        "Count forward 5 steps.",
+        "The total is 13."
+      ]
+    },
+    {
+      "prompt": "Solve: 10 + 3 = ?",
+      "options": [
+        "13",
+        "12",
+        "14",
+        "15"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Start at 10.",
+        "Count forward 3 steps.",
+        "The total is 13."
+      ]
+    },
+    {
+      "prompt": "Solve: 12 + 9 = ?",
+      "options": [
+        "21",
+        "20",
+        "22",
+        "23"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Start at 12.",
+        "Count forward 9 steps.",
+        "The total is 21."
+      ]
+    },
+    {
+      "prompt": "Solve: 14 + 7 = ?",
+      "options": [
+        "21",
+        "20",
+        "22",
+        "23"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Start at 14.",
+        "Count forward 7 steps.",
+        "The total is 21."
+      ]
+    },
+    {
+      "prompt": "Solve: 16 + 5 = ?",
+      "options": [
+        "21",
+        "20",
+        "22",
+        "23"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Start at 16.",
+        "Count forward 5 steps.",
+        "The total is 21."
+      ]
+    },
+    {
+      "prompt": "Solve: 18 + 3 = ?",
+      "options": [
+        "21",
+        "20",
+        "22",
+        "23"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Start at 18.",
+        "Count forward 3 steps.",
+        "The total is 21."
+      ]
+    },
+    {
+      "prompt": "Solve: 6 + 9 = ?",
+      "options": [
+        "15",
+        "14",
+        "16",
+        "17"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Start at 6.",
+        "Count forward 9 steps.",
+        "The total is 15."
+      ]
+    },
+    {
+      "prompt": "Solve: 8 + 7 = ?",
+      "options": [
+        "15",
+        "14",
+        "16",
+        "17"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Start at 8.",
+        "Count forward 7 steps.",
+        "The total is 15."
+      ]
+    },
+    {
+      "prompt": "Solve: 10 + 5 = ?",
+      "options": [
+        "15",
+        "14",
+        "16",
+        "17"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Start at 10.",
+        "Count forward 5 steps.",
+        "The total is 15."
+      ]
+    },
+    {
+      "prompt": "Solve: 12 + 3 = ?",
+      "options": [
+        "15",
+        "14",
+        "16",
+        "17"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Start at 12.",
+        "Count forward 3 steps.",
+        "The total is 15."
+      ]
+    },
+    {
+      "prompt": "Solve: 14 + 9 = ?",
+      "options": [
+        "23",
+        "22",
+        "24",
+        "25"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Start at 14.",
+        "Count forward 9 steps.",
+        "The total is 23."
+      ]
+    },
+    {
+      "prompt": "Solve: 16 + 7 = ?",
+      "options": [
+        "23",
+        "22",
+        "24",
+        "25"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Start at 16.",
+        "Count forward 7 steps.",
+        "The total is 23."
+      ]
+    },
+    {
+      "prompt": "Solve: 18 + 5 = ?",
+      "options": [
+        "23",
+        "22",
+        "24",
+        "25"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Start at 18.",
+        "Count forward 5 steps.",
+        "The total is 23."
+      ]
+    },
+    {
+      "prompt": "Solve: 6 + 3 = ?",
+      "options": [
+        "9",
+        "8",
+        "10",
+        "11"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Start at 6.",
+        "Count forward 3 steps.",
+        "The total is 9."
+      ]
+    },
+    {
+      "prompt": "Solve: 8 + 9 = ?",
+      "options": [
+        "17",
+        "16",
+        "18",
+        "19"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Start at 8.",
+        "Count forward 9 steps.",
+        "The total is 17."
+      ]
+    },
+    {
+      "prompt": "Solve: 10 + 7 = ?",
+      "options": [
+        "17",
+        "16",
+        "18",
+        "19"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Start at 10.",
+        "Count forward 7 steps.",
+        "The total is 17."
+      ]
+    },
+    {
+      "prompt": "Solve: 12 + 5 = ?",
+      "options": [
+        "17",
+        "16",
+        "18",
+        "19"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Start at 12.",
+        "Count forward 5 steps.",
+        "The total is 17."
+      ]
+    },
+    {
+      "prompt": "Solve: 14 + 3 = ?",
+      "options": [
+        "17",
+        "16",
+        "18",
+        "19"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Start at 14.",
+        "Count forward 3 steps.",
+        "The total is 17."
+      ]
+    },
+    {
+      "prompt": "Solve: 16 + 9 = ?",
+      "options": [
+        "25",
+        "24",
+        "26",
+        "27"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Start at 16.",
+        "Count forward 9 steps.",
+        "The total is 25."
+      ]
+    },
+    {
+      "prompt": "Solve: 18 + 7 = ?",
+      "options": [
+        "25",
+        "24",
+        "26",
+        "27"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Start at 18.",
+        "Count forward 7 steps.",
+        "The total is 25."
+      ]
+    }
+  ],
+  "p2": [
+    {
+      "prompt": "Solve: 23 + 14 = ?",
+      "options": [
+        "35",
+        "36",
+        "37",
+        "38"
+      ],
+      "correctIndex": 2,
+      "steps": [
+        "Add ones: 3 + 4 = 7.",
+        "Add tens: 2 + 1 = 3 tens.",
+        "Answer is 37."
+      ]
+    },
+    {
+      "prompt": "Solve: 45 - 18 = ?",
+      "options": [
+        "26",
+        "27",
+        "28",
+        "29"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Regroup 45 as 3 tens and 15 ones.",
+        "Subtract ones: 15 - 8 = 7.",
+        "Subtract tens: 3 - 1 = 2, so answer is 27."
+      ]
+    },
+    {
+      "prompt": "Solve: 36 + 27 = ?",
+      "options": [
+        "61",
+        "62",
+        "63",
+        "64"
+      ],
+      "correctIndex": 2,
+      "steps": [
+        "Add ones: 6 + 7 = 13, write 3 carry 1.",
+        "Add tens: 3 + 2 + 1 = 6.",
+        "Answer is 63."
+      ]
+    },
+    {
+      "prompt": "Solve: 72 - 29 = ?",
+      "options": [
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Regroup 72 as 6 tens and 12 ones.",
+        "12 - 9 = 3.",
+        "6 tens - 2 tens = 4 tens, so 43."
+      ]
+    },
+    {
+      "prompt": "Solve: 8 x 4 = ?",
+      "options": [
+        "28",
+        "30",
+        "32",
+        "34"
+      ],
+      "correctIndex": 2,
+      "steps": [
+        "Use repeated addition: 8 + 8 + 8 + 8.",
+        "The total is 32.",
+        "Answer is 32."
+      ]
+    },
+    {
+      "prompt": "Solve: 42 / 6 = ?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Think: 6 times what equals 42?",
+        "6 x 7 = 42.",
+        "So 42 / 6 = 7."
+      ]
+    },
+    {
+      "prompt": "Solve: 55 + 19 = ?",
+      "options": [
+        "72",
+        "73",
+        "74",
+        "75"
+      ],
+      "correctIndex": 2,
+      "steps": [
+        "Add 55 + 20 = 75.",
+        "Subtract 1 because 19 is one less than 20.",
+        "Answer is 74."
+      ]
+    },
+    {
+      "prompt": "Solve: 64 - 37 = ?",
+      "options": [
+        "25",
+        "26",
+        "27",
+        "28"
+      ],
+      "correctIndex": 2,
+      "steps": [
+        "Regroup 64 as 5 tens and 14 ones.",
+        "14 - 7 = 7.",
+        "5 tens - 3 tens = 2 tens, so 27."
+      ]
+    },
+    {
+      "prompt": "Solve: 9 x 3 = ?",
+      "options": [
+        "24",
+        "25",
+        "26",
+        "27"
+      ],
+      "correctIndex": 3,
+      "steps": [
+        "9 groups of 3 make 27.",
+        "Or 3 + 3 + 3 + ... (9 times) = 27.",
+        "Answer is 27."
+      ]
+    },
+    {
+      "prompt": "Solve: 48 / 8 = ?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "8 x 6 = 48.",
+        "So 48 divided by 8 equals 6.",
+        "Answer is 6."
+      ]
+    },
+    {
+      "prompt": "Solve: 80 - 14 = ?",
+      "options": [
+        "66",
+        "64",
+        "68",
+        "69"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Start from 80.",
+        "Subtract 14.",
+        "Answer is 66."
+      ]
+    },
+    {
+      "prompt": "Solve: 44 + 23 = ?",
+      "options": [
+        "67",
+        "65",
+        "69",
+        "71"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Add ones and tens for 44 + 23.",
+        "Total is 67.",
+        "Write 67."
+      ]
+    },
+    {
+      "prompt": "Solve: 3 x 8 = ?",
+      "options": [
+        "24",
+        "22",
+        "26",
+        "28"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Multiply 3 by 8.",
+        "Use repeated addition if needed.",
+        "3 x 8 = 24."
+      ]
+    },
+    {
+      "prompt": "Solve: 63 - 26 = ?",
+      "options": [
+        "37",
+        "35",
+        "39",
+        "40"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Start from 63.",
+        "Subtract 26.",
+        "Answer is 37."
+      ]
+    },
+    {
+      "prompt": "Solve: 21 + 17 = ?",
+      "options": [
+        "38",
+        "36",
+        "40",
+        "42"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Add ones and tens for 21 + 17.",
+        "Total is 38.",
+        "Write 38."
+      ]
+    },
+    {
+      "prompt": "Solve: 9 x 8 = ?",
+      "options": [
+        "72",
+        "70",
+        "74",
+        "76"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Multiply 9 by 8.",
+        "Use repeated addition if needed.",
+        "9 x 8 = 72."
+      ]
+    },
+    {
+      "prompt": "Solve: 81 - 20 = ?",
+      "options": [
+        "61",
+        "59",
+        "63",
+        "64"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Start from 81.",
+        "Subtract 20.",
+        "Answer is 61."
+      ]
+    },
+    {
+      "prompt": "Solve: 33 + 11 = ?",
+      "options": [
+        "44",
+        "42",
+        "46",
+        "48"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Add ones and tens for 33 + 11.",
+        "Total is 44.",
+        "Write 44."
+      ]
+    },
+    {
+      "prompt": "Solve: 8 x 8 = ?",
+      "options": [
+        "64",
+        "62",
+        "66",
+        "68"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Multiply 8 by 8.",
+        "Use repeated addition if needed.",
+        "8 x 8 = 64."
+      ]
+    },
+    {
+      "prompt": "Solve: 64 - 14 = ?",
+      "options": [
+        "50",
+        "48",
+        "52",
+        "53"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Start from 64.",
+        "Subtract 14.",
+        "Answer is 50."
+      ]
+    },
+    {
+      "prompt": "Solve: 45 + 29 = ?",
+      "options": [
+        "74",
+        "72",
+        "76",
+        "78"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Add ones and tens for 45 + 29.",
+        "Total is 74.",
+        "Write 74."
+      ]
+    },
+    {
+      "prompt": "Solve: 7 x 8 = ?",
+      "options": [
+        "56",
+        "54",
+        "58",
+        "60"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Multiply 7 by 8.",
+        "Use repeated addition if needed.",
+        "7 x 8 = 56."
+      ]
+    },
+    {
+      "prompt": "Solve: 82 - 26 = ?",
+      "options": [
+        "56",
+        "54",
+        "58",
+        "59"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Start from 82.",
+        "Subtract 26.",
+        "Answer is 56."
+      ]
+    },
+    {
+      "prompt": "Solve: 22 + 23 = ?",
+      "options": [
+        "45",
+        "43",
+        "47",
+        "49"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Add ones and tens for 22 + 23.",
+        "Total is 45.",
+        "Write 45."
+      ]
+    },
+    {
+      "prompt": "Solve: 6 x 8 = ?",
+      "options": [
+        "48",
+        "46",
+        "50",
+        "52"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Multiply 6 by 8.",
+        "Use repeated addition if needed.",
+        "6 x 8 = 48."
+      ]
+    },
+    {
+      "prompt": "Solve: 65 - 20 = ?",
+      "options": [
+        "45",
+        "43",
+        "47",
+        "48"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Start from 65.",
+        "Subtract 20.",
+        "Answer is 45."
+      ]
+    },
+    {
+      "prompt": "Solve: 34 + 17 = ?",
+      "options": [
+        "51",
+        "49",
+        "53",
+        "55"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Add ones and tens for 34 + 17.",
+        "Total is 51.",
+        "Write 51."
+      ]
+    },
+    {
+      "prompt": "Solve: 5 x 8 = ?",
+      "options": [
+        "40",
+        "38",
+        "42",
+        "44"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Multiply 5 by 8.",
+        "Use repeated addition if needed.",
+        "5 x 8 = 40."
+      ]
+    },
+    {
+      "prompt": "Solve: 83 - 14 = ?",
+      "options": [
+        "69",
+        "67",
+        "71",
+        "72"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Start from 83.",
+        "Subtract 14.",
+        "Answer is 69."
+      ]
+    },
+    {
+      "prompt": "Solve: 46 + 11 = ?",
+      "options": [
+        "57",
+        "55",
+        "59",
+        "61"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Add ones and tens for 46 + 11.",
+        "Total is 57.",
+        "Write 57."
+      ]
+    },
+    {
+      "prompt": "Solve: 4 x 8 = ?",
+      "options": [
+        "32",
+        "30",
+        "34",
+        "36"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Multiply 4 by 8.",
+        "Use repeated addition if needed.",
+        "4 x 8 = 32."
+      ]
+    },
+    {
+      "prompt": "Solve: 66 - 26 = ?",
+      "options": [
+        "40",
+        "38",
+        "42",
+        "43"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Start from 66.",
+        "Subtract 26.",
+        "Answer is 40."
+      ]
+    },
+    {
+      "prompt": "Solve: 23 + 29 = ?",
+      "options": [
+        "52",
+        "50",
+        "54",
+        "56"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Add ones and tens for 23 + 29.",
+        "Total is 52.",
+        "Write 52."
+      ]
+    },
+    {
+      "prompt": "Solve: 3 x 8 = ?",
+      "options": [
+        "24",
+        "22",
+        "26",
+        "28"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Multiply 3 by 8.",
+        "Use repeated addition if needed.",
+        "3 x 8 = 24."
+      ]
+    },
+    {
+      "prompt": "Solve: 84 - 20 = ?",
+      "options": [
+        "64",
+        "62",
+        "66",
+        "67"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Start from 84.",
+        "Subtract 20.",
+        "Answer is 64."
+      ]
+    },
+    {
+      "prompt": "Solve: 35 + 23 = ?",
+      "options": [
+        "58",
+        "56",
+        "60",
+        "62"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Add ones and tens for 35 + 23.",
+        "Total is 58.",
+        "Write 58."
+      ]
+    },
+    {
+      "prompt": "Solve: 9 x 8 = ?",
+      "options": [
+        "72",
+        "70",
+        "74",
+        "76"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Multiply 9 by 8.",
+        "Use repeated addition if needed.",
+        "9 x 8 = 72."
+      ]
+    },
+    {
+      "prompt": "Solve: 67 - 14 = ?",
+      "options": [
+        "53",
+        "51",
+        "55",
+        "56"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Start from 67.",
+        "Subtract 14.",
+        "Answer is 53."
+      ]
+    },
+    {
+      "prompt": "Solve: 47 + 17 = ?",
+      "options": [
+        "64",
+        "62",
+        "66",
+        "68"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Add ones and tens for 47 + 17.",
+        "Total is 64.",
+        "Write 64."
+      ]
+    },
+    {
+      "prompt": "Solve: 8 x 8 = ?",
+      "options": [
+        "64",
+        "62",
+        "66",
+        "68"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Multiply 8 by 8.",
+        "Use repeated addition if needed.",
+        "8 x 8 = 64."
+      ]
+    }
+  ],
+  "p3": [
+    {
+      "prompt": "Solve: 36 \u00f7 4 = ?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "12"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Think of the multiplication fact with 4.",
+        "4 \u00d7 9 = 36.",
+        "So 36 \u00f7 4 = 9."
+      ]
+    },
+    {
+      "prompt": "Solve: 27 \u00d7 3 = ?",
+      "options": [
+        "72",
+        "78",
+        "81",
+        "84"
+      ],
+      "correctIndex": 2,
+      "steps": [
+        "Multiply ones: 7 \u00d7 3 = 21.",
+        "Carry 2 and multiply tens: 2 \u00d7 3 = 6, then +2 = 8.",
+        "Answer is 81."
+      ]
+    },
+    {
+      "prompt": "Solve: 54 \u00f7 6 = ?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Find a number that times 6 gives 54.",
+        "6 x 9 = 54.",
+        "So the answer is 9."
+      ]
+    },
+    {
+      "prompt": "Solve: 125 + 268 = ?",
+      "options": [
+        "383",
+        "393",
+        "403",
+        "413"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Add ones: 5 + 8 = 13, write 3 carry 1.",
+        "Add tens: 2 + 6 + 1 = 9.",
+        "Add hundreds: 1 + 2 = 3, so 393."
+      ]
+    },
+    {
+      "prompt": "Solve: 400 - 175 = ?",
+      "options": [
+        "215",
+        "225",
+        "235",
+        "245"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Regroup 400 to subtract.",
+        "400 - 100 = 300, then -70 = 230, then -5 = 225.",
+        "Answer is 225."
+      ]
+    },
+    {
+      "prompt": "Solve: 9 x 12 = ?",
+      "options": [
+        "98",
+        "102",
+        "108",
+        "112"
+      ],
+      "correctIndex": 2,
+      "steps": [
+        "Break 12 into 10 + 2.",
+        "9 x 10 = 90 and 9 x 2 = 18.",
+        "90 + 18 = 108."
+      ]
+    },
+    {
+      "prompt": "Solve: 72 \u00f7 9 = ?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctIndex": 2,
+      "steps": [
+        "9 x 8 = 72.",
+        "So 72 divided by 9 is 8.",
+        "Answer is 8."
+      ]
+    },
+    {
+      "prompt": "Solve: 3/8 + 2/8 = ?",
+      "options": [
+        "5/8",
+        "5/16",
+        "1/8",
+        "6/8"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Same denominator means add numerators.",
+        "3 + 2 = 5.",
+        "Result is 5/8."
+      ]
+    },
+    {
+      "prompt": "Solve: 7/10 - 3/10 = ?",
+      "options": [
+        "3/10",
+        "4/10",
+        "5/10",
+        "6/10"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Subtract numerators since denominators match.",
+        "7 - 3 = 4.",
+        "Answer is 4/10."
+      ]
+    },
+    {
+      "prompt": "Solve: 215 + 90 = ?",
+      "options": [
+        "295",
+        "305",
+        "315",
+        "325"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Add tens to 215.",
+        "215 + 90 = 305.",
+        "Answer is 305."
+      ]
+    },
+    {
+      "prompt": "Solve: 2/10 + 1/10 = ?",
+      "options": [
+        "3/10",
+        "4/10",
+        "2/10",
+        "3/20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominators are equal.",
+        "Add numerators: 2 + 1 = 3.",
+        "Result is 3/10."
+      ]
+    },
+    {
+      "prompt": "Solve: 204 + 95 = ?",
+      "options": [
+        "299",
+        "289",
+        "309",
+        "319"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Add ones, tens, and hundreds.",
+        "204 + 95 = 299.",
+        "Final answer is 299."
+      ]
+    },
+    {
+      "prompt": "Solve: 4/12 + 5/12 = ?",
+      "options": [
+        "9/12",
+        "10/12",
+        "8/12",
+        "9/24"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominators are equal.",
+        "Add numerators: 4 + 5 = 9.",
+        "Result is 9/12."
+      ]
+    },
+    {
+      "prompt": "Solve: 232 + 115 = ?",
+      "options": [
+        "347",
+        "337",
+        "357",
+        "367"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Add ones, tens, and hundreds.",
+        "232 + 115 = 347.",
+        "Final answer is 347."
+      ]
+    },
+    {
+      "prompt": "Solve: 4/8 + 1/8 = ?",
+      "options": [
+        "5/8",
+        "6/8",
+        "4/8",
+        "5/16"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominators are equal.",
+        "Add numerators: 4 + 1 = 5.",
+        "Result is 5/8."
+      ]
+    },
+    {
+      "prompt": "Solve: 260 + 45 = ?",
+      "options": [
+        "305",
+        "295",
+        "315",
+        "325"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Add ones, tens, and hundreds.",
+        "260 + 45 = 305.",
+        "Final answer is 305."
+      ]
+    },
+    {
+      "prompt": "Solve: 4/10 + 5/10 = ?",
+      "options": [
+        "9/10",
+        "10/10",
+        "8/10",
+        "9/20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominators are equal.",
+        "Add numerators: 4 + 5 = 9.",
+        "Result is 9/10."
+      ]
+    },
+    {
+      "prompt": "Solve: 288 + 65 = ?",
+      "options": [
+        "353",
+        "343",
+        "363",
+        "373"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Add ones, tens, and hundreds.",
+        "288 + 65 = 353.",
+        "Final answer is 353."
+      ]
+    },
+    {
+      "prompt": "Solve: 4/12 + 5/12 = ?",
+      "options": [
+        "9/12",
+        "10/12",
+        "8/12",
+        "9/24"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominators are equal.",
+        "Add numerators: 4 + 5 = 9.",
+        "Result is 9/12."
+      ]
+    },
+    {
+      "prompt": "Solve: 146 + 85 = ?",
+      "options": [
+        "231",
+        "221",
+        "241",
+        "251"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Add ones, tens, and hundreds.",
+        "146 + 85 = 231.",
+        "Final answer is 231."
+      ]
+    },
+    {
+      "prompt": "Solve: 4/8 + 1/8 = ?",
+      "options": [
+        "5/8",
+        "6/8",
+        "4/8",
+        "5/16"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominators are equal.",
+        "Add numerators: 4 + 1 = 5.",
+        "Result is 5/8."
+      ]
+    },
+    {
+      "prompt": "Solve: 174 + 105 = ?",
+      "options": [
+        "279",
+        "269",
+        "289",
+        "299"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Add ones, tens, and hundreds.",
+        "174 + 105 = 279.",
+        "Final answer is 279."
+      ]
+    },
+    {
+      "prompt": "Solve: 6/10 + 4/10 = ?",
+      "options": [
+        "10/10",
+        "11/10",
+        "9/10",
+        "10/20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominators are equal.",
+        "Add numerators: 6 + 4 = 10.",
+        "Result is 10/10."
+      ]
+    },
+    {
+      "prompt": "Solve: 202 + 35 = ?",
+      "options": [
+        "237",
+        "227",
+        "247",
+        "257"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Add ones, tens, and hundreds.",
+        "202 + 35 = 237.",
+        "Final answer is 237."
+      ]
+    },
+    {
+      "prompt": "Solve: 4/12 + 5/12 = ?",
+      "options": [
+        "9/12",
+        "10/12",
+        "8/12",
+        "9/24"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominators are equal.",
+        "Add numerators: 4 + 5 = 9.",
+        "Result is 9/12."
+      ]
+    },
+    {
+      "prompt": "Solve: 230 + 55 = ?",
+      "options": [
+        "285",
+        "275",
+        "295",
+        "305"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Add ones, tens, and hundreds.",
+        "230 + 55 = 285.",
+        "Final answer is 285."
+      ]
+    },
+    {
+      "prompt": "Solve: 4/8 + 1/8 = ?",
+      "options": [
+        "5/8",
+        "6/8",
+        "4/8",
+        "5/16"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominators are equal.",
+        "Add numerators: 4 + 1 = 5.",
+        "Result is 5/8."
+      ]
+    },
+    {
+      "prompt": "Solve: 258 + 75 = ?",
+      "options": [
+        "333",
+        "323",
+        "343",
+        "353"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Add ones, tens, and hundreds.",
+        "258 + 75 = 333.",
+        "Final answer is 333."
+      ]
+    },
+    {
+      "prompt": "Solve: 3/10 + 3/10 = ?",
+      "options": [
+        "6/10",
+        "7/10",
+        "5/10",
+        "6/20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominators are equal.",
+        "Add numerators: 3 + 3 = 6.",
+        "Result is 6/10."
+      ]
+    },
+    {
+      "prompt": "Solve: 286 + 95 = ?",
+      "options": [
+        "381",
+        "371",
+        "391",
+        "401"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Add ones, tens, and hundreds.",
+        "286 + 95 = 381.",
+        "Final answer is 381."
+      ]
+    },
+    {
+      "prompt": "Solve: 4/12 + 5/12 = ?",
+      "options": [
+        "9/12",
+        "10/12",
+        "8/12",
+        "9/24"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominators are equal.",
+        "Add numerators: 4 + 5 = 9.",
+        "Result is 9/12."
+      ]
+    },
+    {
+      "prompt": "Solve: 144 + 115 = ?",
+      "options": [
+        "259",
+        "249",
+        "269",
+        "279"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Add ones, tens, and hundreds.",
+        "144 + 115 = 259.",
+        "Final answer is 259."
+      ]
+    },
+    {
+      "prompt": "Solve: 4/8 + 1/8 = ?",
+      "options": [
+        "5/8",
+        "6/8",
+        "4/8",
+        "5/16"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominators are equal.",
+        "Add numerators: 4 + 1 = 5.",
+        "Result is 5/8."
+      ]
+    },
+    {
+      "prompt": "Solve: 172 + 45 = ?",
+      "options": [
+        "217",
+        "207",
+        "227",
+        "237"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Add ones, tens, and hundreds.",
+        "172 + 45 = 217.",
+        "Final answer is 217."
+      ]
+    },
+    {
+      "prompt": "Solve: 5/10 + 2/10 = ?",
+      "options": [
+        "7/10",
+        "8/10",
+        "6/10",
+        "7/20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominators are equal.",
+        "Add numerators: 5 + 2 = 7.",
+        "Result is 7/10."
+      ]
+    },
+    {
+      "prompt": "Solve: 200 + 65 = ?",
+      "options": [
+        "265",
+        "255",
+        "275",
+        "285"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Add ones, tens, and hundreds.",
+        "200 + 65 = 265.",
+        "Final answer is 265."
+      ]
+    },
+    {
+      "prompt": "Solve: 4/12 + 5/12 = ?",
+      "options": [
+        "9/12",
+        "10/12",
+        "8/12",
+        "9/24"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominators are equal.",
+        "Add numerators: 4 + 5 = 9.",
+        "Result is 9/12."
+      ]
+    },
+    {
+      "prompt": "Solve: 228 + 85 = ?",
+      "options": [
+        "313",
+        "303",
+        "323",
+        "333"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Add ones, tens, and hundreds.",
+        "228 + 85 = 313.",
+        "Final answer is 313."
+      ]
+    },
+    {
+      "prompt": "Solve: 4/8 + 1/8 = ?",
+      "options": [
+        "5/8",
+        "6/8",
+        "4/8",
+        "5/16"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominators are equal.",
+        "Add numerators: 4 + 1 = 5.",
+        "Result is 5/8."
+      ]
+    },
+    {
+      "prompt": "Solve: 256 + 105 = ?",
+      "options": [
+        "361",
+        "351",
+        "371",
+        "381"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Add ones, tens, and hundreds.",
+        "256 + 105 = 361.",
+        "Final answer is 361."
+      ]
+    }
+  ],
+  "p4": [
+    {
+      "prompt": "Solve: 3/4 + 1/4 = ?",
+      "options": [
+        "1/2",
+        "3/4",
+        "1",
+        "5/4"
+      ],
+      "correctIndex": 2,
+      "steps": [
+        "Denominators are the same.",
+        "Add numerators: 3 + 1 = 4.",
+        "4/4 equals 1."
+      ]
+    },
+    {
+      "prompt": "Solve: 125 \u00d7 4 = ?",
+      "options": [
+        "450",
+        "500",
+        "520",
+        "540"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Multiply 125 by 2 to get 250.",
+        "Multiply by 2 again (for \u00d74) to get 500.",
+        "Answer is 500."
+      ]
+    },
+    {
+      "prompt": "Solve: 2/3 + 1/6 = ?",
+      "options": [
+        "3/9",
+        "4/6",
+        "5/6",
+        "1"
+      ],
+      "correctIndex": 2,
+      "steps": [
+        "Find common denominator 6.",
+        "2/3 = 4/6, then 4/6 + 1/6 = 5/6.",
+        "Answer is 5/6."
+      ]
+    },
+    {
+      "prompt": "Solve: 5/8 - 1/4 = ?",
+      "options": [
+        "1/8",
+        "2/8",
+        "3/8",
+        "4/8"
+      ],
+      "correctIndex": 2,
+      "steps": [
+        "Convert 1/4 to 2/8.",
+        "Subtract: 5/8 - 2/8 = 3/8.",
+        "Answer is 3/8."
+      ]
+    },
+    {
+      "prompt": "Solve: 36 x 25 = ?",
+      "options": [
+        "800",
+        "850",
+        "900",
+        "950"
+      ],
+      "correctIndex": 2,
+      "steps": [
+        "Use 25 = 100/4.",
+        "36 x 100 = 3600, then 3600 / 4 = 900.",
+        "Answer is 900."
+      ]
+    },
+    {
+      "prompt": "Solve: 840 / 7 = ?",
+      "options": [
+        "110",
+        "120",
+        "130",
+        "140"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "84 / 7 = 12.",
+        "Keep the zero: 840 / 7 = 120.",
+        "Answer is 120."
+      ]
+    },
+    {
+      "prompt": "Solve: 2.5 + 1.75 = ?",
+      "options": [
+        "4.05",
+        "4.15",
+        "4.25",
+        "4.35"
+      ],
+      "correctIndex": 2,
+      "steps": [
+        "Align decimal points.",
+        "2.50 + 1.75 = 4.25.",
+        "Answer is 4.25."
+      ]
+    },
+    {
+      "prompt": "Solve: 6.2 - 3.8 = ?",
+      "options": [
+        "2.2",
+        "2.3",
+        "2.4",
+        "2.5"
+      ],
+      "correctIndex": 2,
+      "steps": [
+        "Align decimals.",
+        "Borrow in tenths place as needed.",
+        "6.2 - 3.8 = 2.4."
+      ]
+    },
+    {
+      "prompt": "Solve: Perimeter of a rectangle with sides 9 cm and 4 cm = ?",
+      "options": [
+        "13 cm",
+        "18 cm",
+        "26 cm",
+        "36 cm"
+      ],
+      "correctIndex": 2,
+      "steps": [
+        "Perimeter = 2 x (length + width).",
+        "2 x (9 + 4) = 2 x 13.",
+        "Perimeter is 26 cm."
+      ]
+    },
+    {
+      "prompt": "Solve: 3/5 of 20 = ?",
+      "options": [
+        "10",
+        "12",
+        "14",
+        "16"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Find 1/5 of 20 first: 20 / 5 = 4.",
+        "Multiply by 3: 4 x 3 = 12.",
+        "Answer is 12."
+      ]
+    },
+    {
+      "prompt": "Solve: 2.20 + 1.80 = ?",
+      "options": [
+        "4.00",
+        "4.10",
+        "3.90",
+        "4.20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Line up decimals.",
+        "Add 2.20 and 1.80.",
+        "Result is 4.00."
+      ]
+    },
+    {
+      "prompt": "Solve: 1/6 + 1/6 = ?",
+      "options": [
+        "2/6",
+        "3/6",
+        "1/6",
+        "2/12"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Same denominator.",
+        "Add numerators to get 2.",
+        "Result is 2/6."
+      ]
+    },
+    {
+      "prompt": "Solve: 4.20 + 1.30 = ?",
+      "options": [
+        "5.50",
+        "5.60",
+        "5.40",
+        "5.70"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Line up decimals.",
+        "Add 4.20 and 1.30.",
+        "Result is 5.50."
+      ]
+    },
+    {
+      "prompt": "Solve: 1/8 + 1/8 = ?",
+      "options": [
+        "2/8",
+        "3/8",
+        "1/8",
+        "2/16"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Same denominator.",
+        "Add numerators to get 2.",
+        "Result is 2/8."
+      ]
+    },
+    {
+      "prompt": "Solve: 2.20 + 0.80 = ?",
+      "options": [
+        "3.00",
+        "3.10",
+        "2.90",
+        "3.20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Line up decimals.",
+        "Add 2.20 and 0.80.",
+        "Result is 3.00."
+      ]
+    },
+    {
+      "prompt": "Solve: 1/10 + 1/10 = ?",
+      "options": [
+        "2/10",
+        "3/10",
+        "1/10",
+        "2/20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Same denominator.",
+        "Add numerators to get 2.",
+        "Result is 2/10."
+      ]
+    },
+    {
+      "prompt": "Solve: 4.20 + 1.80 = ?",
+      "options": [
+        "6.00",
+        "6.10",
+        "5.90",
+        "6.20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Line up decimals.",
+        "Add 4.20 and 1.80.",
+        "Result is 6.00."
+      ]
+    },
+    {
+      "prompt": "Solve: 1/6 + 1/6 = ?",
+      "options": [
+        "2/6",
+        "3/6",
+        "1/6",
+        "2/12"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Same denominator.",
+        "Add numerators to get 2.",
+        "Result is 2/6."
+      ]
+    },
+    {
+      "prompt": "Solve: 2.20 + 1.30 = ?",
+      "options": [
+        "3.50",
+        "3.60",
+        "3.40",
+        "3.70"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Line up decimals.",
+        "Add 2.20 and 1.30.",
+        "Result is 3.50."
+      ]
+    },
+    {
+      "prompt": "Solve: 1/8 + 1/8 = ?",
+      "options": [
+        "2/8",
+        "3/8",
+        "1/8",
+        "2/16"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Same denominator.",
+        "Add numerators to get 2.",
+        "Result is 2/8."
+      ]
+    },
+    {
+      "prompt": "Solve: 4.20 + 0.80 = ?",
+      "options": [
+        "5.00",
+        "5.10",
+        "4.90",
+        "5.20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Line up decimals.",
+        "Add 4.20 and 0.80.",
+        "Result is 5.00."
+      ]
+    },
+    {
+      "prompt": "Solve: 3/10 + 5/10 = ?",
+      "options": [
+        "8/10",
+        "9/10",
+        "7/10",
+        "8/20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Same denominator.",
+        "Add numerators to get 8.",
+        "Result is 8/10."
+      ]
+    },
+    {
+      "prompt": "Solve: 2.20 + 1.80 = ?",
+      "options": [
+        "4.00",
+        "4.10",
+        "3.90",
+        "4.20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Line up decimals.",
+        "Add 2.20 and 1.80.",
+        "Result is 4.00."
+      ]
+    },
+    {
+      "prompt": "Solve: 1/6 + 1/6 = ?",
+      "options": [
+        "2/6",
+        "3/6",
+        "1/6",
+        "2/12"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Same denominator.",
+        "Add numerators to get 2.",
+        "Result is 2/6."
+      ]
+    },
+    {
+      "prompt": "Solve: 4.20 + 1.30 = ?",
+      "options": [
+        "5.50",
+        "5.60",
+        "5.40",
+        "5.70"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Line up decimals.",
+        "Add 4.20 and 1.30.",
+        "Result is 5.50."
+      ]
+    },
+    {
+      "prompt": "Solve: 1/8 + 1/8 = ?",
+      "options": [
+        "2/8",
+        "3/8",
+        "1/8",
+        "2/16"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Same denominator.",
+        "Add numerators to get 2.",
+        "Result is 2/8."
+      ]
+    },
+    {
+      "prompt": "Solve: 2.20 + 0.80 = ?",
+      "options": [
+        "3.00",
+        "3.10",
+        "2.90",
+        "3.20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Line up decimals.",
+        "Add 2.20 and 0.80.",
+        "Result is 3.00."
+      ]
+    },
+    {
+      "prompt": "Solve: 5/10 + 4/10 = ?",
+      "options": [
+        "9/10",
+        "10/10",
+        "8/10",
+        "9/20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Same denominator.",
+        "Add numerators to get 9.",
+        "Result is 9/10."
+      ]
+    },
+    {
+      "prompt": "Solve: 4.20 + 1.80 = ?",
+      "options": [
+        "6.00",
+        "6.10",
+        "5.90",
+        "6.20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Line up decimals.",
+        "Add 4.20 and 1.80.",
+        "Result is 6.00."
+      ]
+    },
+    {
+      "prompt": "Solve: 1/6 + 1/6 = ?",
+      "options": [
+        "2/6",
+        "3/6",
+        "1/6",
+        "2/12"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Same denominator.",
+        "Add numerators to get 2.",
+        "Result is 2/6."
+      ]
+    },
+    {
+      "prompt": "Solve: 2.20 + 1.30 = ?",
+      "options": [
+        "3.50",
+        "3.60",
+        "3.40",
+        "3.70"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Line up decimals.",
+        "Add 2.20 and 1.30.",
+        "Result is 3.50."
+      ]
+    },
+    {
+      "prompt": "Solve: 1/8 + 1/8 = ?",
+      "options": [
+        "2/8",
+        "3/8",
+        "1/8",
+        "2/16"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Same denominator.",
+        "Add numerators to get 2.",
+        "Result is 2/8."
+      ]
+    },
+    {
+      "prompt": "Solve: 4.20 + 0.80 = ?",
+      "options": [
+        "5.00",
+        "5.10",
+        "4.90",
+        "5.20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Line up decimals.",
+        "Add 4.20 and 0.80.",
+        "Result is 5.00."
+      ]
+    },
+    {
+      "prompt": "Solve: 2/10 + 3/10 = ?",
+      "options": [
+        "5/10",
+        "6/10",
+        "4/10",
+        "5/20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Same denominator.",
+        "Add numerators to get 5.",
+        "Result is 5/10."
+      ]
+    },
+    {
+      "prompt": "Solve: 2.20 + 1.80 = ?",
+      "options": [
+        "4.00",
+        "4.10",
+        "3.90",
+        "4.20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Line up decimals.",
+        "Add 2.20 and 1.80.",
+        "Result is 4.00."
+      ]
+    },
+    {
+      "prompt": "Solve: 1/6 + 1/6 = ?",
+      "options": [
+        "2/6",
+        "3/6",
+        "1/6",
+        "2/12"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Same denominator.",
+        "Add numerators to get 2.",
+        "Result is 2/6."
+      ]
+    },
+    {
+      "prompt": "Solve: 4.20 + 1.30 = ?",
+      "options": [
+        "5.50",
+        "5.60",
+        "5.40",
+        "5.70"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Line up decimals.",
+        "Add 4.20 and 1.30.",
+        "Result is 5.50."
+      ]
+    },
+    {
+      "prompt": "Solve: 1/8 + 1/8 = ?",
+      "options": [
+        "2/8",
+        "3/8",
+        "1/8",
+        "2/16"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Same denominator.",
+        "Add numerators to get 2.",
+        "Result is 2/8."
+      ]
+    },
+    {
+      "prompt": "Solve: 2.20 + 0.80 = ?",
+      "options": [
+        "3.00",
+        "3.10",
+        "2.90",
+        "3.20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Line up decimals.",
+        "Add 2.20 and 0.80.",
+        "Result is 3.00."
+      ]
+    },
+    {
+      "prompt": "Solve: 4/10 + 2/10 = ?",
+      "options": [
+        "6/10",
+        "7/10",
+        "5/10",
+        "6/20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Same denominator.",
+        "Add numerators to get 6.",
+        "Result is 6/10."
+      ]
+    }
+  ],
+  "p5": [
+    {
+      "prompt": "Solve: 0.6 + 1.25 = ?",
+      "options": [
+        "1.75",
+        "1.85",
+        "1.95",
+        "2.05"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Write 0.6 as 0.60.",
+        "Add 0.60 + 1.25 = 1.85.",
+        "Answer is 1.85."
+      ]
+    },
+    {
+      "prompt": "Solve: 60% of 50 = ?",
+      "options": [
+        "25",
+        "30",
+        "35",
+        "40"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Convert 60% to 0.6.",
+        "Compute 0.6 \u00d7 50.",
+        "Answer is 30."
+      ]
+    },
+    {
+      "prompt": "Solve: 3/5 + 7/10 = ?",
+      "options": [
+        "9/10",
+        "11/10",
+        "12/10",
+        "13/10"
+      ],
+      "correctIndex": 3,
+      "steps": [
+        "Convert 3/5 to 6/10.",
+        "6/10 + 7/10 = 13/10.",
+        "Answer is 13/10."
+      ]
+    },
+    {
+      "prompt": "Solve: 4.8 - 2.35 = ?",
+      "options": [
+        "2.35",
+        "2.45",
+        "2.55",
+        "2.65"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Write 4.8 as 4.80.",
+        "Subtract 4.80 - 2.35.",
+        "Answer is 2.45."
+      ]
+    },
+    {
+      "prompt": "Solve: 15% of 200 = ?",
+      "options": [
+        "25",
+        "30",
+        "35",
+        "40"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "10% of 200 is 20.",
+        "5% of 200 is 10.",
+        "Add to get 30."
+      ]
+    },
+    {
+      "prompt": "Solve: 2.4 x 3 = ?",
+      "options": [
+        "6.2",
+        "6.8",
+        "7.2",
+        "7.8"
+      ],
+      "correctIndex": 2,
+      "steps": [
+        "Multiply 24 x 3 = 72.",
+        "Place one decimal digit.",
+        "Answer is 7.2."
+      ]
+    },
+    {
+      "prompt": "Solve: 7.2 / 0.9 = ?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Scale both numbers by 10.",
+        "72 / 9 = 8.",
+        "Answer is 8."
+      ]
+    },
+    {
+      "prompt": "Solve: 5/6 - 1/3 = ?",
+      "options": [
+        "1/6",
+        "2/6",
+        "3/6",
+        "4/6"
+      ],
+      "correctIndex": 2,
+      "steps": [
+        "Convert 1/3 to 2/6.",
+        "5/6 - 2/6 = 3/6.",
+        "Answer is 3/6."
+      ]
+    },
+    {
+      "prompt": "Solve: 125% as a decimal = ?",
+      "options": [
+        "0.125",
+        "1.25",
+        "12.5",
+        "125"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Percent means out of 100.",
+        "125% = 125/100.",
+        "That equals 1.25."
+      ]
+    },
+    {
+      "prompt": "Solve: Ratio 8:12 in simplest form = ?",
+      "options": [
+        "1:2",
+        "2:3",
+        "3:4",
+        "4:5"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Find greatest common factor of 8 and 12, which is 4.",
+        "Divide both terms by 4.",
+        "8:12 becomes 2:3."
+      ]
+    },
+    {
+      "prompt": "Solve: 6/10 + 1/10 = ?",
+      "options": [
+        "7/10",
+        "8/10",
+        "6/10",
+        "7/20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominators match.",
+        "Add numerators to get 7.",
+        "Answer is 7/10."
+      ]
+    },
+    {
+      "prompt": "Solve: 1.90 + 1.10 = ?",
+      "options": [
+        "3.00",
+        "3.10",
+        "2.90",
+        "3.20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Align decimal points.",
+        "Add to get 3.00.",
+        "Answer is 3.00."
+      ]
+    },
+    {
+      "prompt": "Solve: 4/10 + 4/10 = ?",
+      "options": [
+        "8/10",
+        "9/10",
+        "7/10",
+        "8/20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominators match.",
+        "Add numerators to get 8.",
+        "Answer is 8/10."
+      ]
+    },
+    {
+      "prompt": "Solve: 1.00 + 2.10 = ?",
+      "options": [
+        "3.10",
+        "3.20",
+        "3.00",
+        "3.30"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Align decimal points.",
+        "Add to get 3.10.",
+        "Answer is 3.10."
+      ]
+    },
+    {
+      "prompt": "Solve: 2/10 + 2/10 = ?",
+      "options": [
+        "4/10",
+        "5/10",
+        "3/10",
+        "4/20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominators match.",
+        "Add numerators to get 4.",
+        "Answer is 4/10."
+      ]
+    },
+    {
+      "prompt": "Solve: 2.20 + 1.60 = ?",
+      "options": [
+        "3.80",
+        "3.90",
+        "3.70",
+        "4.00"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Align decimal points.",
+        "Add to get 3.80.",
+        "Answer is 3.80."
+      ]
+    },
+    {
+      "prompt": "Solve: 6/10 + 5/10 = ?",
+      "options": [
+        "11/10",
+        "12/10",
+        "10/10",
+        "11/20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominators match.",
+        "Add numerators to get 11.",
+        "Answer is 11/10."
+      ]
+    },
+    {
+      "prompt": "Solve: 1.30 + 1.10 = ?",
+      "options": [
+        "2.40",
+        "2.50",
+        "2.30",
+        "2.60"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Align decimal points.",
+        "Add to get 2.40.",
+        "Answer is 2.40."
+      ]
+    },
+    {
+      "prompt": "Solve: 4/10 + 3/10 = ?",
+      "options": [
+        "7/10",
+        "8/10",
+        "6/10",
+        "7/20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominators match.",
+        "Add numerators to get 7.",
+        "Answer is 7/10."
+      ]
+    },
+    {
+      "prompt": "Solve: 0.40 + 2.10 = ?",
+      "options": [
+        "2.50",
+        "2.60",
+        "2.40",
+        "2.70"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Align decimal points.",
+        "Add to get 2.50.",
+        "Answer is 2.50."
+      ]
+    },
+    {
+      "prompt": "Solve: 2/10 + 1/10 = ?",
+      "options": [
+        "3/10",
+        "4/10",
+        "2/10",
+        "3/20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominators match.",
+        "Add numerators to get 3.",
+        "Answer is 3/10."
+      ]
+    },
+    {
+      "prompt": "Solve: 1.60 + 1.60 = ?",
+      "options": [
+        "3.20",
+        "3.30",
+        "3.10",
+        "3.40"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Align decimal points.",
+        "Add to get 3.20.",
+        "Answer is 3.20."
+      ]
+    },
+    {
+      "prompt": "Solve: 6/10 + 4/10 = ?",
+      "options": [
+        "10/10",
+        "11/10",
+        "9/10",
+        "10/20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominators match.",
+        "Add numerators to get 10.",
+        "Answer is 10/10."
+      ]
+    },
+    {
+      "prompt": "Solve: 0.70 + 1.10 = ?",
+      "options": [
+        "1.80",
+        "1.90",
+        "1.70",
+        "2.00"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Align decimal points.",
+        "Add to get 1.80.",
+        "Answer is 1.80."
+      ]
+    },
+    {
+      "prompt": "Solve: 4/10 + 2/10 = ?",
+      "options": [
+        "6/10",
+        "7/10",
+        "5/10",
+        "6/20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominators match.",
+        "Add numerators to get 6.",
+        "Answer is 6/10."
+      ]
+    },
+    {
+      "prompt": "Solve: 1.90 + 2.10 = ?",
+      "options": [
+        "4.00",
+        "4.10",
+        "3.90",
+        "4.20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Align decimal points.",
+        "Add to get 4.00.",
+        "Answer is 4.00."
+      ]
+    },
+    {
+      "prompt": "Solve: 2/10 + 5/10 = ?",
+      "options": [
+        "7/10",
+        "8/10",
+        "6/10",
+        "7/20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominators match.",
+        "Add numerators to get 7.",
+        "Answer is 7/10."
+      ]
+    },
+    {
+      "prompt": "Solve: 1.00 + 1.60 = ?",
+      "options": [
+        "2.60",
+        "2.70",
+        "2.50",
+        "2.80"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Align decimal points.",
+        "Add to get 2.60.",
+        "Answer is 2.60."
+      ]
+    },
+    {
+      "prompt": "Solve: 6/10 + 3/10 = ?",
+      "options": [
+        "9/10",
+        "10/10",
+        "8/10",
+        "9/20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominators match.",
+        "Add numerators to get 9.",
+        "Answer is 9/10."
+      ]
+    },
+    {
+      "prompt": "Solve: 2.20 + 1.10 = ?",
+      "options": [
+        "3.30",
+        "3.40",
+        "3.20",
+        "3.50"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Align decimal points.",
+        "Add to get 3.30.",
+        "Answer is 3.30."
+      ]
+    },
+    {
+      "prompt": "Solve: 4/10 + 1/10 = ?",
+      "options": [
+        "5/10",
+        "6/10",
+        "4/10",
+        "5/20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominators match.",
+        "Add numerators to get 5.",
+        "Answer is 5/10."
+      ]
+    },
+    {
+      "prompt": "Solve: 1.30 + 2.10 = ?",
+      "options": [
+        "3.40",
+        "3.50",
+        "3.30",
+        "3.60"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Align decimal points.",
+        "Add to get 3.40.",
+        "Answer is 3.40."
+      ]
+    },
+    {
+      "prompt": "Solve: 2/10 + 4/10 = ?",
+      "options": [
+        "6/10",
+        "7/10",
+        "5/10",
+        "6/20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominators match.",
+        "Add numerators to get 6.",
+        "Answer is 6/10."
+      ]
+    },
+    {
+      "prompt": "Solve: 0.40 + 1.60 = ?",
+      "options": [
+        "2.00",
+        "2.10",
+        "1.90",
+        "2.20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Align decimal points.",
+        "Add to get 2.00.",
+        "Answer is 2.00."
+      ]
+    },
+    {
+      "prompt": "Solve: 6/10 + 2/10 = ?",
+      "options": [
+        "8/10",
+        "9/10",
+        "7/10",
+        "8/20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominators match.",
+        "Add numerators to get 8.",
+        "Answer is 8/10."
+      ]
+    },
+    {
+      "prompt": "Solve: 1.60 + 1.10 = ?",
+      "options": [
+        "2.70",
+        "2.80",
+        "2.60",
+        "2.90"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Align decimal points.",
+        "Add to get 2.70.",
+        "Answer is 2.70."
+      ]
+    },
+    {
+      "prompt": "Solve: 4/10 + 5/10 = ?",
+      "options": [
+        "9/10",
+        "10/10",
+        "8/10",
+        "9/20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominators match.",
+        "Add numerators to get 9.",
+        "Answer is 9/10."
+      ]
+    },
+    {
+      "prompt": "Solve: 0.70 + 2.10 = ?",
+      "options": [
+        "2.80",
+        "2.90",
+        "2.70",
+        "3.00"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Align decimal points.",
+        "Add to get 2.80.",
+        "Answer is 2.80."
+      ]
+    },
+    {
+      "prompt": "Solve: 2/10 + 3/10 = ?",
+      "options": [
+        "5/10",
+        "6/10",
+        "4/10",
+        "5/20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominators match.",
+        "Add numerators to get 5.",
+        "Answer is 5/10."
+      ]
+    },
+    {
+      "prompt": "Solve: 1.90 + 1.60 = ?",
+      "options": [
+        "3.50",
+        "3.60",
+        "3.40",
+        "3.70"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Align decimal points.",
+        "Add to get 3.50.",
+        "Answer is 3.50."
+      ]
+    }
+  ],
+  "p6": [
+    {
+      "prompt": "Solve: 3x + 5 = 20. Find x.",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctIndex": 2,
+      "steps": [
+        "Subtract 5 from both sides: 3x = 15.",
+        "Divide both sides by 3.",
+        "x = 5."
+      ]
+    },
+    {
+      "prompt": "Solve: Area of rectangle (length 12, width 7) = ?",
+      "options": [
+        "72",
+        "84",
+        "96",
+        "108"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Area = length \u00d7 width.",
+        "12 \u00d7 7 = 84.",
+        "So the area is 84 square units."
+      ]
+    },
+    {
+      "prompt": "Solve: 2x - 7 = 15. Find x.",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2,
+      "steps": [
+        "Add 7 to both sides: 2x = 22.",
+        "Divide by 2.",
+        "x = 11."
+      ]
+    },
+    {
+      "prompt": "Solve: 3/4 + 5/8 = ?",
+      "options": [
+        "9/8",
+        "10/8",
+        "11/8",
+        "12/8"
+      ],
+      "correctIndex": 2,
+      "steps": [
+        "Convert 3/4 to 6/8.",
+        "Add: 6/8 + 5/8 = 11/8.",
+        "Answer is 11/8."
+      ]
+    },
+    {
+      "prompt": "Solve: 2.5 x 1.2 = ?",
+      "options": [
+        "2.8",
+        "3.0",
+        "3.2",
+        "3.4"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Multiply 25 x 12 = 300.",
+        "There are two decimal places total.",
+        "Answer is 3.0."
+      ]
+    },
+    {
+      "prompt": "Solve: 7.5 / 0.5 = ?",
+      "options": [
+        "10",
+        "12",
+        "15",
+        "20"
+      ],
+      "correctIndex": 2,
+      "steps": [
+        "Dividing by 0.5 is the same as multiplying by 2.",
+        "7.5 x 2 = 15.",
+        "Answer is 15."
+      ]
+    },
+    {
+      "prompt": "Solve: 35% of 240 = ?",
+      "options": [
+        "72",
+        "84",
+        "96",
+        "108"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "10% of 240 is 24.",
+        "30% is 72 and 5% is 12.",
+        "72 + 12 = 84."
+      ]
+    },
+    {
+      "prompt": "Solve: Volume of a box (l=5, w=4, h=3) = ?",
+      "options": [
+        "48",
+        "50",
+        "55",
+        "60"
+      ],
+      "correctIndex": 3,
+      "steps": [
+        "Volume = length x width x height.",
+        "5 x 4 x 3 = 20 x 3.",
+        "Volume is 60 cubic units."
+      ]
+    },
+    {
+      "prompt": "Solve: 4(x + 3) = 28. Find x.",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Divide both sides by 4: x + 3 = 7.",
+        "Subtract 3.",
+        "x = 4."
+      ]
+    },
+    {
+      "prompt": "Solve: Mean of 6, 8, 10, 12 = ?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Add numbers: 6 + 8 + 10 + 12 = 36.",
+        "There are 4 numbers.",
+        "36 / 4 = 9."
+      ]
+    },
+    {
+      "prompt": "Solve: 5/8 + 2/8 = ?",
+      "options": [
+        "7/8",
+        "8/8",
+        "6/8",
+        "7/16"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominator is the same.",
+        "Add numerators: 5+2=7.",
+        "Result is 7/8."
+      ]
+    },
+    {
+      "prompt": "Solve: 4x + 8 = 32. Find x.",
+      "options": [
+        "6",
+        "5",
+        "7",
+        "8"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Subtract 8 from both sides.",
+        "Divide by 4.",
+        "x = 6."
+      ]
+    },
+    {
+      "prompt": "Solve: 5/8 + 2/8 = ?",
+      "options": [
+        "7/8",
+        "8/8",
+        "6/8",
+        "7/16"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominator is the same.",
+        "Add numerators: 5+2=7.",
+        "Result is 7/8."
+      ]
+    },
+    {
+      "prompt": "Solve: 3x + 4 = 34. Find x.",
+      "options": [
+        "10",
+        "9",
+        "11",
+        "12"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Subtract 4 from both sides.",
+        "Divide by 3.",
+        "x = 10."
+      ]
+    },
+    {
+      "prompt": "Solve: 5/8 + 2/8 = ?",
+      "options": [
+        "7/8",
+        "8/8",
+        "6/8",
+        "7/16"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominator is the same.",
+        "Add numerators: 5+2=7.",
+        "Result is 7/8."
+      ]
+    },
+    {
+      "prompt": "Solve: 2x + 8 = 18. Find x.",
+      "options": [
+        "5",
+        "4",
+        "6",
+        "7"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Subtract 8 from both sides.",
+        "Divide by 2.",
+        "x = 5."
+      ]
+    },
+    {
+      "prompt": "Solve: 5/8 + 2/8 = ?",
+      "options": [
+        "7/8",
+        "8/8",
+        "6/8",
+        "7/16"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominator is the same.",
+        "Add numerators: 5+2=7.",
+        "Result is 7/8."
+      ]
+    },
+    {
+      "prompt": "Solve: 6x + 4 = 58. Find x.",
+      "options": [
+        "9",
+        "8",
+        "10",
+        "11"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Subtract 4 from both sides.",
+        "Divide by 6.",
+        "x = 9."
+      ]
+    },
+    {
+      "prompt": "Solve: 5/8 + 2/8 = ?",
+      "options": [
+        "7/8",
+        "8/8",
+        "6/8",
+        "7/16"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominator is the same.",
+        "Add numerators: 5+2=7.",
+        "Result is 7/8."
+      ]
+    },
+    {
+      "prompt": "Solve: 5x + 8 = 28. Find x.",
+      "options": [
+        "4",
+        "3",
+        "5",
+        "6"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Subtract 8 from both sides.",
+        "Divide by 5.",
+        "x = 4."
+      ]
+    },
+    {
+      "prompt": "Solve: 5/8 + 2/8 = ?",
+      "options": [
+        "7/8",
+        "8/8",
+        "6/8",
+        "7/16"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominator is the same.",
+        "Add numerators: 5+2=7.",
+        "Result is 7/8."
+      ]
+    },
+    {
+      "prompt": "Solve: 4x + 4 = 36. Find x.",
+      "options": [
+        "8",
+        "7",
+        "9",
+        "10"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Subtract 4 from both sides.",
+        "Divide by 4.",
+        "x = 8."
+      ]
+    },
+    {
+      "prompt": "Solve: 5/8 + 2/8 = ?",
+      "options": [
+        "7/8",
+        "8/8",
+        "6/8",
+        "7/16"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominator is the same.",
+        "Add numerators: 5+2=7.",
+        "Result is 7/8."
+      ]
+    },
+    {
+      "prompt": "Solve: 3x + 8 = 17. Find x.",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "5"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Subtract 8 from both sides.",
+        "Divide by 3.",
+        "x = 3."
+      ]
+    },
+    {
+      "prompt": "Solve: 5/8 + 2/8 = ?",
+      "options": [
+        "7/8",
+        "8/8",
+        "6/8",
+        "7/16"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominator is the same.",
+        "Add numerators: 5+2=7.",
+        "Result is 7/8."
+      ]
+    },
+    {
+      "prompt": "Solve: 2x + 4 = 18. Find x.",
+      "options": [
+        "7",
+        "6",
+        "8",
+        "9"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Subtract 4 from both sides.",
+        "Divide by 2.",
+        "x = 7."
+      ]
+    },
+    {
+      "prompt": "Solve: 5/8 + 2/8 = ?",
+      "options": [
+        "7/8",
+        "8/8",
+        "6/8",
+        "7/16"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominator is the same.",
+        "Add numerators: 5+2=7.",
+        "Result is 7/8."
+      ]
+    },
+    {
+      "prompt": "Solve: 6x + 8 = 74. Find x.",
+      "options": [
+        "11",
+        "10",
+        "12",
+        "13"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Subtract 8 from both sides.",
+        "Divide by 6.",
+        "x = 11."
+      ]
+    },
+    {
+      "prompt": "Solve: 5/8 + 2/8 = ?",
+      "options": [
+        "7/8",
+        "8/8",
+        "6/8",
+        "7/16"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominator is the same.",
+        "Add numerators: 5+2=7.",
+        "Result is 7/8."
+      ]
+    },
+    {
+      "prompt": "Solve: 5x + 4 = 34. Find x.",
+      "options": [
+        "6",
+        "5",
+        "7",
+        "8"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Subtract 4 from both sides.",
+        "Divide by 5.",
+        "x = 6."
+      ]
+    },
+    {
+      "prompt": "Solve: 5/8 + 2/8 = ?",
+      "options": [
+        "7/8",
+        "8/8",
+        "6/8",
+        "7/16"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominator is the same.",
+        "Add numerators: 5+2=7.",
+        "Result is 7/8."
+      ]
+    },
+    {
+      "prompt": "Solve: 4x + 8 = 48. Find x.",
+      "options": [
+        "10",
+        "9",
+        "11",
+        "12"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Subtract 8 from both sides.",
+        "Divide by 4.",
+        "x = 10."
+      ]
+    },
+    {
+      "prompt": "Solve: 5/8 + 2/8 = ?",
+      "options": [
+        "7/8",
+        "8/8",
+        "6/8",
+        "7/16"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominator is the same.",
+        "Add numerators: 5+2=7.",
+        "Result is 7/8."
+      ]
+    },
+    {
+      "prompt": "Solve: 3x + 4 = 19. Find x.",
+      "options": [
+        "5",
+        "4",
+        "6",
+        "7"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Subtract 4 from both sides.",
+        "Divide by 3.",
+        "x = 5."
+      ]
+    },
+    {
+      "prompt": "Solve: 5/8 + 2/8 = ?",
+      "options": [
+        "7/8",
+        "8/8",
+        "6/8",
+        "7/16"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominator is the same.",
+        "Add numerators: 5+2=7.",
+        "Result is 7/8."
+      ]
+    },
+    {
+      "prompt": "Solve: 2x + 8 = 26. Find x.",
+      "options": [
+        "9",
+        "8",
+        "10",
+        "11"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Subtract 8 from both sides.",
+        "Divide by 2.",
+        "x = 9."
+      ]
+    },
+    {
+      "prompt": "Solve: 5/8 + 2/8 = ?",
+      "options": [
+        "7/8",
+        "8/8",
+        "6/8",
+        "7/16"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominator is the same.",
+        "Add numerators: 5+2=7.",
+        "Result is 7/8."
+      ]
+    },
+    {
+      "prompt": "Solve: 6x + 4 = 28. Find x.",
+      "options": [
+        "4",
+        "3",
+        "5",
+        "6"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Subtract 4 from both sides.",
+        "Divide by 6.",
+        "x = 4."
+      ]
+    },
+    {
+      "prompt": "Solve: 5/8 + 2/8 = ?",
+      "options": [
+        "7/8",
+        "8/8",
+        "6/8",
+        "7/16"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Denominator is the same.",
+        "Add numerators: 5+2=7.",
+        "Result is 7/8."
+      ]
+    },
+    {
+      "prompt": "Solve: 5x + 8 = 48. Find x.",
+      "options": [
+        "8",
+        "7",
+        "9",
+        "10"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Subtract 8 from both sides.",
+        "Divide by 5.",
+        "x = 8."
+      ]
+    }
+  ]
+}

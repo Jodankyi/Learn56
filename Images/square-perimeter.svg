@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" role="img" aria-label="Square perimeter diagram">
+  <rect x="0" y="0" width="360" height="220" fill="#fff9f0"/>
+  <rect x="105" y="40" width="150" height="150" fill="#ffe8c7" stroke="#8c5a1e" stroke-width="3"/>
+  <text x="180" y="25" text-anchor="middle" font-family="Arial" font-size="16" fill="#6f4515">side = s</text>
+  <text x="180" y="210" text-anchor="middle" font-family="Arial" font-size="16" fill="#6f4515">Perimeter = 4s</text>
+  <text x="180" y="122" text-anchor="middle" font-family="Arial" font-size="18" font-weight="700" fill="#6f4515">square</text>
+</svg>

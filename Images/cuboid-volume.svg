@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" role="img" aria-label="Cuboid volume diagram">
+  <rect width="360" height="220" fill="#f7fff6"/>
+  <polygon points="80,70 250,70 290,105 120,105" fill="#d9f5d4" stroke="#2a6e3a" stroke-width="2.5"/>
+  <polygon points="80,70 120,105 120,175 80,140" fill="#b8e8b0" stroke="#2a6e3a" stroke-width="2.5"/>
+  <polygon points="120,105 290,105 290,175 120,175" fill="#c8efc2" stroke="#2a6e3a" stroke-width="2.5"/>
+  <text x="175" y="32" text-anchor="middle" font-family="Arial" font-size="16" fill="#225b30">Cuboid</text>
+  <text x="175" y="206" text-anchor="middle" font-family="Arial" font-size="15" fill="#225b30">Volume = l × w × h</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" role="img" aria-label="Pie chart example">
+  <rect width="360" height="220" fill="#fffaf5"/>
+  <circle cx="150" cy="115" r="70" fill="#f3e3d0"/>
+  <path d="M150 115 L150 45 A70 70 0 0 1 216 156 Z" fill="#f2b17f"/>
+  <path d="M150 115 L216 156 A70 70 0 0 1 95 173 Z" fill="#e2945f"/>
+  <path d="M150 115 L95 173 A70 70 0 0 1 80 80 Z" fill="#f4c598"/>
+  <path d="M150 115 L80 80 A70 70 0 0 1 150 45 Z" fill="#d97f49"/>
+  <text x="260" y="82" font-family="Arial" font-size="13" fill="#6f3e1f">Sector A</text>
+  <text x="260" y="102" font-family="Arial" font-size="13" fill="#6f3e1f">Sector B</text>
+  <text x="260" y="122" font-family="Arial" font-size="13" fill="#6f3e1f">Sector C</text>
+  <text x="260" y="142" font-family="Arial" font-size="13" fill="#6f3e1f">Sector D</text>
+  <text x="180" y="24" text-anchor="middle" font-family="Arial" font-size="16" fill="#6f3e1f">Pie Chart</text>
+</svg>

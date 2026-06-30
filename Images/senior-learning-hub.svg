@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 220" role="img" aria-label="Senior high digital learning hub illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f2f8ff"/>
+      <stop offset="55%" stop-color="#fff9ef"/>
+      <stop offset="100%" stop-color="#eefbf4"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2e6ea2"/>
+      <stop offset="100%" stop-color="#1e4f78"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="420" height="220" rx="18" fill="url(#bg)"/>
+
+  <circle cx="46" cy="38" r="6" fill="#9bc7f5"/>
+  <circle cx="371" cy="42" r="7" fill="#ffd38a"/>
+  <circle cx="392" cy="72" r="5" fill="#8fd6b8"/>
+
+  <rect x="72" y="34" width="276" height="154" rx="16" fill="#fbfeff" stroke="#c7ddef" stroke-width="2"/>
+  <rect x="88" y="50" width="244" height="100" rx="12" fill="url(#panel)"/>
+
+  <circle cx="122" cy="86" r="17" fill="#ffe0aa"/>
+  <path d="M113 84 q9 -10 18 0" fill="none" stroke="#2a4158" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="117" cy="90" r="1.8" fill="#2a4158"/>
+  <circle cx="127" cy="90" r="1.8" fill="#2a4158"/>
+
+  <rect x="152" y="76" width="157" height="10" rx="5" fill="#ffffff"/>
+  <rect x="152" y="94" width="128" height="8" rx="4" fill="#cce3f8"/>
+  <rect x="152" y="110" width="142" height="8" rx="4" fill="#cce3f8"/>
+
+  <rect x="98" y="160" width="95" height="14" rx="7" fill="#2e6ea2"/>
+  <rect x="204" y="160" width="118" height="14" rx="7" fill="#ffd56b"/>
+
+  <path d="M230 188 C252 176, 287 174, 312 187" fill="none" stroke="#6fa3cc" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="230" cy="188" r="4" fill="#2e6ea2"/>
+  <circle cx="312" cy="187" r="4" fill="#2e6ea2"/>
+
+  <text x="210" y="208" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#1f4f76">Learn Smart, Build Mastery</text>
+</svg>

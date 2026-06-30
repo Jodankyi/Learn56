@@ -1,0 +1,2780 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senior High Math Assessments</title>
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="color-scheme" content="light dark">
+</head>
+
+<body>
+    <div class="top-bar">
+        <div class="top-bar-container">
+            <span class="top-bar-left"><i class="fas fa-envelope"></i> info@learn56.com</span>
+            <div class="top-bar-right social-icons">
+                <a href="#" class="social-icon" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon" title="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon" title="YouTube"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <header class="top-nav">
+        <div class="nav-container">
+            <a href="#" class="logo"><img src="Images/logo3.png" alt="Learn56 Logo" class="logo-img"></a>
+
+            <nav class="main-nav" id="primary-navigation" aria-label="Main Navigation">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="JHPractice.html">Practice</a></li>
+                    <li class="dropdown">
+                        <button class="dropbtn" aria-expanded="false">Courses</button>
+                        <ul class="dropdown-menu">
+                            <li><a href="Math.html">Math</a></li>
+                            <li><a href="#">Language Arts</a></li>
+                            <li><a href="#">Science</a></li>
+                            <li><a href="#">Social Studies</a></li>
+                            <li><a href="#">History</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <button class="dropbtn" aria-expanded="false">Dashboards</button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Student</a></li>
+                            <li><a href="#">Teacher</a></li>
+                            <li><a href="#">Parent</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <button class="dropbtn" aria-expanded="false">Assessments</button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Primary</a></li>
+                            <li><a href="Assessments.html">Junior High</a></li>
+                            <li><a href="#">Senior High</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="auth-buttons">
+                <a href="#" class="btn btn-signin">Sign In</a>
+                <a href="#" class="btn btn-join">Join</a>
+            </div>
+
+            <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"
+                aria-controls="primary-navigation">☰</button>
+        </div>
+    </header>
+
+
+
+    <main>
+        <section class="subject-label-section" aria-label="Page subject">
+            <h1 class="subject-label-title">Senior High Assessments</h1>
+            <p class="subject-label-quote">"Master the concepts now, and the exam room will feel like familiar ground."
+            </p>
+        </section>
+
+        <section class="jh-assessments-section" aria-label="Senior high assessments">
+            <div class="jh-assessments-wrap">
+                <h2 class="jh-assessments-title">Choose an Assessment Mode</h2>
+                <p class="jh-assessments-subtitle">Start with the assessment type you want, then move into grade topics,
+                    questions, and progress tracking.</p>
+
+                <div class="jh-assessments-grid">
+                    <article class="jh-assessment-card" aria-label="WASSCE timed quiz card">
+                        <h3>WASSCE Timed Quiz</h3>
+                        <p>20 mixed SHS questions in 30 minutes with auto-scoring.</p>
+                        <button class="jh-assessment-btn" id="assessment-mode-timed" type="button">Start Timed
+                            Quiz</button>
+                    </article>
+
+                    <article class="jh-assessment-card" aria-label="mock exam card">
+                        <h3>Mock Exam</h3>
+                        <p>Full WASSCE-style simulation with section-by-section review.</p>
+                        <button class="jh-assessment-btn" id="assessment-mode-mock" type="button">Begin Mock
+                            Exam</button>
+                    </article>
+
+                    <article class="jh-assessment-card" aria-label="past questions card">
+                        <h3>Past Questions</h3>
+                        <p>Practice with similar past questions by topic.</p>
+                        <button class="jh-assessment-btn" id="assessment-mode-past" type="button">Similar Past
+                            Questions</button>
+                    </article>
+
+                    <article class="jh-assessment-card" aria-label="continuous assessment card">
+                        <h3>Continuous Assessment</h3>
+                        <p>Weekly short tests to track mastery across SHS 1, SHS 2, and SHS 3.</p>
+                        <button class="jh-assessment-btn" id="assessment-mode-weekly" type="button">Take Weekly
+                            Test</button>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="practice-cards-section" aria-label="Assessment workspace cards">
+            <div class="practice-cards-grid">
+                <article class="practice-card practice-card-nav" aria-label="Side navigation card">
+                    <img src="Images/senior-learning-spotlight.svg" alt="Senior high online learning"
+                        class="practice-nav-image">
+
+                    <nav class="practice-side-nav" aria-label="Assessment topics">
+                        <details class="practice-nav-dropdown" open>
+                            <summary>Dashboard</summary>
+                            <ul>
+                                <li><a href="#">Overview</a></li>
+                                <li><a href="#">Today's Tasks</a></li>
+                            </ul>
+                        </details>
+
+                        <details class="practice-nav-dropdown" open>
+                            <summary>Senior High 1</summary>
+                            <ul>
+                                <li><a href="Assessments.html?grade=jh1&topic=integers-and-place-value">Sets and
+                                        Logic</a></li>
+                                <li><a href="Assessments.html?grade=jh1&topic=fractions-and-decimals">Number Bases and
+                                        Modular Arithmetic</a></li>
+                                <li><a href="Assessments.html?grade=jh1&topic=ratio-and-rates">Algebraic Expressions</a>
+                                </li>
+                                <li><a href="Assessments.html?grade=jh1&topic=percent-basics">Surds and Indices</a></li>
+                                <li><a href="Assessments.html?grade=jh1&topic=algebraic-thinking">Linear Equations and
+                                        Inequalities</a>
+                                </li>
+                                <li><a href="Assessments.html?grade=jh1&topic=geometry-basics">Coordinate Geometry</a>
+                                </li>
+                                <li><a href="Assessments.html?grade=jh1&topic=perimeter-and-area">Trigonometric
+                                        Ratios</a>
+                                </li>
+                                <li><a href="Assessments.html?grade=jh1&topic=data">Statistics I</a></li>
+                                <li><a href="Assessments.html?grade=jh1&topic=charts">Probability I</a></li>
+                                <li><a href="Assessments.html?grade=jh1&topic=mean-median-mode">Financial Math
+                                        Basics</a></li>
+                                <li><a href="Assessments.html?grade=jh1&topic=basic-probability">Sequences and Series
+                                        Intro</a>
+                                </li>
+                                <li><a href="Assessments.html?grade=jh1&topic=word-problem-strategies">Vectors
+                                        Basics</a></li>
+                                <li><a href="Assessments.html?grade=jh1&topic=end-of-term-review">End-of-Term
+                                        Consolidation</a>
+                                </li>
+                            </ul>
+                        </details>
+
+                        <details class="practice-nav-dropdown">
+                            <summary>Senior High 2</summary>
+                            <ul>
+                                <li><a href="Assessments.html?grade=jh2&topic=rational-numbers-review">Functions and
+                                        Relations</a></li>
+                                <li><a href="Assessments.html?grade=jh2&topic=operations-with-integers">Quadratic
+                                        Functions</a></li>
+                                <li><a href="Assessments.html?grade=jh2&topic=expressions-and-equations">Variation</a>
+                                </li>
+                                <li><a href="Assessments.html?grade=jh2&topic=one-step-equations">Binomial Expansion</a>
+                                </li>
+                                <li><a href="Assessments.html?grade=jh2&topic=inequalities">Circle Theorems</a></li>
+                                <li><a href="Assessments.html?grade=jh2&topic=angles-and-triangles">Trigonometry II</a>
+                                </li>
+                                <li><a href="Assessments.html?grade=jh2&topic=surface-area-and-volume">Mensuration and
+                                        Solids</a></li>
+                                <li><a href="Assessments.html?grade=jh2&topic=probability-basics">Matrices and
+                                        Determinants</a>
+                                </li>
+                                <li><a href="Assessments.html?grade=jh2&topic=coordinate-plane">Statistics II</a>
+                                </li>
+                                <li><a href="Assessments.html?grade=jh2&topic=pythagorean-intro">Probability II</a></li>
+                                <li><a href="Assessments.html?grade=jh2&topic=multi-step-problems">Transformations</a>
+                                </li>
+                                <li><a href="Assessments.html?grade=jh2&topic=final-skill-check">Linear Programming
+                                        Intro</a>
+                                </li>
+                            </ul>
+                        </details>
+
+                        <details class="practice-nav-dropdown">
+                            <summary>Senior High 3</summary>
+                            <ul>
+                                <li><a href="Assessments.html?grade=jh3&topic=real-number-system">Calculus Intro</a>
+                                </li>
+                                <li><a href="Assessments.html?grade=jh3&topic=scientific-notation">Limits and
+                                        Continuity</a></li>
+                                <li><a href="Assessments.html?grade=jh3&topic=linear-equations">Differentiation
+                                        Applications</a>
+                                </li>
+                                <li><a href="Assessments.html?grade=jh3&topic=systems-of-equations">Integration
+                                        Applications</a></li>
+                                <li><a href="Assessments.html?grade=jh3&topic=functions-and-graphs">Advanced
+                                        Trigonometry</a></li>
+                                <li><a href="Assessments.html?grade=jh3&topic=congruence-and-similarity">Compound
+                                        Interest and Annuities</a></li>
+                                <li><a href="Assessments.html?grade=jh3&topic=circle-theorems">Permutations and
+                                        Combinations</a></li>
+                                <li><a href="Assessments.html?grade=jh3&topic=statistics-and-trends">Normal
+                                        Distribution</a></li>
+                                <li><a href="Assessments.html?grade=jh3&topic=transformations">Hypothesis Testing
+                                        Intro</a></li>
+                                <li><a href="Assessments.html?grade=jh3&topic=quadratic-intro">Vectors in 2D</a></li>
+                                <li><a href="Assessments.html?grade=jh3&topic=exam-techniques">Complex Numbers</a></li>
+                                <li><a href="Assessments.html?grade=jh3&topic=bece-prep">WASSCE Revision Set</a></li>
+                            </ul>
+                        </details>
+
+                        <ul class="practice-side-links" aria-label="Quick links">
+                            <li><a href="#" id="open-timetable-modal">Timetable</a></li>
+                            <li>
+                                <a href="#" class="practice-messages-link" id="open-messages-modal">
+                                    <span>Messages</span>
+                                    <span class="practice-message-tag" aria-label="4 unread messages">4</span>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <img src="Images/senior-achievement-path.svg" alt="Senior high achievement path illustration"
+                            class="practice-side-jump-image">
+                    </nav>
+                </article>
+
+                <article class="practice-card practice-card-question" aria-label="Table card with action buttons">
+                    <div class="practice-question-grade-grid jh-practice-question-grade-grid"
+                        aria-label="Question grade buttons">
+                        <button class="practice-question-grade-btn" type="button" data-grade="jh1">SH 1</button>
+                        <button class="practice-question-grade-btn" type="button" data-grade="jh2">SH 2</button>
+                        <button class="practice-question-grade-btn" type="button" data-grade="jh3">SH3</button>
+                    </div>
+
+                    <p class="practice-active-topic" id="practice-active-topic" aria-live="polite">Topic: Sets and
+                        Logic</p>
+                    <p class="practice-active-topic" id="practice-active-mode" aria-live="polite">Mode: Topic Practice
+                    </p>
+                    <div class="assessment-mode-banner" id="assessment-mode-banner">
+                        <div>
+                            <p class="assessment-mode-kicker" id="assessment-section-label">Section A · Topic Practice
+                            </p>
+                            <p class="assessment-mode-summary" id="assessment-mode-summary">Choose a mode above to
+                                switch between topic practice, timed quiz, mock exam, past questions, and weekly test
+                                views.</p>
+                        </div>
+                        <div class="assessment-mode-stats" id="assessment-mode-stats">
+                            <span class="assessment-mode-stat">Questions: <strong
+                                    id="assessment-total-questions">10</strong></span>
+                            <span class="assessment-mode-stat">Current: <strong
+                                    id="assessment-current-question">1</strong></span>
+                        </div>
+                    </div>
+
+                    <table class="practice-single-table" aria-label="Skill recommendations">
+                        <thead>
+                            <tr>
+                                <th>
+                                    <button class="question-header-btn" id="question-header-btn" type="button"
+                                        aria-label="Move to next question">Question 1 of 10</button>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td id="question-prompt"><strong>Solve: 12 + 8 = ?</strong></td>
+                            </tr>
+                            <tr>
+                                <td><label class="answer-option"><input type="checkbox" class="question-answer"><span
+                                            class="question-answer-text">18</span></label></td>
+                            </tr>
+                            <tr>
+                                <td><label class="answer-option"><input type="checkbox" class="question-answer"><span
+                                            class="question-answer-text">19</span></label></td>
+                            </tr>
+                            <tr>
+                                <td><label class="answer-option"><input type="checkbox" class="question-answer"
+                                            data-correct="true"><span class="question-answer-text">20</span></label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label class="answer-option"><input type="checkbox" class="question-answer"><span
+                                            class="question-answer-text">21</span></label></td>
+                            </tr>
+                            <tr id="question-input-row" hidden>
+                                <td>
+                                    <label class="question-input-label" for="question-direct-input">Enter your
+                                        answer:</label>
+                                    <input id="question-direct-input" class="question-direct-input" type="text"
+                                        inputmode="decimal" placeholder="Type your answer here">
+                                </td>
+                            </tr>
+                            <tr id="question-graph-row" hidden>
+                                <td>
+                                    <div class="question-graph-wrap">
+                                        <p class="question-graph-hint" id="question-graph-target"></p>
+                                        <canvas id="question-graph-canvas" class="question-graph-canvas" width="320"
+                                            height="220" aria-label="Coordinate graph plotting area"></canvas>
+                                        <div class="question-graph-actions">
+                                            <button type="button" class="question-graph-clear-btn"
+                                                id="question-graph-clear-btn">Clear Plot</button>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div class="practice-card-actions practice-card-actions-feedback">
+                        <button class="practice-action-btn practice-feedback-btn" id="practice-feedback-btn"
+                            type="button">Submit</button>
+                    </div>
+
+                    <div class="practice-card-actions practice-card-actions-next">
+                        <button class="practice-action-btn practice-action-btn-primary practice-next-btn"
+                            id="practice-next-btn" type="button">
+                            Try Next Question
+                            <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                        </button>
+                    </div>
+
+                    <table class="practice-two-col-row" aria-label="Question meta row">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <span class="practice-meta-item">
+                                        <i class="fas fa-clock" aria-hidden="true"></i>
+                                        <span>Time left: <strong>0:00</strong></span>
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="practice-meta-item">
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <span>Score: <strong>10</strong></span>
+                                        <span class="practice-score-stars" aria-hidden="true">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </span>
+                                    </span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <table class="practice-single-table practice-single-table-replica is-locked"
+                        id="solution-steps-table" aria-label="Replicated question table">
+                        <thead>
+                            <tr>
+                                <th class="solution-steps-header">Solution Steps</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Step 1:</strong> Add the ones place: 2 + 8 = 10.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Step 2:</strong> Write 0 in the ones place and carry 1 to the tens.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Step 3:</strong> Add tens: 1 (carried) + 1 = 2.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Step 4:</strong> Final answer is 20.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Step 5:</strong> Check by counting forward from 12 by 8 numbers.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </article>
+
+                <article class="practice-card practice-card-progress" aria-label="Progress and table card">
+                    <div class="practice-progress-wrap" aria-label="Progress overview">
+                        <div class="practice-progress-meta">
+                            <span>Assessment Progress</span>
+                            <strong id="practice-progress-value">68%</strong>
+                        </div>
+                        <div class="practice-progress-track" id="practice-progress-track" role="progressbar"
+                            aria-valuenow="68" aria-valuemin="0" aria-valuemax="100">
+                            <span class="practice-progress-fill"></span>
+                        </div>
+                    </div>
+
+                    <table class="practice-single-table" aria-label="Progress tasks">
+                        <thead>
+                            <tr>
+                                <th>Weakest Topics</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td id="next-challenge-1">Algebra Patterns</td>
+                            </tr>
+                            <tr>
+                                <td id="next-challenge-2">Geometry Quiz</td>
+                            </tr>
+                            <tr>
+                                <td id="next-challenge-3">Data and Graphs Review</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <table class="practice-single-table practice-progress-single-col" aria-label="Progress column">
+                        <thead>
+                            <tr>
+                                <th class="progress-left-header">Progress</th>
+                            </tr>
+                        </thead>
+                    </table>
+
+                    <div class="practice-mode-pie-grid" aria-label="Assessment mode progress">
+                        <div class="practice-mode-pie-item" data-mode="timed">
+                            <div class="practice-mode-pie" style="--value: 0" role="img" aria-label="Quiz progress 0%">
+                                <span class="practice-mode-pie-value">0%</span>
+                            </div>
+                            <span class="practice-mode-pie-label">Quiz</span>
+                        </div>
+                        <div class="practice-mode-pie-item" data-mode="mock">
+                            <div class="practice-mode-pie" style="--value: 0" role="img"
+                                aria-label="Mock exam progress 0%">
+                                <span class="practice-mode-pie-value">0%</span>
+                            </div>
+                            <span class="practice-mode-pie-label">Mock Exam</span>
+                        </div>
+                        <div class="practice-mode-pie-item" data-mode="past">
+                            <div class="practice-mode-pie" style="--value: 0" role="img"
+                                aria-label="Past questions progress 0%">
+                                <span class="practice-mode-pie-value">0%</span>
+                            </div>
+                            <span class="practice-mode-pie-label">Past Questions</span>
+                        </div>
+                        <div class="practice-mode-pie-item" data-mode="weekly">
+                            <div class="practice-mode-pie" style="--value: 0" role="img"
+                                aria-label="Weekly test progress 0%">
+                                <span class="practice-mode-pie-value">0%</span>
+                            </div>
+                            <span class="practice-mode-pie-label">Weekly Test</span>
+                        </div>
+                    </div>
+
+                    <div class="practice-badge-earned" id="practice-badge-earned" hidden>
+                        <img src="Images/achievement-badge-striking.svg" alt="Achievement badge"
+                            class="practice-badge-image">
+                        <img src="https://media.tenor.com/8P5Y0siJmqEAAAAM/balloons.gif" alt="Celebration balloons"
+                            class="practice-badge-balloons">
+                        <p class="practice-badge-message">Earn a badge today.</p>
+                    </div>
+
+                    <button class="practice-next-goal-btn" id="practice-next-goal-btn" type="button">Next Goal: Master
+                        the Next Assessment</button>
+                </article>
+
+                <article class="practice-card practice-card-extra" aria-label="Additional practice summary card">
+                    <table class="practice-single-table" aria-label="Additional practice summary">
+                        <thead>
+                            <tr>
+                                <th>Notifications</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="practice-notification-row">
+                                        <span class="practice-notification-text">&bull; New Quiz</span>
+                                        <button class="practice-notification-btn" type="button">
+                                            Start Now
+                                            <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="practice-notification-row">
+                                        <span class="practice-notification-text">&bull; Teacher comments on your
+                                            progress</span>
+                                        <button class="practice-notification-btn" type="button"
+                                            id="open-comments-modal">
+                                            See Comments
+                                            <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><span class="practice-notification-text">&bull; TBD</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </article>
+            </div>
+        </section>
+
+        <section class="features-header-section">
+            <div class="features-header">
+                <h2 class="features-title">Why Choose Learn56?</h2>
+                <p class="features-message">Powerful features designed to make learning engaging, effective, & fun.</p>
+            </div>
+        </section>
+
+        <section class="features-grid-section">
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-chalkboard-user"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h3 class="feature-title">Expert Instructors</h3>
+                        <p class="feature-message">Learn from industry professionals with years of experience</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h3 class="feature-title">Adaptive Learning</h3>
+                        <p class="feature-message">Personalized learning paths that adapt to your pace and style</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h3 class="feature-title">Progress Tracking</h3>
+                        <p class="feature-message">Monitor your learning journey with detailed analytics</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+    </main>
+
+    <div class="timetable-modal" id="timetable-modal" hidden>
+        <div class="timetable-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="timetable-modal-title">
+            <div class="timetable-modal-header">
+                <h2 id="timetable-modal-title">Weekly Timetable</h2>
+                <button type="button" class="timetable-modal-close" id="close-timetable-modal"
+                    aria-label="Close timetable">
+                    <i class="fas fa-times" aria-hidden="true"></i>
+                </button>
+            </div>
+
+            <p class="timetable-modal-hint">Click any timetable cell and type to edit.</p>
+
+            <div class="timetable-modal-table-wrap">
+                <table class="timetable-editable-table" aria-label="Editable weekly timetable">
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Monday</th>
+                            <th>Tuesday</th>
+                            <th>Wednesday</th>
+                            <th>Thursday</th>
+                            <th>Friday</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>8:00 - 9:00</th>
+                            <td contenteditable="true" spellcheck="false">Math Warm-up</td>
+                            <td contenteditable="true" spellcheck="false">Reading</td>
+                            <td contenteditable="true" spellcheck="false">Science</td>
+                            <td contenteditable="true" spellcheck="false">Math Drill</td>
+                            <td contenteditable="true" spellcheck="false">Quiz Review</td>
+                        </tr>
+                        <tr>
+                            <th>9:00 - 10:00</th>
+                            <td contenteditable="true" spellcheck="false">Fractions</td>
+                            <td contenteditable="true" spellcheck="false">Geometry</td>
+                            <td contenteditable="true" spellcheck="false">Word Problems</td>
+                            <td contenteditable="true" spellcheck="false">Times Tables</td>
+                            <td contenteditable="true" spellcheck="false">Group Practice</td>
+                        </tr>
+                        <tr>
+                            <th>10:30 - 11:30</th>
+                            <td contenteditable="true" spellcheck="false">Language Arts</td>
+                            <td contenteditable="true" spellcheck="false">Math Challenge</td>
+                            <td contenteditable="true" spellcheck="false">Library</td>
+                            <td contenteditable="true" spellcheck="false">Data Handling</td>
+                            <td contenteditable="true" spellcheck="false">Project Time</td>
+                        </tr>
+                        <tr>
+                            <th>12:00 - 1:00</th>
+                            <td contenteditable="true" spellcheck="false">Lunch</td>
+                            <td contenteditable="true" spellcheck="false">Lunch</td>
+                            <td contenteditable="true" spellcheck="false">Lunch</td>
+                            <td contenteditable="true" spellcheck="false">Lunch</td>
+                            <td contenteditable="true" spellcheck="false">Lunch</td>
+                        </tr>
+                        <tr>
+                            <th>1:00 - 2:00</th>
+                            <td contenteditable="true" spellcheck="false">P.E.</td>
+                            <td contenteditable="true" spellcheck="false">Music</td>
+                            <td contenteditable="true" spellcheck="false">ICT</td>
+                            <td contenteditable="true" spellcheck="false">Art</td>
+                            <td contenteditable="true" spellcheck="false">Math Games</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="messages-modal" id="messages-modal" hidden>
+        <div class="messages-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="messages-modal-title">
+            <div class="messages-modal-header">
+                <h2 id="messages-modal-title">Messages</h2>
+                <button type="button" class="messages-modal-close" id="close-messages-modal"
+                    aria-label="Close messages">
+                    <i class="fas fa-times" aria-hidden="true"></i>
+                </button>
+            </div>
+
+            <div class="messages-modal-content">
+                <section class="messages-thread" id="messages-thread" aria-label="Message thread">
+                    <article class="message-bubble message-bubble-incoming">
+                        <p class="message-author">Mrs. Mensah</p>
+                        <p class="message-text">Great effort on fractions today. Please review question 4 and 7 before
+                            tomorrow.</p>
+                        <time class="message-time" datetime="2026-06-29T09:20">9:20 AM</time>
+                    </article>
+
+                    <article class="message-bubble message-bubble-incoming">
+                        <p class="message-author">Coach Ama</p>
+                        <p class="message-text">Remember to complete your multiplication challenge by Friday.</p>
+                        <time class="message-time" datetime="2026-06-29T10:05">10:05 AM</time>
+                    </article>
+
+                    <article class="message-bubble message-bubble-outgoing">
+                        <p class="message-author">You</p>
+                        <p class="message-text">Thank you. I will complete it this evening.</p>
+                        <time class="message-time" datetime="2026-06-29T10:40">10:40 AM</time>
+                    </article>
+                </section>
+
+                <section class="messages-response" aria-label="Message response">
+                    <h3>Reply</h3>
+                    <label for="message-response-text" class="messages-response-label">Type your response</label>
+                    <textarea id="message-response-text" class="messages-response-input" rows="4"
+                        placeholder="Write your message here..."></textarea>
+                    <div class="messages-response-actions">
+                        <button type="button" class="messages-send-btn" id="messages-send-btn">
+                            Send Response
+                            <i class="fas fa-paper-plane" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <div class="comments-modal" id="comments-modal" hidden>
+        <div class="comments-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="comments-modal-title">
+            <div class="comments-modal-header">
+                <h2 id="comments-modal-title">Teacher Comments</h2>
+                <button type="button" class="comments-modal-close" id="close-comments-modal"
+                    aria-label="Close comments">
+                    <i class="fas fa-times" aria-hidden="true"></i>
+                </button>
+            </div>
+
+            <div class="comments-modal-content">
+                <article class="comments-item">
+                    <h3>Mrs. Mensah</h3>
+                    <p>You solved addition quickly this week. Keep checking your subtraction working line by line.</p>
+                    <time datetime="2026-06-27">June 27, 2026</time>
+                </article>
+
+                <article class="comments-item">
+                    <h3>Coach Ama</h3>
+                    <p>Good improvement in fractions. Practice equivalent fractions for 10 minutes daily.</p>
+                    <time datetime="2026-06-28">June 28, 2026</time>
+                </article>
+
+                <article class="comments-item">
+                    <h3>Mr. Boateng</h3>
+                    <p>Great participation in class. Next target: increase accuracy in word problems.</p>
+                    <time datetime="2026-06-29">June 29, 2026</time>
+                </article>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <img src="Images/LearnLogo.png" alt="Learn56 Logo" class="footer-logo">
+                <p class="footer-description">Empowering learners with engaging, effective, and fun education.</p>
+                <div class="footer-social-icons">
+                    <a href="#" class="footer-social-icon" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="footer-social-icon" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="footer-social-icon" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="footer-social-icon" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="footer-social-icon" title="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-right">
+                <div class="footer-column">
+                    <h4 class="footer-column-title">Courses</h4>
+                    <ul class="footer-column-links">
+                        <li><a href="#">Math</a></li>
+                        <li><a href="#">Science</a></li>
+                        <li><a href="#">Language Arts</a></li>
+                        <li><a href="#">Social Studies</a></li>
+                        <li><a href="#">History</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-column-title">Resources</h4>
+                    <ul class="footer-column-links">
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-column-title">Company</h4>
+                    <ul class="footer-column-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Partners</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-column-title">Legal</h4>
+                    <ul class="footer-column-links">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">Compliance</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p class="footer-copyright">&copy; 2026 Learn56 | All rights reserved | Terms & Conditions | Privacy Policy
+            </p>
+        </div>
+    </footer>
+
+    <img src="Images/Congrats1.png" alt="Congratulations" class="practice-congrats-gif" id="practice-congrats-popup"
+        hidden>
+    <div id="practice-error-popup" class="practice-error-popup" hidden>That answer is not correct. Try again.</div>
+
+    <script>
+        // Toggle dropdown on click (accessible for keyboard users)
+        document.addEventListener('click', function (e) {
+            const isDropBtn = e.target.matches('.dropbtn');
+            if (!isDropBtn && e.target.closest('.dropdown') == null) {
+                document.querySelectorAll('.dropdown').forEach(d => d.classList.remove('open'));
+                document.querySelectorAll('.dropbtn').forEach(b => b.setAttribute('aria-expanded', 'false'));
+                return;
+            }
+            const dropdown = e.target.closest('.dropdown');
+            if (dropdown) {
+                const open = dropdown.classList.toggle('open');
+                e.target.setAttribute('aria-expanded', open ? 'true' : 'false');
+            }
+        });
+
+        // Mobile nav toggle
+        const navToggle = document.querySelector('.nav-toggle');
+        const topNav = document.querySelector('.top-nav');
+        const mainNav = document.querySelector('.main-nav');
+
+        function closeMobileMenu() {
+            topNav.classList.remove('mobile-open');
+            mainNav.classList.remove('open');
+            navToggle.setAttribute('aria-expanded', 'false');
+            navToggle.textContent = '☰';
+        }
+
+        navToggle.addEventListener('click', function () {
+            const isOpen = topNav.classList.toggle('mobile-open');
+            mainNav.classList.toggle('open', isOpen);
+            navToggle.setAttribute('aria-expanded', String(isOpen));
+            navToggle.textContent = isOpen ? '✕' : '☰';
+        });
+
+        document.addEventListener('click', function (e) {
+            if (window.innerWidth > 900) return;
+            if (!topNav.contains(e.target)) {
+                closeMobileMenu();
+            }
+        });
+
+        mainNav.querySelectorAll('a').forEach(function (link) {
+            link.addEventListener('click', function () {
+                if (window.innerWidth <= 900) {
+                    closeMobileMenu();
+                }
+            });
+        });
+
+        window.addEventListener('resize', function () {
+            if (window.innerWidth > 900) {
+                closeMobileMenu();
+            }
+        });
+
+        const timetableTrigger = document.getElementById('open-timetable-modal');
+        const timetableModal = document.getElementById('timetable-modal');
+        const timetableModalClose = document.getElementById('close-timetable-modal');
+        const messagesTrigger = document.getElementById('open-messages-modal');
+        const messagesModal = document.getElementById('messages-modal');
+        const messagesModalClose = document.getElementById('close-messages-modal');
+        const messagesSendBtn = document.getElementById('messages-send-btn');
+        const messageResponseInput = document.getElementById('message-response-text');
+        const commentsTrigger = document.getElementById('open-comments-modal');
+        const commentsModal = document.getElementById('comments-modal');
+        const commentsModalClose = document.getElementById('close-comments-modal');
+        const messagesThread = document.getElementById('messages-thread');
+        const timetableEditableCells = document.querySelectorAll('.timetable-editable-table td[contenteditable="true"]');
+        const STORAGE_KEYS = {
+            timetable: 'learn56.primaryMathPractice.timetable.v1',
+            messages: 'learn56.primaryMathPractice.messages.v1',
+            practiceProgress: 'learn56.jhPractice.progress.v1'
+        };
+        let lastFocusedBeforeTimetable;
+        let lastFocusedBeforeMessages;
+        let lastFocusedBeforeComments;
+
+        function updateModalBodyLock() {
+            const hasVisibleModal =
+                (timetableModal && !timetableModal.hidden) ||
+                (messagesModal && !messagesModal.hidden) ||
+                (commentsModal && !commentsModal.hidden);
+            document.body.classList.toggle('modal-open', Boolean(hasVisibleModal));
+        }
+
+        function safeReadStorage(key, fallbackValue) {
+            try {
+                const rawValue = localStorage.getItem(key);
+                if (!rawValue) return fallbackValue;
+                return JSON.parse(rawValue);
+            } catch (_) {
+                return fallbackValue;
+            }
+        }
+
+        function safeWriteStorage(key, value) {
+            try {
+                localStorage.setItem(key, JSON.stringify(value));
+            } catch (_) {
+                // Ignore storage write errors (for example private mode quota limits).
+            }
+        }
+
+        function saveTimetableToStorage() {
+            if (!timetableEditableCells.length) return;
+            const cells = Array.from(timetableEditableCells).map(function (cell) {
+                return cell.textContent.trim();
+            });
+            safeWriteStorage(STORAGE_KEYS.timetable, cells);
+        }
+
+        function loadTimetableFromStorage() {
+            if (!timetableEditableCells.length) return;
+            const storedCells = safeReadStorage(STORAGE_KEYS.timetable, null);
+            if (!Array.isArray(storedCells) || !storedCells.length) return;
+
+            timetableEditableCells.forEach(function (cell, index) {
+                if (typeof storedCells[index] === 'string') {
+                    cell.textContent = storedCells[index];
+                }
+            });
+        }
+
+        function formatClockTime(dateObj) {
+            return dateObj.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
+        }
+
+        function buildMessageBubble(message) {
+            const article = document.createElement('article');
+            article.className = `message-bubble ${message.type === 'outgoing' ? 'message-bubble-outgoing' : 'message-bubble-incoming'}`;
+
+            const author = document.createElement('p');
+            author.className = 'message-author';
+            author.textContent = message.author;
+
+            const text = document.createElement('p');
+            text.className = 'message-text';
+            text.textContent = message.text;
+
+            const time = document.createElement('time');
+            time.className = 'message-time';
+            if (message.datetime) {
+                time.setAttribute('datetime', message.datetime);
+            }
+            time.textContent = message.time;
+
+            article.appendChild(author);
+            article.appendChild(text);
+            article.appendChild(time);
+            return article;
+        }
+
+        function getSeedMessagesFromDom() {
+            if (!messagesThread) return [];
+            return Array.from(messagesThread.querySelectorAll('.message-bubble')).map(function (bubble) {
+                const isOutgoing = bubble.classList.contains('message-bubble-outgoing');
+                const author = bubble.querySelector('.message-author')?.textContent?.trim() || (isOutgoing ? 'You' : 'Teacher');
+                const text = bubble.querySelector('.message-text')?.textContent?.trim() || '';
+                const timeNode = bubble.querySelector('.message-time');
+                const time = timeNode?.textContent?.trim() || '';
+                const datetime = timeNode?.getAttribute('datetime') || '';
+                return {
+                    type: isOutgoing ? 'outgoing' : 'incoming',
+                    author,
+                    text,
+                    time,
+                    datetime
+                };
+            });
+        }
+
+        function renderMessagesThread(messages) {
+            if (!messagesThread) return;
+            messagesThread.innerHTML = '';
+            messages.forEach(function (message) {
+                messagesThread.appendChild(buildMessageBubble(message));
+            });
+            messagesThread.scrollTop = messagesThread.scrollHeight;
+        }
+
+        function loadMessagesFromStorage() {
+            if (!messagesThread) return;
+            const seedMessages = getSeedMessagesFromDom();
+            const storedMessages = safeReadStorage(STORAGE_KEYS.messages, null);
+            const messages = Array.isArray(storedMessages) && storedMessages.length ? storedMessages : seedMessages;
+            renderMessagesThread(messages);
+            safeWriteStorage(STORAGE_KEYS.messages, messages);
+        }
+
+        function appendOutgoingMessage(text) {
+            if (!text) return;
+            const currentMessages = safeReadStorage(STORAGE_KEYS.messages, []);
+            const now = new Date();
+            const newMessage = {
+                type: 'outgoing',
+                author: 'You',
+                text,
+                time: formatClockTime(now),
+                datetime: now.toISOString()
+            };
+            const updatedMessages = Array.isArray(currentMessages) ? currentMessages.concat(newMessage) : [newMessage];
+            safeWriteStorage(STORAGE_KEYS.messages, updatedMessages);
+            renderMessagesThread(updatedMessages);
+        }
+
+        function openTimetableModal() {
+            if (!timetableModal) return;
+            lastFocusedBeforeTimetable = document.activeElement;
+            timetableModal.hidden = false;
+            updateModalBodyLock();
+            if (timetableModalClose) {
+                timetableModalClose.focus();
+            }
+        }
+
+        function closeTimetableModal() {
+            if (!timetableModal) return;
+            timetableModal.hidden = true;
+            updateModalBodyLock();
+            if (lastFocusedBeforeTimetable && typeof lastFocusedBeforeTimetable.focus === 'function') {
+                lastFocusedBeforeTimetable.focus();
+            }
+        }
+
+        function openMessagesModal() {
+            if (!messagesModal) return;
+            lastFocusedBeforeMessages = document.activeElement;
+            messagesModal.hidden = false;
+            updateModalBodyLock();
+            if (messageResponseInput) {
+                messageResponseInput.focus();
+            }
+        }
+
+        function closeMessagesModal() {
+            if (!messagesModal) return;
+            messagesModal.hidden = true;
+            updateModalBodyLock();
+            if (lastFocusedBeforeMessages && typeof lastFocusedBeforeMessages.focus === 'function') {
+                lastFocusedBeforeMessages.focus();
+            }
+        }
+
+        function openCommentsModal() {
+            if (!commentsModal) return;
+            lastFocusedBeforeComments = document.activeElement;
+            commentsModal.hidden = false;
+            updateModalBodyLock();
+            if (commentsModalClose) {
+                commentsModalClose.focus();
+            }
+        }
+
+        function closeCommentsModal() {
+            if (!commentsModal) return;
+            commentsModal.hidden = true;
+            updateModalBodyLock();
+            if (lastFocusedBeforeComments && typeof lastFocusedBeforeComments.focus === 'function') {
+                lastFocusedBeforeComments.focus();
+            }
+        }
+
+        if (timetableTrigger) {
+            timetableTrigger.addEventListener('click', function (event) {
+                event.preventDefault();
+                openTimetableModal();
+            });
+        }
+
+        if (timetableModalClose) {
+            timetableModalClose.addEventListener('click', closeTimetableModal);
+        }
+
+        if (timetableModal) {
+            timetableModal.addEventListener('click', function (event) {
+                if (event.target === timetableModal) {
+                    closeTimetableModal();
+                }
+            });
+        }
+
+        if (messagesTrigger) {
+            messagesTrigger.addEventListener('click', function (event) {
+                event.preventDefault();
+                openMessagesModal();
+            });
+        }
+
+        if (messagesModalClose) {
+            messagesModalClose.addEventListener('click', closeMessagesModal);
+        }
+
+        if (messagesModal) {
+            messagesModal.addEventListener('click', function (event) {
+                if (event.target === messagesModal) {
+                    closeMessagesModal();
+                }
+            });
+        }
+
+        if (commentsTrigger) {
+            commentsTrigger.addEventListener('click', function () {
+                openCommentsModal();
+            });
+        }
+
+        if (commentsModalClose) {
+            commentsModalClose.addEventListener('click', closeCommentsModal);
+        }
+
+        if (commentsModal) {
+            commentsModal.addEventListener('click', function (event) {
+                if (event.target === commentsModal) {
+                    closeCommentsModal();
+                }
+            });
+        }
+
+        if (messagesSendBtn) {
+            messagesSendBtn.addEventListener('click', function () {
+                if (messageResponseInput) {
+                    const responseText = messageResponseInput.value.trim();
+                    if (responseText) {
+                        appendOutgoingMessage(responseText);
+                    }
+                    messageResponseInput.value = '';
+                    messageResponseInput.focus();
+                }
+            });
+        }
+
+        if (timetableEditableCells.length) {
+            timetableEditableCells.forEach(function (cell) {
+                cell.addEventListener('input', saveTimetableToStorage);
+                cell.addEventListener('blur', saveTimetableToStorage);
+            });
+        }
+
+        loadTimetableFromStorage();
+        loadMessagesFromStorage();
+
+        document.addEventListener('keydown', function (event) {
+            if (event.key === 'Escape' && timetableModal && !timetableModal.hidden) {
+                closeTimetableModal();
+            }
+
+            if (event.key === 'Escape' && messagesModal && !messagesModal.hidden) {
+                closeMessagesModal();
+            }
+
+            if (event.key === 'Escape' && commentsModal && !commentsModal.hidden) {
+                closeCommentsModal();
+            }
+        });
+
+        const questionHeaderBtn = document.getElementById('question-header-btn');
+        const questionPrompt = document.getElementById('question-prompt');
+        const gradeButtons = document.querySelectorAll('.practice-question-grade-btn');
+        const topicLinks = document.querySelectorAll('.practice-nav-dropdown a[href*="topic="]');
+        const activeTopicLabel = document.getElementById('practice-active-topic');
+        const activeModeLabel = document.getElementById('practice-active-mode');
+        const assessmentModeBanner = document.getElementById('assessment-mode-banner');
+        const assessmentSectionLabel = document.getElementById('assessment-section-label');
+        const assessmentModeSummary = document.getElementById('assessment-mode-summary');
+        const assessmentTotalQuestions = document.getElementById('assessment-total-questions');
+        const assessmentCurrentQuestion = document.getElementById('assessment-current-question');
+        const timedModeBtn = document.getElementById('assessment-mode-timed');
+        const mockModeBtn = document.getElementById('assessment-mode-mock');
+        const pastModeBtn = document.getElementById('assessment-mode-past');
+        const weeklyModeBtn = document.getElementById('assessment-mode-weekly');
+
+        let questionBank = {
+            jh1: [
+                {
+                    prompt: 'Solve: 12 + 8 = ?',
+                    options: ['18', '19', '20', '21'],
+                    correctIndex: 2,
+                    steps: [
+                        'Add the ones place: 2 + 8 = 10.',
+                        'Write 0 in the ones place and carry 1 to the tens.',
+                        'Add tens: 1 (carried) + 1 = 2.',
+                        'Final answer is 20.'
+                    ]
+                }
+            ]
+        };
+        let becePastQuestionBank = {};
+
+        function buildPastFallbackFromQuestionBank(sourceBank) {
+            const fallbackYears = ['2024', '2023', '2022', '2021', '2020'];
+            return Object.keys(sourceBank || {}).reduce(function (acc, gradeKey) {
+                const gradeQuestions = Array.isArray(sourceBank[gradeKey]) ? sourceBank[gradeKey] : [];
+                const byTopic = gradeQuestions.reduce(function (topicAcc, question) {
+                    const topicKey = String(question?.topic || 'general').toLowerCase();
+                    if (!topicAcc[topicKey]) {
+                        topicAcc[topicKey] = [];
+                    }
+                    topicAcc[topicKey].push(question);
+                    return topicAcc;
+                }, {});
+
+                acc[gradeKey] = Object.keys(byTopic).flatMap(function (topicKey) {
+                    return byTopic[topicKey].slice(0, 5).map(function (question, idx) {
+                        const cloned = JSON.parse(JSON.stringify(question));
+                        const year = fallbackYears[idx % fallbackYears.length];
+                        cloned.source = 'bece-past';
+                        cloned.examYear = year;
+                        cloned.paper = 'Paper 1';
+                        cloned.questionNumber = String(idx + 1);
+                        if (!String(cloned.prompt || '').toLowerCase().includes('bece')) {
+                            cloned.prompt = `${cloned.paper}: ${cloned.prompt || ''}`.trim();
+                        }
+                        return cloned;
+                    });
+                });
+
+                return acc;
+            }, {});
+        }
+
+        async function loadQuestionBank() {
+            const response = await fetch('./jh-questions.json', { cache: 'no-store' });
+            if (!response.ok) {
+                throw new Error(`Failed to load jh-questions.json: ${response.status}`);
+            }
+
+            const data = await response.json();
+            if (!data || typeof data !== 'object') {
+                throw new Error('jh-questions.json has invalid format.');
+            }
+
+            questionBank = data;
+
+            try {
+                const beceResponse = await fetch('./bece-past-questions.json', { cache: 'no-store' });
+                if (!beceResponse.ok) {
+                    throw new Error(`Failed to load bece-past-questions.json: ${beceResponse.status}`);
+                }
+                const beceData = await beceResponse.json();
+                becePastQuestionBank = beceData && typeof beceData === 'object'
+                    ? beceData
+                    : buildPastFallbackFromQuestionBank(questionBank);
+            } catch (beceError) {
+                console.warn('BECE past question bank unavailable, using generated fallback.', beceError);
+                becePastQuestionBank = buildPastFallbackFromQuestionBank(questionBank);
+            }
+        }
+
+        let selectedGradeKey = 'jh1';
+        let selectedTopicKey = null;
+        let assessmentMode = 'topic';
+        let currentQuestionIndex = 0;
+
+        const answerOptions = document.querySelectorAll('.question-answer');
+        const answerRows = Array.from(answerOptions).map(function (input) {
+            return input.closest('tr');
+        }).filter(Boolean);
+        const feedbackBtn = document.getElementById('practice-feedback-btn');
+        const questionInputRow = document.getElementById('question-input-row');
+        const questionDirectInput = document.getElementById('question-direct-input');
+        const questionGraphRow = document.getElementById('question-graph-row');
+        const questionGraphCanvas = document.getElementById('question-graph-canvas');
+        const questionGraphTarget = document.getElementById('question-graph-target');
+        const questionGraphClearBtn = document.getElementById('question-graph-clear-btn');
+        const solutionStepsTable = document.getElementById('solution-steps-table');
+        const nextQuestionBtn = document.getElementById('practice-next-btn');
+        const congratsPopup = document.getElementById('practice-congrats-popup');
+        const errorPopup = document.getElementById('practice-error-popup');
+        const badgeEarned = document.getElementById('practice-badge-earned');
+        const badgeMessage = badgeEarned ? badgeEarned.querySelector('.practice-badge-message') : null;
+        const nextGoalBtn = document.getElementById('practice-next-goal-btn');
+        const challengeCells = [
+            document.getElementById('next-challenge-1'),
+            document.getElementById('next-challenge-2'),
+            document.getElementById('next-challenge-3')
+        ].filter(Boolean);
+        const progressTrack = document.getElementById('practice-progress-track');
+        const progressFill = progressTrack ? progressTrack.querySelector('.practice-progress-fill') : null;
+        const progressValue = document.getElementById('practice-progress-value');
+        const modePieItems = document.querySelectorAll('.practice-mode-pie-item');
+        let wrongAttempts = 0;
+        let congratsPopupTimer;
+        let errorPopupTimer;
+        let hasCurrentCorrectAnswer = false;
+        let plottedPoints = [];
+        let showGraphSolution = false;
+        const solvedQuestionsBySelection = {};
+        const completionPopupShownBySelection = {};
+
+        function serializeSolvedProgress() {
+            return Object.keys(solvedQuestionsBySelection).reduce(function (acc, key) {
+                acc[key] = Array.from(solvedQuestionsBySelection[key]);
+                return acc;
+            }, {});
+        }
+
+        function savePracticeProgress() {
+            safeWriteStorage(STORAGE_KEYS.practiceProgress, {
+                solvedBySelection: serializeSolvedProgress()
+            });
+        }
+
+        function loadPracticeProgress() {
+            const stored = safeReadStorage(STORAGE_KEYS.practiceProgress, null);
+            if (!stored || typeof stored !== 'object') return;
+            const solved = stored.solvedBySelection;
+            if (!solved || typeof solved !== 'object') return;
+            Object.keys(solved).forEach(function (key) {
+                const value = solved[key];
+                if (Array.isArray(value)) {
+                    solvedQuestionsBySelection[key] = new Set(value.filter(Number.isInteger));
+                }
+            });
+        }
+
+        function hideCongratsPopup() {
+            if (!congratsPopup) return;
+            clearTimeout(congratsPopupTimer);
+            congratsPopup.hidden = true;
+            congratsPopup.classList.remove('is-visible', 'is-pop-rotate');
+        }
+
+        function showCongratsPopup() {
+            if (!congratsPopup) return;
+            congratsPopup.classList.add('is-visible');
+            congratsPopup.hidden = false;
+            congratsPopup.classList.remove('is-pop-rotate');
+            void congratsPopup.offsetWidth;
+            congratsPopup.classList.add('is-pop-rotate');
+            clearTimeout(congratsPopupTimer);
+            congratsPopupTimer = setTimeout(function () {
+                hideCongratsPopup();
+            }, 2600);
+        }
+
+        function hideErrorPopup() {
+            if (!errorPopup) return;
+            clearTimeout(errorPopupTimer);
+            errorPopup.hidden = true;
+            errorPopup.classList.remove('is-visible');
+        }
+
+        function showErrorPopup(message) {
+            if (!errorPopup) return;
+            errorPopup.textContent = message || 'That answer is not correct. Try again.';
+            errorPopup.hidden = false;
+            errorPopup.classList.add('is-visible');
+            clearTimeout(errorPopupTimer);
+            errorPopupTimer = setTimeout(function () {
+                hideErrorPopup();
+            }, 1800);
+        }
+
+        function getSelectionKey() {
+            return `${selectedGradeKey}:${selectedTopicKey || 'all'}`;
+        }
+
+        function getSelectionKeyFor(gradeKey, topicKey) {
+            return `${gradeKey}:${topicKey || 'all'}`;
+        }
+
+        function getSolvedSetForSelection() {
+            const key = getSelectionKey();
+            if (!solvedQuestionsBySelection[key]) {
+                solvedQuestionsBySelection[key] = new Set();
+            }
+            return solvedQuestionsBySelection[key];
+        }
+
+        function getTopicEntriesForGrade(gradeKey) {
+            return Array.from(topicLinks)
+                .map(function (link) {
+                    try {
+                        const url = new URL(link.href, window.location.origin);
+                        const grade = (url.searchParams.get('grade') || '').toLowerCase();
+                        const topic = (url.searchParams.get('topic') || '').toLowerCase();
+                        return {
+                            grade,
+                            topic,
+                            label: (link.textContent || '').trim(),
+                            link
+                        };
+                    } catch (_error) {
+                        return null;
+                    }
+                })
+                .filter(function (entry) {
+                    return entry && entry.grade === gradeKey && entry.topic;
+                });
+        }
+
+        function getFirstTopicForGrade(gradeKey) {
+            const entries = getTopicEntriesForGrade(gradeKey);
+            return entries[0]?.topic || null;
+        }
+
+        function getAllQuestionsForGrade(gradeKey) {
+            const gradeData = questionBank[gradeKey] || questionBank.jh1 || [];
+            if (Array.isArray(gradeData)) {
+                return gradeData;
+            }
+            if (gradeData && typeof gradeData === 'object') {
+                return Object.keys(gradeData).reduce(function (acc, key) {
+                    if (Array.isArray(gradeData[key])) {
+                        acc.push.apply(acc, gradeData[key]);
+                    }
+                    return acc;
+                }, []);
+            }
+            return [];
+        }
+
+        function buildMockExamQuestions(gradeKey) {
+            const allQuestions = getAllQuestionsForGrade(gradeKey);
+            const topicEntries = getTopicEntriesForGrade(gradeKey);
+            const byTopic = topicEntries.map(function (entry) {
+                return getQuestionsForGradeTopic(gradeKey, entry.topic).slice(0, 2);
+            }).flat();
+
+            if (byTopic.length >= 20) {
+                return byTopic;
+            }
+
+            const remaining = allQuestions.filter(function (question) {
+                return !byTopic.includes(question);
+            });
+            return byTopic.concat(remaining).slice(0, Math.min(24, allQuestions.length));
+        }
+
+        function getAssessmentModeLabel() {
+            if (assessmentMode === 'mock') return 'Mode: Full Paper Mock Exam';
+            if (assessmentMode === 'timed') return 'Mode: Timed Quiz';
+            if (assessmentMode === 'past') return 'Mode: Past Questions';
+            if (assessmentMode === 'weekly') return 'Mode: Weekly Continuous Assessment';
+            return 'Mode: Topic Practice';
+        }
+
+        function getDisplayGradeLabel(gradeKey) {
+            if (gradeKey === 'jh1') return 'SH 1';
+            if (gradeKey === 'jh2') return 'SH 2';
+            if (gradeKey === 'jh3') return 'SH3';
+            return String(gradeKey || '').toUpperCase();
+        }
+
+        function getAssessmentSectionLabel(questionType) {
+            if (assessmentMode === 'mock') {
+                if (questionType === 'mcq') return 'Section A · Objective Response';
+                if (questionType === 'input') return 'Section B · Worked Response';
+                if (questionType === 'graph') return 'Section C · Graphs and Interpretation';
+                return 'Section A · Mixed Mock Paper';
+            }
+            if (assessmentMode === 'timed') return 'Timed Quiz · Speed Round';
+            if (assessmentMode === 'past') return 'Past Questions · Revision Set';
+            if (assessmentMode === 'weekly') return 'Weekly Test · Continuous Assessment';
+            return 'Section A · Topic Practice';
+        }
+
+        function getAssessmentModeSummaryText(questionType, totalQuestions) {
+            const displayGrade = getDisplayGradeLabel(selectedGradeKey);
+            if (assessmentMode === 'mock') {
+                return `Full paper simulation in ${displayGrade} with ${totalQuestions} mixed questions across objective, worked, and graph sections.`;
+            }
+            if (assessmentMode === 'timed') {
+                return `Timed quiz mode with ${totalQuestions} mixed questions for speed, accuracy, and exam readiness.`;
+            }
+            if (assessmentMode === 'past') {
+                return `Past-question revision on ${getSelectedTopicLabel()} with ${totalQuestions} questions for ${displayGrade}.`;
+            }
+            if (assessmentMode === 'weekly') {
+                return `Weekly assessment mode with ${totalQuestions} checkpoint questions for ${displayGrade}.`;
+            }
+            return `Topic-focused assessment on ${getSelectedTopicLabel()} with ${totalQuestions} questions.`;
+        }
+
+        function updateAssessmentModeButtons() {
+            [timedModeBtn, mockModeBtn, pastModeBtn, weeklyModeBtn].forEach(function (button) {
+                if (!button) return;
+                button.classList.remove('is-active');
+            });
+            if (assessmentMode === 'timed' && timedModeBtn) timedModeBtn.classList.add('is-active');
+            if (assessmentMode === 'mock' && mockModeBtn) mockModeBtn.classList.add('is-active');
+            if (assessmentMode === 'past' && pastModeBtn) pastModeBtn.classList.add('is-active');
+            if (assessmentMode === 'weekly' && weeklyModeBtn) weeklyModeBtn.classList.add('is-active');
+        }
+
+        function updateAssessmentVisuals(questionType, totalQuestions) {
+            updateActiveModeLabel();
+            updateAssessmentModeButtons();
+            if (assessmentModeBanner) {
+                assessmentModeBanner.classList.toggle('is-mock', assessmentMode === 'mock');
+            }
+            if (assessmentSectionLabel) {
+                assessmentSectionLabel.textContent = getAssessmentSectionLabel(questionType);
+            }
+            if (assessmentModeSummary) {
+                assessmentModeSummary.textContent = getAssessmentModeSummaryText(questionType, totalQuestions);
+            }
+            if (assessmentTotalQuestions) {
+                assessmentTotalQuestions.textContent = String(totalQuestions || 0);
+            }
+            if (assessmentCurrentQuestion) {
+                assessmentCurrentQuestion.textContent = totalQuestions ? String(currentQuestionIndex + 1) : '0';
+            }
+        }
+
+        function getQuestionsForGradeTopic(gradeKey, topicKey) {
+            const gradeData = questionBank[gradeKey] || questionBank.jh1 || [];
+            if (Array.isArray(gradeData)) {
+                return gradeData.filter(function (question) {
+                    return String(question?.topic || '').toLowerCase() === String(topicKey || '').toLowerCase();
+                });
+            }
+            if (gradeData && typeof gradeData === 'object' && topicKey && Array.isArray(gradeData[topicKey])) {
+                return gradeData[topicKey];
+            }
+            return [];
+        }
+
+        function getPastQuestionsForGrade(gradeKey, topicKey) {
+            const gradeData = becePastQuestionBank[gradeKey] || [];
+            if (!Array.isArray(gradeData)) return [];
+            if (!topicKey) return gradeData;
+            return gradeData.filter(function (question) {
+                return String(question?.topic || '').toLowerCase() === String(topicKey || '').toLowerCase();
+            });
+        }
+
+        function getPastQuestionMeta(question) {
+            if (assessmentMode !== 'past' || !question || typeof question !== 'object') {
+                return '';
+            }
+            const paper = String(question.paper || '').trim();
+            const questionNumber = String(question.questionNumber || question.officialQuestionNumber || '').trim();
+            const parts = [];
+            if (paper) parts.push(paper);
+            if (questionNumber) parts.push(`Q${questionNumber}`);
+            return parts.join(' · ');
+        }
+
+        function getSolvedCountForGradeTopic(gradeKey, topicKey) {
+            const selectionKey = getSelectionKeyFor(gradeKey, topicKey);
+            const solvedSet = solvedQuestionsBySelection[selectionKey] || new Set();
+            const total = getQuestionsForGradeTopic(gradeKey, topicKey).length;
+            return Math.min(solvedSet.size, total);
+        }
+
+        function getSolvedCountForSelection(gradeKey, topicKey, total) {
+            const selectionKey = getSelectionKeyFor(gradeKey, topicKey);
+            const solvedSet = solvedQuestionsBySelection[selectionKey] || new Set();
+            return Math.min(solvedSet.size, Math.max(0, total || 0));
+        }
+
+        function getModeProgressForGrade(gradeKey) {
+            const allQuestions = getAllQuestionsForGrade(gradeKey);
+            const allSelectionSolved = getSolvedCountForSelection(gradeKey, null, allQuestions.length);
+            const timedTotal = Math.min(20, allQuestions.length);
+            const mockTotal = buildMockExamQuestions(gradeKey).length;
+            const weeklyTotal = Math.min(10, allQuestions.length);
+
+            const pastEntries = getTopicEntriesForGrade(gradeKey);
+            const pastByTopic = pastEntries.map(function (entry) {
+                const total = getPastQuestionsForGrade(gradeKey, entry.topic).length;
+                const solved = getSolvedCountForSelection(gradeKey, entry.topic, total);
+                const percent = total ? Math.round((solved / total) * 100) : 0;
+                return { total, solved, percent };
+            }).filter(function (item) {
+                return item.total > 0;
+            });
+
+            let pastTotal = getPastQuestionsForGrade(gradeKey, null).length;
+            let pastSolved = getSolvedCountForSelection(gradeKey, null, pastTotal);
+            let pastPercent = pastTotal ? Math.round((pastSolved / pastTotal) * 100) : 0;
+            if (pastByTopic.length) {
+                const bestPast = pastByTopic.sort(function (a, b) {
+                    return b.percent - a.percent;
+                })[0];
+                pastTotal = bestPast.total;
+                pastSolved = bestPast.solved;
+                pastPercent = bestPast.percent;
+            }
+
+            return [
+                {
+                    key: 'timed',
+                    label: 'Quiz',
+                    total: timedTotal,
+                    solved: Math.min(allSelectionSolved, timedTotal),
+                    percent: timedTotal ? Math.round((Math.min(allSelectionSolved, timedTotal) / timedTotal) * 100) : 0
+                },
+                {
+                    key: 'mock',
+                    label: 'Mock Exam',
+                    total: mockTotal,
+                    solved: Math.min(allSelectionSolved, mockTotal),
+                    percent: mockTotal ? Math.round((Math.min(allSelectionSolved, mockTotal) / mockTotal) * 100) : 0
+                },
+                {
+                    key: 'past',
+                    label: 'Past Questions',
+                    total: pastTotal,
+                    solved: pastSolved,
+                    percent: pastPercent
+                },
+                {
+                    key: 'weekly',
+                    label: 'Weekly Test',
+                    total: weeklyTotal,
+                    solved: Math.min(allSelectionSolved, weeklyTotal),
+                    percent: weeklyTotal ? Math.round((Math.min(allSelectionSolved, weeklyTotal) / weeklyTotal) * 100) : 0
+                }
+            ];
+        }
+
+        function getTopicProgressForGrade(gradeKey) {
+            const entries = getTopicEntriesForGrade(gradeKey);
+            return entries.map(function (entry) {
+                const total = getQuestionsForGradeTopic(gradeKey, entry.topic).length;
+                const solved = getSolvedCountForGradeTopic(gradeKey, entry.topic);
+                const percent = total ? Math.round((solved / total) * 100) : 0;
+                return {
+                    topic: entry.topic,
+                    label: entry.label,
+                    total,
+                    solved,
+                    percent
+                };
+            });
+        }
+
+        function syncWeeklyProgressUI() {
+            if (!progressTrack || !progressFill || !progressValue) return;
+            const topicProgress = getTopicProgressForGrade(selectedGradeKey);
+            const solved = topicProgress.reduce(function (sum, item) {
+                return sum + item.solved;
+            }, 0);
+            const total = topicProgress.reduce(function (sum, item) {
+                return sum + item.total;
+            }, 0);
+            const weeklyPercent = total ? Math.round((solved / total) * 100) : 0;
+
+            progressFill.style.width = `${weeklyPercent}%`;
+            progressTrack.setAttribute('aria-valuenow', String(weeklyPercent));
+            progressValue.textContent = `${weeklyPercent}%`;
+        }
+
+        function syncChallengeListUI() {
+            if (!challengeCells.length) return;
+            const topicProgress = getTopicProgressForGrade(selectedGradeKey)
+                .filter(function (item) {
+                    return item.total > 0;
+                })
+                .sort(function (a, b) {
+                    if (a.percent !== b.percent) return a.percent - b.percent;
+                    return a.label.localeCompare(b.label);
+                });
+
+            const incomplete = topicProgress.filter(function (item) {
+                return item.solved < item.total;
+            });
+
+            challengeCells.forEach(function (cell, idx) {
+                const item = incomplete[idx];
+                if (!item) {
+                    cell.textContent = idx === 0 ? 'All listed topics completed' : 'Great progress this week';
+                    return;
+                }
+                cell.textContent = `${item.label} (${item.solved}/${item.total})`;
+            });
+        }
+
+        function syncNextGoalUI() {
+            if (!nextGoalBtn) return;
+            const topicProgress = getTopicProgressForGrade(selectedGradeKey)
+                .filter(function (item) {
+                    return item.total > 0;
+                })
+                .sort(function (a, b) {
+                    if (a.percent !== b.percent) return a.percent - b.percent;
+                    return a.label.localeCompare(b.label);
+                });
+            const nextTarget = topicProgress.find(function (item) {
+                return item.solved < item.total;
+            });
+
+            if (nextTarget) {
+                nextGoalBtn.textContent = `Next Goal: ${nextTarget.label}`;
+            } else {
+                nextGoalBtn.textContent = `Next Goal: Maintain mastery in ${getDisplayGradeLabel(selectedGradeKey)}`;
+            }
+        }
+
+        function setModePieValue(pieItem, nextValue, label) {
+            const clamped = Math.max(0, Math.min(100, nextValue));
+            const pieNode = pieItem.querySelector('.practice-mode-pie');
+            const valueNode = pieItem.querySelector('.practice-mode-pie-value');
+
+            if (pieNode) {
+                pieNode.style.setProperty('--value', String(clamped));
+                pieNode.setAttribute('aria-label', `${label} progress ${clamped}%`);
+            }
+            if (valueNode) {
+                valueNode.textContent = `${clamped}%`;
+            }
+        }
+
+        function syncModePieUI() {
+            const modeProgress = getModeProgressForGrade(selectedGradeKey);
+            modePieItems.forEach(function (itemNode) {
+                const modeKey = itemNode.dataset.mode;
+                const matched = modeProgress.find(function (entry) {
+                    return entry.key === modeKey;
+                });
+                const labelNode = itemNode.querySelector('.practice-mode-pie-label');
+                const label = matched?.label || labelNode?.textContent || 'Assessment';
+                if (labelNode) {
+                    labelNode.textContent = label;
+                }
+                setModePieValue(itemNode, matched?.percent || 0, label);
+            });
+        }
+
+        function syncBadgeUI() {
+            if (!badgeEarned) return;
+            const modeProgress = getModeProgressForGrade(selectedGradeKey);
+            const hasCompletedAnyAssessment = modeProgress.some(function (item) {
+                return item.total > 0 && item.solved >= item.total;
+            });
+
+            badgeEarned.hidden = !hasCompletedAnyAssessment;
+            if (badgeMessage) {
+                badgeMessage.textContent = 'Earn a badge today.';
+            }
+        }
+
+        function syncProgressAndGoalsUI() {
+            syncWeeklyProgressUI();
+            syncChallengeListUI();
+            syncNextGoalUI();
+            syncModePieUI();
+            syncBadgeUI();
+        }
+
+        function updateActiveTopicLink() {
+            Array.from(topicLinks).forEach(function (link) {
+                try {
+                    const url = new URL(link.href, window.location.origin);
+                    const grade = (url.searchParams.get('grade') || '').toLowerCase();
+                    const topic = (url.searchParams.get('topic') || '').toLowerCase();
+                    const isActive = grade === selectedGradeKey && topic === selectedTopicKey;
+                    link.setAttribute('aria-current', isActive ? 'page' : 'false');
+                } catch (_error) {
+                    link.setAttribute('aria-current', 'false');
+                }
+            });
+        }
+
+        function getSelectedTopicLabel() {
+            const entries = getTopicEntriesForGrade(selectedGradeKey);
+            const active = entries.find(function (entry) {
+                return entry.topic === selectedTopicKey;
+            });
+            return active?.label || 'All Topics';
+        }
+
+        function updateActiveTopicLabel() {
+            if (!activeTopicLabel) return;
+            activeTopicLabel.textContent = `Topic: ${getSelectedTopicLabel()}`;
+        }
+
+        function updateActiveModeLabel() {
+            if (!activeModeLabel) return;
+            activeModeLabel.textContent = getAssessmentModeLabel();
+        }
+
+        function getSelectedGradeQuestions() {
+            if (assessmentMode === 'mock') {
+                return buildMockExamQuestions(selectedGradeKey);
+            }
+
+            if (assessmentMode === 'past') {
+                if (selectedTopicKey) {
+                    const byTopic = getPastQuestionsForGrade(selectedGradeKey, selectedTopicKey);
+                    if (byTopic.length) return byTopic;
+                }
+                return getPastQuestionsForGrade(selectedGradeKey, null);
+            }
+
+            if (assessmentMode === 'timed' || assessmentMode === 'weekly') {
+                const mixedQuestions = getAllQuestionsForGrade(selectedGradeKey);
+                if (assessmentMode === 'timed') {
+                    return mixedQuestions.slice(0, Math.min(20, mixedQuestions.length));
+                }
+                if (assessmentMode === 'weekly') {
+                    return mixedQuestions.slice(0, Math.min(10, mixedQuestions.length));
+                }
+            }
+
+            const gradeData = questionBank[selectedGradeKey] || questionBank.jh1 || [];
+
+            if (Array.isArray(gradeData)) {
+                if (selectedTopicKey) {
+                    const byTopic = gradeData.filter(function (question) {
+                        return String(question?.topic || '').toLowerCase() === selectedTopicKey;
+                    });
+                    if (byTopic.length) return byTopic;
+                }
+                return gradeData;
+            }
+
+            if (gradeData && typeof gradeData === 'object') {
+                if (selectedTopicKey && Array.isArray(gradeData[selectedTopicKey])) {
+                    return gradeData[selectedTopicKey];
+                }
+                const firstTopicKey = Object.keys(gradeData)[0];
+                if (firstTopicKey && Array.isArray(gradeData[firstTopicKey])) {
+                    return gradeData[firstTopicKey];
+                }
+            }
+
+            return [];
+        }
+
+        function getCurrentQuestion() {
+            const gradeQuestions = getSelectedGradeQuestions();
+            return gradeQuestions[currentQuestionIndex] || gradeQuestions[0];
+        }
+
+        function getQuestionType(question) {
+            if (!question || !question.type) return 'mcq';
+            return question.type;
+        }
+
+        function showRows(rows, show) {
+            rows.forEach(function (row) {
+                row.hidden = !show;
+            });
+        }
+
+        function getGraphConfig(question) {
+            const fallback = { xMin: 0, xMax: 10, yMin: 0, yMax: 10, points: [[3, 2]] };
+            if (!question || !question.graph || typeof question.graph !== 'object') {
+                return fallback;
+            }
+            return {
+                xMin: Number.isFinite(question.graph.xMin) ? question.graph.xMin : fallback.xMin,
+                xMax: Number.isFinite(question.graph.xMax) ? question.graph.xMax : fallback.xMax,
+                yMin: Number.isFinite(question.graph.yMin) ? question.graph.yMin : fallback.yMin,
+                yMax: Number.isFinite(question.graph.yMax) ? question.graph.yMax : fallback.yMax,
+                points: Array.isArray(question.graph.points) && question.graph.points.length ? question.graph.points : fallback.points,
+                ordered: Boolean(question.graph.ordered),
+                instruction: typeof question.graph.instruction === 'string' ? question.graph.instruction : '',
+                connectPoints: Boolean(question.graph.connectPoints)
+            };
+        }
+
+        function pointsEqual(a, b) {
+            return Array.isArray(a) && Array.isArray(b) && Number(a[0]) === Number(b[0]) && Number(a[1]) === Number(b[1]);
+        }
+
+        function containsPoint(points, point) {
+            return points.some(function (candidate) {
+                return pointsEqual(candidate, point);
+            });
+        }
+
+        function pointsMatch(expectedPoints, actualPoints, ordered) {
+            if (expectedPoints.length !== actualPoints.length) return false;
+            if (ordered) {
+                return expectedPoints.every(function (expected, idx) {
+                    return pointsEqual(expected, actualPoints[idx]);
+                });
+            }
+            return expectedPoints.every(function (expected) {
+                return containsPoint(actualPoints, expected);
+            });
+        }
+
+        function setGraphPromptText(question) {
+            if (!questionGraphTarget) return;
+            const cfg = getGraphConfig(question);
+            const targetText = cfg.instruction || `Plot ${cfg.points.length} point(s) on the graph.`;
+            questionGraphTarget.textContent = `${targetText} Selected: ${plottedPoints.length}/${cfg.points.length}`;
+        }
+
+        function extractNumbersFromText(text) {
+            const matches = String(text || '').match(/-?\d+(?:\.\d+)?/g) || [];
+            return matches.map(function (value) {
+                return Number(value);
+            }).filter(function (value) {
+                return Number.isFinite(value);
+            });
+        }
+
+        function parseValueListFromPrompt(prompt, keyword) {
+            const pattern = new RegExp(`${keyword}\\s+of\\s+([^.?]+)`, 'i');
+            const match = String(prompt || '').match(pattern);
+            if (!match) return [];
+            return extractNumbersFromText(match[1]);
+        }
+
+        function formatNumber(value) {
+            const num = Number(value);
+            if (!Number.isFinite(num)) return String(value);
+            if (Math.abs(num - Math.round(num)) < 0.0000001) {
+                return String(Math.round(num));
+            }
+            return String(Number(num.toFixed(4)));
+        }
+
+        function formatMathSymbols(expression) {
+            return String(expression || '')
+                .replace(/\s[xX]\s/g, ' × ')
+                .replace(/\//g, ' ÷ ');
+        }
+
+        function mathLine(expression, explanation) {
+            const formattedExpression = formatMathSymbols(expression);
+            if (explanation) {
+                return `<span class="solution-math">${formattedExpression}</span> ${explanation}`;
+            }
+            return `<span class="solution-math">${formattedExpression}</span>`;
+        }
+
+        function buildComputationSteps(prompt, finalAnswer) {
+            const lowerPrompt = String(prompt || '').toLowerCase();
+            const nums = extractNumbersFromText(prompt);
+            const final = formatNumber(finalAnswer);
+
+            const fracAddMatch = String(prompt || '').match(/(\d+)\/(\d+)\s*\+\s*(\d+)\/(\d+)/);
+            if (fracAddMatch) {
+                const n1 = Number(fracAddMatch[1]);
+                const d1 = Number(fracAddMatch[2]);
+                const n2 = Number(fracAddMatch[3]);
+                const d2 = Number(fracAddMatch[4]);
+                return [
+                    mathLine(`${n1}/${d1} + ${n2}/${d2}`),
+                    d1 === d2
+                        ? mathLine(`= (${n1} + ${n2})/${d1} = ${n1 + n2}/${d1}`)
+                        : mathLine(`= (${n1} x ${d2} + ${n2} x ${d1})/${d1}x${d2}`),
+                    mathLine(`Result = ${final}`)
+                ];
+            }
+
+            const percentMatch = String(prompt || '').match(/(\d+(?:\.\d+)?)%\s*of\s*(\d+(?:\.\d+)?)/i);
+            if (percentMatch) {
+                const p = Number(percentMatch[1]);
+                const n = Number(percentMatch[2]);
+                const asDecimal = p / 100;
+                const product = asDecimal * n;
+                return [
+                    mathLine(`${formatNumber(p)}% = ${formatNumber(p)}/100 = ${formatNumber(asDecimal)}`),
+                    mathLine(`${formatNumber(asDecimal)} x ${formatNumber(n)} = ${formatNumber(product)}`),
+                    mathLine(`${formatNumber(p)}% of ${formatNumber(n)} = ${final}`)
+                ];
+            }
+
+            if (lowerPrompt.includes('area') && lowerPrompt.includes('rectangle') && nums.length >= 2) {
+                const l = nums[0];
+                const w = nums[1];
+                const area = l * w;
+                return [
+                    mathLine('A = l x w', 'Use rectangle area formula.'),
+                    mathLine(`A = ${formatNumber(l)} x ${formatNumber(w)}`),
+                    mathLine(`A = ${formatNumber(area)} = ${final}`)
+                ];
+            }
+
+            if (lowerPrompt.includes('perimeter') && lowerPrompt.includes('rectangle') && nums.length >= 2) {
+                const l = nums[0];
+                const w = nums[1];
+                const sum = l + w;
+                const p = 2 * sum;
+                return [
+                    mathLine('P = 2(l + w)', 'Use rectangle perimeter formula.'),
+                    mathLine(`P = 2(${formatNumber(l)} + ${formatNumber(w)}) = 2(${formatNumber(sum)})`),
+                    mathLine(`P = ${formatNumber(p)} = ${final}`)
+                ];
+            }
+
+            if (lowerPrompt.includes('perimeter') && lowerPrompt.includes('square') && nums.length >= 1) {
+                const s = nums[0];
+                const p = 4 * s;
+                return [
+                    mathLine('P = 4s', 'Use square perimeter formula.'),
+                    mathLine(`P = 4 x ${formatNumber(s)} = ${formatNumber(p)}`),
+                    mathLine(`Result = ${final}`)
+                ];
+            }
+
+            if (lowerPrompt.includes('area') && lowerPrompt.includes('triangle') && nums.length >= 2) {
+                const b = nums[0];
+                const h = nums[1];
+                const a = (b * h) / 2;
+                return [
+                    mathLine('A = (1/2)bh', 'Use triangle area formula.'),
+                    mathLine(`A = (1/2) x ${formatNumber(b)} x ${formatNumber(h)} = ${formatNumber(a)}`),
+                    mathLine(`Result = ${final}`)
+                ];
+            }
+
+            if (lowerPrompt.includes('median of')) {
+                const values = parseValueListFromPrompt(prompt, 'median');
+                if (values.length) {
+                    const ordered = values.slice().sort(function (a, b) {
+                        return a - b;
+                    });
+                    const mid = Math.floor(ordered.length / 2);
+                    return [
+                        mathLine(`Data = {${values.map(formatNumber).join(', ')}}`),
+                        mathLine(`Ordered = {${ordered.map(formatNumber).join(', ')}}`),
+                        ordered.length % 2 === 1
+                            ? mathLine(`Median = value_${mid + 1} = ${formatNumber(ordered[mid])} = ${final}`)
+                            : mathLine(`Median = (value_${mid} + value_${mid + 1})/2 = ${final}`)
+                    ];
+                }
+            }
+
+            if (lowerPrompt.includes('mean of')) {
+                const values = parseValueListFromPrompt(prompt, 'mean');
+                if (values.length) {
+                    const sum = values.reduce(function (acc, item) {
+                        return acc + item;
+                    }, 0);
+                    return [
+                        mathLine(`Data = {${values.map(formatNumber).join(', ')}}`),
+                        mathLine(`Sum = ${values.map(formatNumber).join(' + ')} = ${formatNumber(sum)}`),
+                        mathLine(`Mean = ${formatNumber(sum)}/${values.length} = ${final}`)
+                    ];
+                }
+            }
+
+            if (lowerPrompt.includes('mode of')) {
+                const values = parseValueListFromPrompt(prompt, 'mode');
+                if (values.length) {
+                    return [
+                        mathLine('Mode = value with the highest frequency'),
+                        mathLine('Count occurrences of each value in the list.'),
+                        mathLine(`Mode = ${final}`)
+                    ];
+                }
+            }
+
+            if (lowerPrompt.includes('range of')) {
+                const values = nums.slice();
+                if (values.length >= 2) {
+                    const max = Math.max.apply(null, values);
+                    const min = Math.min.apply(null, values);
+                    const range = max - min;
+                    return [
+                        mathLine(`Range = max - min`),
+                        mathLine(`Range = ${formatNumber(max)} - ${formatNumber(min)} = ${formatNumber(range)}`),
+                        mathLine(`Result = ${final}`)
+                    ];
+                }
+            }
+
+            const decimalToPercent = String(prompt || '').match(/convert\s+(-?\d+(?:\.\d+)?)\s+to\s+a\s+percent/i);
+            if (decimalToPercent) {
+                const dec = Number(decimalToPercent[1]);
+                const pct = dec * 100;
+                return [
+                    mathLine(`Percent = decimal x 100%`),
+                    mathLine(`Percent = ${formatNumber(dec)} x 100% = ${formatNumber(pct)}%`),
+                    mathLine(`Result = ${final}`)
+                ];
+            }
+
+            const fracToDecimal = String(prompt || '').match(/write\s+(\d+)\/(\d+)\s+as\s+a\s+decimal/i);
+            if (fracToDecimal) {
+                const n = Number(fracToDecimal[1]);
+                const d = Number(fracToDecimal[2]);
+                const dec = n / d;
+                return [
+                    mathLine(`Decimal = numerator ÷ denominator`),
+                    mathLine(`Decimal = ${n}/${d} = ${formatNumber(dec)}`),
+                    mathLine(`Result = ${final}`)
+                ];
+            }
+
+            const ratioMatch = String(prompt || '').match(/equivalent\s+to\s*(\d+)\s*:\s*(\d+)/i);
+            if (ratioMatch) {
+                const a = Number(ratioMatch[1]);
+                const b = Number(ratioMatch[2]);
+                const finalRatioMatch = String(final).match(/(\d+)\s*:\s*(\d+)/);
+                if (finalRatioMatch) {
+                    const c = Number(finalRatioMatch[1]);
+                    const d = Number(finalRatioMatch[2]);
+                    const k = a !== 0 ? c / a : null;
+                    return [
+                        mathLine(`Equivalent ratios multiply both terms by same factor k.`),
+                        k && b * k === d
+                            ? mathLine(`${a}:${b} x ${formatNumber(k)} = ${c}:${d}`)
+                            : mathLine(`${a}/${b} = ${c}/${d}`),
+                        mathLine(`Result = ${final}`)
+                    ];
+                }
+            }
+
+            if (lowerPrompt.includes('probability') && lowerPrompt.includes('odd number') && lowerPrompt.includes('die')) {
+                return [
+                    mathLine('Sample space on a die = {1,2,3,4,5,6}'),
+                    mathLine('Odd outcomes = {1,3,5} so favorable = 3, total = 6'),
+                    mathLine(`P(odd) = 3/6 = 1/2 = ${final}`)
+                ];
+            }
+
+            const addMatch = String(prompt || '').match(/(-?\d+(?:\.\d+)?)\s*\+\s*(-?\d+(?:\.\d+)?)/);
+            if (addMatch) {
+                const a = Number(addMatch[1]);
+                const b = Number(addMatch[2]);
+                const total = a + b;
+                return [
+                    mathLine(`${formatNumber(a)} + ${formatNumber(b)} = ${formatNumber(total)}`),
+                    mathLine(`Result = ${formatNumber(total)}`),
+                    mathLine(`Final = ${final}`)
+                ];
+            }
+
+            const subMatch = String(prompt || '').match(/(-?\d+(?:\.\d+)?)\s*-\s*(-?\d+(?:\.\d+)?)/);
+            if (subMatch) {
+                const a = Number(subMatch[1]);
+                const b = Number(subMatch[2]);
+                const diff = a - b;
+                return [
+                    mathLine(`${formatNumber(a)} - ${formatNumber(b)} = ${formatNumber(diff)}`),
+                    mathLine(`Result = ${formatNumber(diff)}`),
+                    mathLine(`Final = ${final}`)
+                ];
+            }
+
+            const mulMatch = String(prompt || '').match(/(-?\d+(?:\.\d+)?)\s*(?:x|\*)\s*(-?\d+(?:\.\d+)?)/i);
+            if (mulMatch) {
+                const a = Number(mulMatch[1]);
+                const b = Number(mulMatch[2]);
+                const product = a * b;
+                return [
+                    mathLine(`${formatNumber(a)} x ${formatNumber(b)} = ${formatNumber(product)}`),
+                    mathLine(`Product = ${formatNumber(product)}`),
+                    mathLine(`Final = ${final}`)
+                ];
+            }
+
+            const divMatch = String(prompt || '').match(/(-?\d+(?:\.\d+)?)\s*\/\s*(-?\d+(?:\.\d+)?)/);
+            if (divMatch) {
+                const a = Number(divMatch[1]);
+                const b = Number(divMatch[2]);
+                const quotient = a / b;
+                return [
+                    mathLine(`${formatNumber(a)} / ${formatNumber(b)} = ${formatNumber(quotient)}`),
+                    mathLine(`Quotient = ${formatNumber(quotient)}`),
+                    mathLine(`Final = ${final}`)
+                ];
+            }
+
+            const eqAddMatch = String(prompt || '').match(/x\s*\+\s*(-?\d+(?:\.\d+)?)\s*=\s*(-?\d+(?:\.\d+)?)/i);
+            if (eqAddMatch) {
+                const a = Number(eqAddMatch[1]);
+                const b = Number(eqAddMatch[2]);
+                const x = b - a;
+                return [
+                    mathLine(`x + ${formatNumber(a)} = ${formatNumber(b)}`),
+                    mathLine(`x = ${formatNumber(b)} - ${formatNumber(a)} = ${formatNumber(x)}`),
+                    mathLine(`x = ${final}`)
+                ];
+            }
+
+            const eqMulMatch = String(prompt || '').match(/(-?\d+(?:\.\d+)?)x\s*=\s*(-?\d+(?:\.\d+)?)/i);
+            if (eqMulMatch) {
+                const a = Number(eqMulMatch[1]);
+                const b = Number(eqMulMatch[2]);
+                const x = b / a;
+                return [
+                    mathLine(`${formatNumber(a)}x = ${formatNumber(b)}`),
+                    mathLine(`x = ${formatNumber(b)}/${formatNumber(a)} = ${formatNumber(x)}`),
+                    mathLine(`x = ${final}`)
+                ];
+            }
+
+            return [
+                mathLine('Method = identify operation from prompt'),
+                mathLine('Substitute given values into formula/equation'),
+                mathLine(`Result = ${final}`)
+            ];
+        }
+
+        function getQuestionSolutionLines(question) {
+            const type = getQuestionType(question);
+            const prompt = String(question?.prompt || '');
+            const lines = [];
+
+            if (type === 'graph') {
+                const cfg = getGraphConfig(question);
+                const pointsText = cfg.points.map(function (p) {
+                    return `(${p[0]}, ${p[1]})`;
+                }).join(', ');
+                lines.push(`Required coordinates: ${pointsText}.`);
+                lines.push('Use the x-axis to move horizontally first, then move vertically on the y-axis.');
+                lines.push('Plot each coordinate exactly at the grid intersection and verify all required points are present.');
+                lines.push(`Result = correct plotted point(s): ${pointsText}.`);
+                return lines;
+            }
+
+            const finalValue = type === 'input'
+                ? String(question.answerValue ?? '').trim()
+                : (Array.isArray(question.options) && Number.isInteger(question.correctIndex)
+                    ? String(question.options[question.correctIndex] ?? '').trim()
+                    : '');
+
+            if (finalValue) {
+                lines.push(...buildComputationSteps(prompt, finalValue));
+            }
+
+            if (type === 'input') {
+                return lines;
+            }
+
+            return lines;
+        }
+
+        function drawGraphGrid(question) {
+            if (!questionGraphCanvas) return;
+            const ctx = questionGraphCanvas.getContext('2d');
+            if (!ctx) return;
+            const cfg = getGraphConfig(question);
+            const width = questionGraphCanvas.width;
+            const height = questionGraphCanvas.height;
+
+            ctx.clearRect(0, 0, width, height);
+            ctx.fillStyle = '#ffffff';
+            ctx.fillRect(0, 0, width, height);
+
+            const margin = 26;
+            const gridW = width - margin * 2;
+            const gridH = height - margin * 2;
+
+            ctx.strokeStyle = '#cfe0f0';
+            ctx.lineWidth = 1;
+            for (let i = cfg.xMin; i <= cfg.xMax; i += 1) {
+                const x = margin + ((i - cfg.xMin) / (cfg.xMax - cfg.xMin)) * gridW;
+                ctx.beginPath();
+                ctx.moveTo(x, margin);
+                ctx.lineTo(x, margin + gridH);
+                ctx.stroke();
+
+                ctx.strokeStyle = '#7d97b2';
+                ctx.lineWidth = 1;
+                ctx.beginPath();
+                ctx.moveTo(x, margin + gridH);
+                ctx.lineTo(x, margin + gridH + 4);
+                ctx.stroke();
+                ctx.strokeStyle = '#cfe0f0';
+            }
+
+            for (let j = cfg.yMin; j <= cfg.yMax; j += 1) {
+                const y = margin + gridH - ((j - cfg.yMin) / (cfg.yMax - cfg.yMin)) * gridH;
+                ctx.beginPath();
+                ctx.moveTo(margin, y);
+                ctx.lineTo(margin + gridW, y);
+                ctx.stroke();
+
+                ctx.strokeStyle = '#7d97b2';
+                ctx.lineWidth = 1;
+                ctx.beginPath();
+                ctx.moveTo(margin - 4, y);
+                ctx.lineTo(margin, y);
+                ctx.stroke();
+                ctx.strokeStyle = '#cfe0f0';
+            }
+
+            ctx.strokeStyle = '#4e6f8d';
+            ctx.lineWidth = 2;
+            ctx.beginPath();
+            ctx.moveTo(margin, margin + gridH);
+            ctx.lineTo(margin + gridW, margin + gridH);
+            ctx.stroke();
+            ctx.beginPath();
+            ctx.moveTo(margin, margin + gridH);
+            ctx.lineTo(margin, margin);
+            ctx.stroke();
+
+            ctx.fillStyle = '#2f5679';
+            ctx.font = '11px Segoe UI, Arial, sans-serif';
+            ctx.fillText('x', margin + gridW + 8, margin + gridH + 3);
+            ctx.fillText('y', margin - 10, margin - 8);
+
+            ctx.fillStyle = '#355d83';
+            ctx.font = '10px Segoe UI, Arial, sans-serif';
+            for (let i = cfg.xMin; i <= cfg.xMax; i += 1) {
+                const x = margin + ((i - cfg.xMin) / (cfg.xMax - cfg.xMin)) * gridW;
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'top';
+                ctx.fillText(String(i), x, margin + gridH + 6);
+            }
+
+            for (let j = cfg.yMin; j <= cfg.yMax; j += 1) {
+                const y = margin + gridH - ((j - cfg.yMin) / (cfg.yMax - cfg.yMin)) * gridH;
+                ctx.textAlign = 'right';
+                ctx.textBaseline = 'middle';
+                ctx.fillText(String(j), margin - 7, y);
+            }
+
+            function toCanvasPoints(points) {
+                return points.map(function (point) {
+                    const px = margin + ((Number(point[0]) - cfg.xMin) / (cfg.xMax - cfg.xMin)) * gridW;
+                    const py = margin + gridH - ((Number(point[1]) - cfg.yMin) / (cfg.yMax - cfg.yMin)) * gridH;
+                    return [px, py];
+                });
+            }
+
+            function drawConnectedLine(points, color) {
+                if (!cfg.connectPoints || points.length < 2) return;
+                ctx.strokeStyle = color;
+                ctx.lineWidth = 2;
+                ctx.beginPath();
+                ctx.moveTo(points[0][0], points[0][1]);
+                points.slice(1).forEach(function (pt) {
+                    ctx.lineTo(pt[0], pt[1]);
+                });
+                ctx.stroke();
+            }
+
+            if (showGraphSolution) {
+                const solutionPoints = toCanvasPoints(cfg.points);
+                drawConnectedLine(solutionPoints, '#2e7d32');
+
+                solutionPoints.forEach(function (pt) {
+                    ctx.fillStyle = '#2e7d32';
+                    ctx.beginPath();
+                    ctx.arc(pt[0], pt[1], 5, 0, Math.PI * 2);
+                    ctx.fill();
+                });
+            }
+
+            const plottedCanvasPoints = toCanvasPoints(plottedPoints);
+            drawConnectedLine(plottedCanvasPoints, '#d9534f');
+
+            plottedPoints.forEach(function (point) {
+                const x = margin + ((point[0] - cfg.xMin) / (cfg.xMax - cfg.xMin)) * gridW;
+                const y = margin + gridH - ((point[1] - cfg.yMin) / (cfg.yMax - cfg.yMin)) * gridH;
+                ctx.fillStyle = '#d9534f';
+                ctx.beginPath();
+                ctx.arc(x, y, 5, 0, Math.PI * 2);
+                ctx.fill();
+            });
+        }
+
+        function toGraphPoint(event, question) {
+            if (!questionGraphCanvas) return null;
+            const cfg = getGraphConfig(question);
+            const rect = questionGraphCanvas.getBoundingClientRect();
+            const xPx = event.clientX - rect.left;
+            const yPx = event.clientY - rect.top;
+            const margin = 26;
+            const gridW = questionGraphCanvas.width - margin * 2;
+            const gridH = questionGraphCanvas.height - margin * 2;
+
+            const xRatio = (xPx - margin) / gridW;
+            const yRatio = (yPx - margin) / gridH;
+
+            const x = Math.round(cfg.xMin + xRatio * (cfg.xMax - cfg.xMin));
+            const y = Math.round(cfg.yMax - yRatio * (cfg.yMax - cfg.yMin));
+
+            if (x < cfg.xMin || x > cfg.xMax || y < cfg.yMin || y > cfg.yMax) {
+                return null;
+            }
+
+            return [x, y];
+        }
+
+        function markFeedbackSuccess() {
+            feedbackBtn.textContent = 'Great job! You got it right';
+            feedbackBtn.classList.add('is-success');
+            feedbackBtn.classList.remove('is-danger');
+            wrongAttempts = 0;
+            hasCurrentCorrectAnswer = true;
+            const solvedSet = getSolvedSetForSelection();
+            solvedSet.add(currentQuestionIndex);
+            savePracticeProgress();
+            const gradeQuestions = getSelectedGradeQuestions();
+            const selectionKey = getSelectionKey();
+            if (!completionPopupShownBySelection[selectionKey] && gradeQuestions.length > 0 && solvedSet.size === gradeQuestions.length) {
+                showCongratsPopup();
+                completionPopupShownBySelection[selectionKey] = true;
+            }
+            syncProgressAndGoalsUI();
+            if (solutionStepsTable) {
+                solutionStepsTable.hidden = true;
+                solutionStepsTable.classList.add('is-locked');
+            }
+        }
+
+        function markFeedbackFailure() {
+            wrongAttempts += 1;
+            feedbackBtn.textContent = 'Try again! That answer is not correct';
+            feedbackBtn.classList.add('is-danger');
+            feedbackBtn.classList.remove('is-success');
+            hasCurrentCorrectAnswer = false;
+            if (solutionStepsTable) {
+                if (wrongAttempts >= 2) {
+                    solutionStepsTable.hidden = false;
+                    solutionStepsTable.classList.remove('is-locked');
+                } else {
+                    solutionStepsTable.hidden = true;
+                    solutionStepsTable.classList.add('is-locked');
+                }
+            }
+            hideCongratsPopup();
+        }
+
+        function evaluateCurrentQuestion() {
+            const question = getCurrentQuestion();
+            if (!question) return;
+            const type = getQuestionType(question);
+
+            if (type === 'input') {
+                const typed = (questionDirectInput?.value || '').trim();
+                if (!typed) {
+                    feedbackBtn.textContent = 'Enter an answer first';
+                    feedbackBtn.classList.remove('is-success');
+                    feedbackBtn.classList.add('is-danger');
+                    return;
+                }
+                const expected = String(question.answerValue ?? question.options?.[question.correctIndex] ?? '').trim();
+                const typedNum = Number(typed);
+                const expectedNum = Number(expected);
+                const isNumericMatch = Number.isFinite(typedNum) && Number.isFinite(expectedNum) && Math.abs(typedNum - expectedNum) < 0.0001;
+                const isTextMatch = typed.toLowerCase() === expected.toLowerCase();
+                if (isNumericMatch || isTextMatch) {
+                    markFeedbackSuccess();
+                } else {
+                    markFeedbackFailure();
+                }
+                return;
+            }
+
+            if (type === 'graph') {
+                const cfg = getGraphConfig(question);
+                const expectedPoints = cfg.points.map(function (p) {
+                    return [Number(p[0]), Number(p[1])];
+                });
+                if (plottedPoints.length < expectedPoints.length) {
+                    feedbackBtn.textContent = `Plot all required points first (${plottedPoints.length}/${expectedPoints.length})`;
+                    feedbackBtn.classList.remove('is-success');
+                    feedbackBtn.classList.add('is-danger');
+                    return;
+                }
+                const matched = pointsMatch(expectedPoints, plottedPoints, cfg.ordered);
+                if (matched) {
+                    markFeedbackSuccess();
+                } else {
+                    markFeedbackFailure();
+                    if (wrongAttempts >= 2) {
+                        showGraphSolution = true;
+                        drawGraphGrid(question);
+                        setGraphPromptText(question);
+                    }
+                }
+                return;
+            }
+
+            const selectedOption = Array.from(answerOptions).find(function (input) {
+                return input.checked;
+            });
+            if (!selectedOption) {
+                feedbackBtn.textContent = 'Choose an option first';
+                feedbackBtn.classList.remove('is-success');
+                feedbackBtn.classList.add('is-danger');
+                return;
+            }
+            if (selectedOption.dataset.correct === 'true') {
+                markFeedbackSuccess();
+            } else {
+                markFeedbackFailure();
+            }
+        }
+
+        function renderCurrentQuestion() {
+            const gradeQuestions = getSelectedGradeQuestions();
+            const question = gradeQuestions[currentQuestionIndex] || gradeQuestions[0];
+            if (!question) {
+                if (questionHeaderBtn) {
+                    questionHeaderBtn.textContent = 'Question 0 of 0';
+                }
+                if (questionPrompt) {
+                    questionPrompt.innerHTML = '<strong>No questions available for this topic yet.</strong>';
+                }
+                updateActiveTopicLabel();
+                updateAssessmentVisuals('mcq', 0);
+                syncProgressAndGoalsUI();
+                showRows(answerRows, false);
+                if (questionInputRow) {
+                    questionInputRow.hidden = true;
+                }
+                if (questionGraphRow) {
+                    questionGraphRow.hidden = true;
+                }
+                if (solutionStepsTable) {
+                    solutionStepsTable.hidden = true;
+                }
+                return;
+            }
+            const questionType = getQuestionType(question);
+
+            gradeButtons.forEach(function (button) {
+                button.classList.toggle('is-active', button.dataset.grade === selectedGradeKey);
+            });
+
+            if (questionHeaderBtn) {
+                questionHeaderBtn.textContent = `Question ${currentQuestionIndex + 1} of ${gradeQuestions.length}`;
+            }
+
+            updateActiveTopicLink();
+            updateActiveTopicLabel();
+            updateAssessmentVisuals(questionType, gradeQuestions.length);
+            syncProgressAndGoalsUI();
+
+            if (questionPrompt) {
+                const metaLine = getPastQuestionMeta(question);
+                if (metaLine) {
+                    questionPrompt.innerHTML = `<span class="practice-question-meta">${metaLine}</span><br><strong>${question.prompt}</strong>`;
+                } else {
+                    questionPrompt.innerHTML = `<strong>${question.prompt}</strong>`;
+                }
+            }
+
+            answerOptions.forEach(function (input, index) {
+                input.checked = false;
+                if (index === question.correctIndex) {
+                    input.setAttribute('data-correct', 'true');
+                } else {
+                    input.removeAttribute('data-correct');
+                }
+
+                const answerText = input.closest('label')?.querySelector('.question-answer-text');
+                if (answerText) {
+                    answerText.textContent = question.options?.[index] || '';
+                }
+            });
+
+            showRows(answerRows, questionType === 'mcq');
+            if (questionInputRow) {
+                questionInputRow.hidden = questionType !== 'input';
+            }
+            if (questionDirectInput) {
+                questionDirectInput.value = '';
+            }
+            if (questionGraphRow) {
+                questionGraphRow.hidden = questionType !== 'graph';
+            }
+            plottedPoints = [];
+            showGraphSolution = false;
+            if (questionType === 'graph') {
+                setGraphPromptText(question);
+                drawGraphGrid(question);
+            }
+
+            if (solutionStepsTable) {
+                const solutionBody = solutionStepsTable.querySelector('tbody');
+                if (solutionBody) {
+                    const solutionLines = getQuestionSolutionLines(question);
+                    solutionBody.innerHTML = solutionLines
+                        .map(function (step, idx) {
+                            return `<tr><td><strong>Step ${idx + 1}:</strong> ${step}</td></tr>`;
+                        })
+                        .join('');
+                }
+                solutionStepsTable.hidden = true;
+                solutionStepsTable.classList.add('is-locked');
+            }
+
+            wrongAttempts = 0;
+            hasCurrentCorrectAnswer = false;
+            feedbackBtn.textContent = 'Submit';
+            feedbackBtn.classList.remove('is-success', 'is-danger');
+            hideCongratsPopup();
+            hideErrorPopup();
+        }
+
+        hideCongratsPopup();
+
+        if (gradeButtons.length) {
+            gradeButtons.forEach(function (button) {
+                button.addEventListener('click', function () {
+                    selectedGradeKey = button.dataset.grade || 'jh1';
+                    if (assessmentMode === 'topic' || assessmentMode === 'past') {
+                        selectedTopicKey = getFirstTopicForGrade(selectedGradeKey) || selectedTopicKey;
+                    }
+                    currentQuestionIndex = 0;
+                    renderCurrentQuestion();
+                });
+            });
+        }
+
+        if (questionHeaderBtn) {
+            questionHeaderBtn.addEventListener('click', function () {
+                const gradeQuestions = getSelectedGradeQuestions();
+                if (!gradeQuestions.length) return;
+                currentQuestionIndex = (currentQuestionIndex + 1) % gradeQuestions.length;
+                renderCurrentQuestion();
+            });
+        }
+
+        if (topicLinks.length) {
+            Array.from(topicLinks).forEach(function (link) {
+                link.addEventListener('click', function (event) {
+                    event.preventDefault();
+                    try {
+                        const url = new URL(link.href, window.location.origin);
+                        const grade = (url.searchParams.get('grade') || '').toLowerCase();
+                        const topic = (url.searchParams.get('topic') || '').toLowerCase();
+                        if (!grade || !topic) return;
+                        if (assessmentMode !== 'past') {
+                            assessmentMode = 'topic';
+                        }
+                        selectedGradeKey = grade;
+                        selectedTopicKey = topic;
+                        currentQuestionIndex = 0;
+                        window.history.replaceState({}, '', `Assessments.html?grade=${grade}&topic=${topic}`);
+                        renderCurrentQuestion();
+                    } catch (_error) {
+                        // Ignore malformed URLs in nav links.
+                    }
+                });
+            });
+        }
+
+        if (answerOptions.length) {
+            answerOptions.forEach(function (option) {
+                option.addEventListener('change', function () {
+                    if (option.checked) {
+                        answerOptions.forEach(function (otherOption) {
+                            if (otherOption !== option) {
+                                otherOption.checked = false;
+                            }
+                        });
+                    }
+                    feedbackBtn.classList.remove('is-success', 'is-danger');
+                    feedbackBtn.textContent = 'Submit';
+                    hasCurrentCorrectAnswer = false;
+                    hideCongratsPopup();
+                    hideErrorPopup();
+                });
+            });
+        }
+
+        if (questionDirectInput) {
+            questionDirectInput.addEventListener('input', function () {
+                feedbackBtn.classList.remove('is-success', 'is-danger');
+                feedbackBtn.textContent = 'Submit';
+                hasCurrentCorrectAnswer = false;
+                hideErrorPopup();
+            });
+        }
+
+        if (questionGraphCanvas) {
+            questionGraphCanvas.addEventListener('click', function (event) {
+                const question = getCurrentQuestion();
+                if (getQuestionType(question) !== 'graph') return;
+                const point = toGraphPoint(event, question);
+                if (!point) return;
+                const cfg = getGraphConfig(question);
+                if (!containsPoint(plottedPoints, point)) {
+                    if (plottedPoints.length < cfg.points.length) {
+                        plottedPoints.push(point);
+                    } else {
+                        plottedPoints[plottedPoints.length - 1] = point;
+                    }
+                }
+                showGraphSolution = false;
+                drawGraphGrid(question);
+                setGraphPromptText(question);
+                feedbackBtn.classList.remove('is-success', 'is-danger');
+                feedbackBtn.textContent = 'Submit';
+                hasCurrentCorrectAnswer = false;
+                hideCongratsPopup();
+                hideErrorPopup();
+            });
+        }
+
+        if (questionGraphClearBtn) {
+            questionGraphClearBtn.addEventListener('click', function () {
+                plottedPoints = [];
+                showGraphSolution = false;
+                drawGraphGrid(getCurrentQuestion());
+                setGraphPromptText(getCurrentQuestion());
+                feedbackBtn.classList.remove('is-success', 'is-danger');
+                feedbackBtn.textContent = 'Submit';
+                hasCurrentCorrectAnswer = false;
+                hideCongratsPopup();
+                hideErrorPopup();
+            });
+        }
+
+        if (feedbackBtn) {
+            feedbackBtn.addEventListener('click', function () {
+                evaluateCurrentQuestion();
+            });
+        }
+
+        function activateAssessmentMode(mode) {
+            assessmentMode = mode;
+            currentQuestionIndex = 0;
+            if (mode === 'topic' || mode === 'past') {
+                selectedTopicKey = getFirstTopicForGrade(selectedGradeKey) || selectedTopicKey;
+            } else {
+                selectedTopicKey = null;
+            }
+            if (selectedTopicKey) {
+                window.history.replaceState({}, '', `Assessments.html?grade=${selectedGradeKey}&topic=${selectedTopicKey}`);
+            } else {
+                window.history.replaceState({}, '', `Assessments.html?grade=${selectedGradeKey}`);
+            }
+            renderCurrentQuestion();
+        }
+
+        if (timedModeBtn) {
+            timedModeBtn.addEventListener('click', function () {
+                activateAssessmentMode('timed');
+            });
+        }
+
+        if (mockModeBtn) {
+            mockModeBtn.addEventListener('click', function () {
+                activateAssessmentMode('mock');
+            });
+        }
+
+        if (pastModeBtn) {
+            pastModeBtn.addEventListener('click', function () {
+                activateAssessmentMode('past');
+            });
+        }
+
+        if (weeklyModeBtn) {
+            weeklyModeBtn.addEventListener('click', function () {
+                activateAssessmentMode('weekly');
+            });
+        }
+
+        if (nextQuestionBtn) {
+            nextQuestionBtn.addEventListener('click', function () {
+                if (!hasCurrentCorrectAnswer) {
+                    feedbackBtn.textContent = 'Solve this question correctly before moving on';
+                    feedbackBtn.classList.add('is-danger');
+                    feedbackBtn.classList.remove('is-success');
+                    return;
+                }
+
+                hideCongratsPopup();
+
+                const gradeQuestions = getSelectedGradeQuestions();
+                if (!gradeQuestions.length) return;
+                currentQuestionIndex = (currentQuestionIndex + 1) % gradeQuestions.length;
+                renderCurrentQuestion();
+            });
+        }
+
+        async function initPracticeQuestions() {
+            try {
+                await loadQuestionBank();
+            } catch (error) {
+                console.error('Question database load failed:', error);
+                if (questionPrompt) {
+                    questionPrompt.innerHTML = '<strong>Could not load question database. Showing fallback question.</strong>';
+                }
+            }
+
+            const searchParams = new URLSearchParams(window.location.search);
+            const initialGrade = (searchParams.get('grade') || '').toLowerCase();
+            const initialTopic = (searchParams.get('topic') || '').toLowerCase();
+            if (initialGrade) {
+                selectedGradeKey = initialGrade;
+            }
+            selectedTopicKey = initialTopic || getFirstTopicForGrade(selectedGradeKey);
+            if (selectedGradeKey === 'jh1' && selectedTopicKey === 'data-and-charts') {
+                selectedTopicKey = 'data';
+            }
+            loadPracticeProgress();
+            updateActiveTopicLink();
+            updateActiveTopicLabel();
+            updateActiveModeLabel();
+
+            renderCurrentQuestion();
+        }
+
+        initPracticeQuestions();
+
+        if (progressTrack && progressFill && progressValue) {
+            progressTrack.setAttribute('tabindex', '-1');
+            progressTrack.setAttribute('aria-label', 'Weekly progress');
+        }
+
+        modePieItems.forEach(function (pieItem) {
+            pieItem.setAttribute('tabindex', '-1');
+            const label = pieItem.querySelector('.practice-mode-pie-label')?.textContent || 'Assessment';
+            setModePieValue(pieItem, 0, label);
+        });
+    </script>
+</body>
+
+</html>

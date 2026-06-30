@@ -54,9 +54,9 @@
                     <li class="dropdown">
                         <button class="dropbtn" aria-expanded="false">Assessments</button>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Quizzes</a></li>
-                            <li><a href="#">Exams</a></li>
-                            <li><a href="#">Results</a></li>
+                            <li><a href="#">Primary</a></li>
+                            <li><a href="Assessments.html">Junior High</a></li>
+                            <li><a href="#">Senior High</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -189,6 +189,102 @@
                 </div>
             </div>
         </section>
+
+        <section class="teacher-admin-section" aria-label="Question database admin tools">
+            <div class="teacher-admin-wrap">
+                <h3 class="teacher-admin-title">Question Database Admin</h3>
+                <p class="teacher-admin-subtitle">Add a question and download an updated questions.json file.</p>
+
+                <form id="teacher-question-form" class="teacher-admin-form">
+                    <div class="teacher-admin-grid">
+                        <label for="teacher-grade">Grade</label>
+                        <select id="teacher-grade" required>
+                            <option value="p1">P1</option>
+                            <option value="p2">P2</option>
+                            <option value="p3">P3</option>
+                            <option value="p4">P4</option>
+                            <option value="p5">P5</option>
+                            <option value="p6">P6</option>
+                        </select>
+
+                        <label for="teacher-correct-index">Correct Answer Position</label>
+                        <select id="teacher-correct-index" required>
+                            <option value="0">Option 1</option>
+                            <option value="1">Option 2</option>
+                            <option value="2">Option 3</option>
+                            <option value="3">Option 4</option>
+                        </select>
+                    </div>
+
+                    <label for="teacher-prompt">Question Prompt</label>
+                    <input id="teacher-prompt" type="text" placeholder="Example: Solve: 14 + 9 = ?" required>
+
+                    <div class="teacher-admin-grid teacher-admin-grid-options">
+                        <div>
+                            <label for="teacher-option-1">Option 1</label>
+                            <input id="teacher-option-1" type="text" required>
+                        </div>
+                        <div>
+                            <label for="teacher-option-2">Option 2</label>
+                            <input id="teacher-option-2" type="text" required>
+                        </div>
+                        <div>
+                            <label for="teacher-option-3">Option 3</label>
+                            <input id="teacher-option-3" type="text" required>
+                        </div>
+                        <div>
+                            <label for="teacher-option-4">Option 4</label>
+                            <input id="teacher-option-4" type="text" required>
+                        </div>
+                    </div>
+
+                    <label for="teacher-steps">Solution Steps (one step per line)</label>
+                    <textarea id="teacher-steps" rows="5"
+                        placeholder="Step 1 description&#10;Step 2 description&#10;Step 3 description"
+                        required></textarea>
+
+                    <div class="teacher-admin-actions">
+                        <button type="submit" class="btn btn-join" id="teacher-submit-btn">Add Question</button>
+                        <button type="button" class="btn btn-signin" id="teacher-cancel-edit" hidden>Cancel
+                            Edit</button>
+                        <button type="button" class="btn btn-signin" id="teacher-download-json">Download
+                            questions.json</button>
+                        <button type="button" class="btn btn-signin" id="teacher-copy-json">Copy JSON</button>
+                    </div>
+                </form>
+
+                <p id="teacher-editing-status" class="teacher-admin-editing-status" hidden></p>
+
+                <div class="teacher-admin-toolbar" aria-label="Search and import controls">
+                    <label for="teacher-filter-grade">Filter Grade</label>
+                    <select id="teacher-filter-grade">
+                        <option value="all">All Grades</option>
+                        <option value="p1">P1</option>
+                        <option value="p2">P2</option>
+                        <option value="p3">P3</option>
+                        <option value="p4">P4</option>
+                        <option value="p5">P5</option>
+                        <option value="p6">P6</option>
+                    </select>
+
+                    <label for="teacher-search-keyword">Search</label>
+                    <input id="teacher-search-keyword" type="search" placeholder="Search prompt, options, or steps...">
+
+                    <button type="button" class="btn btn-signin" id="teacher-import-btn">Import questions.json</button>
+                    <button type="button" class="btn btn-signin" id="teacher-delete-filtered">Delete Filtered</button>
+                    <input id="teacher-import-json" type="file" accept="application/json,.json" hidden>
+                </div>
+
+                <div id="teacher-question-list" class="teacher-question-list" aria-live="polite"></div>
+
+                <p id="teacher-admin-status" class="teacher-admin-status" role="status" aria-live="polite">Loading
+                    database...</p>
+                <p id="teacher-admin-count" class="teacher-admin-count"></p>
+
+                <label for="teacher-json-output">Updated JSON Preview</label>
+                <textarea id="teacher-json-output" class="teacher-json-output" rows="14" readonly></textarea>
+            </div>
+        </section>
     </main>
 
     <footer class="footer">
@@ -253,7 +349,7 @@
         </div>
 
         <div class="footer-bottom">
-            <p class="footer-copyright">&copy; 2024 Learn56 | All rights reserved | Terms & Conditions | Privacy Policy
+            <p class="footer-copyright">&copy; 2026 Learn56 | All rights reserved | Terms & Conditions | Privacy Policy
             </p>
         </div>
     </footer>
@@ -312,6 +408,538 @@
             if (window.innerWidth > 900) {
                 closeMobileMenu();
             }
+        });
+
+        const ADMIN_STORAGE_KEY = 'learn56-question-bank-draft';
+        const teacherForm = document.getElementById('teacher-question-form');
+        const teacherStatus = document.getElementById('teacher-admin-status');
+        const teacherCount = document.getElementById('teacher-admin-count');
+        const teacherJsonOutput = document.getElementById('teacher-json-output');
+        const teacherDownloadBtn = document.getElementById('teacher-download-json');
+        const teacherCopyBtn = document.getElementById('teacher-copy-json');
+        const teacherSubmitBtn = document.getElementById('teacher-submit-btn');
+        const teacherCancelEditBtn = document.getElementById('teacher-cancel-edit');
+        const teacherEditingStatus = document.getElementById('teacher-editing-status');
+        const teacherFilterGrade = document.getElementById('teacher-filter-grade');
+        const teacherSearchKeyword = document.getElementById('teacher-search-keyword');
+        const teacherQuestionList = document.getElementById('teacher-question-list');
+        const teacherImportBtn = document.getElementById('teacher-import-btn');
+        const teacherImportInput = document.getElementById('teacher-import-json');
+        const teacherDeleteFilteredBtn = document.getElementById('teacher-delete-filtered');
+        const teacherGrade = document.getElementById('teacher-grade');
+        const teacherCorrectIndex = document.getElementById('teacher-correct-index');
+        const teacherPrompt = document.getElementById('teacher-prompt');
+        const teacherOption1 = document.getElementById('teacher-option-1');
+        const teacherOption2 = document.getElementById('teacher-option-2');
+        const teacherOption3 = document.getElementById('teacher-option-3');
+        const teacherOption4 = document.getElementById('teacher-option-4');
+        const teacherSteps = document.getElementById('teacher-steps');
+
+        let teacherQuestionBank = {};
+        let editingQuestionRef = null;
+
+        function escapeHtml(value) {
+            return String(value)
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#039;');
+        }
+
+        function ensureGradeArrays() {
+            ['p1', 'p2', 'p3', 'p4', 'p5', 'p6'].forEach(function (grade) {
+                if (!Array.isArray(teacherQuestionBank[grade])) {
+                    teacherQuestionBank[grade] = [];
+                }
+            });
+        }
+
+        function getTotalQuestionCount() {
+            return Object.values(teacherQuestionBank).reduce(function (sum, questions) {
+                if (!Array.isArray(questions)) return sum;
+                return sum + questions.length;
+            }, 0);
+        }
+
+        function getFilteredQuestionRefs() {
+            const selectedGrade = teacherFilterGrade ? teacherFilterGrade.value : 'all';
+            const keyword = teacherSearchKeyword ? teacherSearchKeyword.value.trim().toLowerCase() : '';
+            const grades = selectedGrade === 'all' ? ['p1', 'p2', 'p3', 'p4', 'p5', 'p6'] : [selectedGrade];
+            const refs = [];
+
+            grades.forEach(function (grade) {
+                const questions = teacherQuestionBank[grade] || [];
+                questions.forEach(function (question, index) {
+                    if (!keyword) {
+                        refs.push({ grade: grade, index: index, question: question });
+                        return;
+                    }
+
+                    const searchText = [
+                        question.prompt || '',
+                        ...(question.options || []),
+                        ...(question.steps || [])
+                    ].join(' ').toLowerCase();
+
+                    if (searchText.includes(keyword)) {
+                        refs.push({ grade: grade, index: index, question: question });
+                    }
+                });
+            });
+
+            return refs;
+        }
+
+        function renderQuestionManagerList() {
+            if (!teacherQuestionList) return;
+
+            const refs = getFilteredQuestionRefs();
+            if (!refs.length) {
+                teacherQuestionList.innerHTML = '<p class="teacher-admin-empty">No questions found for this filter.</p>';
+                return;
+            }
+
+            teacherQuestionList.innerHTML = refs.map(function (ref) {
+                const prompt = escapeHtml(ref.question.prompt || '(No prompt)');
+                const gradeQuestions = teacherQuestionBank[ref.grade] || [];
+                const canMoveUp = ref.index > 0;
+                const canMoveDown = ref.index < gradeQuestions.length - 1;
+                const options = (ref.question.options || []).map(function (option, idx) {
+                    const marker = idx === ref.question.correctIndex ? ' (Correct)' : '';
+                    return `<li>${escapeHtml(option)}${marker}</li>`;
+                }).join('');
+
+                return `
+                    <article class="teacher-question-item" data-grade="${ref.grade}" data-index="${ref.index}">
+                        <div class="teacher-question-head">
+                            <strong>${ref.grade.toUpperCase()} - Question ${ref.index + 1}</strong>
+                            <div class="teacher-question-actions">
+                                <button type="button" class="btn btn-signin" data-action="move-up" ${canMoveUp ? '' : 'disabled'}>Up</button>
+                                <button type="button" class="btn btn-signin" data-action="move-down" ${canMoveDown ? '' : 'disabled'}>Down</button>
+                                <button type="button" class="btn btn-signin" data-action="duplicate">Duplicate</button>
+                                <button type="button" class="btn btn-signin teacher-edit-btn" data-action="edit">Edit</button>
+                                <button type="button" class="btn btn-signin teacher-delete-btn" data-action="delete">Delete</button>
+                            </div>
+                        </div>
+                        <p class="teacher-question-prompt">${prompt}</p>
+                        <ul class="teacher-question-options">${options}</ul>
+                    </article>
+                `;
+            }).join('');
+        }
+
+        function clearEditingState() {
+            editingQuestionRef = null;
+            if (teacherSubmitBtn) {
+                teacherSubmitBtn.textContent = 'Add Question';
+            }
+            if (teacherCancelEditBtn) {
+                teacherCancelEditBtn.hidden = true;
+            }
+            if (teacherEditingStatus) {
+                teacherEditingStatus.hidden = true;
+                teacherEditingStatus.textContent = '';
+            }
+        }
+
+        function startEditingQuestion(grade, index) {
+            const question = teacherQuestionBank[grade] && teacherQuestionBank[grade][index];
+            if (!question) {
+                renderAdminOutput('Unable to edit: question not found.');
+                return;
+            }
+
+            editingQuestionRef = { grade: grade, index: index };
+            teacherGrade.value = grade;
+            teacherPrompt.value = question.prompt || '';
+            teacherCorrectIndex.value = String(question.correctIndex || 0);
+            teacherOption1.value = question.options && question.options[0] ? question.options[0] : '';
+            teacherOption2.value = question.options && question.options[1] ? question.options[1] : '';
+            teacherOption3.value = question.options && question.options[2] ? question.options[2] : '';
+            teacherOption4.value = question.options && question.options[3] ? question.options[3] : '';
+            teacherSteps.value = Array.isArray(question.steps) ? question.steps.join('\n') : '';
+
+            if (teacherSubmitBtn) {
+                teacherSubmitBtn.textContent = 'Save Edit';
+            }
+            if (teacherCancelEditBtn) {
+                teacherCancelEditBtn.hidden = false;
+            }
+            if (teacherEditingStatus) {
+                teacherEditingStatus.hidden = false;
+                teacherEditingStatus.textContent = `Editing ${grade.toUpperCase()} question ${index + 1}`;
+            }
+            teacherPrompt.focus();
+            renderAdminOutput('Editing question. Update fields and click Save Edit.');
+        }
+
+        function shiftEditingRefForInsert(grade, insertedIndex) {
+            if (!editingQuestionRef || editingQuestionRef.grade !== grade) return;
+            if (editingQuestionRef.index >= insertedIndex) {
+                editingQuestionRef.index += 1;
+            }
+        }
+
+        function shiftEditingRefForDelete(grade, deletedIndex) {
+            if (!editingQuestionRef || editingQuestionRef.grade !== grade) return;
+
+            if (editingQuestionRef.index === deletedIndex) {
+                clearEditingState();
+                teacherForm.reset();
+                teacherCorrectIndex.value = '0';
+                return;
+            }
+
+            if (editingQuestionRef.index > deletedIndex) {
+                editingQuestionRef.index -= 1;
+                if (teacherEditingStatus && !teacherEditingStatus.hidden) {
+                    teacherEditingStatus.textContent = `Editing ${grade.toUpperCase()} question ${editingQuestionRef.index + 1}`;
+                }
+            }
+        }
+
+        function duplicateQuestion(grade, index) {
+            const questions = teacherQuestionBank[grade];
+            const source = Array.isArray(questions) ? questions[index] : null;
+            if (!source) {
+                renderAdminOutput('Unable to duplicate: question not found.');
+                return;
+            }
+
+            const duplicated = JSON.parse(JSON.stringify(source));
+            const insertAt = index + 1;
+            questions.splice(insertAt, 0, duplicated);
+            shiftEditingRefForInsert(grade, insertAt);
+            persistDraft();
+            renderAdminOutput(`Duplicated ${grade.toUpperCase()} question ${index + 1}.`);
+        }
+
+        function moveQuestionWithinGrade(grade, index, direction) {
+            const questions = teacherQuestionBank[grade];
+            if (!Array.isArray(questions) || !questions[index]) {
+                renderAdminOutput('Unable to reorder: question not found.');
+                return;
+            }
+
+            const targetIndex = direction === 'up' ? index - 1 : index + 1;
+            if (targetIndex < 0 || targetIndex >= questions.length) {
+                return;
+            }
+
+            const temp = questions[index];
+            questions[index] = questions[targetIndex];
+            questions[targetIndex] = temp;
+
+            if (editingQuestionRef && editingQuestionRef.grade === grade) {
+                if (editingQuestionRef.index === index) {
+                    editingQuestionRef.index = targetIndex;
+                } else if (editingQuestionRef.index === targetIndex) {
+                    editingQuestionRef.index = index;
+                }
+
+                if (teacherEditingStatus && !teacherEditingStatus.hidden) {
+                    teacherEditingStatus.textContent = `Editing ${grade.toUpperCase()} question ${editingQuestionRef.index + 1}`;
+                }
+            }
+
+            persistDraft();
+            renderAdminOutput(`Moved ${grade.toUpperCase()} question ${index + 1} ${direction}.`);
+        }
+
+        function deleteQuestion(grade, index) {
+            const questions = teacherQuestionBank[grade];
+            if (!Array.isArray(questions) || !questions[index]) {
+                renderAdminOutput('Unable to delete: question not found.');
+                return;
+            }
+
+            const confirmDelete = window.confirm(`Delete ${grade.toUpperCase()} question ${index + 1}? This cannot be undone.`);
+            if (!confirmDelete) {
+                renderAdminOutput('Delete canceled.');
+                return;
+            }
+
+            questions.splice(index, 1);
+            persistDraft();
+            shiftEditingRefForDelete(grade, index);
+            renderAdminOutput(`Deleted question from ${grade.toUpperCase()}.`);
+        }
+
+        function deleteAllFilteredQuestions() {
+            const refs = getFilteredQuestionRefs();
+            if (!refs.length) {
+                renderAdminOutput('No filtered questions to delete.');
+                return;
+            }
+
+            const confirmBulkDelete = window.confirm(`Delete ${refs.length} filtered question(s)? This cannot be undone.`);
+            if (!confirmBulkDelete) {
+                renderAdminOutput('Bulk delete canceled.');
+                return;
+            }
+
+            const refsByGrade = refs.reduce(function (acc, ref) {
+                if (!acc[ref.grade]) acc[ref.grade] = [];
+                acc[ref.grade].push(ref.index);
+                return acc;
+            }, {});
+
+            Object.keys(refsByGrade).forEach(function (grade) {
+                refsByGrade[grade].sort(function (a, b) { return b - a; });
+                refsByGrade[grade].forEach(function (index) {
+                    const questions = teacherQuestionBank[grade];
+                    if (Array.isArray(questions) && questions[index]) {
+                        questions.splice(index, 1);
+                        shiftEditingRefForDelete(grade, index);
+                    }
+                });
+            });
+
+            persistDraft();
+            renderAdminOutput(`Deleted ${refs.length} filtered question(s).`);
+        }
+
+        function renderAdminOutput(message) {
+            const pretty = JSON.stringify(teacherQuestionBank, null, 2);
+            if (teacherJsonOutput) {
+                teacherJsonOutput.value = pretty;
+            }
+            if (teacherCount) {
+                teacherCount.textContent = `Total questions: ${getTotalQuestionCount()}`;
+            }
+            if (teacherStatus && message) {
+                teacherStatus.textContent = message;
+            }
+            renderQuestionManagerList();
+        }
+
+        function persistDraft() {
+            localStorage.setItem(ADMIN_STORAGE_KEY, JSON.stringify(teacherQuestionBank));
+        }
+
+        async function loadQuestionBankForAdmin() {
+            const savedDraft = localStorage.getItem(ADMIN_STORAGE_KEY);
+            if (savedDraft) {
+                try {
+                    teacherQuestionBank = JSON.parse(savedDraft);
+                    ensureGradeArrays();
+                    renderAdminOutput('Loaded saved draft from this browser.');
+                    return;
+                } catch (error) {
+                    console.warn('Invalid local draft found. Falling back to questions.json.', error);
+                }
+            }
+
+            const response = await fetch('./questions.json', { cache: 'no-store' });
+            if (!response.ok) {
+                throw new Error(`Failed to load questions.json: ${response.status}`);
+            }
+
+            teacherQuestionBank = await response.json();
+            ensureGradeArrays();
+            renderAdminOutput('Database loaded. Add new questions below.');
+        }
+
+        if (teacherForm) {
+            teacherForm.addEventListener('submit', function (event) {
+                event.preventDefault();
+
+                const options = [
+                    teacherOption1.value.trim(),
+                    teacherOption2.value.trim(),
+                    teacherOption3.value.trim(),
+                    teacherOption4.value.trim()
+                ];
+
+                const steps = teacherSteps.value
+                    .split('\n')
+                    .map(function (step) {
+                        return step.trim();
+                    })
+                    .filter(Boolean);
+
+                if (!teacherPrompt.value.trim()) {
+                    renderAdminOutput('Question prompt is required.');
+                    return;
+                }
+
+                if (options.some(function (option) { return !option; })) {
+                    renderAdminOutput('All four answer options are required.');
+                    return;
+                }
+
+                if (!steps.length) {
+                    renderAdminOutput('Please enter at least one solution step.');
+                    return;
+                }
+
+                const grade = teacherGrade.value;
+                const question = {
+                    prompt: teacherPrompt.value.trim(),
+                    options: options,
+                    correctIndex: Number(teacherCorrectIndex.value),
+                    steps: steps
+                };
+
+                if (!Array.isArray(teacherQuestionBank[grade])) {
+                    teacherQuestionBank[grade] = [];
+                }
+
+                if (editingQuestionRef) {
+                    if (!Array.isArray(teacherQuestionBank[editingQuestionRef.grade]) || !teacherQuestionBank[editingQuestionRef.grade][editingQuestionRef.index]) {
+                        renderAdminOutput('Original question no longer exists. Please add as new instead.');
+                        clearEditingState();
+                        return;
+                    }
+
+                    teacherQuestionBank[editingQuestionRef.grade][editingQuestionRef.index] = question;
+                    renderAdminOutput(`Updated ${editingQuestionRef.grade.toUpperCase()} question ${editingQuestionRef.index + 1}.`);
+                } else {
+                    teacherQuestionBank[grade].push(question);
+                    renderAdminOutput(`Question added to ${grade.toUpperCase()}. Download updated JSON.`);
+                }
+
+                persistDraft();
+                teacherForm.reset();
+                teacherGrade.value = grade;
+                teacherCorrectIndex.value = '0';
+                clearEditingState();
+            });
+        }
+
+        if (teacherCancelEditBtn) {
+            teacherCancelEditBtn.addEventListener('click', function () {
+                clearEditingState();
+                teacherForm.reset();
+                teacherCorrectIndex.value = '0';
+                renderAdminOutput('Edit canceled.');
+            });
+        }
+
+        if (teacherDownloadBtn) {
+            teacherDownloadBtn.addEventListener('click', function () {
+                const jsonText = JSON.stringify(teacherQuestionBank, null, 2);
+                const blob = new Blob([jsonText + '\n'], { type: 'application/json' });
+                const url = URL.createObjectURL(blob);
+                const link = document.createElement('a');
+                link.href = url;
+                link.download = 'questions.json';
+                document.body.appendChild(link);
+                link.click();
+                link.remove();
+                URL.revokeObjectURL(url);
+                renderAdminOutput('Downloaded updated questions.json. Replace your project file with this one.');
+            });
+        }
+
+        if (teacherCopyBtn) {
+            teacherCopyBtn.addEventListener('click', async function () {
+                try {
+                    await navigator.clipboard.writeText(JSON.stringify(teacherQuestionBank, null, 2));
+                    renderAdminOutput('JSON copied to clipboard.');
+                } catch (error) {
+                    renderAdminOutput('Clipboard copy failed. Use the JSON preview box to copy manually.');
+                    console.error(error);
+                }
+            });
+        }
+
+        if (teacherQuestionList) {
+            teacherQuestionList.addEventListener('click', function (event) {
+                const actionButton = event.target.closest('button[data-action]');
+                if (!actionButton) return;
+
+                const card = actionButton.closest('.teacher-question-item');
+                if (!card) return;
+
+                const grade = card.getAttribute('data-grade');
+                const index = Number(card.getAttribute('data-index'));
+                const action = actionButton.getAttribute('data-action');
+
+                if (action === 'edit') {
+                    startEditingQuestion(grade, index);
+                }
+
+                if (action === 'delete') {
+                    deleteQuestion(grade, index);
+                }
+
+                if (action === 'duplicate') {
+                    duplicateQuestion(grade, index);
+                }
+
+                if (action === 'move-up') {
+                    moveQuestionWithinGrade(grade, index, 'up');
+                }
+
+                if (action === 'move-down') {
+                    moveQuestionWithinGrade(grade, index, 'down');
+                }
+            });
+        }
+
+        if (teacherFilterGrade) {
+            teacherFilterGrade.addEventListener('change', function () {
+                renderQuestionManagerList();
+            });
+        }
+
+        if (teacherSearchKeyword) {
+            teacherSearchKeyword.addEventListener('input', function () {
+                renderQuestionManagerList();
+            });
+        }
+
+        if (teacherImportBtn && teacherImportInput) {
+            teacherImportBtn.addEventListener('click', function () {
+                teacherImportInput.click();
+            });
+
+            teacherImportInput.addEventListener('change', function () {
+                const file = teacherImportInput.files && teacherImportInput.files[0];
+                if (!file) return;
+
+                const reader = new FileReader();
+                reader.onload = function () {
+                    try {
+                        const imported = JSON.parse(String(reader.result));
+                        if (!imported || typeof imported !== 'object' || Array.isArray(imported)) {
+                            throw new Error('Imported file is not a valid question-bank object.');
+                        }
+
+                        teacherQuestionBank = imported;
+                        ensureGradeArrays();
+                        clearEditingState();
+                        persistDraft();
+                        renderAdminOutput('Imported JSON successfully. You can now edit, search, or export.');
+                    } catch (error) {
+                        console.error(error);
+                        renderAdminOutput('Import failed. Please choose a valid questions.json file.');
+                    } finally {
+                        teacherImportInput.value = '';
+                    }
+                };
+
+                reader.onerror = function () {
+                    renderAdminOutput('Could not read selected file.');
+                    teacherImportInput.value = '';
+                };
+
+                reader.readAsText(file);
+            });
+        }
+
+        if (teacherDeleteFilteredBtn) {
+            teacherDeleteFilteredBtn.addEventListener('click', function () {
+                deleteAllFilteredQuestions();
+            });
+        }
+
+        loadQuestionBankForAdmin().catch(function (error) {
+            console.error(error);
+            teacherQuestionBank = { p1: [], p2: [], p3: [], p4: [], p5: [], p6: [] };
+            renderAdminOutput('Could not load questions.json. You can still create a new database draft.');
         });
     </script>
 </body>

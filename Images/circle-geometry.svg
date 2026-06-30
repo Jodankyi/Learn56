@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" role="img" aria-label="Circle geometry diagram">
+  <rect width="360" height="220" fill="#f5fbff"/>
+  <circle cx="170" cy="110" r="70" fill="#e6f4ff" stroke="#2a5f8e" stroke-width="3"/>
+  <line x1="170" y1="110" x2="240" y2="110" stroke="#2a5f8e" stroke-width="3"/>
+  <line x1="115" y1="150" x2="225" y2="70" stroke="#2a5f8e" stroke-width="2.5"/>
+  <text x="205" y="104" font-family="Arial" font-size="14" fill="#1f4f78">radius</text>
+  <text x="227" y="66" font-family="Arial" font-size="14" fill="#1f4f78">chord</text>
+  <text x="175" y="25" text-anchor="middle" font-family="Arial" font-size="16" fill="#1f4f78">Circle Geometry</text>
+</svg>

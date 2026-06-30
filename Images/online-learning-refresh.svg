@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 220" role="img" aria-label="Online learning illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eff7ff"/>
+      <stop offset="100%" stop-color="#fff9e8"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2f6fa3"/>
+      <stop offset="100%" stop-color="#23557d"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="420" height="220" rx="18" fill="url(#bg)"/>
+
+  <circle cx="52" cy="34" r="5" fill="#9ecbff"/>
+  <circle cx="378" cy="38" r="6" fill="#ffd58a"/>
+  <circle cx="394" cy="66" r="4" fill="#9ecbff"/>
+
+  <rect x="82" y="38" width="256" height="146" rx="14" fill="#f8fcff" stroke="#c8dff2" stroke-width="2"/>
+  <rect x="98" y="54" width="224" height="92" rx="10" fill="url(#screen)"/>
+
+  <circle cx="132" cy="88" r="18" fill="#ffd78f"/>
+  <rect x="160" y="76" width="138" height="10" rx="5" fill="#ffffff" opacity="0.95"/>
+  <rect x="160" y="95" width="98" height="8" rx="4" fill="#cbe4fb"/>
+  <rect x="160" y="110" width="122" height="8" rx="4" fill="#cbe4fb"/>
+
+  <rect x="112" y="158" width="78" height="14" rx="7" fill="#2f6fa3"/>
+  <rect x="198" y="158" width="104" height="14" rx="7" fill="#ffd166"/>
+
+  <path d="M220 188 C246 174, 278 172, 304 186" fill="none" stroke="#79a9d1" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="220" cy="188" r="4" fill="#2f6fa3"/>
+  <circle cx="304" cy="186" r="4" fill="#2f6fa3"/>
+
+  <text x="210" y="207" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#1f4f76">Learn Anywhere, Grow Every Day</text>
+</svg>

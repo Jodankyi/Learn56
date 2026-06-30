@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" role="img" aria-label="Probability die and coin diagram">
+  <rect width="360" height="220" fill="#f9fbff"/>
+  <rect x="80" y="55" width="110" height="110" rx="12" fill="#ffffff" stroke="#2f5679" stroke-width="3"/>
+  <circle cx="110" cy="85" r="8" fill="#2f5679"/><circle cx="160" cy="85" r="8" fill="#2f5679"/>
+  <circle cx="135" cy="110" r="8" fill="#2f5679"/>
+  <circle cx="110" cy="135" r="8" fill="#2f5679"/><circle cx="160" cy="135" r="8" fill="#2f5679"/>
+  <circle cx="260" cy="110" r="45" fill="#ffe08a" stroke="#a77a1f" stroke-width="3"/>
+  <text x="260" y="115" text-anchor="middle" font-family="Arial" font-size="18" font-weight="700" fill="#7a5612">H/T</text>
+  <text x="180" y="28" text-anchor="middle" font-family="Arial" font-size="16" fill="#234d76">Probability Models</text>
+</svg>

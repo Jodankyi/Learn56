@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 240" role="img" aria-label="Senior high achievement path illustration">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f3f9ff"/>
+      <stop offset="100%" stop-color="#fff7e8"/>
+    </linearGradient>
+    <linearGradient id="hill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#99c8ed"/>
+      <stop offset="100%" stop-color="#7bb78f"/>
+    </linearGradient>
+    <linearGradient id="path" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffd996"/>
+      <stop offset="100%" stop-color="#ffbf6a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="420" height="240" rx="20" fill="url(#sky)"/>
+
+  <circle cx="70" cy="52" r="18" fill="#ffe09d"/>
+  <path d="M18 170 C95 130, 146 150, 214 126 C279 104, 336 122, 402 96 L402 240 L18 240 Z" fill="url(#hill)" opacity="0.9"/>
+
+  <path d="M44 226 C84 196, 120 188, 152 188 C188 188, 220 172, 250 154 C286 132, 324 112, 375 86" fill="none" stroke="url(#path)" stroke-width="24" stroke-linecap="round"/>
+  <path d="M44 226 C84 196, 120 188, 152 188 C188 188, 220 172, 250 154 C286 132, 324 112, 375 86" fill="none" stroke="#d99134" stroke-width="2" stroke-linecap="round"/>
+
+  <circle cx="118" cy="190" r="10" fill="#2f6fa3"/>
+  <circle cx="201" cy="176" r="10" fill="#2f6fa3"/>
+  <circle cx="284" cy="134" r="10" fill="#2f6fa3"/>
+
+  <polygon points="366,82 376,102 398,105 382,119 386,141 366,131 346,141 350,119 334,105 356,102" fill="#f3b333"/>
+  <circle cx="366" cy="106" r="6" fill="#fff3d3"/>
+
+  <text x="210" y="218" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#214f74">Steady Steps, Strong Results</text>
+</svg>

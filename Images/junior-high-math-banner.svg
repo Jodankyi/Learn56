@@ -1,0 +1,102 @@
+<svg width="1800" height="360" viewBox="0 0 1800 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Colorful graffiti style math collage</title>
+  <desc id="desc">A vivid graffiti-inspired mural with equations, graph lines, bar charts, pie slices, and calculation snippets.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1800" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF7A18"/>
+      <stop offset="0.35" stop-color="#FF3D81"/>
+      <stop offset="0.7" stop-color="#4E7DFF"/>
+      <stop offset="1" stop-color="#12C7A7"/>
+    </linearGradient>
+    <radialGradient id="sprayA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(220 80) rotate(35) scale(280 130)">
+      <stop stop-color="#FFFFFF" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sprayB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1540 290) rotate(-20) scale(320 140)">
+      <stop stop-color="#F5FF64" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#F5FF64" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+  </defs>
+
+  <rect width="1800" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1800" height="360" rx="24" fill="url(#sprayA)"/>
+  <rect width="1800" height="360" rx="24" fill="url(#sprayB)"/>
+
+  <g opacity="0.32" stroke="#101820" stroke-width="3">
+    <path d="M40 52C220 120 330 10 540 66"/>
+    <path d="M620 308C850 220 1050 360 1280 262"/>
+    <path d="M1240 42C1410 120 1560 -10 1760 88"/>
+  </g>
+
+  <g fill="#0D1222" fill-opacity="0.18" filter="url(#soft)">
+    <circle cx="170" cy="90" r="74"/>
+    <circle cx="1620" cy="270" r="88"/>
+    <circle cx="980" cy="156" r="56"/>
+  </g>
+
+  <g>
+    <rect x="72" y="52" width="580" height="256" rx="20" fill="#FFFFFF" fill-opacity="0.16" stroke="#FFFFFF" stroke-opacity="0.44"/>
+    <rect x="700" y="34" width="1032" height="292" rx="20" fill="#0A0F1F" fill-opacity="0.22" stroke="#FFFFFF" stroke-opacity="0.38"/>
+  </g>
+
+  <g stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M110 232H356"/>
+    <path d="M110 196H356"/>
+    <path d="M110 160H356"/>
+    <path d="M110 160V232"/>
+    <polyline points="110,224 152,206 190,214 226,178 265,186 306,166 356,154"/>
+  </g>
+
+  <g fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-weight="500" letter-spacing="1">
+    <text x="102" y="120" font-size="42" transform="rotate(-5 102 120)">2x + 5 = 19</text>
+    <text x="322" y="282" font-size="38" transform="rotate(3 322 282)">3(7 + 4) - 8</text>
+    <text x="148" y="286" font-size="32" transform="rotate(-3 148 286)">y = mx + b</text>
+  </g>
+
+  <g transform="translate(740 66)">
+    <g transform="rotate(-6 120 120)">
+      <rect x="12" y="16" width="220" height="108" rx="14" fill="#00E0FF" fill-opacity="0.22" stroke="#9CFF34" stroke-width="2.4"/>
+      <text x="28" y="54" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="500">12 + 38 = 50</text>
+      <text x="28" y="92" fill="#FFF86B" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="500">(9 x 4) + 11</text>
+    </g>
+
+    <g transform="translate(280 8)">
+      <rect x="0" y="0" width="276" height="132" rx="16" fill="#FF5AAE" fill-opacity="0.20" stroke="#FFFFFF" stroke-width="2.4"/>
+      <g transform="translate(22 30)">
+        <rect x="0" y="62" width="30" height="24" fill="#FFE666"/>
+        <rect x="42" y="44" width="30" height="42" fill="#5BFFB0"/>
+        <rect x="84" y="26" width="30" height="60" fill="#FFFFFF"/>
+        <rect x="126" y="36" width="30" height="50" fill="#8DA6FF"/>
+        <rect x="168" y="12" width="30" height="74" fill="#FFAA38"/>
+        <line x1="-6" y1="88" x2="218" y2="88" stroke="#FFFFFF" stroke-width="2.2"/>
+      </g>
+    </g>
+
+    <g transform="translate(596 14)">
+      <rect x="0" y="0" width="252" height="252" rx="18" fill="#2A0D44" fill-opacity="0.30" stroke="#FFFFFF" stroke-width="2.4"/>
+      <g transform="translate(126 126)">
+        <circle r="82" fill="#111A2E" fill-opacity="0.54"/>
+        <path d="M0 0L0 -82A82 82 0 0 1 69 -44Z" fill="#FF6B4A"/>
+        <path d="M0 0L69 -44A82 82 0 0 1 52 62Z" fill="#49D8FF"/>
+        <path d="M0 0L52 62A82 82 0 0 1 -57 60Z" fill="#9DFF4A"/>
+        <path d="M0 0L-57 60A82 82 0 0 1 -79 -22Z" fill="#FFD84A"/>
+        <path d="M0 0L-79 -22A82 82 0 0 1 0 -82Z" fill="#C27CFF"/>
+        <circle r="12" fill="#FFFFFF"/>
+      </g>
+    </g>
+
+    <g transform="translate(20 166)">
+      <rect x="0" y="0" width="552" height="108" rx="14" fill="#0E2F64" fill-opacity="0.36" stroke="#FFFFFF" stroke-width="2.2"/>
+      <g fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="500">
+        <text x="20" y="42" transform="rotate(-2 20 42)">f(x)=2x^2-3x+1</text>
+        <text x="300" y="42" transform="rotate(2 300 42)">8/12 = 2/3</text>
+        <text x="20" y="84" transform="rotate(1 20 84)">x^2 + y^2 = r^2</text>
+        <text x="300" y="84" transform="rotate(-1 300 84)">75% of 80 = 60</text>
+      </g>
+    </g>
+  </g>
+</svg>

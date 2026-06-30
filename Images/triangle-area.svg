@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" role="img" aria-label="Triangle area diagram">
+  <rect width="360" height="220" fill="#f4fbff"/>
+  <polygon points="70,180 300,180 190,55" fill="#dff1ff" stroke="#1f5f93" stroke-width="3"/>
+  <line x1="190" y1="55" x2="190" y2="180" stroke="#1f5f93" stroke-dasharray="6 5" stroke-width="2"/>
+  <text x="185" y="195" font-family="Arial" font-size="15" fill="#15476e">base</text>
+  <text x="198" y="118" font-family="Arial" font-size="15" fill="#15476e">height</text>
+  <text x="180" y="30" text-anchor="middle" font-family="Arial" font-size="16" fill="#15476e">Area of Triangle</text>
+  <text x="180" y="212" text-anchor="middle" font-family="Arial" font-size="15" fill="#15476e">A = 1/2 × base × height</text>
+</svg>

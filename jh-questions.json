@@ -1,0 +1,7449 @@
+{
+  "jh1": [
+    {
+      "topic": "integers-and-place-value",
+      "prompt": "Integers and Place Value: Evaluate 30 + 14.",
+      "options": [
+        "44",
+        "43",
+        "45",
+        "46"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "integers-and-place-value",
+      "prompt": "Integers and Place Value: Find 95 - 38.",
+      "options": [
+        "57",
+        "55",
+        "59",
+        "61"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "integers-and-place-value",
+      "prompt": "Integers and Place Value: Compute 7 x 6.",
+      "options": [
+        "42",
+        "40",
+        "44",
+        "46"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "integers-and-place-value",
+      "prompt": "Integers and Place Value: Compute 84 / 7.",
+      "options": [
+        "12",
+        "13",
+        "11",
+        "14"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "integers-and-place-value",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Integers and Place Value: 120 + 80",
+      "answerValue": "200",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "integers-and-place-value",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Integers and Place Value: 240 - 115",
+      "answerValue": "125",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "integers-and-place-value",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Integers and Place Value: -8 + 15",
+      "answerValue": "7",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "integers-and-place-value",
+      "type": "graph",
+      "prompt": "Integers and Place Value: Plot integer point A.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            2,
+            6
+          ]
+        ],
+        "instruction": "Plot A at (2, 6).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "integers-and-place-value",
+      "type": "graph",
+      "prompt": "Integers and Place Value: Plot integer point B.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            7,
+            3
+          ]
+        ],
+        "instruction": "Plot B at (7, 3).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "integers-and-place-value",
+      "type": "graph",
+      "prompt": "Integers and Place Value: Plot points C and D.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            3,
+            2
+          ],
+          [
+            9,
+            5
+          ]
+        ],
+        "instruction": "Plot (3, 2) and (9, 5).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "fractions-and-decimals",
+      "prompt": "Fractions and Decimals: Add 3/10 + 5/10.",
+      "options": [
+        "8/10",
+        "7/10",
+        "8/20",
+        "9/10"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "fractions-and-decimals",
+      "prompt": "Fractions and Decimals: Convert 1/4 to decimal.",
+      "options": [
+        "0.25",
+        "0.4",
+        "0.2",
+        "0.5"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "fractions-and-decimals",
+      "prompt": "Fractions and Decimals: Which is greater, 0.6 or 0.56?",
+      "options": [
+        "0.6",
+        "0.56",
+        "Equal",
+        "Cannot compare"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "fractions-and-decimals",
+      "prompt": "Fractions and Decimals: Simplify 6/12.",
+      "options": [
+        "1/2",
+        "2/3",
+        "3/4",
+        "1/3"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "fractions-and-decimals",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Fractions and Decimals: 7/8 + 1/8",
+      "answerValue": "1",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "fractions-and-decimals",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Fractions and Decimals: Write 3/5 as a decimal",
+      "answerValue": "0.6",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "fractions-and-decimals",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Fractions and Decimals: 0.75 + 0.2",
+      "answerValue": "0.95",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "fractions-and-decimals",
+      "type": "graph",
+      "prompt": "Fractions and Decimals: Plot decimal-as-coordinate point (5, 2).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            5,
+            2
+          ]
+        ],
+        "instruction": "Plot (5, 2).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "fractions-and-decimals",
+      "type": "graph",
+      "prompt": "Fractions and Decimals: Plot points representing 1/4 and 3/4 on x-axis.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "instruction": "Plot (1,0) and (3,0).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "fractions-and-decimals",
+      "type": "graph",
+      "prompt": "Fractions and Decimals: Plot two equivalent fraction points.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            8
+          ]
+        ],
+        "instruction": "Plot (2,4) and (4,8).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "ratio-and-rates",
+      "prompt": "Ratio and Rates: Find ratio equivalent to 2:3.",
+      "options": [
+        "4:6",
+        "3:4",
+        "6:4",
+        "8:10"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "ratio-and-rates",
+      "prompt": "Ratio and Rates: Find 25% of 200.",
+      "options": [
+        "50",
+        "40",
+        "60",
+        "45"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "ratio-and-rates",
+      "prompt": "Ratio and Rates: 3:5 = ? : 20",
+      "options": [
+        "12",
+        "10",
+        "15",
+        "8"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "ratio-and-rates",
+      "prompt": "Ratio and Rates: 40% as decimal is",
+      "options": [
+        "0.4",
+        "4",
+        "0.04",
+        "0.04%"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "ratio-and-rates",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Ratio and Rates: 30% of 150",
+      "answerValue": "45",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "ratio-and-rates",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Ratio and Rates: Scale ratio 4:7 by 3, give first term only",
+      "answerValue": "12",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "ratio-and-rates",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Ratio and Rates: If 2 pens cost 10, cost of 1 pen",
+      "answerValue": "5",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "ratio-and-rates",
+      "type": "graph",
+      "prompt": "Ratio and Rates: Plot ratio pair (4, 6).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            4,
+            6
+          ]
+        ],
+        "instruction": "Plot (4,6).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "ratio-and-rates",
+      "type": "graph",
+      "prompt": "Ratio and Rates: Plot percentage pair (25, 5).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            5,
+            5
+          ]
+        ],
+        "instruction": "Plot (5,5).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "ratio-and-rates",
+      "type": "graph",
+      "prompt": "Ratio and Rates: Plot rate points (2,4) and (4,8).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            8
+          ]
+        ],
+        "instruction": "Plot (2,4) and (4,8).",
+        "ordered": true,
+        "connectPoints": true
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "percent-basics",
+      "prompt": "Percent Basics: Find ratio equivalent to 2:3.",
+      "options": [
+        "4:6",
+        "3:4",
+        "6:4",
+        "8:10"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "percent-basics",
+      "prompt": "Percent Basics: Find 25% of 200.",
+      "options": [
+        "50",
+        "40",
+        "60",
+        "45"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "percent-basics",
+      "prompt": "Percent Basics: 3:5 = ? : 20",
+      "options": [
+        "12",
+        "10",
+        "15",
+        "8"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "percent-basics",
+      "prompt": "Percent Basics: 40% as decimal is",
+      "options": [
+        "0.4",
+        "4",
+        "0.04",
+        "0.04%"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "percent-basics",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Percent Basics: 30% of 150",
+      "answerValue": "45",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "percent-basics",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Percent Basics: Scale ratio 4:7 by 3, give first term only",
+      "answerValue": "12",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "percent-basics",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Percent Basics: If 2 pens cost 10, cost of 1 pen",
+      "answerValue": "5",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "percent-basics",
+      "type": "graph",
+      "prompt": "Percent Basics: Plot ratio pair (4, 6).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            4,
+            6
+          ]
+        ],
+        "instruction": "Plot (4,6).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "percent-basics",
+      "type": "graph",
+      "prompt": "Percent Basics: Plot percentage pair (25, 5).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            5,
+            5
+          ]
+        ],
+        "instruction": "Plot (5,5).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "percent-basics",
+      "type": "graph",
+      "prompt": "Percent Basics: Plot rate points (2,4) and (4,8).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            8
+          ]
+        ],
+        "instruction": "Plot (2,4) and (4,8).",
+        "ordered": true,
+        "connectPoints": true
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "algebraic-thinking",
+      "prompt": "Algebraic Thinking: Solve x + 10 = 18.",
+      "options": [
+        "8",
+        "7",
+        "9",
+        "6"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "algebraic-thinking",
+      "prompt": "Algebraic Thinking: Solve 3x = 27.",
+      "options": [
+        "9",
+        "8",
+        "10",
+        "7"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "algebraic-thinking",
+      "prompt": "Algebraic Thinking: Evaluate 2x + 3 for x=4.",
+      "options": [
+        "11",
+        "10",
+        "9",
+        "12"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "algebraic-thinking",
+      "prompt": "Algebraic Thinking: If x=5, x^2 =",
+      "options": [
+        "25",
+        "10",
+        "15",
+        "20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "algebraic-thinking",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Algebraic Thinking: Solve x - 7 = 12",
+      "answerValue": "19",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "algebraic-thinking",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Algebraic Thinking: Solve 5x = 45",
+      "answerValue": "9",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "algebraic-thinking",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Algebraic Thinking: Evaluate 4x + 1 for x = 6",
+      "answerValue": "25",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "algebraic-thinking",
+      "type": "graph",
+      "prompt": "Algebraic Thinking: Plot point on y = x + 1 for x=3.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            3,
+            4
+          ]
+        ],
+        "instruction": "Plot (3,4).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "algebraic-thinking",
+      "type": "graph",
+      "prompt": "Algebraic Thinking: Plot two points for y = 2x.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            8
+          ]
+        ],
+        "instruction": "Plot (2,4) and (4,8).",
+        "ordered": true,
+        "connectPoints": true
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "algebraic-thinking",
+      "type": "graph",
+      "prompt": "Algebraic Thinking: Plot solution point of x + y = 6 using x=2.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            2,
+            4
+          ]
+        ],
+        "instruction": "Plot (2,4).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "geometry-basics",
+      "prompt": "Geometry Basics: Sum of angles in a triangle is",
+      "options": [
+        "180",
+        "90",
+        "270",
+        "360"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/triangle-area.svg",
+      "imageAlt": "Triangle geometry diagram"
+    },
+    {
+      "topic": "geometry-basics",
+      "prompt": "Geometry Basics: Right angle measure is",
+      "options": [
+        "90",
+        "45",
+        "180",
+        "60"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/rectangle-dimensions.svg",
+      "imageAlt": "Geometry dimensions diagram"
+    },
+    {
+      "topic": "geometry-basics",
+      "prompt": "Geometry Basics: Hypotenuse in 3-4-5 triangle is",
+      "options": [
+        "5",
+        "4",
+        "3",
+        "7"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/triangle-area.svg",
+      "imageAlt": "Triangle geometry diagram"
+    },
+    {
+      "topic": "geometry-basics",
+      "prompt": "Geometry Basics: A line through origin and (2,2) has slope",
+      "options": [
+        "1",
+        "2",
+        "0",
+        "3"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/rectangle-dimensions.svg",
+      "imageAlt": "Geometry dimensions diagram"
+    },
+    {
+      "topic": "geometry-basics",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Geometry Basics: Find missing angle if two angles are 50 and 60 in triangle",
+      "answerValue": "70",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/triangle-area.svg",
+      "imageAlt": "Triangle geometry diagram"
+    },
+    {
+      "topic": "geometry-basics",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Geometry Basics: In 3-4-5 triangle, square of hypotenuse",
+      "answerValue": "25",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/triangle-area.svg",
+      "imageAlt": "Triangle geometry diagram"
+    },
+    {
+      "topic": "geometry-basics",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Geometry Basics: Reflection keeps x same on y-axis? enter 0 for no, 1 for yes",
+      "answerValue": "0",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/rectangle-dimensions.svg",
+      "imageAlt": "Geometry dimensions diagram"
+    },
+    {
+      "topic": "geometry-basics",
+      "type": "graph",
+      "prompt": "Geometry Basics: Plot vertex A at (3,3).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            3,
+            3
+          ]
+        ],
+        "instruction": "Plot (3,3).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "geometry-basics",
+      "type": "graph",
+      "prompt": "Geometry Basics: Plot triangle points A(2,2), B(6,2), C(4,6).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            2,
+            2
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            4,
+            6
+          ]
+        ],
+        "instruction": "Plot all three points.",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "geometry-basics",
+      "type": "graph",
+      "prompt": "Geometry Basics: Plot reflected point of (2,5) over y-axis.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            0,
+            5
+          ]
+        ],
+        "instruction": "Plot (0,5).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "perimeter-and-area",
+      "prompt": "Perimeter and Area: Area of rectangle 8 by 5 is",
+      "options": [
+        "40",
+        "26",
+        "13",
+        "80"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/rectangle-dimensions.svg",
+      "imageAlt": "Geometry dimensions diagram"
+    },
+    {
+      "topic": "perimeter-and-area",
+      "prompt": "Perimeter and Area: Perimeter of square side 6 is",
+      "options": [
+        "24",
+        "12",
+        "36",
+        "18"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/square-perimeter.svg",
+      "imageAlt": "Square geometry diagram"
+    },
+    {
+      "topic": "perimeter-and-area",
+      "prompt": "Perimeter and Area: Volume of cube side 3 is",
+      "options": [
+        "27",
+        "9",
+        "18",
+        "12"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/rectangle-dimensions.svg",
+      "imageAlt": "Geometry dimensions diagram"
+    },
+    {
+      "topic": "perimeter-and-area",
+      "prompt": "Perimeter and Area: Surface area of cube side 2 is",
+      "options": [
+        "24",
+        "8",
+        "12",
+        "16"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/rectangle-dimensions.svg",
+      "imageAlt": "Geometry dimensions diagram"
+    },
+    {
+      "topic": "perimeter-and-area",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Perimeter and Area: Area of triangle base 10 and height 6",
+      "answerValue": "30",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/triangle-area.svg",
+      "imageAlt": "Triangle geometry diagram"
+    },
+    {
+      "topic": "perimeter-and-area",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Perimeter and Area: Perimeter of rectangle length 9 width 4",
+      "answerValue": "26",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/rectangle-dimensions.svg",
+      "imageAlt": "Geometry dimensions diagram"
+    },
+    {
+      "topic": "perimeter-and-area",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Perimeter and Area: Volume of cuboid 2 x 3 x 5",
+      "answerValue": "30",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/rectangle-dimensions.svg",
+      "imageAlt": "Geometry dimensions diagram"
+    },
+    {
+      "topic": "perimeter-and-area",
+      "type": "graph",
+      "prompt": "Perimeter and Area: Plot rectangle corners A(1,1), B(7,1), C(7,5), D(1,5).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            1,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            1,
+            5
+          ]
+        ],
+        "instruction": "Plot all four corners.",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "perimeter-and-area",
+      "type": "graph",
+      "prompt": "Perimeter and Area: Plot base-height point (10,6).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            10,
+            6
+          ]
+        ],
+        "instruction": "Plot (10,6).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "perimeter-and-area",
+      "type": "graph",
+      "prompt": "Perimeter and Area: Plot prism dimensions point (3,5).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            3,
+            5
+          ]
+        ],
+        "instruction": "Plot (3,5).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "data",
+      "prompt": "Data: Mean of 4, 6, 8 is",
+      "options": [
+        "6",
+        "5",
+        "7",
+        "8"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/bar-chart-example.svg",
+      "imageAlt": "Data chart example"
+    },
+    {
+      "topic": "data",
+      "prompt": "Data: Median of 2, 5, 7, 9, 10 is",
+      "options": [
+        "7",
+        "5",
+        "9",
+        "6"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/bar-chart-example.svg",
+      "imageAlt": "Data chart example"
+    },
+    {
+      "topic": "data",
+      "prompt": "Data: Mode of 3, 4, 4, 5 is",
+      "options": [
+        "4",
+        "3",
+        "5",
+        "2"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/bar-chart-example.svg",
+      "imageAlt": "Data chart example"
+    },
+    {
+      "topic": "data",
+      "prompt": "Data: Range of 2, 8, 11 is",
+      "options": [
+        "9",
+        "8",
+        "11",
+        "6"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/bar-chart-example.svg",
+      "imageAlt": "Data chart example"
+    },
+    {
+      "topic": "data",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Data: Mean of 5, 7, 9, 11",
+      "answerValue": "8",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/bar-chart-example.svg",
+      "imageAlt": "Data chart example"
+    },
+    {
+      "topic": "data",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Data: Median of 3, 6, 8, 12",
+      "answerValue": "7",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/bar-chart-example.svg",
+      "imageAlt": "Data chart example"
+    },
+    {
+      "topic": "data",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Data: Mode of 2, 2, 5, 7",
+      "answerValue": "2",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/bar-chart-example.svg",
+      "imageAlt": "Data chart example"
+    },
+    {
+      "topic": "data",
+      "type": "graph",
+      "prompt": "Data: Plot data pair (2,5).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            2,
+            5
+          ]
+        ],
+        "instruction": "Plot (2,5).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/bar-chart-example.svg",
+      "imageAlt": "Data chart example"
+    },
+    {
+      "topic": "data",
+      "type": "graph",
+      "prompt": "Data: Plot trend points (1,2), (2,4), (3,6).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            6
+          ]
+        ],
+        "instruction": "Plot all three points.",
+        "ordered": true,
+        "connectPoints": true
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/line-graph-example.svg",
+      "imageAlt": "Line graph trend example"
+    },
+    {
+      "topic": "data",
+      "type": "graph",
+      "prompt": "Data: Mark median value 7 on x-axis.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            7,
+            0
+          ]
+        ],
+        "instruction": "Plot (7,0).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/bar-chart-example.svg",
+      "imageAlt": "Data chart example"
+    },
+    {
+      "topic": "mean-median-mode",
+      "prompt": "Mean, Median, and Mode: Mean of 4, 6, 8 is",
+      "options": [
+        "6",
+        "5",
+        "7",
+        "8"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "mean-median-mode",
+      "prompt": "Mean, Median, and Mode: Median of 2, 5, 7, 9, 10 is",
+      "options": [
+        "7",
+        "5",
+        "9",
+        "6"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "mean-median-mode",
+      "prompt": "Mean, Median, and Mode: Mode of 3, 4, 4, 5 is",
+      "options": [
+        "4",
+        "3",
+        "5",
+        "2"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "mean-median-mode",
+      "prompt": "Mean, Median, and Mode: Range of 2, 8, 11 is",
+      "options": [
+        "9",
+        "8",
+        "11",
+        "6"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "mean-median-mode",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Mean, Median, and Mode: Mean of 5, 7, 9, 11",
+      "answerValue": "8",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "mean-median-mode",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Mean, Median, and Mode: Median of 3, 6, 8, 12",
+      "answerValue": "7",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "mean-median-mode",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Mean, Median, and Mode: Mode of 2, 2, 5, 7",
+      "answerValue": "2",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "mean-median-mode",
+      "type": "graph",
+      "prompt": "Mean, Median, and Mode: Plot data pair (2,5).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            2,
+            5
+          ]
+        ],
+        "instruction": "Plot (2,5).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "mean-median-mode",
+      "type": "graph",
+      "prompt": "Mean, Median, and Mode: Plot trend points (1,2), (2,4), (3,6).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            6
+          ]
+        ],
+        "instruction": "Plot all three points.",
+        "ordered": true,
+        "connectPoints": true
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "mean-median-mode",
+      "type": "graph",
+      "prompt": "Mean, Median, and Mode: Mark median value 7 on x-axis.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            7,
+            0
+          ]
+        ],
+        "instruction": "Plot (7,0).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "basic-probability",
+      "prompt": "Basic Probability: Probability of odd number on fair die is",
+      "options": [
+        "1/2",
+        "1/3",
+        "2/3",
+        "1/6"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/probability-die.svg",
+      "imageAlt": "Die and coin probability diagram"
+    },
+    {
+      "topic": "basic-probability",
+      "prompt": "Basic Probability: Probability of head on fair coin is",
+      "options": [
+        "1/2",
+        "1",
+        "1/3",
+        "1/4"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/probability-die.svg",
+      "imageAlt": "Die and coin probability diagram"
+    },
+    {
+      "topic": "basic-probability",
+      "prompt": "Basic Probability: Probability of rolling 7 on die is",
+      "options": [
+        "0",
+        "1/6",
+        "1/3",
+        "1"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/probability-die.svg",
+      "imageAlt": "Die and coin probability diagram"
+    },
+    {
+      "topic": "basic-probability",
+      "prompt": "Basic Probability: Favourable outcomes 2 out of 8 gives probability",
+      "options": [
+        "1/4",
+        "1/2",
+        "2/3",
+        "3/4"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/probability-die.svg",
+      "imageAlt": "Die and coin probability diagram"
+    },
+    {
+      "topic": "basic-probability",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Basic Probability: Probability of selecting red from 3 red and 1 blue (as decimal)",
+      "answerValue": "0.75",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/probability-die.svg",
+      "imageAlt": "Die and coin probability diagram"
+    },
+    {
+      "topic": "basic-probability",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Basic Probability: Number of odd outcomes on a die",
+      "answerValue": "3",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/probability-die.svg",
+      "imageAlt": "Die and coin probability diagram"
+    },
+    {
+      "topic": "basic-probability",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Basic Probability: Probability of even on die as fraction numerator only",
+      "answerValue": "3",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/probability-die.svg",
+      "imageAlt": "Die and coin probability diagram"
+    },
+    {
+      "topic": "basic-probability",
+      "type": "graph",
+      "prompt": "Basic Probability: Plot probability pair (favorable,total) = (3,6).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            3,
+            6
+          ]
+        ],
+        "instruction": "Plot (3,6).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "basic-probability",
+      "type": "graph",
+      "prompt": "Basic Probability: Plot event points (1,2) and (2,4).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "instruction": "Plot both points.",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "basic-probability",
+      "type": "graph",
+      "prompt": "Basic Probability: Plot certainty point (1,1).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            1,
+            1
+          ]
+        ],
+        "instruction": "Plot (1,1).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "word-problem-strategies",
+      "prompt": "Word Problem Strategies: Find ratio equivalent to 2:3.",
+      "options": [
+        "4:6",
+        "3:4",
+        "6:4",
+        "8:10"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "word-problem-strategies",
+      "prompt": "Word Problem Strategies: Find 25% of 200.",
+      "options": [
+        "50",
+        "40",
+        "60",
+        "45"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "word-problem-strategies",
+      "prompt": "Word Problem Strategies: 3:5 = ? : 20",
+      "options": [
+        "12",
+        "10",
+        "15",
+        "8"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "word-problem-strategies",
+      "prompt": "Word Problem Strategies: 40% as decimal is",
+      "options": [
+        "0.4",
+        "4",
+        "0.04",
+        "0.04%"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "word-problem-strategies",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Word Problem Strategies: 30% of 150",
+      "answerValue": "45",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "word-problem-strategies",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Word Problem Strategies: Scale ratio 4:7 by 3, give first term only",
+      "answerValue": "12",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "word-problem-strategies",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Word Problem Strategies: If 2 pens cost 10, cost of 1 pen",
+      "answerValue": "5",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "word-problem-strategies",
+      "type": "graph",
+      "prompt": "Word Problem Strategies: Plot ratio pair (4, 6).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            4,
+            6
+          ]
+        ],
+        "instruction": "Plot (4,6).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "word-problem-strategies",
+      "type": "graph",
+      "prompt": "Word Problem Strategies: Plot percentage pair (25, 5).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            5,
+            5
+          ]
+        ],
+        "instruction": "Plot (5,5).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "word-problem-strategies",
+      "type": "graph",
+      "prompt": "Word Problem Strategies: Plot rate points (2,4) and (4,8).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            8
+          ]
+        ],
+        "instruction": "Plot (2,4) and (4,8).",
+        "ordered": true,
+        "connectPoints": true
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "end-of-term-review",
+      "prompt": "End-of-Term Review: A trader sold 12 pens at 3 each. Total?",
+      "options": [
+        "36",
+        "24",
+        "48",
+        "30"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "end-of-term-review",
+      "prompt": "End-of-Term Review: If 2x = 18, x = ?",
+      "options": [
+        "9",
+        "8",
+        "6",
+        "12"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "end-of-term-review",
+      "prompt": "End-of-Term Review: 15% of 200 equals",
+      "options": [
+        "30",
+        "20",
+        "25",
+        "35"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "end-of-term-review",
+      "prompt": "End-of-Term Review: Area of rectangle 9 by 4 is",
+      "options": [
+        "36",
+        "13",
+        "26",
+        "18"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "end-of-term-review",
+      "type": "input",
+      "prompt": "Work out and enter your answer: End-of-Term Review: Solve x + 14 = 27",
+      "answerValue": "13",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "end-of-term-review",
+      "type": "input",
+      "prompt": "Work out and enter your answer: End-of-Term Review: Mean of 6, 8, 10, 12",
+      "answerValue": "9",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "end-of-term-review",
+      "type": "input",
+      "prompt": "Work out and enter your answer: End-of-Term Review: Probability of head on coin as decimal",
+      "answerValue": "0.5",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "end-of-term-review",
+      "type": "graph",
+      "prompt": "End-of-Term Review: Plot checkpoint point (4,7).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            4,
+            7
+          ]
+        ],
+        "instruction": "Plot (4,7).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "end-of-term-review",
+      "type": "graph",
+      "prompt": "End-of-Term Review: Plot two-step problem points (2,3) and (5,9).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            2,
+            3
+          ],
+          [
+            5,
+            9
+          ]
+        ],
+        "instruction": "Plot both points.",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "end-of-term-review",
+      "type": "graph",
+      "prompt": "End-of-Term Review: Plot review line points (1,1), (2,2), (3,3).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "instruction": "Plot all points.",
+        "ordered": true,
+        "connectPoints": true
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "charts",
+      "type": "graph",
+      "prompt": "Charts: Plot the bar-top coordinate for category A with height 7 at x = 2.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            2,
+            7
+          ]
+        ],
+        "instruction": "Plot (2,7).",
+        "ordered": false
+      },
+      "steps": [
+        "Read x and y values.",
+        "Move to x=2 on horizontal axis.",
+        "Move up to y=7.",
+        "Plot the point and verify."
+      ],
+      "image": "Images/bar-chart-example.svg",
+      "imageAlt": "Bar chart example"
+    },
+    {
+      "topic": "charts",
+      "type": "graph",
+      "prompt": "Charts: Plot the bar-top coordinate for category B with height 5 at x = 4.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            4,
+            5
+          ]
+        ],
+        "instruction": "Plot (4,5).",
+        "ordered": false
+      },
+      "steps": [
+        "Read x and y values.",
+        "Locate x=4.",
+        "Move to y=5.",
+        "Plot and check accuracy."
+      ],
+      "image": "Images/bar-chart-example.svg",
+      "imageAlt": "Bar chart example"
+    },
+    {
+      "topic": "charts",
+      "type": "graph",
+      "prompt": "Charts: Plot line-chart points (1,3), (2,5), (3,7).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "instruction": "Plot (1,3), (2,5), and (3,7).",
+        "ordered": true,
+        "connectPoints": true
+      },
+      "steps": [
+        "Read all ordered pairs.",
+        "Plot each point in order.",
+        "Check each coordinate.",
+        "Submit the plotted set."
+      ],
+      "image": "Images/line-graph-example.svg",
+      "imageAlt": "Line graph example"
+    },
+    {
+      "topic": "charts",
+      "type": "graph",
+      "prompt": "Charts: Plot trend points (2,4), (4,8).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            8
+          ]
+        ],
+        "instruction": "Plot (2,4) and (4,8).",
+        "ordered": true,
+        "connectPoints": true
+      },
+      "steps": [
+        "Identify both data pairs.",
+        "Plot first point.",
+        "Plot second point.",
+        "Confirm both are correct."
+      ],
+      "image": "Images/line-graph-example.svg",
+      "imageAlt": "Line graph example"
+    },
+    {
+      "topic": "charts",
+      "type": "graph",
+      "prompt": "Charts: Plot pie-chart comparison points (4,6) and (8,3).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            4,
+            6
+          ],
+          [
+            8,
+            3
+          ]
+        ],
+        "instruction": "Plot (4,6) and (8,3).",
+        "ordered": false
+      },
+      "steps": [
+        "Read the two points.",
+        "Plot first point.",
+        "Plot second point.",
+        "Verify both positions."
+      ],
+      "image": "Images/pie-chart-example.svg",
+      "imageAlt": "Pie chart example"
+    },
+    {
+      "topic": "charts",
+      "type": "graph",
+      "prompt": "Charts: Plot frequency points for categories A, B, C as (1,4), (2,7), (3,5).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            5
+          ]
+        ],
+        "instruction": "Plot (1,4), (2,7), and (3,5).",
+        "ordered": true,
+        "connectPoints": true
+      },
+      "steps": [
+        "Translate each category to coordinate.",
+        "Plot all listed points.",
+        "Ensure y-values match frequencies.",
+        "Check all coordinates."
+      ],
+      "image": "Images/bar-chart-example.svg",
+      "imageAlt": "Bar chart example"
+    },
+    {
+      "topic": "charts",
+      "type": "graph",
+      "prompt": "Charts: Plot cumulative frequency points (1,2), (2,5), (3,9).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        "instruction": "Plot (1,2), (2,5), and (3,9).",
+        "ordered": true,
+        "connectPoints": true
+      },
+      "steps": [
+        "Read cumulative pairs.",
+        "Plot each point.",
+        "Maintain increasing order.",
+        "Confirm exact intersections."
+      ],
+      "image": "Images/bar-chart-example.svg",
+      "imageAlt": "Bar chart example"
+    },
+    {
+      "topic": "charts",
+      "type": "graph",
+      "prompt": "Charts: Plot two bar-chart peaks at (5,9) and (7,6).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            5,
+            9
+          ],
+          [
+            7,
+            6
+          ]
+        ],
+        "instruction": "Plot (5,9) and (7,6).",
+        "ordered": false
+      },
+      "steps": [
+        "Read both peak coordinates.",
+        "Plot first peak.",
+        "Plot second peak.",
+        "Check plotted peaks."
+      ],
+      "image": "Images/bar-chart-example.svg",
+      "imageAlt": "Bar chart example"
+    },
+    {
+      "topic": "charts",
+      "type": "graph",
+      "prompt": "Charts: Plot points showing equal bars at (2,6), (4,6), (6,6).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            2,
+            6
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            6,
+            6
+          ]
+        ],
+        "instruction": "Plot (2,6), (4,6), and (6,6).",
+        "ordered": true,
+        "connectPoints": true
+      },
+      "steps": [
+        "Note all y-values are equal.",
+        "Plot each x with y=6.",
+        "Confirm horizontal alignment.",
+        "Submit final plot."
+      ],
+      "image": "Images/bar-chart-example.svg",
+      "imageAlt": "Bar chart example"
+    },
+    {
+      "topic": "charts",
+      "type": "graph",
+      "prompt": "Charts: Plot three dashboard chart points (3,2), (6,5), (9,8).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            3,
+            2
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            9,
+            8
+          ]
+        ],
+        "instruction": "Plot (3,2), (6,5), and (9,8).",
+        "ordered": true,
+        "connectPoints": true
+      },
+      "steps": [
+        "Read all points.",
+        "Plot each in sequence.",
+        "Verify axis positions.",
+        "Check all three points."
+      ],
+      "image": "Images/bar-chart-example.svg",
+      "imageAlt": "Bar chart example"
+    }
+  ],
+  "jh2": [
+    {
+      "topic": "rational-numbers-review",
+      "prompt": "Rational Numbers Review: Evaluate 30 + 14.",
+      "options": [
+        "44",
+        "43",
+        "45",
+        "46"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "rational-numbers-review",
+      "prompt": "Rational Numbers Review: Find 95 - 38.",
+      "options": [
+        "57",
+        "55",
+        "59",
+        "61"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "rational-numbers-review",
+      "prompt": "Rational Numbers Review: Compute 7 x 6.",
+      "options": [
+        "42",
+        "40",
+        "44",
+        "46"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "rational-numbers-review",
+      "prompt": "Rational Numbers Review: Compute 84 / 7.",
+      "options": [
+        "12",
+        "13",
+        "11",
+        "14"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "rational-numbers-review",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Rational Numbers Review: 120 + 80",
+      "answerValue": "200",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "rational-numbers-review",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Rational Numbers Review: 240 - 115",
+      "answerValue": "125",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "rational-numbers-review",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Rational Numbers Review: -8 + 15",
+      "answerValue": "7",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "rational-numbers-review",
+      "type": "graph",
+      "prompt": "Rational Numbers Review: Plot integer point A.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            2,
+            6
+          ]
+        ],
+        "instruction": "Plot A at (2, 6).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "rational-numbers-review",
+      "type": "graph",
+      "prompt": "Rational Numbers Review: Plot integer point B.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            7,
+            3
+          ]
+        ],
+        "instruction": "Plot B at (7, 3).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "rational-numbers-review",
+      "type": "graph",
+      "prompt": "Rational Numbers Review: Plot points C and D.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            3,
+            2
+          ],
+          [
+            9,
+            5
+          ]
+        ],
+        "instruction": "Plot (3, 2) and (9, 5).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "operations-with-integers",
+      "prompt": "Operations with Integers: Evaluate 31 + 15.",
+      "options": [
+        "46",
+        "45",
+        "47",
+        "48"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "operations-with-integers",
+      "prompt": "Operations with Integers: Find 96 - 39.",
+      "options": [
+        "57",
+        "55",
+        "59",
+        "61"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "operations-with-integers",
+      "prompt": "Operations with Integers: Compute 8 x 7.",
+      "options": [
+        "56",
+        "54",
+        "58",
+        "60"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "operations-with-integers",
+      "prompt": "Operations with Integers: Compute 91 / 8.",
+      "options": [
+        "11",
+        "12",
+        "10",
+        "13"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "operations-with-integers",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Operations with Integers: 121 + 81",
+      "answerValue": "202",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "operations-with-integers",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Operations with Integers: 242 - 116",
+      "answerValue": "126",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "operations-with-integers",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Operations with Integers: -9 + 16",
+      "answerValue": "7",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "operations-with-integers",
+      "type": "graph",
+      "prompt": "Operations with Integers: Plot integer point A.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            3,
+            6
+          ]
+        ],
+        "instruction": "Plot A at (3, 6).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "operations-with-integers",
+      "type": "graph",
+      "prompt": "Operations with Integers: Plot integer point B.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            7,
+            4
+          ]
+        ],
+        "instruction": "Plot B at (7, 4).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "operations-with-integers",
+      "type": "graph",
+      "prompt": "Operations with Integers: Plot points C and D.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            4,
+            2
+          ],
+          [
+            9,
+            6
+          ]
+        ],
+        "instruction": "Plot (4, 2) and (9, 6).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "expressions-and-equations",
+      "prompt": "Expressions and Equations: Solve x + 11 = 19.",
+      "options": [
+        "8",
+        "7",
+        "9",
+        "6"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "expressions-and-equations",
+      "prompt": "Expressions and Equations: Solve 3x = 30.",
+      "options": [
+        "10",
+        "9",
+        "11",
+        "8"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "expressions-and-equations",
+      "prompt": "Expressions and Equations: Evaluate 2x + 3 for x=4.",
+      "options": [
+        "11",
+        "10",
+        "9",
+        "12"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "expressions-and-equations",
+      "prompt": "Expressions and Equations: If x=5, x^2 =",
+      "options": [
+        "25",
+        "10",
+        "15",
+        "20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "expressions-and-equations",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Expressions and Equations: Solve x - 7 = 12",
+      "answerValue": "19",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "expressions-and-equations",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Expressions and Equations: Solve 5x = 45",
+      "answerValue": "9",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "expressions-and-equations",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Expressions and Equations: Evaluate 4x + 1 for x = 6",
+      "answerValue": "25",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "expressions-and-equations",
+      "type": "graph",
+      "prompt": "Expressions and Equations: Plot point on y = x + 1 for x=3.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            3,
+            4
+          ]
+        ],
+        "instruction": "Plot (3,4).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "expressions-and-equations",
+      "type": "graph",
+      "prompt": "Expressions and Equations: Plot two points for y = 2x.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            8
+          ]
+        ],
+        "instruction": "Plot (2,4) and (4,8).",
+        "ordered": true,
+        "connectPoints": true
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "expressions-and-equations",
+      "type": "graph",
+      "prompt": "Expressions and Equations: Plot solution point of x + y = 6 using x=2.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            2,
+            4
+          ]
+        ],
+        "instruction": "Plot (2,4).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "one-step-equations",
+      "prompt": "One-Step Equations: Solve x + 9 = 17.",
+      "options": [
+        "8",
+        "7",
+        "9",
+        "6"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "one-step-equations",
+      "prompt": "One-Step Equations: Solve 3x = 24.",
+      "options": [
+        "8",
+        "7",
+        "9",
+        "6"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "one-step-equations",
+      "prompt": "One-Step Equations: Evaluate 2x + 3 for x=4.",
+      "options": [
+        "11",
+        "10",
+        "9",
+        "12"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "one-step-equations",
+      "prompt": "One-Step Equations: If x=5, x^2 =",
+      "options": [
+        "25",
+        "10",
+        "15",
+        "20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "one-step-equations",
+      "type": "input",
+      "prompt": "Work out and enter your answer: One-Step Equations: Solve x - 7 = 12",
+      "answerValue": "19",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "one-step-equations",
+      "type": "input",
+      "prompt": "Work out and enter your answer: One-Step Equations: Solve 5x = 45",
+      "answerValue": "9",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "one-step-equations",
+      "type": "input",
+      "prompt": "Work out and enter your answer: One-Step Equations: Evaluate 4x + 1 for x = 6",
+      "answerValue": "25",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "one-step-equations",
+      "type": "graph",
+      "prompt": "One-Step Equations: Plot point on y = x + 1 for x=3.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            3,
+            4
+          ]
+        ],
+        "instruction": "Plot (3,4).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "one-step-equations",
+      "type": "graph",
+      "prompt": "One-Step Equations: Plot two points for y = 2x.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            8
+          ]
+        ],
+        "instruction": "Plot (2,4) and (4,8).",
+        "ordered": true,
+        "connectPoints": true
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "one-step-equations",
+      "type": "graph",
+      "prompt": "One-Step Equations: Plot solution point of x + y = 6 using x=2.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            2,
+            4
+          ]
+        ],
+        "instruction": "Plot (2,4).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "inequalities",
+      "prompt": "Inequalities: Solve x + 10 = 18.",
+      "options": [
+        "8",
+        "7",
+        "9",
+        "6"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "inequalities",
+      "prompt": "Inequalities: Solve 3x = 27.",
+      "options": [
+        "9",
+        "8",
+        "10",
+        "7"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "inequalities",
+      "prompt": "Inequalities: Evaluate 2x + 3 for x=4.",
+      "options": [
+        "11",
+        "10",
+        "9",
+        "12"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "inequalities",
+      "prompt": "Inequalities: If x=5, x^2 =",
+      "options": [
+        "25",
+        "10",
+        "15",
+        "20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "inequalities",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Inequalities: Solve x - 7 = 12",
+      "answerValue": "19",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "inequalities",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Inequalities: Solve 5x = 45",
+      "answerValue": "9",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "inequalities",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Inequalities: Evaluate 4x + 1 for x = 6",
+      "answerValue": "25",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "inequalities",
+      "type": "graph",
+      "prompt": "Inequalities: Plot point on y = x + 1 for x=3.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            3,
+            4
+          ]
+        ],
+        "instruction": "Plot (3,4).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "inequalities",
+      "type": "graph",
+      "prompt": "Inequalities: Plot two points for y = 2x.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            8
+          ]
+        ],
+        "instruction": "Plot (2,4) and (4,8).",
+        "ordered": true,
+        "connectPoints": true
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "inequalities",
+      "type": "graph",
+      "prompt": "Inequalities: Plot solution point of x + y = 6 using x=2.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            2,
+            4
+          ]
+        ],
+        "instruction": "Plot (2,4).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "angles-and-triangles",
+      "prompt": "Angles and Triangles: Sum of angles in a triangle is",
+      "options": [
+        "180",
+        "90",
+        "270",
+        "360"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/triangle-area.svg",
+      "imageAlt": "Triangle geometry diagram"
+    },
+    {
+      "topic": "angles-and-triangles",
+      "prompt": "Angles and Triangles: Right angle measure is",
+      "options": [
+        "90",
+        "45",
+        "180",
+        "60"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/triangle-area.svg",
+      "imageAlt": "Triangle geometry diagram"
+    },
+    {
+      "topic": "angles-and-triangles",
+      "prompt": "Angles and Triangles: Hypotenuse in 3-4-5 triangle is",
+      "options": [
+        "5",
+        "4",
+        "3",
+        "7"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/triangle-area.svg",
+      "imageAlt": "Triangle geometry diagram"
+    },
+    {
+      "topic": "angles-and-triangles",
+      "prompt": "Angles and Triangles: A line through origin and (2,2) has slope",
+      "options": [
+        "1",
+        "2",
+        "0",
+        "3"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/triangle-area.svg",
+      "imageAlt": "Triangle geometry diagram"
+    },
+    {
+      "topic": "angles-and-triangles",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Angles and Triangles: Find missing angle if two angles are 50 and 60 in triangle",
+      "answerValue": "70",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/triangle-area.svg",
+      "imageAlt": "Triangle geometry diagram"
+    },
+    {
+      "topic": "angles-and-triangles",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Angles and Triangles: In 3-4-5 triangle, square of hypotenuse",
+      "answerValue": "25",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/triangle-area.svg",
+      "imageAlt": "Triangle geometry diagram"
+    },
+    {
+      "topic": "angles-and-triangles",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Angles and Triangles: Reflection keeps x same on y-axis? enter 0 for no, 1 for yes",
+      "answerValue": "0",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/triangle-area.svg",
+      "imageAlt": "Triangle geometry diagram"
+    },
+    {
+      "topic": "angles-and-triangles",
+      "type": "graph",
+      "prompt": "Angles and Triangles: Plot vertex A at (3,3).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            3,
+            3
+          ]
+        ],
+        "instruction": "Plot (3,3).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "angles-and-triangles",
+      "type": "graph",
+      "prompt": "Angles and Triangles: Plot triangle points A(2,2), B(6,2), C(4,6).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            2,
+            2
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            4,
+            6
+          ]
+        ],
+        "instruction": "Plot all three points.",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "angles-and-triangles",
+      "type": "graph",
+      "prompt": "Angles and Triangles: Plot reflected point of (2,5) over y-axis.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            0,
+            5
+          ]
+        ],
+        "instruction": "Plot (0,5).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "surface-area-and-volume",
+      "prompt": "Surface Area and Volume: Area of rectangle 8 by 5 is",
+      "options": [
+        "40",
+        "26",
+        "13",
+        "80"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/rectangle-dimensions.svg",
+      "imageAlt": "Rectangle dimensions for area and perimeter"
+    },
+    {
+      "topic": "surface-area-and-volume",
+      "prompt": "Surface Area and Volume: Perimeter of square side 6 is",
+      "options": [
+        "24",
+        "12",
+        "36",
+        "18"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/square-perimeter.svg",
+      "imageAlt": "Square side and perimeter"
+    },
+    {
+      "topic": "surface-area-and-volume",
+      "prompt": "Surface Area and Volume: Volume of cube side 3 is",
+      "options": [
+        "27",
+        "9",
+        "18",
+        "12"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/cube-surface-area.svg",
+      "imageAlt": "Cube for surface area"
+    },
+    {
+      "topic": "surface-area-and-volume",
+      "prompt": "Surface Area and Volume: Surface area of cube side 2 is",
+      "options": [
+        "24",
+        "8",
+        "12",
+        "16"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/cube-surface-area.svg",
+      "imageAlt": "Cube for surface area"
+    },
+    {
+      "topic": "surface-area-and-volume",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Surface Area and Volume: Area of triangle base 10 and height 6",
+      "answerValue": "30",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/triangle-area.svg",
+      "imageAlt": "Triangle with base and height"
+    },
+    {
+      "topic": "surface-area-and-volume",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Surface Area and Volume: Perimeter of rectangle length 9 width 4",
+      "answerValue": "26",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/square-perimeter.svg",
+      "imageAlt": "Square side and perimeter"
+    },
+    {
+      "topic": "surface-area-and-volume",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Surface Area and Volume: Volume of cuboid 2 x 3 x 5",
+      "answerValue": "30",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/cuboid-volume.svg",
+      "imageAlt": "Cuboid dimensions for volume"
+    },
+    {
+      "topic": "surface-area-and-volume",
+      "type": "graph",
+      "prompt": "Surface Area and Volume: Plot rectangle corners A(1,1), B(7,1), C(7,5), D(1,5).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            1,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            1,
+            5
+          ]
+        ],
+        "instruction": "Plot all four corners.",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/rectangle-dimensions.svg",
+      "imageAlt": "Rectangle dimensions for area and perimeter"
+    },
+    {
+      "topic": "surface-area-and-volume",
+      "type": "graph",
+      "prompt": "Surface Area and Volume: Plot base-height point (10,6).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            10,
+            6
+          ]
+        ],
+        "instruction": "Plot (10,6).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/rectangle-dimensions.svg",
+      "imageAlt": "Rectangle dimensions for area and perimeter"
+    },
+    {
+      "topic": "surface-area-and-volume",
+      "type": "graph",
+      "prompt": "Surface Area and Volume: Plot prism dimensions point (3,5).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            3,
+            5
+          ]
+        ],
+        "instruction": "Plot (3,5).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/cuboid-volume.svg",
+      "imageAlt": "Cuboid dimensions for volume"
+    },
+    {
+      "topic": "probability-basics",
+      "prompt": "Probability Basics: Probability of odd number on fair die is",
+      "options": [
+        "1/2",
+        "1/3",
+        "2/3",
+        "1/6"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/probability-die.svg",
+      "imageAlt": "Die and coin probability diagram"
+    },
+    {
+      "topic": "probability-basics",
+      "prompt": "Probability Basics: Probability of head on fair coin is",
+      "options": [
+        "1/2",
+        "1",
+        "1/3",
+        "1/4"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/probability-die.svg",
+      "imageAlt": "Die and coin probability diagram"
+    },
+    {
+      "topic": "probability-basics",
+      "prompt": "Probability Basics: Probability of rolling 7 on die is",
+      "options": [
+        "0",
+        "1/6",
+        "1/3",
+        "1"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/probability-die.svg",
+      "imageAlt": "Die and coin probability diagram"
+    },
+    {
+      "topic": "probability-basics",
+      "prompt": "Probability Basics: Favourable outcomes 2 out of 8 gives probability",
+      "options": [
+        "1/4",
+        "1/2",
+        "2/3",
+        "3/4"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/probability-die.svg",
+      "imageAlt": "Die and coin probability diagram"
+    },
+    {
+      "topic": "probability-basics",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Probability Basics: Probability of selecting red from 3 red and 1 blue (as decimal)",
+      "answerValue": "0.75",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/probability-die.svg",
+      "imageAlt": "Die and coin probability diagram"
+    },
+    {
+      "topic": "probability-basics",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Probability Basics: Number of odd outcomes on a die",
+      "answerValue": "3",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/probability-die.svg",
+      "imageAlt": "Die and coin probability diagram"
+    },
+    {
+      "topic": "probability-basics",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Probability Basics: Probability of even on die as fraction numerator only",
+      "answerValue": "3",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/probability-die.svg",
+      "imageAlt": "Die and coin probability diagram"
+    },
+    {
+      "topic": "probability-basics",
+      "type": "graph",
+      "prompt": "Probability Basics: Plot probability pair (favorable,total) = (3,6).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            3,
+            6
+          ]
+        ],
+        "instruction": "Plot (3,6).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "probability-basics",
+      "type": "graph",
+      "prompt": "Probability Basics: Plot event points (1,2) and (2,4).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "instruction": "Plot both points.",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "probability-basics",
+      "type": "graph",
+      "prompt": "Probability Basics: Plot certainty point (1,1).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            1,
+            1
+          ]
+        ],
+        "instruction": "Plot (1,1).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "coordinate-plane",
+      "prompt": "Coordinate Geometry: Find the gradient of the line through (1,2) and (5,10).",
+      "options": [
+        "2",
+        "1/2",
+        "4",
+        "8"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "coordinate-plane",
+      "prompt": "Coordinate Geometry: Which coordinate lies in the fourth quadrant?",
+      "options": [
+        "(3,-2)",
+        "(-3,2)",
+        "(-2,-4)",
+        "(2,5)"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "coordinate-plane",
+      "prompt": "Coordinate Geometry: Distance between (-2,4) and (5,4) is",
+      "options": [
+        "7",
+        "9",
+        "5",
+        "3"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "coordinate-plane",
+      "prompt": "Coordinate Geometry: The angle between perpendicular lines is",
+      "options": [
+        "90",
+        "45",
+        "180",
+        "30"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "coordinate-plane",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Coordinate Geometry: Find the distance between (2,3) and (2,9)",
+      "answerValue": "6",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "coordinate-plane",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Coordinate Geometry: Find the x-coordinate of the midpoint of (2,8) and (6,4)",
+      "answerValue": "4",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "coordinate-plane",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Coordinate Geometry: Find the gradient of the line through (0,0) and (4,2)",
+      "answerValue": "0.5",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "coordinate-plane",
+      "type": "graph",
+      "prompt": "Coordinate Geometry: Plot point A at (-3,4).",
+      "graph": {
+        "xMin": -10,
+        "xMax": 10,
+        "yMin": -10,
+        "yMax": 10,
+        "points": [
+          [
+            -3,
+            4
+          ]
+        ],
+        "instruction": "Plot (-3,4).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "coordinate-plane",
+      "type": "graph",
+      "prompt": "Coordinate Geometry: Plot triangle points A(-4,1), B(2,1), C(-1,5).",
+      "graph": {
+        "xMin": -10,
+        "xMax": 10,
+        "yMin": -10,
+        "yMax": 10,
+        "points": [
+          [
+            -4,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            -1,
+            5
+          ]
+        ],
+        "instruction": "Plot A(-4,1), B(2,1), and C(-1,5).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "coordinate-plane",
+      "type": "graph",
+      "prompt": "Coordinate Geometry: Plot the reflection of (2,5) over the y-axis.",
+      "graph": {
+        "xMin": -10,
+        "xMax": 10,
+        "yMin": -10,
+        "yMax": 10,
+        "points": [
+          [
+            -2,
+            5
+          ]
+        ],
+        "instruction": "Plot (-2,5).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "pythagorean-intro",
+      "prompt": "Pythagorean Theorem Intro: Sum of angles in a triangle is",
+      "options": [
+        "180",
+        "90",
+        "270",
+        "360"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "pythagorean-intro",
+      "prompt": "Pythagorean Theorem Intro: Right angle measure is",
+      "options": [
+        "90",
+        "45",
+        "180",
+        "60"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "pythagorean-intro",
+      "prompt": "Pythagorean Theorem Intro: Hypotenuse in 3-4-5 triangle is",
+      "options": [
+        "5",
+        "4",
+        "3",
+        "7"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "pythagorean-intro",
+      "prompt": "Pythagorean Theorem Intro: A line through origin and (2,2) has slope",
+      "options": [
+        "1",
+        "2",
+        "0",
+        "3"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "pythagorean-intro",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Pythagorean Theorem Intro: Find missing angle if two angles are 50 and 60 in triangle",
+      "answerValue": "70",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "pythagorean-intro",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Pythagorean Theorem Intro: In 3-4-5 triangle, square of hypotenuse",
+      "answerValue": "25",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "pythagorean-intro",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Pythagorean Theorem Intro: Reflection keeps x same on y-axis? enter 0 for no, 1 for yes",
+      "answerValue": "0",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "pythagorean-intro",
+      "type": "graph",
+      "prompt": "Pythagorean Theorem Intro: Plot vertex A at (3,3).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            3,
+            3
+          ]
+        ],
+        "instruction": "Plot (3,3).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "pythagorean-intro",
+      "type": "graph",
+      "prompt": "Pythagorean Theorem Intro: Plot triangle points A(2,2), B(6,2), C(4,6).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            2,
+            2
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            4,
+            6
+          ]
+        ],
+        "instruction": "Plot all three points.",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "pythagorean-intro",
+      "type": "graph",
+      "prompt": "Pythagorean Theorem Intro: Plot reflected point of (2,5) over y-axis.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            0,
+            5
+          ]
+        ],
+        "instruction": "Plot (0,5).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "multi-step-problems",
+      "prompt": "Multi-Step Problems: A trader sold 12 pens at 3 each. Total?",
+      "options": [
+        "36",
+        "24",
+        "48",
+        "30"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "multi-step-problems",
+      "prompt": "Multi-Step Problems: If 2x = 18, x = ?",
+      "options": [
+        "9",
+        "8",
+        "6",
+        "12"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "multi-step-problems",
+      "prompt": "Multi-Step Problems: 15% of 200 equals",
+      "options": [
+        "30",
+        "20",
+        "25",
+        "35"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "multi-step-problems",
+      "prompt": "Multi-Step Problems: Area of rectangle 9 by 4 is",
+      "options": [
+        "36",
+        "13",
+        "26",
+        "18"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "multi-step-problems",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Multi-Step Problems: Solve x + 14 = 27",
+      "answerValue": "13",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "multi-step-problems",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Multi-Step Problems: Mean of 6, 8, 10, 12",
+      "answerValue": "9",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "multi-step-problems",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Multi-Step Problems: Probability of head on coin as decimal",
+      "answerValue": "0.5",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "multi-step-problems",
+      "type": "graph",
+      "prompt": "Multi-Step Problems: Plot checkpoint point (4,7).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            4,
+            7
+          ]
+        ],
+        "instruction": "Plot (4,7).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "multi-step-problems",
+      "type": "graph",
+      "prompt": "Multi-Step Problems: Plot two-step problem points (2,3) and (5,9).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            2,
+            3
+          ],
+          [
+            5,
+            9
+          ]
+        ],
+        "instruction": "Plot both points.",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "multi-step-problems",
+      "type": "graph",
+      "prompt": "Multi-Step Problems: Plot review line points (1,1), (2,2), (3,3).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "instruction": "Plot all points.",
+        "ordered": true,
+        "connectPoints": true
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "final-skill-check",
+      "prompt": "Final Skill Check: A trader sold 12 pens at 3 each. Total?",
+      "options": [
+        "36",
+        "24",
+        "48",
+        "30"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "final-skill-check",
+      "prompt": "Final Skill Check: If 2x = 18, x = ?",
+      "options": [
+        "9",
+        "8",
+        "6",
+        "12"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "final-skill-check",
+      "prompt": "Final Skill Check: 15% of 200 equals",
+      "options": [
+        "30",
+        "20",
+        "25",
+        "35"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "final-skill-check",
+      "prompt": "Final Skill Check: Area of rectangle 9 by 4 is",
+      "options": [
+        "36",
+        "13",
+        "26",
+        "18"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "final-skill-check",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Final Skill Check: Solve x + 14 = 27",
+      "answerValue": "13",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "final-skill-check",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Final Skill Check: Mean of 6, 8, 10, 12",
+      "answerValue": "9",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "final-skill-check",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Final Skill Check: Probability of head on coin as decimal",
+      "answerValue": "0.5",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "final-skill-check",
+      "type": "graph",
+      "prompt": "Final Skill Check: Plot checkpoint point (4,7).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            4,
+            7
+          ]
+        ],
+        "instruction": "Plot (4,7).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "final-skill-check",
+      "type": "graph",
+      "prompt": "Final Skill Check: Plot two-step problem points (2,3) and (5,9).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            2,
+            3
+          ],
+          [
+            5,
+            9
+          ]
+        ],
+        "instruction": "Plot both points.",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "final-skill-check",
+      "type": "graph",
+      "prompt": "Final Skill Check: Plot review line points (1,1), (2,2), (3,3).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "instruction": "Plot all points.",
+        "ordered": true,
+        "connectPoints": true
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    }
+  ],
+  "jh3": [
+    {
+      "topic": "real-number-system",
+      "prompt": "Real Number System: Evaluate 30 + 14.",
+      "options": [
+        "44",
+        "43",
+        "45",
+        "46"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "real-number-system",
+      "prompt": "Real Number System: Find 95 - 38.",
+      "options": [
+        "57",
+        "55",
+        "59",
+        "61"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "real-number-system",
+      "prompt": "Real Number System: Compute 7 x 6.",
+      "options": [
+        "42",
+        "40",
+        "44",
+        "46"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "real-number-system",
+      "prompt": "Real Number System: Compute 84 / 7.",
+      "options": [
+        "12",
+        "13",
+        "11",
+        "14"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "real-number-system",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Real Number System: 120 + 80",
+      "answerValue": "200",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "real-number-system",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Real Number System: 240 - 115",
+      "answerValue": "125",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "real-number-system",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Real Number System: -8 + 15",
+      "answerValue": "7",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "real-number-system",
+      "type": "graph",
+      "prompt": "Real Number System: Plot integer point A.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            2,
+            6
+          ]
+        ],
+        "instruction": "Plot A at (2, 6).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "real-number-system",
+      "type": "graph",
+      "prompt": "Real Number System: Plot integer point B.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            7,
+            3
+          ]
+        ],
+        "instruction": "Plot B at (7, 3).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "real-number-system",
+      "type": "graph",
+      "prompt": "Real Number System: Plot points C and D.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            3,
+            2
+          ],
+          [
+            9,
+            5
+          ]
+        ],
+        "instruction": "Plot (3, 2) and (9, 5).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "scientific-notation",
+      "prompt": "Scientific Notation: Evaluate 31 + 15.",
+      "options": [
+        "46",
+        "45",
+        "47",
+        "48"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "scientific-notation",
+      "prompt": "Scientific Notation: Find 96 - 39.",
+      "options": [
+        "57",
+        "55",
+        "59",
+        "61"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "scientific-notation",
+      "prompt": "Scientific Notation: Compute 8 x 7.",
+      "options": [
+        "56",
+        "54",
+        "58",
+        "60"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "scientific-notation",
+      "prompt": "Scientific Notation: Compute 91 / 8.",
+      "options": [
+        "11",
+        "12",
+        "10",
+        "13"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "scientific-notation",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Scientific Notation: 121 + 81",
+      "answerValue": "202",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "scientific-notation",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Scientific Notation: 242 - 116",
+      "answerValue": "126",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "scientific-notation",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Scientific Notation: -9 + 16",
+      "answerValue": "7",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "scientific-notation",
+      "type": "graph",
+      "prompt": "Scientific Notation: Plot integer point A.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            3,
+            6
+          ]
+        ],
+        "instruction": "Plot A at (3, 6).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "scientific-notation",
+      "type": "graph",
+      "prompt": "Scientific Notation: Plot integer point B.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            7,
+            4
+          ]
+        ],
+        "instruction": "Plot B at (7, 4).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "scientific-notation",
+      "type": "graph",
+      "prompt": "Scientific Notation: Plot points C and D.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            4,
+            2
+          ],
+          [
+            9,
+            6
+          ]
+        ],
+        "instruction": "Plot (4, 2) and (9, 6).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "linear-equations",
+      "prompt": "Linear Equations: Solve x + 11 = 19.",
+      "options": [
+        "8",
+        "7",
+        "9",
+        "6"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "linear-equations",
+      "prompt": "Linear Equations: Solve 3x = 30.",
+      "options": [
+        "10",
+        "9",
+        "11",
+        "8"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "linear-equations",
+      "prompt": "Linear Equations: Evaluate 2x + 3 for x=4.",
+      "options": [
+        "11",
+        "10",
+        "9",
+        "12"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "linear-equations",
+      "prompt": "Linear Equations: If x=5, x^2 =",
+      "options": [
+        "25",
+        "10",
+        "15",
+        "20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "linear-equations",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Linear Equations: Solve x - 7 = 12",
+      "answerValue": "19",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "linear-equations",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Linear Equations: Solve 5x = 45",
+      "answerValue": "9",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "linear-equations",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Linear Equations: Evaluate 4x + 1 for x = 6",
+      "answerValue": "25",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "linear-equations",
+      "type": "graph",
+      "prompt": "Linear Equations: Plot point on y = x + 1 for x=3.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            3,
+            4
+          ]
+        ],
+        "instruction": "Plot (3,4).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "linear-equations",
+      "type": "graph",
+      "prompt": "Linear Equations: Plot two points for y = 2x.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            8
+          ]
+        ],
+        "instruction": "Plot (2,4) and (4,8).",
+        "ordered": true,
+        "connectPoints": true
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "linear-equations",
+      "type": "graph",
+      "prompt": "Linear Equations: Plot solution point of x + y = 6 using x=2.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            2,
+            4
+          ]
+        ],
+        "instruction": "Plot (2,4).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "systems-of-equations",
+      "prompt": "Systems of Equations: Solve x + 9 = 17.",
+      "options": [
+        "8",
+        "7",
+        "9",
+        "6"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "systems-of-equations",
+      "prompt": "Systems of Equations: Solve 3x = 24.",
+      "options": [
+        "8",
+        "7",
+        "9",
+        "6"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "systems-of-equations",
+      "prompt": "Systems of Equations: Evaluate 2x + 3 for x=4.",
+      "options": [
+        "11",
+        "10",
+        "9",
+        "12"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "systems-of-equations",
+      "prompt": "Systems of Equations: If x=5, x^2 =",
+      "options": [
+        "25",
+        "10",
+        "15",
+        "20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "systems-of-equations",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Systems of Equations: Solve x - 7 = 12",
+      "answerValue": "19",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "systems-of-equations",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Systems of Equations: Solve 5x = 45",
+      "answerValue": "9",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "systems-of-equations",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Systems of Equations: Evaluate 4x + 1 for x = 6",
+      "answerValue": "25",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "systems-of-equations",
+      "type": "graph",
+      "prompt": "Systems of Equations: Plot point on y = x + 1 for x=3.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            3,
+            4
+          ]
+        ],
+        "instruction": "Plot (3,4).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "systems-of-equations",
+      "type": "graph",
+      "prompt": "Systems of Equations: Plot two points for y = 2x.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            8
+          ]
+        ],
+        "instruction": "Plot (2,4) and (4,8).",
+        "ordered": true,
+        "connectPoints": true
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "systems-of-equations",
+      "type": "graph",
+      "prompt": "Systems of Equations: Plot solution point of x + y = 6 using x=2.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            2,
+            4
+          ]
+        ],
+        "instruction": "Plot (2,4).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "functions-and-graphs",
+      "prompt": "Functions and Graphs: A trader sold 12 pens at 3 each. Total?",
+      "options": [
+        "36",
+        "24",
+        "48",
+        "30"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "functions-and-graphs",
+      "prompt": "Functions and Graphs: If 2x = 18, x = ?",
+      "options": [
+        "9",
+        "8",
+        "6",
+        "12"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "functions-and-graphs",
+      "prompt": "Functions and Graphs: 15% of 200 equals",
+      "options": [
+        "30",
+        "20",
+        "25",
+        "35"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "functions-and-graphs",
+      "prompt": "Functions and Graphs: Area of rectangle 9 by 4 is",
+      "options": [
+        "36",
+        "13",
+        "26",
+        "18"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "functions-and-graphs",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Functions and Graphs: Solve x + 14 = 27",
+      "answerValue": "13",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "functions-and-graphs",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Functions and Graphs: Mean of 6, 8, 10, 12",
+      "answerValue": "9",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "functions-and-graphs",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Functions and Graphs: Probability of head on coin as decimal",
+      "answerValue": "0.5",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "functions-and-graphs",
+      "type": "graph",
+      "prompt": "Functions and Graphs: Plot checkpoint point (4,7).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            4,
+            7
+          ]
+        ],
+        "instruction": "Plot (4,7).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "functions-and-graphs",
+      "type": "graph",
+      "prompt": "Functions and Graphs: Plot two-step problem points (2,3) and (5,9).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            2,
+            3
+          ],
+          [
+            5,
+            9
+          ]
+        ],
+        "instruction": "Plot both points.",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "functions-and-graphs",
+      "type": "graph",
+      "prompt": "Functions and Graphs: Plot review line points (1,1), (2,2), (3,3).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "instruction": "Plot all points.",
+        "ordered": true,
+        "connectPoints": true
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "congruence-and-similarity",
+      "prompt": "Congruence and Similarity: Sum of angles in a triangle is",
+      "options": [
+        "180",
+        "90",
+        "270",
+        "360"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/triangle-area.svg",
+      "imageAlt": "Triangle geometry diagram"
+    },
+    {
+      "topic": "congruence-and-similarity",
+      "prompt": "Congruence and Similarity: Right angle measure is",
+      "options": [
+        "90",
+        "45",
+        "180",
+        "60"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/rectangle-dimensions.svg",
+      "imageAlt": "Geometry dimensions diagram"
+    },
+    {
+      "topic": "congruence-and-similarity",
+      "prompt": "Congruence and Similarity: Hypotenuse in 3-4-5 triangle is",
+      "options": [
+        "5",
+        "4",
+        "3",
+        "7"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/triangle-area.svg",
+      "imageAlt": "Triangle geometry diagram"
+    },
+    {
+      "topic": "congruence-and-similarity",
+      "prompt": "Congruence and Similarity: A line through origin and (2,2) has slope",
+      "options": [
+        "1",
+        "2",
+        "0",
+        "3"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/rectangle-dimensions.svg",
+      "imageAlt": "Geometry dimensions diagram"
+    },
+    {
+      "topic": "congruence-and-similarity",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Congruence and Similarity: Find missing angle if two angles are 50 and 60 in triangle",
+      "answerValue": "70",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/triangle-area.svg",
+      "imageAlt": "Triangle geometry diagram"
+    },
+    {
+      "topic": "congruence-and-similarity",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Congruence and Similarity: In 3-4-5 triangle, square of hypotenuse",
+      "answerValue": "25",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/triangle-area.svg",
+      "imageAlt": "Triangle geometry diagram"
+    },
+    {
+      "topic": "congruence-and-similarity",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Congruence and Similarity: Reflection keeps x same on y-axis? enter 0 for no, 1 for yes",
+      "answerValue": "0",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/rectangle-dimensions.svg",
+      "imageAlt": "Geometry dimensions diagram"
+    },
+    {
+      "topic": "congruence-and-similarity",
+      "type": "graph",
+      "prompt": "Congruence and Similarity: Plot vertex A at (3,3).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            3,
+            3
+          ]
+        ],
+        "instruction": "Plot (3,3).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "congruence-and-similarity",
+      "type": "graph",
+      "prompt": "Congruence and Similarity: Plot triangle points A(2,2), B(6,2), C(4,6).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            2,
+            2
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            4,
+            6
+          ]
+        ],
+        "instruction": "Plot all three points.",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "congruence-and-similarity",
+      "type": "graph",
+      "prompt": "Congruence and Similarity: Plot reflected point of (2,5) over y-axis.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            0,
+            5
+          ]
+        ],
+        "instruction": "Plot (0,5).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "circle-theorems",
+      "prompt": "Circle Theorems: Sum of angles in a triangle is",
+      "options": [
+        "180",
+        "90",
+        "270",
+        "360"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/circle-geometry.svg",
+      "imageAlt": "Circle geometry diagram"
+    },
+    {
+      "topic": "circle-theorems",
+      "prompt": "Circle Theorems: Right angle measure is",
+      "options": [
+        "90",
+        "45",
+        "180",
+        "60"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/circle-geometry.svg",
+      "imageAlt": "Circle geometry diagram"
+    },
+    {
+      "topic": "circle-theorems",
+      "prompt": "Circle Theorems: Hypotenuse in 3-4-5 triangle is",
+      "options": [
+        "5",
+        "4",
+        "3",
+        "7"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/circle-geometry.svg",
+      "imageAlt": "Circle geometry diagram"
+    },
+    {
+      "topic": "circle-theorems",
+      "prompt": "Circle Theorems: A line through origin and (2,2) has slope",
+      "options": [
+        "1",
+        "2",
+        "0",
+        "3"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/circle-geometry.svg",
+      "imageAlt": "Circle geometry diagram"
+    },
+    {
+      "topic": "circle-theorems",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Circle Theorems: Find missing angle if two angles are 50 and 60 in triangle",
+      "answerValue": "70",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/circle-geometry.svg",
+      "imageAlt": "Circle geometry diagram"
+    },
+    {
+      "topic": "circle-theorems",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Circle Theorems: In 3-4-5 triangle, square of hypotenuse",
+      "answerValue": "25",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/circle-geometry.svg",
+      "imageAlt": "Circle geometry diagram"
+    },
+    {
+      "topic": "circle-theorems",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Circle Theorems: Reflection keeps x same on y-axis? enter 0 for no, 1 for yes",
+      "answerValue": "0",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/circle-geometry.svg",
+      "imageAlt": "Circle geometry diagram"
+    },
+    {
+      "topic": "circle-theorems",
+      "type": "graph",
+      "prompt": "Circle Theorems: Plot vertex A at (3,3).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            3,
+            3
+          ]
+        ],
+        "instruction": "Plot (3,3).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "circle-theorems",
+      "type": "graph",
+      "prompt": "Circle Theorems: Plot triangle points A(2,2), B(6,2), C(4,6).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            2,
+            2
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            4,
+            6
+          ]
+        ],
+        "instruction": "Plot all three points.",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "circle-theorems",
+      "type": "graph",
+      "prompt": "Circle Theorems: Plot reflected point of (2,5) over y-axis.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            0,
+            5
+          ]
+        ],
+        "instruction": "Plot (0,5).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "statistics-and-trends",
+      "prompt": "Statistics and Trends: Mean of 4, 6, 8 is",
+      "options": [
+        "6",
+        "5",
+        "7",
+        "8"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/line-graph-example.svg",
+      "imageAlt": "Line graph trend example"
+    },
+    {
+      "topic": "statistics-and-trends",
+      "prompt": "Statistics and Trends: Median of 2, 5, 7, 9, 10 is",
+      "options": [
+        "7",
+        "5",
+        "9",
+        "6"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/line-graph-example.svg",
+      "imageAlt": "Line graph trend example"
+    },
+    {
+      "topic": "statistics-and-trends",
+      "prompt": "Statistics and Trends: Mode of 3, 4, 4, 5 is",
+      "options": [
+        "4",
+        "3",
+        "5",
+        "2"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/line-graph-example.svg",
+      "imageAlt": "Line graph trend example"
+    },
+    {
+      "topic": "statistics-and-trends",
+      "prompt": "Statistics and Trends: Range of 2, 8, 11 is",
+      "options": [
+        "9",
+        "8",
+        "11",
+        "6"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/line-graph-example.svg",
+      "imageAlt": "Line graph trend example"
+    },
+    {
+      "topic": "statistics-and-trends",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Statistics and Trends: Mean of 5, 7, 9, 11",
+      "answerValue": "8",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/line-graph-example.svg",
+      "imageAlt": "Line graph trend example"
+    },
+    {
+      "topic": "statistics-and-trends",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Statistics and Trends: Median of 3, 6, 8, 12",
+      "answerValue": "7",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/line-graph-example.svg",
+      "imageAlt": "Line graph trend example"
+    },
+    {
+      "topic": "statistics-and-trends",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Statistics and Trends: Mode of 2, 2, 5, 7",
+      "answerValue": "2",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/line-graph-example.svg",
+      "imageAlt": "Line graph trend example"
+    },
+    {
+      "topic": "statistics-and-trends",
+      "type": "graph",
+      "prompt": "Statistics and Trends: Plot data pair (2,5).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            2,
+            5
+          ]
+        ],
+        "instruction": "Plot (2,5).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/line-graph-example.svg",
+      "imageAlt": "Line graph trend example"
+    },
+    {
+      "topic": "statistics-and-trends",
+      "type": "graph",
+      "prompt": "Statistics and Trends: Plot trend points (1,2), (2,4), (3,6).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            6
+          ]
+        ],
+        "instruction": "Plot all three points.",
+        "ordered": true,
+        "connectPoints": true
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/line-graph-example.svg",
+      "imageAlt": "Line graph trend example"
+    },
+    {
+      "topic": "statistics-and-trends",
+      "type": "graph",
+      "prompt": "Statistics and Trends: Mark median value 7 on x-axis.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            7,
+            0
+          ]
+        ],
+        "instruction": "Plot (7,0).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/line-graph-example.svg",
+      "imageAlt": "Line graph trend example"
+    },
+    {
+      "topic": "transformations",
+      "prompt": "Transformations: Sum of angles in a triangle is",
+      "options": [
+        "180",
+        "90",
+        "270",
+        "360"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "transformations",
+      "prompt": "Transformations: Right angle measure is",
+      "options": [
+        "90",
+        "45",
+        "180",
+        "60"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "transformations",
+      "prompt": "Transformations: Hypotenuse in 3-4-5 triangle is",
+      "options": [
+        "5",
+        "4",
+        "3",
+        "7"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "transformations",
+      "prompt": "Transformations: A line through origin and (2,2) has slope",
+      "options": [
+        "1",
+        "2",
+        "0",
+        "3"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "transformations",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Transformations: Find missing angle if two angles are 50 and 60 in triangle",
+      "answerValue": "70",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "transformations",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Transformations: In 3-4-5 triangle, square of hypotenuse",
+      "answerValue": "25",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "transformations",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Transformations: Reflection keeps x same on y-axis? enter 0 for no, 1 for yes",
+      "answerValue": "0",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "transformations",
+      "type": "graph",
+      "prompt": "Transformations: Plot vertex A at (3,3).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            3,
+            3
+          ]
+        ],
+        "instruction": "Plot (3,3).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "transformations",
+      "type": "graph",
+      "prompt": "Transformations: Plot triangle points A(2,2), B(6,2), C(4,6).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            2,
+            2
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            4,
+            6
+          ]
+        ],
+        "instruction": "Plot all three points.",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "transformations",
+      "type": "graph",
+      "prompt": "Transformations: Plot reflected point of (2,5) over y-axis.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            0,
+            5
+          ]
+        ],
+        "instruction": "Plot (0,5).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "quadratic-intro",
+      "prompt": "Quadratic Expressions Intro: Solve x + 9 = 17.",
+      "options": [
+        "8",
+        "7",
+        "9",
+        "6"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "quadratic-intro",
+      "prompt": "Quadratic Expressions Intro: Solve 3x = 24.",
+      "options": [
+        "8",
+        "7",
+        "9",
+        "6"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "quadratic-intro",
+      "prompt": "Quadratic Expressions Intro: Evaluate 2x + 3 for x=4.",
+      "options": [
+        "11",
+        "10",
+        "9",
+        "12"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "quadratic-intro",
+      "prompt": "Quadratic Expressions Intro: If x=5, x^2 =",
+      "options": [
+        "25",
+        "10",
+        "15",
+        "20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "quadratic-intro",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Quadratic Expressions Intro: Solve x - 7 = 12",
+      "answerValue": "19",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "quadratic-intro",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Quadratic Expressions Intro: Solve 5x = 45",
+      "answerValue": "9",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "quadratic-intro",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Quadratic Expressions Intro: Evaluate 4x + 1 for x = 6",
+      "answerValue": "25",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "quadratic-intro",
+      "type": "graph",
+      "prompt": "Quadratic Expressions Intro: Plot point on y = x + 1 for x=3.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            3,
+            4
+          ]
+        ],
+        "instruction": "Plot (3,4).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "quadratic-intro",
+      "type": "graph",
+      "prompt": "Quadratic Expressions Intro: Plot two points for y = 2x.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            8
+          ]
+        ],
+        "instruction": "Plot (2,4) and (4,8).",
+        "ordered": true,
+        "connectPoints": true
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "quadratic-intro",
+      "type": "graph",
+      "prompt": "Quadratic Expressions Intro: Plot solution point of x + y = 6 using x=2.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            2,
+            4
+          ]
+        ],
+        "instruction": "Plot (2,4).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "exam-techniques",
+      "prompt": "Exam Techniques: A trader sold 12 pens at 3 each. Total?",
+      "options": [
+        "36",
+        "24",
+        "48",
+        "30"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "exam-techniques",
+      "prompt": "Exam Techniques: If 2x = 18, x = ?",
+      "options": [
+        "9",
+        "8",
+        "6",
+        "12"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "exam-techniques",
+      "prompt": "Exam Techniques: 15% of 200 equals",
+      "options": [
+        "30",
+        "20",
+        "25",
+        "35"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "exam-techniques",
+      "prompt": "Exam Techniques: Area of rectangle 9 by 4 is",
+      "options": [
+        "36",
+        "13",
+        "26",
+        "18"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "exam-techniques",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Exam Techniques: Solve x + 14 = 27",
+      "answerValue": "13",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "exam-techniques",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Exam Techniques: Mean of 6, 8, 10, 12",
+      "answerValue": "9",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "exam-techniques",
+      "type": "input",
+      "prompt": "Work out and enter your answer: Exam Techniques: Probability of head on coin as decimal",
+      "answerValue": "0.5",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "exam-techniques",
+      "type": "graph",
+      "prompt": "Exam Techniques: Plot checkpoint point (4,7).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            4,
+            7
+          ]
+        ],
+        "instruction": "Plot (4,7).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "exam-techniques",
+      "type": "graph",
+      "prompt": "Exam Techniques: Plot two-step problem points (2,3) and (5,9).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            2,
+            3
+          ],
+          [
+            5,
+            9
+          ]
+        ],
+        "instruction": "Plot both points.",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "exam-techniques",
+      "type": "graph",
+      "prompt": "Exam Techniques: Plot review line points (1,1), (2,2), (3,3).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "instruction": "Plot all points.",
+        "ordered": true,
+        "connectPoints": true
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "bece-prep",
+      "prompt": "BECE Prep Set: A trader sold 12 pens at 3 each. Total?",
+      "options": [
+        "36",
+        "24",
+        "48",
+        "30"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "bece-prep",
+      "prompt": "BECE Prep Set: If 2x = 18, x = ?",
+      "options": [
+        "9",
+        "8",
+        "6",
+        "12"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "bece-prep",
+      "prompt": "BECE Prep Set: 15% of 200 equals",
+      "options": [
+        "30",
+        "20",
+        "25",
+        "35"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "bece-prep",
+      "prompt": "BECE Prep Set: Area of rectangle 9 by 4 is",
+      "options": [
+        "36",
+        "13",
+        "26",
+        "18"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read and identify what is asked.",
+        "Use the correct method.",
+        "Calculate carefully.",
+        "Match the result to the right option."
+      ]
+    },
+    {
+      "topic": "bece-prep",
+      "type": "input",
+      "prompt": "Work out and enter your answer: BECE Prep Set: Solve x + 14 = 27",
+      "answerValue": "13",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "bece-prep",
+      "type": "input",
+      "prompt": "Work out and enter your answer: BECE Prep Set: Mean of 6, 8, 10, 12",
+      "answerValue": "9",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "bece-prep",
+      "type": "input",
+      "prompt": "Work out and enter your answer: BECE Prep Set: Probability of head on coin as decimal",
+      "answerValue": "0.5",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ]
+    },
+    {
+      "topic": "bece-prep",
+      "type": "graph",
+      "prompt": "BECE Prep Set: Plot checkpoint point (4,7).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            4,
+            7
+          ]
+        ],
+        "instruction": "Plot (4,7).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "bece-prep",
+      "type": "graph",
+      "prompt": "BECE Prep Set: Plot two-step problem points (2,3) and (5,9).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            2,
+            3
+          ],
+          [
+            5,
+            9
+          ]
+        ],
+        "instruction": "Plot both points.",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "bece-prep",
+      "type": "graph",
+      "prompt": "BECE Prep Set: Plot review line points (1,1), (2,2), (3,3).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "instruction": "Plot all points.",
+        "ordered": true,
+        "connectPoints": true
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    }
+  ]
+}

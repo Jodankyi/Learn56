@@ -1,0 +1,51 @@
+{
+  "jh1": [
+    {
+      "source": "bece-past",
+      "examYear": "2024",
+      "paper": "Paper 1",
+      "questionNumber": "1",
+      "topic": "integers-and-place-value",
+      "type": "mcq",
+      "prompt": "[Paste licensed official question text here]",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Step 1",
+        "Step 2",
+        "Step 3"
+      ]
+    },
+    {
+      "source": "bece-past",
+      "examYear": "2023",
+      "paper": "Paper 2",
+      "questionNumber": "5",
+      "topic": "charts",
+      "type": "graph",
+      "prompt": "[Paste licensed official question text here]",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [[2, 5], [4, 8]],
+        "instruction": "Plot the required points.",
+        "ordered": true,
+        "connectPoints": true
+      },
+      "steps": [
+        "Read the question carefully.",
+        "Plot all required points.",
+        "Check final graph."
+      ]
+    }
+  ],
+  "jh2": [],
+  "jh3": []
+}
