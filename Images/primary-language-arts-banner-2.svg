@@ -1,0 +1,76 @@
+<svg width="1200" height="280" viewBox="0 0 1200 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Primary Language Arts Banner Two</title>
+  <desc id="desc">A classroom-inspired primary language arts banner with storytelling, reading, writing, and vocabulary motifs.</desc>
+  <defs>
+    <linearGradient id="bg2" x1="80" y1="24" x2="1120" y2="252" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EAF7FF"/>
+      <stop offset="0.45" stop-color="#FFF6DD"/>
+      <stop offset="1" stop-color="#EAF8EC"/>
+    </linearGradient>
+    <linearGradient id="panel2" x1="250" y1="56" x2="952" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F35711"/>
+      <stop offset="1" stop-color="#F7A531"/>
+    </linearGradient>
+    <filter id="shadow2" x="0" y="0" width="1200" height="280" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#9A4B10" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect x="20" y="20" width="1160" height="240" rx="28" fill="url(#bg2)"/>
+  <circle cx="156" cy="72" r="28" fill="#B9E4C7"/>
+  <circle cx="1048" cy="80" r="30" fill="#CFE6FF"/>
+  <circle cx="1088" cy="192" r="38" fill="#FFE09B"/>
+
+  <g filter="url(#shadow2)">
+    <rect x="238" y="54" width="724" height="172" rx="28" fill="url(#panel2)"/>
+  </g>
+
+  <g opacity="0.15" fill="#fff">
+    <path d="M310 94C346 76 396 81 425 108C441 123 451 144 474 153C499 163 530 159 553 173C569 183 581 201 587 218H310V94Z"/>
+    <path d="M680 88C720 79 767 92 791 124C805 142 811 164 829 179C844 191 866 194 885 201C902 207 916 217 925 227H680V88Z"/>
+  </g>
+
+  <g>
+    <rect x="286" y="96" width="92" height="106" rx="12" fill="#FFFDF5"/>
+    <rect x="300" y="110" width="62" height="8" rx="4" fill="#F9C453"/>
+    <rect x="300" y="128" width="52" height="8" rx="4" fill="#FFE09B"/>
+    <rect x="300" y="146" width="56" height="8" rx="4" fill="#FFD578"/>
+    <rect x="300" y="164" width="44" height="8" rx="4" fill="#FFF1C8"/>
+    <path d="M365 189C351 181 332 178 318 183" stroke="#F35711" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <rect x="404" y="102" width="112" height="94" rx="16" fill="#FFFFFF" opacity="0.96"/>
+    <path d="M422 119H499" stroke="#0F4D92" stroke-width="6" stroke-linecap="round"/>
+    <path d="M422 140H490" stroke="#28913B" stroke-width="6" stroke-linecap="round"/>
+    <path d="M422 161H476" stroke="#F35711" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="492" cy="169" r="14" fill="#CFE6FF"/>
+    <text x="485" y="175" fill="#0F4D92" font-family="Arial, sans-serif" font-size="14" font-weight="700">Aa</text>
+  </g>
+
+  <g>
+    <rect x="550" y="94" width="296" height="96" rx="22" fill="#FFFFFF" opacity="0.97"/>
+    <path d="M604 190L580 212L585 185" fill="#FFFFFF" opacity="0.97"/>
+    <text x="698" y="126" text-anchor="middle" fill="#0F4D92" font-family="Arial, sans-serif" font-size="20" font-weight="700">Listen  Read  Write</text>
+    <text x="698" y="152" text-anchor="middle" fill="#5A6472" font-family="Arial, sans-serif" font-size="14">
+      <tspan x="698" dy="0">Build confidence with stories, discussions,</tspan>
+      <tspan x="698" dy="18">grammar practice, and guided composition.</tspan>
+    </text>
+  </g>
+
+  <g>
+    <rect x="870" y="96" width="58" height="108" rx="12" fill="#FFFDF5"/>
+    <rect x="882" y="112" width="34" height="60" rx="8" fill="#CFE6FF"/>
+    <path d="M885 183H913" stroke="#28913B" stroke-width="5" stroke-linecap="round"/>
+    <path d="M899 108V84" stroke="#F35711" stroke-width="6" stroke-linecap="round"/>
+    <path d="M899 84L912 96" stroke="#F35711" stroke-width="6" stroke-linecap="round"/>
+    <path d="M899 84L886 96" stroke="#F35711" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <g opacity="0.9">
+    <circle cx="126" cy="186" r="20" fill="#FFFFFF"/>
+    <text x="117" y="193" fill="#28913B" font-family="Arial, sans-serif" font-size="20" font-weight="700">B</text>
+    <circle cx="1028" cy="180" r="18" fill="#FFFFFF"/>
+    <text x="1020" y="186" fill="#F35711" font-family="Arial, sans-serif" font-size="18" font-weight="700">?</text>
+  </g>
+</svg>
