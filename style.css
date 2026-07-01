@@ -4304,7 +4304,7 @@ body.kindergarten-mode .primary-language-practice-tag {
 .footer-column-links li {
   margin-top: 0;
   margin-bottom: 0.08rem;
-  line-height: 0.9;
+  line-height: 1.35;
 }
 
 .footer-column-links a {
@@ -4312,7 +4312,7 @@ body.kindergarten-mode .primary-language-practice-tag {
   color: #ccc;
   text-decoration: none;
   font-size: 0.9rem;
-  line-height: 0.9;
+  line-height: 1.35;
   padding-top: 0;
   padding-bottom: 0;
   transition: color var(--transition-base);
@@ -4392,12 +4392,12 @@ body.kindergarten-mode .primary-language-practice-tag {
   .footer-column-links li {
     margin-top: 0;
     margin-bottom: 0.06rem;
-    line-height: 0.84;
+    line-height: 1.25;
   }
 
   .footer-column-links a {
     font-size: 0.82rem;
-    line-height: 0.84;
+    line-height: 1.25;
     padding-top: 0;
     padding-bottom: 0;
   }
@@ -4436,12 +4436,12 @@ body.kindergarten-mode .primary-language-practice-tag {
   .footer-column-links li {
     margin-top: 0;
     margin-bottom: 0.04rem;
-    line-height: 0.8;
+    line-height: 1.2;
   }
 
   .footer-column-links a {
     font-size: 0.76rem;
-    line-height: 0.8;
+    line-height: 1.2;
     padding-top: 0;
     padding-bottom: 0;
   }
