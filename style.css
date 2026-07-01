@@ -226,6 +226,13 @@
   padding-bottom: var(--spacing-md);
 }
 
+.primary-lang-hero {
+  margin: var(--spacing-sm) auto var(--spacing-xs);
+  padding-left: 0;
+  padding-bottom: 0;
+  background: #f3f4f6;
+}
+
 .primary-math-hero-inner,
 .primary-lang-hero-inner {
   display: grid;
@@ -237,6 +244,35 @@
   background: transparent;
   padding: var(--spacing-md);
   min-height: 250px;
+}
+
+.primary-lang-hero-inner {
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  min-height: 300px;
+  gap: var(--spacing-xl);
+  padding: 0;
+  align-items: stretch;
+}
+
+.primary-lang-hero-content {
+  justify-content: center;
+  height: 100%;
+}
+
+.primary-lang-hero-image-wrap {
+  height: 100%;
+  align-self: stretch;
+  overflow: hidden;
+}
+
+.primary-lang-hero-image {
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  object-fit: cover;
+  border-radius: 0;
 }
 
 .primary-math-hero-image-wrap,
@@ -256,7 +292,24 @@
 }
 
 .primary-lang-hero-image-wide {
-  max-width: 460px;
+  max-width: 100%;
+}
+
+/* Keep Language Arts hero image full-height and gapless after shared hero rules */
+.primary-lang-hero-image-wrap {
+  display: block;
+  height: 100%;
+  line-height: 0;
+}
+
+.primary-lang-hero-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  object-fit: cover;
+  border-radius: 0;
 }
 
 .jh-hero-image {
@@ -648,6 +701,10 @@
     padding: 0 var(--spacing-sm);
   }
 
+  .primary-lang-hero {
+    padding-left: 0;
+  }
+
   .primary-math-hero-title,
   .primary-lang-hero-title {
     font-size: clamp(1.35rem, 4.8vw, 1.9rem);
@@ -701,6 +758,10 @@
     grid-template-columns: 0.85fr 1.15fr;
     gap: var(--spacing-md);
     min-height: 220px;
+  }
+
+  .primary-lang-hero-inner {
+    grid-template-columns: 0.95fr 1.05fr;
   }
 
   .primary-math-hero-image,
@@ -806,6 +867,37 @@
   .primary-math-banner-image,
   .primary-lang-banner-image {
     max-height: 170px;
+  }
+
+  .primary-lang-links-section,
+  .primary-lang-banner-section {
+    margin-bottom: var(--spacing-md);
+  }
+
+  .grade-dropdown summary {
+    padding: 0.58rem 0.62rem;
+    font-size: 0.8rem;
+  }
+
+  .grade-dropdown a {
+    font-size: 0.8rem;
+    line-height: 1.3;
+  }
+
+  .primary-lang-banner-image {
+    max-height: none;
+    height: auto;
+  }
+
+  .feature-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: var(--spacing-sm);
+  }
+
+  .feature-item .feature-title {
+    margin-bottom: 0.35rem;
   }
 }
 
@@ -4314,6 +4406,11 @@ body.kindergarten-mode .primary-language-practice-tag {
 @media (max-width: 480px) {
   .footer-content {
     padding: var(--spacing-lg) var(--spacing-sm);
+  }
+
+  .footer-right {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-md);
   }
 
   .footer-logo {
