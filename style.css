@@ -1513,25 +1513,29 @@ body.modal-open {
   box-shadow: var(--shadow-sm);
 }
 
-.jh-practice-question-grade-grid {
+.jh-practice-question-grade-grid,
+.sh-practice-question-grade-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0.45rem;
   width: 100%;
 }
 
-.jh-practice-question-grade-grid .practice-question-grade-btn {
+.jh-practice-question-grade-grid .practice-question-grade-btn,
+.sh-practice-question-grade-grid .practice-question-grade-btn {
   width: 100%;
   padding: 0.5rem 0.35rem;
   font-size: 0.8rem;
 }
 
-.jh-assessments-section {
+.jh-assessments-section,
+.sh-assessments-section {
   max-width: 1100px;
   margin: 0 auto var(--spacing-xl);
   padding: 0 var(--spacing-md);
 }
 
-.jh-assessments-wrap {
+.jh-assessments-wrap,
+.sh-assessments-wrap {
   background: #fff;
   border: 1px solid #cfe0f0;
   border-radius: var(--radius-md);
@@ -1539,7 +1543,8 @@ body.modal-open {
   padding: var(--spacing-lg);
 }
 
-.jh-assessment-marquee {
+.jh-assessment-marquee,
+.sh-assessment-marquee {
   margin: 0 0 0.75rem;
   border: 1px solid var(--accent-green-light);
   border-radius: var(--radius-sm);
@@ -1547,7 +1552,8 @@ body.modal-open {
   overflow: hidden;
 }
 
-.jh-assessment-marquee-track {
+.jh-assessment-marquee-track,
+.sh-assessment-marquee-track {
   display: inline-flex;
   gap: 1.5rem;
   width: max-content;
@@ -1557,13 +1563,15 @@ body.modal-open {
   animation: assessmentMarqueeScroll 30s linear infinite;
 }
 
-.jh-assessment-marquee-track span {
+.jh-assessment-marquee-track span,
+.sh-assessment-marquee-track span {
   font-size: 0.78rem;
   font-weight: 600;
   color: #fff;
 }
 
-.jh-assessment-marquee-track span + span::before {
+.jh-assessment-marquee-track span + span::before,
+.sh-assessment-marquee-track span + span::before {
   content: "•";
   margin-right: 1.5rem;
   color: #fff;
@@ -1580,29 +1588,34 @@ body.modal-open {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .jh-assessment-marquee-track {
+  .jh-assessment-marquee-track,
+  .sh-assessment-marquee-track {
     animation: none;
   }
 }
 
-.jh-assessments-title {
+.jh-assessments-title,
+.sh-assessments-title {
   margin: 0;
   font-size: 1.45rem;
   color: var(--primary-dark);
 }
 
-.jh-assessments-subtitle {
+.jh-assessments-subtitle,
+.sh-assessments-subtitle {
   margin: 0.45rem 0 1rem;
   color: var(--text-secondary);
 }
 
-.jh-assessments-grid {
+.jh-assessments-grid,
+.sh-assessments-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: var(--spacing-md);
 }
 
-.jh-assessment-card {
+.jh-assessment-card,
+.sh-assessment-card {
   border: 1px solid #d7e5f2;
   border-radius: var(--radius-sm);
   background: #f7fbff;
@@ -1612,19 +1625,22 @@ body.modal-open {
   gap: 0.5rem;
 }
 
-.jh-assessment-card h3 {
+.jh-assessment-card h3,
+.sh-assessment-card h3 {
   margin: 0;
   font-size: 1rem;
   color: var(--text-primary);
 }
 
-.jh-assessment-card p {
+.jh-assessment-card p,
+.sh-assessment-card p {
   margin: 0;
   font-size: 0.88rem;
   color: var(--text-secondary);
 }
 
-.jh-assessment-btn {
+.jh-assessment-btn,
+.sh-assessment-btn {
   margin-top: auto;
   border: 1px solid var(--primary-light);
   background: #e9f3ff;
@@ -1636,12 +1652,15 @@ body.modal-open {
 }
 
 .jh-assessment-btn:hover,
-.jh-assessment-btn:focus-visible {
+.jh-assessment-btn:focus-visible,
+.sh-assessment-btn:hover,
+.sh-assessment-btn:focus-visible {
   background: var(--primary-light);
   color: #fff;
 }
 
-.jh-assessment-btn.is-active {
+.jh-assessment-btn.is-active,
+.sh-assessment-btn.is-active {
   background: var(--primary-dark);
   border-color: var(--primary-dark);
   color: #fff;
@@ -1698,13 +1717,15 @@ body.modal-open {
 }
 
 @media (max-width: 900px) {
-  .jh-assessments-grid {
+  .jh-assessments-grid,
+  .sh-assessments-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
 @media (max-width: 520px) {
-  .jh-assessments-grid {
+  .jh-assessments-grid,
+  .sh-assessments-grid {
     grid-template-columns: 1fr;
   }
 }

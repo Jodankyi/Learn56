@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Junior High Math Assessments</title>
+    <title>Senior High Math Assessments</title>
     <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -56,7 +56,7 @@
                         <ul class="dropdown-menu">
                             <li><a href="#">Primary</a></li>
                             <li><a href="JHAssessments.html">Junior High</a></li>
-                            <li><a href="#">Senior High</a></li>
+                            <li><a href="SHAssessments.html">Senior High</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -76,43 +76,58 @@
 
     <main>
         <section class="subject-label-section" aria-label="Page subject">
-            <h1 class="subject-label-title">Junior High Assessments</h1>
+            <h1 class="subject-label-title">Senior High Assessments</h1>
             <p class="subject-label-quote">"Master the concepts now, and the exam room will feel like familiar ground."
             </p>
         </section>
 
-        <section class="jh-assessments-section" aria-label="Junior high assessments">
-            <div class="jh-assessments-wrap">
-                <h2 class="jh-assessments-title">Choose an Assessment Mode</h2>
-                <p class="jh-assessments-subtitle">Start with the assessment type you want, then move into grade topics,
+        <section class="sh-assessments-section" aria-label="Senior high assessments">
+            <div class="sh-assessments-wrap">
+                <div class="sh-assessment-marquee" aria-label="Assessment information">
+                    <div class="sh-assessment-marquee-track">
+                        <span>Timed Quiz: 20 mixed SHS questions in 30 minutes.</span>
+                        <span>Mock Exam: full WASSCE-style paper flow with section review.</span>
+                        <span>Past Questions: similar past questions organized by SHS topic.</span>
+                        <span>Continuous Assessment: weekly tests to track progress across SHS 1-SHS 3.</span>
+                        <span>Switch modes anytime and continue building confidence.</span>
+                        <span aria-hidden="true">Timed Quiz: 20 mixed SHS questions in 30 minutes.</span>
+                        <span aria-hidden="true">Mock Exam: full WASSCE-style paper flow with section review.</span>
+                        <span aria-hidden="true">Past Questions: similar past questions organized by SHS topic.</span>
+                        <span aria-hidden="true">Continuous Assessment: weekly tests to track progress across SHS 1-SHS
+                            3.</span>
+                        <span aria-hidden="true">Switch modes anytime and continue building confidence.</span>
+                    </div>
+                </div>
+                <h2 class="sh-assessments-title">Choose an Assessment Mode</h2>
+                <p class="sh-assessments-subtitle">Start with the assessment type you want, then move into grade topics,
                     questions, and progress tracking.</p>
 
-                <div class="jh-assessments-grid">
-                    <article class="jh-assessment-card" aria-label="BECE timed quiz card">
-                        <h3>BECE Timed Quiz</h3>
-                        <p>20 mixed JHS questions in 30 minutes with auto-scoring.</p>
-                        <button class="jh-assessment-btn" id="assessment-mode-timed" type="button">Start Timed
+                <div class="sh-assessments-grid">
+                    <article class="sh-assessment-card" aria-label="WASSCE timed quiz card">
+                        <h3>WASSCE Timed Quiz</h3>
+                        <p>20 mixed SHS questions in 30 minutes with auto-scoring.</p>
+                        <button class="sh-assessment-btn" id="assessment-mode-timed" type="button">Start Timed
                             Quiz</button>
                     </article>
 
-                    <article class="jh-assessment-card" aria-label="mock exam card">
+                    <article class="sh-assessment-card" aria-label="mock exam card">
                         <h3>Mock Exam</h3>
-                        <p>Full BECE-style simulation with section-by-section review.</p>
-                        <button class="jh-assessment-btn" id="assessment-mode-mock" type="button">Begin Mock
+                        <p>Full WASSCE-style simulation with section-by-section review.</p>
+                        <button class="sh-assessment-btn" id="assessment-mode-mock" type="button">Begin Mock
                             Exam</button>
                     </article>
 
-                    <article class="jh-assessment-card" aria-label="past questions card">
+                    <article class="sh-assessment-card" aria-label="past questions card">
                         <h3>Past Questions</h3>
                         <p>Practice with similar past questions by topic.</p>
-                        <button class="jh-assessment-btn" id="assessment-mode-past" type="button">Similar Past
+                        <button class="sh-assessment-btn" id="assessment-mode-past" type="button">Similar Past
                             Questions</button>
                     </article>
 
-                    <article class="jh-assessment-card" aria-label="continuous assessment card">
+                    <article class="sh-assessment-card" aria-label="continuous assessment card">
                         <h3>Continuous Assessment</h3>
-                        <p>Weekly short tests to track mastery across JHS 1, JHS 2, and JHS 3.</p>
-                        <button class="jh-assessment-btn" id="assessment-mode-weekly" type="button">Take Weekly
+                        <p>Weekly short tests to track mastery across SHS 1, SHS 2, and SHS 3.</p>
+                        <button class="sh-assessment-btn" id="assessment-mode-weekly" type="button">Take Weekly
                             Test</button>
                     </article>
                 </div>
@@ -122,7 +137,7 @@
         <section class="practice-cards-section" aria-label="Assessment workspace cards">
             <div class="practice-cards-grid">
                 <article class="practice-card practice-card-nav" aria-label="Side navigation card">
-                    <img src="Images/senior-learning-spotlight.svg" alt="Junior high online learning"
+                    <img src="Images/senior-learning-spotlight.svg" alt="Senior high online learning"
                         class="practice-nav-image">
 
                     <nav class="practice-side-nav" aria-label="Assessment topics">
@@ -135,7 +150,7 @@
                         </details>
 
                         <details class="practice-nav-dropdown" open>
-                            <summary>Junior High 1</summary>
+                            <summary>Senior High 1</summary>
                             <ul>
                                 <li><a href="Assessments.html?grade=jh1&topic=integers-and-place-value">Sets and
                                         Logic</a></li>
@@ -145,30 +160,24 @@
                                 </li>
                                 <li><a href="Assessments.html?grade=jh1&topic=percent-basics">Surds and Indices</a></li>
                                 <li><a href="Assessments.html?grade=jh1&topic=algebraic-thinking">Linear Equations and
-                                        Inequalities</a>
-                                </li>
+                                        Inequalities</a></li>
                                 <li><a href="Assessments.html?grade=jh1&topic=geometry-basics">Coordinate Geometry</a>
                                 </li>
                                 <li><a href="Assessments.html?grade=jh1&topic=perimeter-and-area">Trigonometric
-                                        Ratios</a>
-                                </li>
-                                <li><a href="Assessments.html?grade=jh1&topic=data">Statistics I</a></li>
-                                <li><a href="Assessments.html?grade=jh1&topic=charts">Probability I</a></li>
-                                <li><a href="Assessments.html?grade=jh1&topic=mean-median-mode">Financial Math
+                                        Ratios</a></li>
+                                <li><a href="Assessments.html?grade=jh1&topic=data-and-charts">Statistics I</a></li>
+                                <li><a href="Assessments.html?grade=jh1&topic=mean-median-mode">Probability I</a></li>
+                                <li><a href="Assessments.html?grade=jh1&topic=basic-probability">Financial Math
                                         Basics</a></li>
-                                <li><a href="Assessments.html?grade=jh1&topic=basic-probability">Sequences and Series
-                                        Intro</a>
-                                </li>
                                 <li><a href="Assessments.html?grade=jh1&topic=word-problem-strategies">Vectors
                                         Basics</a></li>
                                 <li><a href="Assessments.html?grade=jh1&topic=end-of-term-review">End-of-Term
-                                        Consolidation</a>
-                                </li>
+                                        Consolidation</a></li>
                             </ul>
                         </details>
 
                         <details class="practice-nav-dropdown">
-                            <summary>Junior High 2</summary>
+                            <summary>Senior High 2</summary>
                             <ul>
                                 <li><a href="Assessments.html?grade=jh2&topic=rational-numbers-review">Functions and
                                         Relations</a></li>
@@ -184,21 +193,19 @@
                                 <li><a href="Assessments.html?grade=jh2&topic=surface-area-and-volume">Mensuration and
                                         Solids</a></li>
                                 <li><a href="Assessments.html?grade=jh2&topic=probability-basics">Matrices and
-                                        Determinants</a>
-                                </li>
+                                        Determinants</a></li>
                                 <li><a href="Assessments.html?grade=jh2&topic=coordinate-plane">Statistics II</a>
                                 </li>
                                 <li><a href="Assessments.html?grade=jh2&topic=pythagorean-intro">Probability II</a></li>
                                 <li><a href="Assessments.html?grade=jh2&topic=multi-step-problems">Transformations</a>
                                 </li>
                                 <li><a href="Assessments.html?grade=jh2&topic=final-skill-check">Linear Programming
-                                        Intro</a>
-                                </li>
+                                        Intro</a></li>
                             </ul>
                         </details>
 
                         <details class="practice-nav-dropdown">
-                            <summary>Junior High 3</summary>
+                            <summary>Senior High 3</summary>
                             <ul>
                                 <li><a href="Assessments.html?grade=jh3&topic=real-number-system">Calculus Intro</a>
                                 </li>
@@ -221,7 +228,7 @@
                                         Intro</a></li>
                                 <li><a href="Assessments.html?grade=jh3&topic=quadratic-intro">Vectors in 2D</a></li>
                                 <li><a href="Assessments.html?grade=jh3&topic=exam-techniques">Complex Numbers</a></li>
-                                <li><a href="Assessments.html?grade=jh3&topic=bece-prep">BECE Revision Set</a></li>
+                                <li><a href="Assessments.html?grade=jh3&topic=bece-prep">WASSCE Revision Set</a></li>
                             </ul>
                         </details>
 
@@ -235,17 +242,17 @@
                             </li>
                         </ul>
 
-                        <img src="Images/senior-achievement-path.svg" alt="Junior high achievement path illustration"
+                        <img src="Images/senior-achievement-path.svg" alt="Senior high achievement path illustration"
                             class="practice-side-jump-image">
                     </nav>
                 </article>
 
                 <article class="practice-card practice-card-question" aria-label="Table card with action buttons">
-                    <div class="practice-question-grade-grid jh-practice-question-grade-grid"
+                    <div class="practice-question-grade-grid sh-practice-question-grade-grid"
                         aria-label="Question grade buttons">
-                        <button class="practice-question-grade-btn" type="button" data-grade="jh1">JH 1</button>
-                        <button class="practice-question-grade-btn" type="button" data-grade="jh2">JH 2</button>
-                        <button class="practice-question-grade-btn" type="button" data-grade="jh3">JH 3</button>
+                        <button class="practice-question-grade-btn" type="button" data-grade="jh1">SH 1</button>
+                        <button class="practice-question-grade-btn" type="button" data-grade="jh2">SH 2</button>
+                        <button class="practice-question-grade-btn" type="button" data-grade="jh3">SH 3</button>
                     </div>
 
                     <p class="practice-active-topic" id="practice-active-topic" aria-live="polite">Topic: Sets and
@@ -1415,9 +1422,9 @@
         }
 
         function getDisplayGradeLabel(gradeKey) {
-            if (gradeKey === 'jh1') return 'JH 1';
-            if (gradeKey === 'jh2') return 'JH 2';
-            if (gradeKey === 'jh3') return 'JH 3';
+            if (gradeKey === 'jh1') return 'SH 1';
+            if (gradeKey === 'jh2') return 'SH 2';
+            if (gradeKey === 'jh3') return 'SH 3';
             return String(gradeKey || '').toUpperCase();
         }
 
