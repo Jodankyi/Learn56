@@ -2,7 +2,7 @@
   "jh1": [
     {
       "topic": "integers-and-place-value",
-      "prompt": "Integers and Place Value: Evaluate 30 + 14.",
+      "prompt": "Evaluate 30 + 14.",
       "options": [
         "44",
         "43",
@@ -11,10 +11,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2024",
@@ -22,7 +22,7 @@
     },
     {
       "topic": "integers-and-place-value",
-      "prompt": "Integers and Place Value: Find 95 - 38.",
+      "prompt": "Find 95 - 38.",
       "options": [
         "57",
         "55",
@@ -31,10 +31,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2023",
@@ -42,7 +42,7 @@
     },
     {
       "topic": "integers-and-place-value",
-      "prompt": "Integers and Place Value: Compute 7 x 6.",
+      "prompt": "Compute 7 x 6.",
       "options": [
         "42",
         "40",
@@ -51,10 +51,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2022",
@@ -62,7 +62,7 @@
     },
     {
       "topic": "integers-and-place-value",
-      "prompt": "Integers and Place Value: Compute 84 / 7.",
+      "prompt": "Compute 84 / 7.",
       "options": [
         "12",
         "13",
@@ -71,10 +71,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2021",
@@ -83,7 +83,7 @@
     {
       "topic": "integers-and-place-value",
       "type": "input",
-      "prompt": "Work out and enter your answer: Integers and Place Value: 120 + 80",
+      "prompt": "Work out and write your answer: 120 + 80",
       "answerValue": "200",
       "steps": [
         "Identify the method.",
@@ -97,7 +97,7 @@
     },
     {
       "topic": "fractions-and-decimals",
-      "prompt": "Fractions and Decimals: Add 3/10 + 5/10.",
+      "prompt": "Add 3/10 + 5/10.",
       "options": [
         "8/10",
         "7/10",
@@ -106,10 +106,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2024",
@@ -117,7 +117,7 @@
     },
     {
       "topic": "fractions-and-decimals",
-      "prompt": "Fractions and Decimals: Convert 1/4 to decimal.",
+      "prompt": "Convert 1/4 to decimal.",
       "options": [
         "0.25",
         "0.4",
@@ -126,10 +126,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2023",
@@ -137,7 +137,7 @@
     },
     {
       "topic": "fractions-and-decimals",
-      "prompt": "Fractions and Decimals: Which is greater, 0.6 or 0.56?",
+      "prompt": "Which is greater, 0.6 or 0.56?",
       "options": [
         "0.6",
         "0.56",
@@ -146,10 +146,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2022",
@@ -157,7 +157,7 @@
     },
     {
       "topic": "fractions-and-decimals",
-      "prompt": "Fractions and Decimals: Simplify 6/12.",
+      "prompt": "Simplify 6/12.",
       "options": [
         "1/2",
         "2/3",
@@ -166,10 +166,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2021",
@@ -178,7 +178,7 @@
     {
       "topic": "fractions-and-decimals",
       "type": "input",
-      "prompt": "Work out and enter your answer: Fractions and Decimals: 7/8 + 1/8",
+      "prompt": "Work out and write your answer: 7/8 + 1/8",
       "answerValue": "1",
       "steps": [
         "Identify the method.",
@@ -192,7 +192,7 @@
     },
     {
       "topic": "ratio-and-rates",
-      "prompt": "Ratio and Rates: Find ratio equivalent to 2:3.",
+      "prompt": "Find ratio equivalent to 2:3.",
       "options": [
         "4:6",
         "3:4",
@@ -201,10 +201,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2024",
@@ -212,7 +212,7 @@
     },
     {
       "topic": "ratio-and-rates",
-      "prompt": "Ratio and Rates: Find 25% of 200.",
+      "prompt": "Find 25% of 200.",
       "options": [
         "50",
         "40",
@@ -221,10 +221,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2023",
@@ -232,7 +232,7 @@
     },
     {
       "topic": "ratio-and-rates",
-      "prompt": "Ratio and Rates: 3:5 = ? : 20",
+      "prompt": "3:5 = ? : 20",
       "options": [
         "12",
         "10",
@@ -241,10 +241,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2022",
@@ -252,7 +252,7 @@
     },
     {
       "topic": "ratio-and-rates",
-      "prompt": "Ratio and Rates: 40% as decimal is",
+      "prompt": "40% as decimal is",
       "options": [
         "0.4",
         "4",
@@ -261,10 +261,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2021",
@@ -273,7 +273,7 @@
     {
       "topic": "ratio-and-rates",
       "type": "input",
-      "prompt": "Work out and enter your answer: Ratio and Rates: 30% of 150",
+      "prompt": "Work out and write your answer: 30% of 150",
       "answerValue": "45",
       "steps": [
         "Identify the method.",
@@ -287,7 +287,7 @@
     },
     {
       "topic": "percent-basics",
-      "prompt": "Percent Basics: Find ratio equivalent to 2:3.",
+      "prompt": "Find ratio equivalent to 2:3.",
       "options": [
         "4:6",
         "3:4",
@@ -296,10 +296,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2024",
@@ -307,7 +307,7 @@
     },
     {
       "topic": "percent-basics",
-      "prompt": "Percent Basics: Find 25% of 200.",
+      "prompt": "Find 25% of 200.",
       "options": [
         "50",
         "40",
@@ -316,10 +316,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2023",
@@ -327,7 +327,7 @@
     },
     {
       "topic": "percent-basics",
-      "prompt": "Percent Basics: 3:5 = ? : 20",
+      "prompt": "3:5 = ? : 20",
       "options": [
         "12",
         "10",
@@ -336,10 +336,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2022",
@@ -347,7 +347,7 @@
     },
     {
       "topic": "percent-basics",
-      "prompt": "Percent Basics: 40% as decimal is",
+      "prompt": "40% as decimal is",
       "options": [
         "0.4",
         "4",
@@ -356,10 +356,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2021",
@@ -368,7 +368,7 @@
     {
       "topic": "percent-basics",
       "type": "input",
-      "prompt": "Work out and enter your answer: Percent Basics: 30% of 150",
+      "prompt": "Work out and write your answer: 30% of 150",
       "answerValue": "45",
       "steps": [
         "Identify the method.",
@@ -382,7 +382,7 @@
     },
     {
       "topic": "algebraic-thinking",
-      "prompt": "Algebraic Thinking: Solve x + 10 = 18.",
+      "prompt": "Solve x + 10 = 18.",
       "options": [
         "8",
         "7",
@@ -391,10 +391,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2024",
@@ -402,7 +402,7 @@
     },
     {
       "topic": "algebraic-thinking",
-      "prompt": "Algebraic Thinking: Solve 3x = 27.",
+      "prompt": "Solve 3x = 27.",
       "options": [
         "9",
         "8",
@@ -411,10 +411,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2023",
@@ -422,7 +422,7 @@
     },
     {
       "topic": "algebraic-thinking",
-      "prompt": "Algebraic Thinking: Evaluate 2x + 3 for x=4.",
+      "prompt": "Evaluate 2x + 3 for x=4.",
       "options": [
         "11",
         "10",
@@ -431,10 +431,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2022",
@@ -442,7 +442,7 @@
     },
     {
       "topic": "algebraic-thinking",
-      "prompt": "Algebraic Thinking: If x=5, x^2 =",
+      "prompt": "If x=5, x^2 =",
       "options": [
         "25",
         "10",
@@ -451,10 +451,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2021",
@@ -463,7 +463,7 @@
     {
       "topic": "algebraic-thinking",
       "type": "input",
-      "prompt": "Work out and enter your answer: Algebraic Thinking: Solve x - 7 = 12",
+      "prompt": "Work out and write your answer: Solve x - 7 = 12",
       "answerValue": "19",
       "steps": [
         "Identify the method.",
@@ -477,7 +477,7 @@
     },
     {
       "topic": "geometry-basics",
-      "prompt": "Geometry Basics: Sum of angles in a triangle is",
+      "prompt": "Sum of angles in a triangle is",
       "options": [
         "180",
         "90",
@@ -486,10 +486,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/triangle-area.svg",
       "imageAlt": "Triangle geometry diagram",
@@ -499,7 +499,7 @@
     },
     {
       "topic": "geometry-basics",
-      "prompt": "Geometry Basics: Right angle measure is",
+      "prompt": "Right angle measure is",
       "options": [
         "90",
         "45",
@@ -508,10 +508,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/rectangle-dimensions.svg",
       "imageAlt": "Geometry dimensions diagram",
@@ -521,7 +521,7 @@
     },
     {
       "topic": "geometry-basics",
-      "prompt": "Geometry Basics: Hypotenuse in 3-4-5 triangle is",
+      "prompt": "Hypotenuse in 3-4-5 triangle is",
       "options": [
         "5",
         "4",
@@ -530,10 +530,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/triangle-area.svg",
       "imageAlt": "Triangle geometry diagram",
@@ -543,7 +543,7 @@
     },
     {
       "topic": "geometry-basics",
-      "prompt": "Geometry Basics: A line through origin and (2,2) has slope",
+      "prompt": "A line through origin and (2,2) has slope",
       "options": [
         "1",
         "2",
@@ -552,10 +552,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/rectangle-dimensions.svg",
       "imageAlt": "Geometry dimensions diagram",
@@ -566,7 +566,7 @@
     {
       "topic": "geometry-basics",
       "type": "input",
-      "prompt": "Work out and enter your answer: Geometry Basics: Find missing angle if two angles are 50 and 60 in triangle",
+      "prompt": "Work out and write your answer: Find missing angle if two angles are 50 and 60 in triangle",
       "answerValue": "70",
       "steps": [
         "Identify the method.",
@@ -582,7 +582,7 @@
     },
     {
       "topic": "perimeter-and-area",
-      "prompt": "Perimeter and Area: Area of rectangle 8 by 5 is",
+      "prompt": "Area of rectangle 8 by 5 is",
       "options": [
         "40",
         "26",
@@ -591,10 +591,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/rectangle-dimensions.svg",
       "imageAlt": "Geometry dimensions diagram",
@@ -604,7 +604,7 @@
     },
     {
       "topic": "perimeter-and-area",
-      "prompt": "Perimeter and Area: Perimeter of square side 6 is",
+      "prompt": "Perimeter of square side 6 is",
       "options": [
         "24",
         "12",
@@ -613,10 +613,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/square-perimeter.svg",
       "imageAlt": "Square geometry diagram",
@@ -626,7 +626,7 @@
     },
     {
       "topic": "perimeter-and-area",
-      "prompt": "Perimeter and Area: Volume of cube side 3 is",
+      "prompt": "Volume of cube side 3 is",
       "options": [
         "27",
         "9",
@@ -635,10 +635,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/rectangle-dimensions.svg",
       "imageAlt": "Geometry dimensions diagram",
@@ -648,7 +648,7 @@
     },
     {
       "topic": "perimeter-and-area",
-      "prompt": "Perimeter and Area: Surface area of cube side 2 is",
+      "prompt": "Surface area of cube side 2 is",
       "options": [
         "24",
         "8",
@@ -657,10 +657,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/rectangle-dimensions.svg",
       "imageAlt": "Geometry dimensions diagram",
@@ -671,7 +671,7 @@
     {
       "topic": "perimeter-and-area",
       "type": "input",
-      "prompt": "Work out and enter your answer: Perimeter and Area: Area of triangle base 10 and height 6",
+      "prompt": "Work out and write your answer: Area of triangle base 10 and height 6",
       "answerValue": "30",
       "steps": [
         "Identify the method.",
@@ -687,7 +687,7 @@
     },
     {
       "topic": "data",
-      "prompt": "Data: Mean of 4, 6, 8 is",
+      "prompt": "Mean of 4, 6, 8 is",
       "options": [
         "6",
         "5",
@@ -696,10 +696,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/bar-chart-example.svg",
       "imageAlt": "Data chart example",
@@ -709,7 +709,7 @@
     },
     {
       "topic": "data",
-      "prompt": "Data: Median of 2, 5, 7, 9, 10 is",
+      "prompt": "Median of 2, 5, 7, 9, 10 is",
       "options": [
         "7",
         "5",
@@ -718,10 +718,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/bar-chart-example.svg",
       "imageAlt": "Data chart example",
@@ -731,7 +731,7 @@
     },
     {
       "topic": "data",
-      "prompt": "Data: Mode of 3, 4, 4, 5 is",
+      "prompt": "Mode of 3, 4, 4, 5 is",
       "options": [
         "4",
         "3",
@@ -740,10 +740,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/bar-chart-example.svg",
       "imageAlt": "Data chart example",
@@ -753,7 +753,7 @@
     },
     {
       "topic": "data",
-      "prompt": "Data: Range of 2, 8, 11 is",
+      "prompt": "Range of 2, 8, 11 is",
       "options": [
         "9",
         "8",
@@ -762,10 +762,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/bar-chart-example.svg",
       "imageAlt": "Data chart example",
@@ -776,7 +776,7 @@
     {
       "topic": "data",
       "type": "input",
-      "prompt": "Work out and enter your answer: Data: Mean of 5, 7, 9, 11",
+      "prompt": "Work out and write your answer: Mean of 5, 7, 9, 11",
       "answerValue": "8",
       "steps": [
         "Identify the method.",
@@ -801,10 +801,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2024",
@@ -821,10 +821,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2023",
@@ -841,10 +841,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2022",
@@ -861,10 +861,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2021",
@@ -873,7 +873,7 @@
     {
       "topic": "mean-median-mode",
       "type": "input",
-      "prompt": "Work out and enter your answer: Mean, Median, and Mode: Mean of 5, 7, 9, 11",
+      "prompt": "Work out and write your answer: Mean, Median, and Mode: Mean of 5, 7, 9, 11",
       "answerValue": "8",
       "steps": [
         "Identify the method.",
@@ -887,7 +887,7 @@
     },
     {
       "topic": "basic-probability",
-      "prompt": "Basic Probability: Probability of odd number on fair die is",
+      "prompt": "Probability of odd number on fair die is",
       "options": [
         "1/2",
         "1/3",
@@ -896,10 +896,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/probability-die.svg",
       "imageAlt": "Die and coin probability diagram",
@@ -909,7 +909,7 @@
     },
     {
       "topic": "basic-probability",
-      "prompt": "Basic Probability: Probability of head on fair coin is",
+      "prompt": "Probability of head on fair coin is",
       "options": [
         "1/2",
         "1",
@@ -918,10 +918,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/probability-die.svg",
       "imageAlt": "Die and coin probability diagram",
@@ -931,7 +931,7 @@
     },
     {
       "topic": "basic-probability",
-      "prompt": "Basic Probability: Probability of rolling 7 on die is",
+      "prompt": "Probability of rolling 7 on die is",
       "options": [
         "0",
         "1/6",
@@ -940,10 +940,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/probability-die.svg",
       "imageAlt": "Die and coin probability diagram",
@@ -953,7 +953,7 @@
     },
     {
       "topic": "basic-probability",
-      "prompt": "Basic Probability: Favourable outcomes 2 out of 8 gives probability",
+      "prompt": "Favourable outcomes 2 out of 8 gives probability",
       "options": [
         "1/4",
         "1/2",
@@ -962,10 +962,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/probability-die.svg",
       "imageAlt": "Die and coin probability diagram",
@@ -976,7 +976,7 @@
     {
       "topic": "basic-probability",
       "type": "input",
-      "prompt": "Work out and enter your answer: Basic Probability: Probability of selecting red from 3 red and 1 blue (as decimal)",
+      "prompt": "Work out and write your answer: Probability of selecting red from 3 red and 1 blue (as decimal)",
       "answerValue": "0.75",
       "steps": [
         "Identify the method.",
@@ -992,7 +992,7 @@
     },
     {
       "topic": "word-problem-strategies",
-      "prompt": "Word Problem Strategies: Find ratio equivalent to 2:3.",
+      "prompt": "Find ratio equivalent to 2:3.",
       "options": [
         "4:6",
         "3:4",
@@ -1001,10 +1001,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2024",
@@ -1012,7 +1012,7 @@
     },
     {
       "topic": "word-problem-strategies",
-      "prompt": "Word Problem Strategies: Find 25% of 200.",
+      "prompt": "Find 25% of 200.",
       "options": [
         "50",
         "40",
@@ -1021,10 +1021,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2023",
@@ -1032,7 +1032,7 @@
     },
     {
       "topic": "word-problem-strategies",
-      "prompt": "Word Problem Strategies: 3:5 = ? : 20",
+      "prompt": "3:5 = ? : 20",
       "options": [
         "12",
         "10",
@@ -1041,10 +1041,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2022",
@@ -1052,7 +1052,7 @@
     },
     {
       "topic": "word-problem-strategies",
-      "prompt": "Word Problem Strategies: 40% as decimal is",
+      "prompt": "40% as decimal is",
       "options": [
         "0.4",
         "4",
@@ -1061,10 +1061,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2021",
@@ -1073,7 +1073,7 @@
     {
       "topic": "word-problem-strategies",
       "type": "input",
-      "prompt": "Work out and enter your answer: Word Problem Strategies: 30% of 150",
+      "prompt": "Work out and write your answer: 30% of 150",
       "answerValue": "45",
       "steps": [
         "Identify the method.",
@@ -1087,7 +1087,7 @@
     },
     {
       "topic": "end-of-term-review",
-      "prompt": "End-of-Term Review: A trader sold 12 pens at 3 each. Total?",
+      "prompt": "A trader sold 12 pens at 3 each. Total?",
       "options": [
         "36",
         "24",
@@ -1096,10 +1096,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2024",
@@ -1107,7 +1107,7 @@
     },
     {
       "topic": "end-of-term-review",
-      "prompt": "End-of-Term Review: If 2x = 18, x = ?",
+      "prompt": "If 2x = 18, x = ?",
       "options": [
         "9",
         "8",
@@ -1116,10 +1116,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2023",
@@ -1127,7 +1127,7 @@
     },
     {
       "topic": "end-of-term-review",
-      "prompt": "End-of-Term Review: 15% of 200 equals",
+      "prompt": "15% of 200 equals",
       "options": [
         "30",
         "20",
@@ -1136,10 +1136,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2022",
@@ -1147,7 +1147,7 @@
     },
     {
       "topic": "end-of-term-review",
-      "prompt": "End-of-Term Review: Area of rectangle 9 by 4 is",
+      "prompt": "Area of rectangle 9 by 4 is",
       "options": [
         "36",
         "13",
@@ -1156,10 +1156,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2021",
@@ -1168,7 +1168,7 @@
     {
       "topic": "end-of-term-review",
       "type": "input",
-      "prompt": "Work out and enter your answer: End-of-Term Review: Solve x + 14 = 27",
+      "prompt": "Work out and write your answer: Solve x + 14 = 27",
       "answerValue": "13",
       "steps": [
         "Identify the method.",
@@ -1352,7 +1352,7 @@
   "jh2": [
     {
       "topic": "rational-numbers-review",
-      "prompt": "Rational Numbers Review: Evaluate 30 + 14.",
+      "prompt": "Evaluate 30 + 14.",
       "options": [
         "44",
         "43",
@@ -1361,10 +1361,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2024",
@@ -1372,7 +1372,7 @@
     },
     {
       "topic": "rational-numbers-review",
-      "prompt": "Rational Numbers Review: Find 95 - 38.",
+      "prompt": "Find 95 - 38.",
       "options": [
         "57",
         "55",
@@ -1381,10 +1381,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2023",
@@ -1392,7 +1392,7 @@
     },
     {
       "topic": "rational-numbers-review",
-      "prompt": "Rational Numbers Review: Compute 7 x 6.",
+      "prompt": "Compute 7 x 6.",
       "options": [
         "42",
         "40",
@@ -1401,10 +1401,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2022",
@@ -1412,7 +1412,7 @@
     },
     {
       "topic": "rational-numbers-review",
-      "prompt": "Rational Numbers Review: Compute 84 / 7.",
+      "prompt": "Compute 84 / 7.",
       "options": [
         "12",
         "13",
@@ -1421,10 +1421,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2021",
@@ -1433,7 +1433,7 @@
     {
       "topic": "rational-numbers-review",
       "type": "input",
-      "prompt": "Work out and enter your answer: Rational Numbers Review: 120 + 80",
+      "prompt": "Work out and write your answer: 120 + 80",
       "answerValue": "200",
       "steps": [
         "Identify the method.",
@@ -1447,7 +1447,7 @@
     },
     {
       "topic": "operations-with-integers",
-      "prompt": "Operations with Integers: Evaluate 31 + 15.",
+      "prompt": "Evaluate 31 + 15.",
       "options": [
         "46",
         "45",
@@ -1456,10 +1456,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2024",
@@ -1467,7 +1467,7 @@
     },
     {
       "topic": "operations-with-integers",
-      "prompt": "Operations with Integers: Find 96 - 39.",
+      "prompt": "Find 96 - 39.",
       "options": [
         "57",
         "55",
@@ -1476,10 +1476,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2023",
@@ -1487,7 +1487,7 @@
     },
     {
       "topic": "operations-with-integers",
-      "prompt": "Operations with Integers: Compute 8 x 7.",
+      "prompt": "Compute 8 x 7.",
       "options": [
         "56",
         "54",
@@ -1496,10 +1496,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2022",
@@ -1507,7 +1507,7 @@
     },
     {
       "topic": "operations-with-integers",
-      "prompt": "Operations with Integers: Compute 91 / 8.",
+      "prompt": "Compute 91 / 8.",
       "options": [
         "11",
         "12",
@@ -1516,10 +1516,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2021",
@@ -1528,7 +1528,7 @@
     {
       "topic": "operations-with-integers",
       "type": "input",
-      "prompt": "Work out and enter your answer: Operations with Integers: 121 + 81",
+      "prompt": "Work out and write your answer: 121 + 81",
       "answerValue": "202",
       "steps": [
         "Identify the method.",
@@ -1542,7 +1542,7 @@
     },
     {
       "topic": "expressions-and-equations",
-      "prompt": "Expressions and Equations: Solve x + 11 = 19.",
+      "prompt": "Solve x + 11 = 19.",
       "options": [
         "8",
         "7",
@@ -1551,10 +1551,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2024",
@@ -1562,7 +1562,7 @@
     },
     {
       "topic": "expressions-and-equations",
-      "prompt": "Expressions and Equations: Solve 3x = 30.",
+      "prompt": "Solve 3x = 30.",
       "options": [
         "10",
         "9",
@@ -1571,10 +1571,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2023",
@@ -1582,7 +1582,7 @@
     },
     {
       "topic": "expressions-and-equations",
-      "prompt": "Expressions and Equations: Evaluate 2x + 3 for x=4.",
+      "prompt": "Evaluate 2x + 3 for x=4.",
       "options": [
         "11",
         "10",
@@ -1591,10 +1591,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2022",
@@ -1602,7 +1602,7 @@
     },
     {
       "topic": "expressions-and-equations",
-      "prompt": "Expressions and Equations: If x=5, x^2 =",
+      "prompt": "If x=5, x^2 =",
       "options": [
         "25",
         "10",
@@ -1611,10 +1611,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2021",
@@ -1623,7 +1623,7 @@
     {
       "topic": "expressions-and-equations",
       "type": "input",
-      "prompt": "Work out and enter your answer: Expressions and Equations: Solve x - 7 = 12",
+      "prompt": "Work out and write your answer: Solve x - 7 = 12",
       "answerValue": "19",
       "steps": [
         "Identify the method.",
@@ -1637,7 +1637,7 @@
     },
     {
       "topic": "one-step-equations",
-      "prompt": "One-Step Equations: Solve x + 9 = 17.",
+      "prompt": "Solve x + 9 = 17.",
       "options": [
         "8",
         "7",
@@ -1646,10 +1646,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2024",
@@ -1657,7 +1657,7 @@
     },
     {
       "topic": "one-step-equations",
-      "prompt": "One-Step Equations: Solve 3x = 24.",
+      "prompt": "Solve 3x = 24.",
       "options": [
         "8",
         "7",
@@ -1666,10 +1666,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2023",
@@ -1677,7 +1677,7 @@
     },
     {
       "topic": "one-step-equations",
-      "prompt": "One-Step Equations: Evaluate 2x + 3 for x=4.",
+      "prompt": "Evaluate 2x + 3 for x=4.",
       "options": [
         "11",
         "10",
@@ -1686,10 +1686,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2022",
@@ -1697,7 +1697,7 @@
     },
     {
       "topic": "one-step-equations",
-      "prompt": "One-Step Equations: If x=5, x^2 =",
+      "prompt": "If x=5, x^2 =",
       "options": [
         "25",
         "10",
@@ -1706,10 +1706,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2021",
@@ -1718,7 +1718,7 @@
     {
       "topic": "one-step-equations",
       "type": "input",
-      "prompt": "Work out and enter your answer: One-Step Equations: Solve x - 7 = 12",
+      "prompt": "Work out and write your answer: Solve x - 7 = 12",
       "answerValue": "19",
       "steps": [
         "Identify the method.",
@@ -1732,7 +1732,7 @@
     },
     {
       "topic": "inequalities",
-      "prompt": "Inequalities: Solve x + 10 = 18.",
+      "prompt": "Solve x + 10 = 18.",
       "options": [
         "8",
         "7",
@@ -1741,10 +1741,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2024",
@@ -1752,7 +1752,7 @@
     },
     {
       "topic": "inequalities",
-      "prompt": "Inequalities: Solve 3x = 27.",
+      "prompt": "Solve 3x = 27.",
       "options": [
         "9",
         "8",
@@ -1761,10 +1761,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2023",
@@ -1772,7 +1772,7 @@
     },
     {
       "topic": "inequalities",
-      "prompt": "Inequalities: Evaluate 2x + 3 for x=4.",
+      "prompt": "Evaluate 2x + 3 for x=4.",
       "options": [
         "11",
         "10",
@@ -1781,10 +1781,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2022",
@@ -1792,7 +1792,7 @@
     },
     {
       "topic": "inequalities",
-      "prompt": "Inequalities: If x=5, x^2 =",
+      "prompt": "If x=5, x^2 =",
       "options": [
         "25",
         "10",
@@ -1801,10 +1801,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2021",
@@ -1813,7 +1813,7 @@
     {
       "topic": "inequalities",
       "type": "input",
-      "prompt": "Work out and enter your answer: Inequalities: Solve x - 7 = 12",
+      "prompt": "Work out and write your answer: Solve x - 7 = 12",
       "answerValue": "19",
       "steps": [
         "Identify the method.",
@@ -1827,7 +1827,7 @@
     },
     {
       "topic": "angles-and-triangles",
-      "prompt": "Angles and Triangles: Sum of angles in a triangle is",
+      "prompt": "Sum of angles in a triangle is",
       "options": [
         "180",
         "90",
@@ -1836,10 +1836,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/triangle-area.svg",
       "imageAlt": "Triangle geometry diagram",
@@ -1849,7 +1849,7 @@
     },
     {
       "topic": "angles-and-triangles",
-      "prompt": "Angles and Triangles: Right angle measure is",
+      "prompt": "Right angle measure is",
       "options": [
         "90",
         "45",
@@ -1858,10 +1858,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/triangle-area.svg",
       "imageAlt": "Triangle geometry diagram",
@@ -1871,7 +1871,7 @@
     },
     {
       "topic": "angles-and-triangles",
-      "prompt": "Angles and Triangles: Hypotenuse in 3-4-5 triangle is",
+      "prompt": "Hypotenuse in 3-4-5 triangle is",
       "options": [
         "5",
         "4",
@@ -1880,10 +1880,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/triangle-area.svg",
       "imageAlt": "Triangle geometry diagram",
@@ -1893,7 +1893,7 @@
     },
     {
       "topic": "angles-and-triangles",
-      "prompt": "Angles and Triangles: A line through origin and (2,2) has slope",
+      "prompt": "A line through origin and (2,2) has slope",
       "options": [
         "1",
         "2",
@@ -1902,10 +1902,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/triangle-area.svg",
       "imageAlt": "Triangle geometry diagram",
@@ -1916,7 +1916,7 @@
     {
       "topic": "angles-and-triangles",
       "type": "input",
-      "prompt": "Work out and enter your answer: Angles and Triangles: Find missing angle if two angles are 50 and 60 in triangle",
+      "prompt": "Work out and write your answer: Find missing angle if two angles are 50 and 60 in triangle",
       "answerValue": "70",
       "steps": [
         "Identify the method.",
@@ -1932,7 +1932,7 @@
     },
     {
       "topic": "surface-area-and-volume",
-      "prompt": "Surface Area and Volume: Area of rectangle 8 by 5 is",
+      "prompt": "Area of rectangle 8 by 5 is",
       "options": [
         "40",
         "26",
@@ -1941,10 +1941,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/rectangle-dimensions.svg",
       "imageAlt": "Rectangle dimensions for area and perimeter",
@@ -1954,7 +1954,7 @@
     },
     {
       "topic": "surface-area-and-volume",
-      "prompt": "Surface Area and Volume: Perimeter of square side 6 is",
+      "prompt": "Perimeter of square side 6 is",
       "options": [
         "24",
         "12",
@@ -1963,10 +1963,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/square-perimeter.svg",
       "imageAlt": "Square side and perimeter",
@@ -1976,7 +1976,7 @@
     },
     {
       "topic": "surface-area-and-volume",
-      "prompt": "Surface Area and Volume: Volume of cube side 3 is",
+      "prompt": "Volume of cube side 3 is",
       "options": [
         "27",
         "9",
@@ -1985,10 +1985,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/cube-surface-area.svg",
       "imageAlt": "Cube for surface area",
@@ -1998,7 +1998,7 @@
     },
     {
       "topic": "surface-area-and-volume",
-      "prompt": "Surface Area and Volume: Surface area of cube side 2 is",
+      "prompt": "Surface area of cube side 2 is",
       "options": [
         "24",
         "8",
@@ -2007,10 +2007,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/cube-surface-area.svg",
       "imageAlt": "Cube for surface area",
@@ -2021,7 +2021,7 @@
     {
       "topic": "surface-area-and-volume",
       "type": "input",
-      "prompt": "Work out and enter your answer: Surface Area and Volume: Area of triangle base 10 and height 6",
+      "prompt": "Work out and write your answer: Area of triangle base 10 and height 6",
       "answerValue": "30",
       "steps": [
         "Identify the method.",
@@ -2037,7 +2037,7 @@
     },
     {
       "topic": "probability-basics",
-      "prompt": "Probability Basics: Probability of odd number on fair die is",
+      "prompt": "Probability of odd number on fair die is",
       "options": [
         "1/2",
         "1/3",
@@ -2046,10 +2046,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/probability-die.svg",
       "imageAlt": "Die and coin probability diagram",
@@ -2059,7 +2059,7 @@
     },
     {
       "topic": "probability-basics",
-      "prompt": "Probability Basics: Probability of head on fair coin is",
+      "prompt": "Probability of head on fair coin is",
       "options": [
         "1/2",
         "1",
@@ -2068,10 +2068,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/probability-die.svg",
       "imageAlt": "Die and coin probability diagram",
@@ -2081,7 +2081,7 @@
     },
     {
       "topic": "probability-basics",
-      "prompt": "Probability Basics: Probability of rolling 7 on die is",
+      "prompt": "Probability of rolling 7 on die is",
       "options": [
         "0",
         "1/6",
@@ -2090,10 +2090,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/probability-die.svg",
       "imageAlt": "Die and coin probability diagram",
@@ -2103,7 +2103,7 @@
     },
     {
       "topic": "probability-basics",
-      "prompt": "Probability Basics: Favourable outcomes 2 out of 8 gives probability",
+      "prompt": "Favourable outcomes 2 out of 8 gives probability",
       "options": [
         "1/4",
         "1/2",
@@ -2112,10 +2112,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/probability-die.svg",
       "imageAlt": "Die and coin probability diagram",
@@ -2126,7 +2126,7 @@
     {
       "topic": "probability-basics",
       "type": "input",
-      "prompt": "Work out and enter your answer: Probability Basics: Probability of selecting red from 3 red and 1 blue (as decimal)",
+      "prompt": "Work out and write your answer: Probability of selecting red from 3 red and 1 blue (as decimal)",
       "answerValue": "0.75",
       "steps": [
         "Identify the method.",
@@ -2142,7 +2142,7 @@
     },
     {
       "topic": "coordinate-plane",
-      "prompt": "Coordinate Plane: Sum of angles in a triangle is",
+      "prompt": "Sum of angles in a triangle is",
       "options": [
         "180",
         "90",
@@ -2151,10 +2151,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/coordinate-grid-guide.svg",
       "imageAlt": "Coordinate grid guide",
@@ -2164,7 +2164,7 @@
     },
     {
       "topic": "coordinate-plane",
-      "prompt": "Coordinate Plane: Right angle measure is",
+      "prompt": "Right angle measure is",
       "options": [
         "90",
         "45",
@@ -2173,10 +2173,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/coordinate-grid-guide.svg",
       "imageAlt": "Coordinate grid guide",
@@ -2186,7 +2186,7 @@
     },
     {
       "topic": "coordinate-plane",
-      "prompt": "Coordinate Plane: Hypotenuse in 3-4-5 triangle is",
+      "prompt": "Hypotenuse in 3-4-5 triangle is",
       "options": [
         "5",
         "4",
@@ -2195,10 +2195,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/coordinate-grid-guide.svg",
       "imageAlt": "Coordinate grid guide",
@@ -2208,7 +2208,7 @@
     },
     {
       "topic": "coordinate-plane",
-      "prompt": "Coordinate Plane: A line through origin and (2,2) has slope",
+      "prompt": "A line through origin and (2,2) has slope",
       "options": [
         "1",
         "2",
@@ -2217,10 +2217,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/coordinate-grid-guide.svg",
       "imageAlt": "Coordinate grid guide",
@@ -2231,7 +2231,7 @@
     {
       "topic": "coordinate-plane",
       "type": "input",
-      "prompt": "Work out and enter your answer: Coordinate Plane: Find missing angle if two angles are 50 and 60 in triangle",
+      "prompt": "Work out and write your answer: Find missing angle if two angles are 50 and 60 in triangle",
       "answerValue": "70",
       "steps": [
         "Identify the method.",
@@ -2256,10 +2256,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2024",
@@ -2276,10 +2276,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2023",
@@ -2296,10 +2296,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2022",
@@ -2316,10 +2316,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2021",
@@ -2328,7 +2328,7 @@
     {
       "topic": "pythagorean-intro",
       "type": "input",
-      "prompt": "Work out and enter your answer: Pythagorean Theorem Intro: Find missing angle if two angles are 50 and 60 in triangle",
+      "prompt": "Work out and write your answer: Pythagorean Theorem Intro: Find missing angle if two angles are 50 and 60 in triangle",
       "answerValue": "70",
       "steps": [
         "Identify the method.",
@@ -2342,7 +2342,7 @@
     },
     {
       "topic": "multi-step-problems",
-      "prompt": "Multi-Step Problems: A trader sold 12 pens at 3 each. Total?",
+      "prompt": "A trader sold 12 pens at 3 each. Total?",
       "options": [
         "36",
         "24",
@@ -2351,10 +2351,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2024",
@@ -2362,7 +2362,7 @@
     },
     {
       "topic": "multi-step-problems",
-      "prompt": "Multi-Step Problems: If 2x = 18, x = ?",
+      "prompt": "If 2x = 18, x = ?",
       "options": [
         "9",
         "8",
@@ -2371,10 +2371,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2023",
@@ -2382,7 +2382,7 @@
     },
     {
       "topic": "multi-step-problems",
-      "prompt": "Multi-Step Problems: 15% of 200 equals",
+      "prompt": "15% of 200 equals",
       "options": [
         "30",
         "20",
@@ -2391,10 +2391,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2022",
@@ -2402,7 +2402,7 @@
     },
     {
       "topic": "multi-step-problems",
-      "prompt": "Multi-Step Problems: Area of rectangle 9 by 4 is",
+      "prompt": "Area of rectangle 9 by 4 is",
       "options": [
         "36",
         "13",
@@ -2411,10 +2411,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2021",
@@ -2423,7 +2423,7 @@
     {
       "topic": "multi-step-problems",
       "type": "input",
-      "prompt": "Work out and enter your answer: Multi-Step Problems: Solve x + 14 = 27",
+      "prompt": "Work out and write your answer: Solve x + 14 = 27",
       "answerValue": "13",
       "steps": [
         "Identify the method.",
@@ -2437,7 +2437,7 @@
     },
     {
       "topic": "final-skill-check",
-      "prompt": "Final Skill Check: A trader sold 12 pens at 3 each. Total?",
+      "prompt": "A trader sold 12 pens at 3 each. Total?",
       "options": [
         "36",
         "24",
@@ -2446,10 +2446,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2024",
@@ -2457,7 +2457,7 @@
     },
     {
       "topic": "final-skill-check",
-      "prompt": "Final Skill Check: If 2x = 18, x = ?",
+      "prompt": "If 2x = 18, x = ?",
       "options": [
         "9",
         "8",
@@ -2466,10 +2466,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2023",
@@ -2477,7 +2477,7 @@
     },
     {
       "topic": "final-skill-check",
-      "prompt": "Final Skill Check: 15% of 200 equals",
+      "prompt": "15% of 200 equals",
       "options": [
         "30",
         "20",
@@ -2486,10 +2486,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2022",
@@ -2497,7 +2497,7 @@
     },
     {
       "topic": "final-skill-check",
-      "prompt": "Final Skill Check: Area of rectangle 9 by 4 is",
+      "prompt": "Area of rectangle 9 by 4 is",
       "options": [
         "36",
         "13",
@@ -2506,10 +2506,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2021",
@@ -2518,7 +2518,7 @@
     {
       "topic": "final-skill-check",
       "type": "input",
-      "prompt": "Work out and enter your answer: Final Skill Check: Solve x + 14 = 27",
+      "prompt": "Work out and write your answer: Solve x + 14 = 27",
       "answerValue": "13",
       "steps": [
         "Identify the method.",
@@ -2534,7 +2534,7 @@
   "jh3": [
     {
       "topic": "real-number-system",
-      "prompt": "Real Number System: Evaluate 30 + 14.",
+      "prompt": "Evaluate 30 + 14.",
       "options": [
         "44",
         "43",
@@ -2543,10 +2543,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2024",
@@ -2554,7 +2554,7 @@
     },
     {
       "topic": "real-number-system",
-      "prompt": "Real Number System: Find 95 - 38.",
+      "prompt": "Find 95 - 38.",
       "options": [
         "57",
         "55",
@@ -2563,10 +2563,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2023",
@@ -2574,7 +2574,7 @@
     },
     {
       "topic": "real-number-system",
-      "prompt": "Real Number System: Compute 7 x 6.",
+      "prompt": "Compute 7 x 6.",
       "options": [
         "42",
         "40",
@@ -2583,10 +2583,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2022",
@@ -2594,7 +2594,7 @@
     },
     {
       "topic": "real-number-system",
-      "prompt": "Real Number System: Compute 84 / 7.",
+      "prompt": "Compute 84 / 7.",
       "options": [
         "12",
         "13",
@@ -2603,10 +2603,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2021",
@@ -2615,7 +2615,7 @@
     {
       "topic": "real-number-system",
       "type": "input",
-      "prompt": "Work out and enter your answer: Real Number System: 120 + 80",
+      "prompt": "Work out and write your answer: 120 + 80",
       "answerValue": "200",
       "steps": [
         "Identify the method.",
@@ -2629,7 +2629,7 @@
     },
     {
       "topic": "scientific-notation",
-      "prompt": "Scientific Notation: Evaluate 31 + 15.",
+      "prompt": "Evaluate 31 + 15.",
       "options": [
         "46",
         "45",
@@ -2638,10 +2638,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2024",
@@ -2649,7 +2649,7 @@
     },
     {
       "topic": "scientific-notation",
-      "prompt": "Scientific Notation: Find 96 - 39.",
+      "prompt": "Find 96 - 39.",
       "options": [
         "57",
         "55",
@@ -2658,10 +2658,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2023",
@@ -2669,7 +2669,7 @@
     },
     {
       "topic": "scientific-notation",
-      "prompt": "Scientific Notation: Compute 8 x 7.",
+      "prompt": "Compute 8 x 7.",
       "options": [
         "56",
         "54",
@@ -2678,10 +2678,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2022",
@@ -2689,7 +2689,7 @@
     },
     {
       "topic": "scientific-notation",
-      "prompt": "Scientific Notation: Compute 91 / 8.",
+      "prompt": "Compute 91 / 8.",
       "options": [
         "11",
         "12",
@@ -2698,10 +2698,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2021",
@@ -2710,7 +2710,7 @@
     {
       "topic": "scientific-notation",
       "type": "input",
-      "prompt": "Work out and enter your answer: Scientific Notation: 121 + 81",
+      "prompt": "Work out and write your answer: 121 + 81",
       "answerValue": "202",
       "steps": [
         "Identify the method.",
@@ -2724,7 +2724,7 @@
     },
     {
       "topic": "linear-equations",
-      "prompt": "Linear Equations: Solve x + 11 = 19.",
+      "prompt": "Solve x + 11 = 19.",
       "options": [
         "8",
         "7",
@@ -2733,10 +2733,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2024",
@@ -2744,7 +2744,7 @@
     },
     {
       "topic": "linear-equations",
-      "prompt": "Linear Equations: Solve 3x = 30.",
+      "prompt": "Solve 3x = 30.",
       "options": [
         "10",
         "9",
@@ -2753,10 +2753,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2023",
@@ -2764,7 +2764,7 @@
     },
     {
       "topic": "linear-equations",
-      "prompt": "Linear Equations: Evaluate 2x + 3 for x=4.",
+      "prompt": "Evaluate 2x + 3 for x=4.",
       "options": [
         "11",
         "10",
@@ -2773,10 +2773,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2022",
@@ -2784,7 +2784,7 @@
     },
     {
       "topic": "linear-equations",
-      "prompt": "Linear Equations: If x=5, x^2 =",
+      "prompt": "If x=5, x^2 =",
       "options": [
         "25",
         "10",
@@ -2793,10 +2793,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2021",
@@ -2805,7 +2805,7 @@
     {
       "topic": "linear-equations",
       "type": "input",
-      "prompt": "Work out and enter your answer: Linear Equations: Solve x - 7 = 12",
+      "prompt": "Work out and write your answer: Solve x - 7 = 12",
       "answerValue": "19",
       "steps": [
         "Identify the method.",
@@ -2819,7 +2819,7 @@
     },
     {
       "topic": "systems-of-equations",
-      "prompt": "Systems of Equations: Solve x + 9 = 17.",
+      "prompt": "Solve x + 9 = 17.",
       "options": [
         "8",
         "7",
@@ -2828,10 +2828,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2024",
@@ -2839,7 +2839,7 @@
     },
     {
       "topic": "systems-of-equations",
-      "prompt": "Systems of Equations: Solve 3x = 24.",
+      "prompt": "Solve 3x = 24.",
       "options": [
         "8",
         "7",
@@ -2848,10 +2848,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2023",
@@ -2859,7 +2859,7 @@
     },
     {
       "topic": "systems-of-equations",
-      "prompt": "Systems of Equations: Evaluate 2x + 3 for x=4.",
+      "prompt": "Evaluate 2x + 3 for x=4.",
       "options": [
         "11",
         "10",
@@ -2868,10 +2868,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2022",
@@ -2879,7 +2879,7 @@
     },
     {
       "topic": "systems-of-equations",
-      "prompt": "Systems of Equations: If x=5, x^2 =",
+      "prompt": "If x=5, x^2 =",
       "options": [
         "25",
         "10",
@@ -2888,10 +2888,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2021",
@@ -2900,7 +2900,7 @@
     {
       "topic": "systems-of-equations",
       "type": "input",
-      "prompt": "Work out and enter your answer: Systems of Equations: Solve x - 7 = 12",
+      "prompt": "Work out and write your answer: Solve x - 7 = 12",
       "answerValue": "19",
       "steps": [
         "Identify the method.",
@@ -2914,7 +2914,7 @@
     },
     {
       "topic": "functions-and-graphs",
-      "prompt": "Functions and Graphs: A trader sold 12 pens at 3 each. Total?",
+      "prompt": "A trader sold 12 pens at 3 each. Total?",
       "options": [
         "36",
         "24",
@@ -2923,10 +2923,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/coordinate-grid-guide.svg",
       "imageAlt": "Coordinate grid guide",
@@ -2936,7 +2936,7 @@
     },
     {
       "topic": "functions-and-graphs",
-      "prompt": "Functions and Graphs: If 2x = 18, x = ?",
+      "prompt": "If 2x = 18, x = ?",
       "options": [
         "9",
         "8",
@@ -2945,10 +2945,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/coordinate-grid-guide.svg",
       "imageAlt": "Coordinate grid guide",
@@ -2958,7 +2958,7 @@
     },
     {
       "topic": "functions-and-graphs",
-      "prompt": "Functions and Graphs: 15% of 200 equals",
+      "prompt": "15% of 200 equals",
       "options": [
         "30",
         "20",
@@ -2967,10 +2967,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/coordinate-grid-guide.svg",
       "imageAlt": "Coordinate grid guide",
@@ -2980,7 +2980,7 @@
     },
     {
       "topic": "functions-and-graphs",
-      "prompt": "Functions and Graphs: Area of rectangle 9 by 4 is",
+      "prompt": "Area of rectangle 9 by 4 is",
       "options": [
         "36",
         "13",
@@ -2989,10 +2989,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/coordinate-grid-guide.svg",
       "imageAlt": "Coordinate grid guide",
@@ -3003,7 +3003,7 @@
     {
       "topic": "functions-and-graphs",
       "type": "input",
-      "prompt": "Work out and enter your answer: Functions and Graphs: Solve x + 14 = 27",
+      "prompt": "Work out and write your answer: Solve x + 14 = 27",
       "answerValue": "13",
       "steps": [
         "Identify the method.",
@@ -3019,7 +3019,7 @@
     },
     {
       "topic": "congruence-and-similarity",
-      "prompt": "Congruence and Similarity: Sum of angles in a triangle is",
+      "prompt": "Sum of angles in a triangle is",
       "options": [
         "180",
         "90",
@@ -3028,10 +3028,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/triangle-area.svg",
       "imageAlt": "Triangle geometry diagram",
@@ -3041,7 +3041,7 @@
     },
     {
       "topic": "congruence-and-similarity",
-      "prompt": "Congruence and Similarity: Right angle measure is",
+      "prompt": "Right angle measure is",
       "options": [
         "90",
         "45",
@@ -3050,10 +3050,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/rectangle-dimensions.svg",
       "imageAlt": "Geometry dimensions diagram",
@@ -3063,7 +3063,7 @@
     },
     {
       "topic": "congruence-and-similarity",
-      "prompt": "Congruence and Similarity: Hypotenuse in 3-4-5 triangle is",
+      "prompt": "Hypotenuse in 3-4-5 triangle is",
       "options": [
         "5",
         "4",
@@ -3072,10 +3072,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/triangle-area.svg",
       "imageAlt": "Triangle geometry diagram",
@@ -3085,7 +3085,7 @@
     },
     {
       "topic": "congruence-and-similarity",
-      "prompt": "Congruence and Similarity: A line through origin and (2,2) has slope",
+      "prompt": "A line through origin and (2,2) has slope",
       "options": [
         "1",
         "2",
@@ -3094,10 +3094,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/rectangle-dimensions.svg",
       "imageAlt": "Geometry dimensions diagram",
@@ -3108,7 +3108,7 @@
     {
       "topic": "congruence-and-similarity",
       "type": "input",
-      "prompt": "Work out and enter your answer: Congruence and Similarity: Find missing angle if two angles are 50 and 60 in triangle",
+      "prompt": "Work out and write your answer: Find missing angle if two angles are 50 and 60 in triangle",
       "answerValue": "70",
       "steps": [
         "Identify the method.",
@@ -3124,7 +3124,7 @@
     },
     {
       "topic": "circle-theorems",
-      "prompt": "Circle Theorems: Sum of angles in a triangle is",
+      "prompt": "Sum of angles in a triangle is",
       "options": [
         "180",
         "90",
@@ -3133,10 +3133,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/circle-geometry.svg",
       "imageAlt": "Circle geometry diagram",
@@ -3146,7 +3146,7 @@
     },
     {
       "topic": "circle-theorems",
-      "prompt": "Circle Theorems: Right angle measure is",
+      "prompt": "Right angle measure is",
       "options": [
         "90",
         "45",
@@ -3155,10 +3155,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/circle-geometry.svg",
       "imageAlt": "Circle geometry diagram",
@@ -3168,7 +3168,7 @@
     },
     {
       "topic": "circle-theorems",
-      "prompt": "Circle Theorems: Hypotenuse in 3-4-5 triangle is",
+      "prompt": "Hypotenuse in 3-4-5 triangle is",
       "options": [
         "5",
         "4",
@@ -3177,10 +3177,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/circle-geometry.svg",
       "imageAlt": "Circle geometry diagram",
@@ -3190,7 +3190,7 @@
     },
     {
       "topic": "circle-theorems",
-      "prompt": "Circle Theorems: A line through origin and (2,2) has slope",
+      "prompt": "A line through origin and (2,2) has slope",
       "options": [
         "1",
         "2",
@@ -3199,10 +3199,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/circle-geometry.svg",
       "imageAlt": "Circle geometry diagram",
@@ -3213,7 +3213,7 @@
     {
       "topic": "circle-theorems",
       "type": "input",
-      "prompt": "Work out and enter your answer: Circle Theorems: Find missing angle if two angles are 50 and 60 in triangle",
+      "prompt": "Work out and write your answer: Find missing angle if two angles are 50 and 60 in triangle",
       "answerValue": "70",
       "steps": [
         "Identify the method.",
@@ -3229,7 +3229,7 @@
     },
     {
       "topic": "statistics-and-trends",
-      "prompt": "Statistics and Trends: Mean of 4, 6, 8 is",
+      "prompt": "Mean of 4, 6, 8 is",
       "options": [
         "6",
         "5",
@@ -3238,10 +3238,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/line-graph-example.svg",
       "imageAlt": "Line graph trend example",
@@ -3251,7 +3251,7 @@
     },
     {
       "topic": "statistics-and-trends",
-      "prompt": "Statistics and Trends: Median of 2, 5, 7, 9, 10 is",
+      "prompt": "Median of 2, 5, 7, 9, 10 is",
       "options": [
         "7",
         "5",
@@ -3260,10 +3260,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/line-graph-example.svg",
       "imageAlt": "Line graph trend example",
@@ -3273,7 +3273,7 @@
     },
     {
       "topic": "statistics-and-trends",
-      "prompt": "Statistics and Trends: Mode of 3, 4, 4, 5 is",
+      "prompt": "Mode of 3, 4, 4, 5 is",
       "options": [
         "4",
         "3",
@@ -3282,10 +3282,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/line-graph-example.svg",
       "imageAlt": "Line graph trend example",
@@ -3295,7 +3295,7 @@
     },
     {
       "topic": "statistics-and-trends",
-      "prompt": "Statistics and Trends: Range of 2, 8, 11 is",
+      "prompt": "Range of 2, 8, 11 is",
       "options": [
         "9",
         "8",
@@ -3304,10 +3304,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/line-graph-example.svg",
       "imageAlt": "Line graph trend example",
@@ -3318,7 +3318,7 @@
     {
       "topic": "statistics-and-trends",
       "type": "input",
-      "prompt": "Work out and enter your answer: Statistics and Trends: Mean of 5, 7, 9, 11",
+      "prompt": "Work out and write your answer: Mean of 5, 7, 9, 11",
       "answerValue": "8",
       "steps": [
         "Identify the method.",
@@ -3334,7 +3334,7 @@
     },
     {
       "topic": "transformations",
-      "prompt": "Transformations: Sum of angles in a triangle is",
+      "prompt": "Sum of angles in a triangle is",
       "options": [
         "180",
         "90",
@@ -3343,10 +3343,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/coordinate-grid-guide.svg",
       "imageAlt": "Coordinate grid guide",
@@ -3356,7 +3356,7 @@
     },
     {
       "topic": "transformations",
-      "prompt": "Transformations: Right angle measure is",
+      "prompt": "Right angle measure is",
       "options": [
         "90",
         "45",
@@ -3365,10 +3365,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/coordinate-grid-guide.svg",
       "imageAlt": "Coordinate grid guide",
@@ -3378,7 +3378,7 @@
     },
     {
       "topic": "transformations",
-      "prompt": "Transformations: Hypotenuse in 3-4-5 triangle is",
+      "prompt": "Hypotenuse in 3-4-5 triangle is",
       "options": [
         "5",
         "4",
@@ -3387,10 +3387,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/coordinate-grid-guide.svg",
       "imageAlt": "Coordinate grid guide",
@@ -3400,7 +3400,7 @@
     },
     {
       "topic": "transformations",
-      "prompt": "Transformations: A line through origin and (2,2) has slope",
+      "prompt": "A line through origin and (2,2) has slope",
       "options": [
         "1",
         "2",
@@ -3409,10 +3409,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/coordinate-grid-guide.svg",
       "imageAlt": "Coordinate grid guide",
@@ -3423,7 +3423,7 @@
     {
       "topic": "transformations",
       "type": "input",
-      "prompt": "Work out and enter your answer: Transformations: Find missing angle if two angles are 50 and 60 in triangle",
+      "prompt": "Work out and write your answer: Find missing angle if two angles are 50 and 60 in triangle",
       "answerValue": "70",
       "steps": [
         "Identify the method.",
@@ -3448,10 +3448,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2024",
@@ -3468,10 +3468,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2023",
@@ -3488,10 +3488,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2022",
@@ -3508,10 +3508,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2021",
@@ -3520,7 +3520,7 @@
     {
       "topic": "quadratic-intro",
       "type": "input",
-      "prompt": "Work out and enter your answer: Quadratic Expressions Intro: Solve x - 7 = 12",
+      "prompt": "Work out and write your answer: Quadratic Expressions Intro: Solve x - 7 = 12",
       "answerValue": "19",
       "steps": [
         "Identify the method.",
@@ -3534,7 +3534,7 @@
     },
     {
       "topic": "exam-techniques",
-      "prompt": "Exam Techniques: A trader sold 12 pens at 3 each. Total?",
+      "prompt": "A trader sold 12 pens at 3 each. Total?",
       "options": [
         "36",
         "24",
@@ -3543,10 +3543,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2024",
@@ -3554,7 +3554,7 @@
     },
     {
       "topic": "exam-techniques",
-      "prompt": "Exam Techniques: If 2x = 18, x = ?",
+      "prompt": "If 2x = 18, x = ?",
       "options": [
         "9",
         "8",
@@ -3563,10 +3563,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2023",
@@ -3574,7 +3574,7 @@
     },
     {
       "topic": "exam-techniques",
-      "prompt": "Exam Techniques: 15% of 200 equals",
+      "prompt": "15% of 200 equals",
       "options": [
         "30",
         "20",
@@ -3583,10 +3583,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2022",
@@ -3594,7 +3594,7 @@
     },
     {
       "topic": "exam-techniques",
-      "prompt": "Exam Techniques: Area of rectangle 9 by 4 is",
+      "prompt": "Area of rectangle 9 by 4 is",
       "options": [
         "36",
         "13",
@@ -3603,10 +3603,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2021",
@@ -3615,7 +3615,7 @@
     {
       "topic": "exam-techniques",
       "type": "input",
-      "prompt": "Work out and enter your answer: Exam Techniques: Solve x + 14 = 27",
+      "prompt": "Work out and write your answer: Solve x + 14 = 27",
       "answerValue": "13",
       "steps": [
         "Identify the method.",
@@ -3638,10 +3638,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2024",
@@ -3658,10 +3658,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2023",
@@ -3678,10 +3678,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2022",
@@ -3698,10 +3698,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "source": "bece-past",
       "examYear": "2021",
@@ -3710,7 +3710,7 @@
     {
       "topic": "bece-prep",
       "type": "input",
-      "prompt": "Work out and enter your answer: BECE Prep Set: Solve x + 14 = 27",
+      "prompt": "Work out and write your answer: BECE Prep Set: Solve x + 14 = 27",
       "answerValue": "13",
       "steps": [
         "Identify the method.",

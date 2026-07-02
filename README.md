@@ -12,7 +12,7 @@ After GitHub Pages is enabled for this repository, the site is available at:
 
 - Multi-page static website (HTML, CSS, JavaScript)
 - Responsive layout across desktop, tablet, and mobile
-- Interactive math practice experience with:
+- Interactive maths practice experience with:
   - Grade-based question sets (P1 to P6)
   - Feedback and solution steps
   - Progress visuals and badges

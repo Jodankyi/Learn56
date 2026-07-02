@@ -1087,6 +1087,14 @@ main {
   padding-bottom: 0.35rem;
 }
 
+.practice-game-divider {
+  width: 100%;
+  height: 0;
+  border-top: 2px solid #cfd6de;
+  margin: 2rem 0 2rem;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+}
+
 .practice-dice-title {
   margin: 0 0 0.72rem;
   font-size: 1.35rem;
@@ -1107,38 +1115,58 @@ main {
 
 .dice-game-wrap {
   display: grid;
-  gap: 0.88rem;
+  gap: 1.2rem;
   justify-items: center;
   text-align: center;
-  border: 2px dashed #ffd2a8;
+  border: 2px solid #cfd6de;
   border-radius: 14px;
-  padding: 0.95rem 0.85rem;
-  background: rgba(255, 255, 255, 0.76);
+  padding: 2.1rem 1rem 2.1rem;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 10px 22px rgba(113, 128, 150, 0.2);
 }
 
 .dice-face {
-  width: 118px;
-  height: 118px;
+  width: 164px;
+  height: 164px;
+  padding: 0.9rem;
   border-radius: 22px;
-  border: 2px solid #ffb770;
-  background: linear-gradient(145deg, #fff2de 0%, #ffd6a8 52%, #cfe8ff 100%);
-  box-shadow: 0 14px 24px rgba(249, 115, 22, 0.24);
-  display: inline-flex;
+  border: 4px solid #d83333;
+  background: #ffffff;
+  box-shadow: 0 12px 22px rgba(120, 127, 140, 0.34);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 0.35rem;
   align-items: center;
-  justify-content: center;
-  font-size: 3rem;
-  font-weight: 800;
-  color: var(--accent-green-medium);
+  justify-items: center;
+  transition: transform 220ms ease;
+}
+
+.dice-pip {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: transparent;
+  opacity: 0;
+}
+
+.dice-pip.is-active {
+  background: #d83333;
+  opacity: 1;
 }
 
 .dice-face.is-rolled {
-  animation: dicePop 360ms ease-out;
+  animation: dicePop 340ms ease-out;
+}
+
+.dice-face.is-rolling {
+  animation: diceRoll 760ms cubic-bezier(0.25, 0.9, 0.3, 1);
 }
 
 .dice-task {
-  margin: 0;
-  color: var(--accent-green-medium);
-  font-size: 0.98rem;
+  margin: 0.2rem 0 0.15rem;
+  color: #1f4e79;
+  font-size: 1.02rem;
   font-weight: 700;
   line-height: 1.35;
 }
@@ -1150,7 +1178,7 @@ main {
   background: #f97316;
   border: 2px solid #fff;
   color: #fff;
-  box-shadow: 0 10px 18px rgba(249, 115, 22, 0.35);
+  box-shadow: 0 10px 18px rgba(107, 114, 128, 0.28);
   transform: translateY(0);
 }
 
@@ -1158,27 +1186,542 @@ main {
 .dice-roll-btn:focus-visible {
   background: #ea580c;
   border-color: #fff;
-  box-shadow: 0 14px 24px rgba(234, 88, 12, 0.45);
+  box-shadow: 0 14px 24px rgba(107, 114, 128, 0.34);
   transform: translateY(-2px);
 }
 
 .dice-roll-btn:active {
   transform: translateY(0);
-  box-shadow: 0 8px 14px rgba(234, 88, 12, 0.35);
+  box-shadow: 0 8px 14px rgba(107, 114, 128, 0.26);
+}
+
+.dice-roll-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.word-scramble-game {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.word-scramble-title {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--primary-light);
+}
+
+.word-scramble-wrap {
+  display: grid;
+  gap: 0.85rem;
+  border: 2px solid #cfd6de;
+  border-radius: 14px;
+  padding: 1rem;
+  background: #ffffff;
+  box-shadow: 0 8px 16px rgba(113, 128, 150, 0.18);
+}
+
+.word-scramble-instruction {
+  margin: 0;
+  color: #1f4e79;
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.word-scramble-clue {
+  margin: 0;
+  letter-spacing: 0.16em;
+  font-size: 1.45rem;
+  font-weight: 800;
+  color: #d83333;
+  text-align: center;
+}
+
+.word-scramble-input {
+  width: 100%;
+  border: 1px solid #c9d8ea;
+  border-radius: 10px;
+  padding: 0.62rem 0.7rem;
+  font-size: 0.92rem;
+  color: var(--text-primary);
+  background: #ffffff;
+}
+
+.word-scramble-input:focus {
+  outline: 2px solid #8fb8e8;
+  outline-offset: 1px;
+}
+
+.word-scramble-actions {
+  display: flex;
+  justify-content: center;
+  gap: 0.55rem;
+  flex-wrap: wrap;
+}
+
+.word-scramble-btn {
+  min-width: 120px;
+}
+
+#scramble-check-btn {
+  background: var(--primary-light);
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+#scramble-check-btn:hover,
+#scramble-check-btn:focus-visible {
+  background: #d64b0f;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+#scramble-new-btn {
+  border: 2px solid var(--primary-light);
+}
+
+.word-scramble-feedback {
+  margin: 0;
+  min-height: 1.2rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.word-scramble-feedback.is-correct {
+  color: #116329;
+}
+
+.word-scramble-feedback.is-incorrect {
+  color: #8e1c1c;
+}
+
+.true-false-game {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.true-false-title {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--primary-light);
+}
+
+.true-false-wrap {
+  display: grid;
+  gap: 0.85rem;
+  border: 2px solid #cfd6de;
+  border-radius: 14px;
+  padding: 1rem;
+  background: #ffffff;
+  box-shadow: 0 8px 16px rgba(113, 128, 150, 0.18);
+}
+
+.true-false-instruction {
+  margin: 0;
+  color: #1f4e79;
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.true-false-statement {
+  margin: 0;
+  border: 1px solid #d6e1ec;
+  border-radius: 10px;
+  background: #f7fbff;
+  padding: 0.62rem 0.7rem;
+  color: var(--text-primary);
+  font-size: 0.92rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.true-false-actions {
+  display: flex;
+  justify-content: center;
+  gap: 0.55rem;
+  flex-wrap: wrap;
+}
+
+.true-false-btn {
+  min-width: 110px;
+}
+
+#true-false-true-btn {
+  background: var(--primary-light);
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+#true-false-true-btn:hover,
+#true-false-true-btn:focus-visible {
+  background: #d64b0f;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+#true-false-false-btn,
+#true-false-next-btn {
+  border: 2px solid var(--primary-light);
+}
+
+.true-false-feedback {
+  margin: 0;
+  min-height: 1.2rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.true-false-feedback.is-correct {
+  color: #116329;
+}
+
+.true-false-feedback.is-incorrect {
+  color: #8e1c1c;
+}
+
+@media (max-width: 768px) {
+  .practice-dice-inline {
+    padding-left: 0.55rem;
+    padding-right: 0.55rem;
+    padding-bottom: 0.6rem;
+  }
+
+  .practice-game-divider {
+    margin: 1.6rem 0;
+  }
+
+  .dice-game-wrap,
+  .word-scramble-wrap,
+  .true-false-wrap {
+    padding: 0.9rem;
+    gap: 0.75rem;
+  }
+
+  .dice-face {
+    width: 132px;
+    height: 132px;
+    padding: 0.72rem;
+  }
+
+  .dice-pip {
+    width: 16px;
+    height: 16px;
+  }
+
+  .dice-task,
+  .word-scramble-instruction,
+  .true-false-instruction,
+  .true-false-statement {
+    font-size: 0.88rem;
+  }
+
+  .word-scramble-clue {
+    font-size: 1.25rem;
+  }
+
+  .dice-roll-btn,
+  .word-scramble-btn,
+  .true-false-btn {
+    min-height: 44px;
+    width: 100%;
+    max-width: 260px;
+  }
+
+  .word-scramble-actions,
+  .true-false-actions {
+    gap: 0.45rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .practice-dice-title,
+  .word-scramble-title,
+  .true-false-title {
+    font-size: 1.06rem;
+    text-align: center;
+  }
+
+  .dice-face {
+    width: 112px;
+    height: 112px;
+    padding: 0.58rem;
+    border-width: 3px;
+  }
+
+  .dice-pip {
+    width: 13px;
+    height: 13px;
+  }
+
+  .word-scramble-actions,
+  .true-false-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: stretch;
+  }
+
+  .dice-roll-btn,
+  .word-scramble-btn,
+  .true-false-btn {
+    max-width: none;
+  }
+}
+
+@media (max-width: 390px) {
+  .practice-dice-inline {
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    padding-bottom: 0.4rem;
+  }
+
+  .practice-game-divider {
+    margin: 1.1rem 0;
+  }
+
+  .dice-game-wrap,
+  .word-scramble-wrap,
+  .true-false-wrap {
+    padding: 0.65rem;
+    gap: 0.55rem;
+  }
+
+  .practice-dice-title,
+  .word-scramble-title,
+  .true-false-title {
+    margin-bottom: 0.45rem;
+    font-size: 0.98rem;
+  }
+
+  .dice-face {
+    width: 98px;
+    height: 98px;
+    padding: 0.48rem;
+  }
+
+  .dice-pip {
+    width: 11px;
+    height: 11px;
+  }
+
+  .dice-task,
+  .word-scramble-instruction,
+  .true-false-instruction,
+  .true-false-statement,
+  .word-scramble-feedback,
+  .true-false-feedback {
+    margin-top: 0.35rem;
+    font-size: 0.82rem;
+    line-height: 1.35;
+  }
+
+  .word-scramble-clue {
+    margin: 0.12rem 0 0.28rem;
+    letter-spacing: 0.04em;
+    font-size: 1.1rem;
+  }
+
+  .dice-roll-btn,
+  .word-scramble-btn,
+  .true-false-btn {
+    min-height: 42px;
+    padding: 0.52rem 0.72rem;
+    font-size: 0.84rem;
+  }
+
+  .word-scramble-actions,
+  .true-false-actions {
+    gap: 0.35rem;
+  }
+}
+
+@keyframes diceRoll {
+  0% {
+    transform: rotate(0deg) scale(0.94);
+  }
+
+  25% {
+    transform: rotate(100deg) scale(1.06);
+  }
+
+  55% {
+    transform: rotate(205deg) scale(0.97);
+  }
+
+  80% {
+    transform: rotate(315deg) scale(1.04);
+  }
+
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
 }
 
 @keyframes dicePop {
   0% {
-    transform: scale(0.85) rotate(-10deg);
+    transform: scale(0.88);
   }
 
-  60% {
-    transform: scale(1.08) rotate(8deg);
+  65% {
+    transform: scale(1.06);
   }
 
   100% {
-    transform: scale(1) rotate(0deg);
+    transform: scale(1);
   }
+}
+
+.dice-activity-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.56);
+  z-index: 1280;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.1rem;
+}
+
+.dice-activity-modal[hidden] {
+  display: none;
+}
+
+.dice-activity-modal-dialog {
+  width: min(760px, 100%);
+  max-height: min(84vh, 720px);
+  background: #fff;
+  border-radius: 18px;
+  border: 1px solid #d7e0ea;
+  box-shadow: 0 22px 42px rgba(15, 23, 42, 0.22);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.dice-activity-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+  padding: 1rem 1.2rem;
+  background: #eef5ff;
+  border-bottom: 1px solid #d7e0ea;
+}
+
+.dice-activity-branding {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.dice-activity-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.dice-activity-brand-name {
+  font-size: 1rem;
+  font-weight: 800;
+  color: var(--primary);
+}
+
+.dice-activity-modal-close {
+  width: 2.15rem;
+  height: 2.15rem;
+  border: 1px solid #afc6e3;
+  border-radius: 999px;
+  background: #fff;
+  color: var(--primary);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dice-activity-modal-close:hover,
+.dice-activity-modal-close:focus-visible {
+  background: var(--primary-light);
+  color: #fff;
+}
+
+.dice-activity-modal-content {
+  display: grid;
+  gap: 0.9rem;
+  padding: 1.35rem 1.2rem 1.4rem;
+  overflow: auto;
+}
+
+.dice-activity-chip {
+  margin: 0;
+  justify-self: start;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  border: 1px solid #c6daef;
+  background: #eef6ff;
+  color: #1f4e79;
+  font-size: 0.76rem;
+  font-weight: 700;
+  padding: 0.2rem 0.55rem;
+}
+
+.dice-activity-modal-content h2 {
+  margin: 0;
+  font-size: 1.3rem;
+  color: var(--primary);
+}
+
+.dice-activity-prompt {
+  margin: 0;
+  font-size: 0.96rem;
+  color: var(--text-primary);
+  line-height: 1.4;
+}
+
+.dice-activity-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #1f4e79;
+}
+
+.dice-activity-input {
+  width: 100%;
+  border: 1px solid #c9d8ea;
+  border-radius: 10px;
+  padding: 0.65rem 0.72rem;
+  font-size: 0.93rem;
+  color: var(--text-primary);
+  background: #fcfeff;
+}
+
+.dice-activity-input:focus {
+  outline: 2px solid #8fb8e8;
+  outline-offset: 1px;
+}
+
+.dice-activity-actions {
+  display: flex;
+}
+
+.dice-activity-validate-btn {
+  min-width: 170px;
+}
+
+.dice-activity-feedback {
+  margin: 0;
+  min-height: 1.2rem;
+  font-size: 0.84rem;
+  font-weight: 700;
+}
+
+.dice-activity-feedback.is-correct {
+  color: #116329;
+}
+
+.dice-activity-feedback.is-incorrect {
+  color: #8e1c1c;
 }
 
 .primary-language-practice-panel {
@@ -1956,6 +2499,16 @@ body.modal-open {
   font-size: 0.78rem;
   font-weight: 700;
   color: #1f4e79;
+}
+
+.practice-q-match-image {
+  width: 84px;
+  height: 64px;
+  object-fit: contain;
+  border: 1px solid #c9d8ea;
+  border-radius: 0.5rem;
+  background: #ffffff;
+  padding: 0.25rem;
 }
 
 .practice-q-match-row .practice-q-input {
@@ -3790,6 +4343,27 @@ body.kindergarten-mode .primary-language-practice-tag {
     grid-template-rows: auto;
   }
 
+  .cards-section,
+  .practice-cards-section,
+  .analytics-overview-section,
+  .featured-skills-section,
+  .performance-section,
+  .tools-container-section {
+    margin-top: var(--spacing-sm);
+    margin-bottom: var(--spacing-sm);
+  }
+
+  .practice-card,
+  .card,
+  .stat-card,
+  .insight-card,
+  .performance-card,
+  .tool-card,
+  .course-card {
+    width: 100%;
+    min-width: 0;
+  }
+
   .primary-language-practice-grid {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -3849,13 +4423,90 @@ body.kindergarten-mode .primary-language-practice-tag {
   }
 
   .grade-level-grid {
-    grid-template-columns: repeat(11, minmax(66px, 1fr));
+    display: flex;
+    flex-wrap: nowrap;
+    grid-template-columns: none;
     gap: 0.3rem;
+    justify-content: flex-start;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-gutter: stable;
+    padding-bottom: 0.35rem;
   }
 
   .grade-level-btn {
+    flex: 0 0 auto;
+    min-width: 74px;
     font-size: 0.78rem;
     padding: 0.38rem 0.28rem;
+  }
+
+  .practice-question-grade-grid,
+  .jh-practice-question-grade-grid,
+  .sh-practice-question-grade-grid {
+    display: flex;
+    flex-wrap: nowrap;
+    grid-template-columns: none;
+    gap: 0.4rem;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-gutter: stable;
+    padding-bottom: 0.3rem;
+  }
+
+  .practice-question-grade-btn,
+  .jh-practice-question-grade-grid .practice-question-grade-btn,
+  .sh-practice-question-grade-grid .practice-question-grade-btn {
+    flex: 0 0 auto;
+    min-width: 84px;
+    width: auto;
+  }
+
+  .primary-language-practice-table-wrap {
+    border: 1px solid #d7e0ea;
+    border-radius: var(--radius-sm);
+    background: #fff;
+  }
+
+  .primary-language-practice-table-wrap .practice-single-table {
+    min-width: 420px;
+  }
+
+  .practice-q-card {
+    gap: 0.4rem;
+  }
+
+  .practice-q-control,
+  .practice-q-options {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+  }
+
+  .practice-q-options label {
+    width: 100%;
+  }
+
+  .practice-q-check,
+  .practice-q-mini-btn {
+    min-height: 40px;
+  }
+
+  .practice-q-match-row {
+    align-items: flex-start;
+  }
+
+  .practice-q-match-label {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .practice-q-match-row .practice-q-input {
+    max-width: none;
+    width: 100%;
   }
 
   .featured-skills-grid {
@@ -3958,6 +4609,10 @@ body.kindergarten-mode .primary-language-practice-tag {
     min-width: 380px;
   }
 
+  .primary-language-practice-table-wrap {
+    border-radius: 0.6rem;
+  }
+
   .stats-container,
   .insights-cards-grid,
   .practice-cards-grid,
@@ -3984,6 +4639,39 @@ body.kindergarten-mode .primary-language-practice-tag {
     font-size: 0.76rem;
     line-height: 1.1;
     padding: 0.4rem 0.5rem;
+    vertical-align: top;
+  }
+
+  .practice-q-prompt {
+    font-size: 0.78rem;
+    line-height: 1.3;
+  }
+
+  .practice-q-input,
+  .practice-q-textarea,
+  .practice-q-check,
+  .practice-q-mini-btn {
+    width: 100%;
+    max-width: none;
+  }
+
+  .practice-q-check,
+  .practice-q-mini-btn {
+    text-align: center;
+  }
+
+  .practice-q-options {
+    gap: 0.35rem;
+  }
+
+  .practice-q-options label {
+    font-size: 0.76rem;
+    line-height: 1.25;
+  }
+
+  .practice-q-match-image {
+    width: 72px;
+    height: 56px;
   }
 
   .practice-action-btn {
@@ -4038,14 +4726,7 @@ body.kindergarten-mode .primary-language-practice-tag {
   }
 
   .grade-level-grid {
-    display: flex;
-    flex-wrap: nowrap;
     gap: 0.25rem;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-gutter: stable;
-    padding-bottom: 0.35rem;
   }
 
   .grade-level-btn {
@@ -4053,6 +4734,20 @@ body.kindergarten-mode .primary-language-practice-tag {
     min-width: 60px;
     font-size: 0.72rem;
     padding: 0.34rem 0.22rem;
+  }
+
+  .practice-question-grade-grid,
+  .jh-practice-question-grade-grid,
+  .sh-practice-question-grade-grid {
+    gap: 0.3rem;
+  }
+
+  .practice-question-grade-btn,
+  .jh-practice-question-grade-grid .practice-question-grade-btn,
+  .sh-practice-question-grade-grid .practice-question-grade-btn {
+    min-width: 74px;
+    font-size: 0.66rem;
+    padding: 0.34rem 0.24rem;
   }
 
   .grade-level-btn:hover,
@@ -4073,6 +4768,91 @@ body.kindergarten-mode .primary-language-practice-tag {
 
   .item-label {
     font-size: 0.92rem;
+  }
+}
+
+@media (max-width: 390px) {
+  .primary-language-practice-table-wrap {
+    overflow-x: visible;
+  }
+
+  .primary-language-practice-table-wrap .practice-single-table {
+    min-width: 0;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+
+  .primary-language-practice-table-wrap .practice-single-table thead {
+    display: none;
+  }
+
+  .primary-language-practice-table-wrap .practice-single-table tbody,
+  .primary-language-practice-table-wrap .practice-single-table tr,
+  .primary-language-practice-table-wrap .practice-single-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .primary-language-practice-table-wrap .practice-single-table tr {
+    margin-bottom: 0.55rem;
+    border: 1px solid #d7e0ea;
+    border-radius: var(--radius-sm);
+    background: #ffffff;
+    box-shadow: var(--shadow-xs);
+    padding: 0.3rem 0.38rem;
+  }
+
+  .primary-language-practice-table-wrap .practice-single-table tr:last-child {
+    margin-bottom: 0;
+  }
+
+  .primary-language-practice-table-wrap .practice-single-table td {
+    border: 0;
+    padding: 0.3rem 0.26rem;
+  }
+
+  .primary-language-practice-table-wrap .practice-single-table td::before {
+    display: block;
+    margin-bottom: 0.18rem;
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #365e84;
+  }
+
+  .primary-language-practice-table-wrap .practice-single-table td:nth-child(1)::before {
+    content: "Question";
+  }
+
+  .primary-language-practice-table-wrap .practice-single-table td:nth-child(2)::before {
+    content: "Interactive Task";
+  }
+
+  .practice-single-table th,
+  .practice-single-table td {
+    font-size: 0.72rem;
+    line-height: 1.2;
+    padding: 0.36rem 0.44rem;
+  }
+
+  .practice-q-prompt,
+  .practice-q-feedback,
+  .practice-q-options label,
+  .practice-q-sequence-text,
+  .practice-q-match-label {
+    font-size: 0.74rem;
+  }
+
+  .practice-q-textarea {
+    min-height: 68px;
+  }
+
+  .practice-q-check,
+  .practice-q-mini-btn {
+    padding: 0.42rem 0.5rem;
+    font-size: 0.72rem;
   }
 }
 
@@ -4551,12 +5331,14 @@ body.kindergarten-mode .primary-language-practice-tag {
 
   .timetable-modal,
   .messages-modal,
+  .dice-activity-modal,
   .comments-modal {
     padding: 0.7rem;
   }
 
   .timetable-modal-dialog,
   .messages-modal-dialog,
+  .dice-activity-modal-dialog,
   .comments-modal-dialog {
     width: 100%;
     max-height: 90vh;
@@ -4605,6 +5387,7 @@ body.kindergarten-mode .primary-language-practice-tag {
   }
 
   .messages-modal-content,
+  .dice-activity-modal-content,
   .comments-modal-content {
     padding: 0.75rem;
   }
@@ -4662,6 +5445,7 @@ body.kindergarten-mode .primary-language-practice-tag {
     .footer-social-icon,
     .timetable-modal-close,
     .messages-modal-close,
+    .dice-activity-modal-close,
     .comments-modal-close
   ) {
     min-width: 44px;

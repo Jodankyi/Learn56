@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 
 <head>
     <meta charset="UTF-8">
@@ -35,7 +35,7 @@
                     <li class="dropdown">
                         <button class="dropbtn" aria-expanded="false">Courses</button>
                         <ul class="dropdown-menu">
-                            <li><a href="Math.html">Math</a></li>
+                            <li><a href="Math.html">Maths</a></li>
                             <li><a href="LanguageArts.html">Language Arts</a></li>
                             <li><a href="#">Science</a></li>
                             <li><a href="#">Social Studies</a></li>
@@ -309,13 +309,54 @@
                         </ul>
 
                         <section class="practice-dice-inline" aria-label="Roll dice language game">
-                            <h3 class="practice-dice-title">Let's Play!</h3>
+                            <h3 class="practice-dice-title">Let's learn together!</h3>
                             <div class="dice-game-wrap">
-                                <div class="dice-face" id="dice-face-value" aria-live="polite">1</div>
+                                <div class="dice-face" id="dice-face-value" aria-live="polite"
+                                    aria-label="Dice value 1"></div>
                                 <p class="dice-task" id="dice-task-text">Roll the dice to get your activity.</p>
                                 <button type="button" class="btn btn-join dice-roll-btn" id="roll-dice-btn">Roll
                                     Dice</button>
                             </div>
+
+                            <div class="practice-game-divider" aria-hidden="true"></div>
+
+                            <section class="word-scramble-game" aria-label="Word scramble language game">
+                                <h4 class="word-scramble-title">Word Scramble</h4>
+                                <div class="word-scramble-wrap">
+                                    <p class="word-scramble-instruction">Unscramble the letters to make a language arts
+                                        word.</p>
+                                    <p class="word-scramble-clue" id="scramble-word" aria-live="polite">OOKB</p>
+                                    <input type="text" id="scramble-input" class="word-scramble-input"
+                                        autocomplete="off" placeholder="Type your answer">
+                                    <div class="word-scramble-actions">
+                                        <button type="button" class="btn btn-join word-scramble-btn"
+                                            id="scramble-check-btn">Check</button>
+                                        <button type="button" class="btn btn-signin word-scramble-btn"
+                                            id="scramble-new-btn">New Word</button>
+                                    </div>
+                                    <p class="word-scramble-feedback" id="scramble-feedback" aria-live="polite"></p>
+                                </div>
+                            </section>
+
+                            <div class="practice-game-divider" aria-hidden="true"></div>
+
+                            <section class="true-false-game" aria-label="True or false language game">
+                                <h4 class="true-false-title">True or False</h4>
+                                <div class="true-false-wrap">
+                                    <p class="true-false-instruction">Read the statement and choose True or False.</p>
+                                    <p class="true-false-statement" id="true-false-statement" aria-live="polite">A
+                                        sentence begins with a capital letter.</p>
+                                    <div class="true-false-actions">
+                                        <button type="button" class="btn btn-join true-false-btn"
+                                            id="true-false-true-btn">True</button>
+                                        <button type="button" class="btn btn-signin true-false-btn"
+                                            id="true-false-false-btn">False</button>
+                                        <button type="button" class="btn btn-signin true-false-btn"
+                                            id="true-false-next-btn">Next</button>
+                                    </div>
+                                    <p class="true-false-feedback" id="true-false-feedback" aria-live="polite"></p>
+                                </div>
+                            </section>
                         </section>
                     </nav>
                 </article>
@@ -500,76 +541,110 @@
         </div>
     </div>
 
- <section class="features-header-section">
-            <div class="features-header">
-                <h2 class="features-title">Why Choose Learn56?</h2>
-                <p class="features-message">Powerful features designed to make learning engaging, effective, & fun.</p>
+    <div class="dice-activity-modal" id="dice-activity-modal" hidden>
+        <div class="dice-activity-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="dice-activity-title">
+            <div class="dice-activity-modal-header">
+                <div class="dice-activity-branding">
+                    <img src="Images/logo3.png" alt="Learn56 logo" class="dice-activity-logo">
+                    <span class="dice-activity-brand-name">Learn56</span>
+                </div>
+                <button type="button" class="dice-activity-modal-close" id="close-dice-activity-modal"
+                    aria-label="Close activity modal">
+                    <i class="fas fa-times" aria-hidden="true"></i>
+                </button>
             </div>
-        </section>
 
-        <section class="features-grid-section">
-            <div class="features-grid">
-                <div class="feature-item">
-                    <div class="feature-icon">
-                        <i class="fas fa-chalkboard-user"></i>
-                    </div>
-                    <div class="feature-content">
-                        <h3 class="feature-title">Expert Instructors</h3>
-                        <p class="feature-message">Learn from industry professionals with years of experience</p>
-                    </div>
+            <div class="dice-activity-modal-content">
+                <p class="dice-activity-chip" id="dice-activity-chip">Number 1 Activity</p>
+                <h2 id="dice-activity-title">Complete this activity</h2>
+                <p class="dice-activity-prompt" id="dice-activity-prompt">Type: Hello</p>
+
+                <label for="dice-activity-input" class="dice-activity-label">Your response</label>
+                <input id="dice-activity-input" class="dice-activity-input" type="text" autocomplete="off"
+                    placeholder="Type your answer here">
+
+                <div class="dice-activity-actions">
+                    <button type="button" class="btn btn-join dice-activity-validate-btn"
+                        id="dice-activity-validate-btn">
+                        Check Answer
+                    </button>
                 </div>
 
-                <div class="feature-item">
-                    <div class="feature-icon">
-                        <i class="fas fa-brain"></i>
-                    </div>
-                    <div class="feature-content">
-                        <h3 class="feature-title">Adaptive Learning</h3>
-                        <p class="feature-message">Personalized learning paths that adapt to your pace and style</p>
-                    </div>
-                </div>
+                <p class="dice-activity-feedback" id="dice-activity-feedback" aria-live="polite"></p>
+            </div>
+        </div>
+    </div>
 
-                <div class="feature-item">
-                    <div class="feature-icon">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                    <div class="feature-content">
-                        <h3 class="feature-title">Progress Tracking</h3>
-                        <p class="feature-message">Monitor your learning journey with detailed analytics</p>
-                    </div>
-                </div>
+    <section class="features-header-section">
+        <div class="features-header">
+            <h2 class="features-title">Why Choose Learn56?</h2>
+            <p class="features-message">Powerful features designed to make learning engaging, effective, & fun.</p>
+        </div>
+    </section>
 
-                <div class="feature-item">
-                    <div class="feature-icon">
-                        <i class="fas fa-globe"></i>
-                    </div>
-                    <div class="feature-content">
-                        <h3 class="feature-title">Learn Anywhere</h3>
-                        <p class="feature-message">Access courses anytime, anywhere on any device</p>
-                    </div>
+    <section class="features-grid-section">
+        <div class="features-grid">
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <i class="fas fa-chalkboard-user"></i>
                 </div>
-
-                <div class="feature-item">
-                    <div class="feature-icon">
-                        <i class="fas fa-shield"></i>
-                    </div>
-                    <div class="feature-content">
-                        <h3 class="feature-title">Safe & Secure</h3>
-                        <p class="feature-message">Your data and privacy are protected with industry standards</p>
-                    </div>
-                </div>
-
-                <div class="feature-item">
-                    <div class="feature-icon">
-                        <i class="fas fa-trophy"></i>
-                    </div>
-                    <div class="feature-content">
-                        <h3 class="feature-title">Gamified Learning</h3>
-                        <p class="feature-message">Earn badges, points, and rewards while learning</p>
-                    </div>
+                <div class="feature-content">
+                    <h3 class="feature-title">Expert Instructors</h3>
+                    <p class="feature-message">Learn from industry professionals with years of experience</p>
                 </div>
             </div>
-        </section>
+
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <div class="feature-content">
+                    <h3 class="feature-title">Adaptive Learning</h3>
+                    <p class="feature-message">Personalised learning paths that adapt to your pace and style</p>
+                </div>
+            </div>
+
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="feature-content">
+                    <h3 class="feature-title">Progress Tracking</h3>
+                    <p class="feature-message">Monitor your learning journey with detailed analytics</p>
+                </div>
+            </div>
+
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <div class="feature-content">
+                    <h3 class="feature-title">Learn Anywhere</h3>
+                    <p class="feature-message">Access courses anytime, anywhere on any device</p>
+                </div>
+            </div>
+
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <i class="fas fa-shield"></i>
+                </div>
+                <div class="feature-content">
+                    <h3 class="feature-title">Safe & Secure</h3>
+                    <p class="feature-message">Your data and privacy are protected with industry standards</p>
+                </div>
+            </div>
+
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <i class="fas fa-trophy"></i>
+                </div>
+                <div class="feature-content">
+                    <h3 class="feature-title">Gamified Learning</h3>
+                    <p class="feature-message">Earn badges, points, and rewards while learning</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <footer class="footer">
@@ -590,7 +665,7 @@
                 <div class="footer-column">
                     <h4 class="footer-column-title">Courses</h4>
                     <ul class="footer-column-links">
-                        <li><a href="Math.html">Math</a></li>
+                        <li><a href="Math.html">Maths</a></li>
                         <li><a href="LanguageArts.html">Language Arts</a></li>
                         <li><a href="#">Science</a></li>
                         <li><a href="#">Social Studies</a></li>
@@ -699,6 +774,14 @@
         const messagesTrigger = document.getElementById('open-messages-modal');
         const messagesModal = document.getElementById('messages-modal');
         const messagesModalClose = document.getElementById('close-messages-modal');
+        const diceActivityModal = document.getElementById('dice-activity-modal');
+        const closeDiceActivityModalBtn = document.getElementById('close-dice-activity-modal');
+        const diceActivityChip = document.getElementById('dice-activity-chip');
+        const diceActivityTitle = document.getElementById('dice-activity-title');
+        const diceActivityPrompt = document.getElementById('dice-activity-prompt');
+        const diceActivityInput = document.getElementById('dice-activity-input');
+        const diceActivityFeedback = document.getElementById('dice-activity-feedback');
+        const diceActivityValidateBtn = document.getElementById('dice-activity-validate-btn');
         const messagesSendBtn = document.getElementById('messages-send-btn');
         const messageResponseInput = document.getElementById('message-response-text');
         const messagesThread = document.getElementById('messages-thread');
@@ -709,11 +792,15 @@
         };
         let lastFocusedBeforeTimetable;
         let lastFocusedBeforeMessages;
+        let lastFocusedBeforeDiceActivity;
+        let currentDiceResult = 1;
+        let diceAttemptCount = 0;
 
         function updateModalBodyLock() {
             const hasVisibleModal =
                 (timetableModal && !timetableModal.hidden) ||
-                (messagesModal && !messagesModal.hidden);
+                (messagesModal && !messagesModal.hidden) ||
+                (diceActivityModal && !diceActivityModal.hidden);
             document.body.classList.toggle('modal-open', Boolean(hasVisibleModal));
         }
 
@@ -939,31 +1026,331 @@
         const rollDiceBtn = document.getElementById('roll-dice-btn');
         const diceFaceValue = document.getElementById('dice-face-value');
         const diceTaskText = document.getElementById('dice-task-text');
+        const scrambleWord = document.getElementById('scramble-word');
+        const scrambleInput = document.getElementById('scramble-input');
+        const scrambleCheckBtn = document.getElementById('scramble-check-btn');
+        const scrambleNewBtn = document.getElementById('scramble-new-btn');
+        const scrambleFeedback = document.getElementById('scramble-feedback');
+        const trueFalseStatement = document.getElementById('true-false-statement');
+        const trueFalseTrueBtn = document.getElementById('true-false-true-btn');
+        const trueFalseFalseBtn = document.getElementById('true-false-false-btn');
+        const trueFalseNextBtn = document.getElementById('true-false-next-btn');
+        const trueFalseFeedback = document.getElementById('true-false-feedback');
+        const scrambleWords = ['book', 'story', 'poem', 'read', 'write', 'letter', 'rhyme', 'school'];
+        const trueFalseItems = [
+            { statement: 'A sentence begins with a capital letter.', answer: true },
+            { statement: 'A full stop should be used only at the beginning of a sentence.', answer: false },
+            { statement: 'Words like cat and hat can rhyme.', answer: true },
+            { statement: 'A question mark is used for statements that are not questions.', answer: false },
+            { statement: 'Nouns are naming words.', answer: true },
+            { statement: 'Every sentence must end with no punctuation mark.', answer: false }
+        ];
+        let currentScrambleAnswer = '';
+        let currentTrueFalseItem = trueFalseItems[0];
 
         const diceActivities = {
-            1: 'Say one polite greeting and one polite response.',
-            2: 'Read one short sentence aloud with clear voice.',
-            3: 'Spell one topic word and use it in a sentence.',
-            4: 'Retell a short story in three simple steps.',
-            5: 'Write one sentence and check punctuation.',
-            6: 'Find two rhyming words from your lesson.'
+            1: {
+                task: 'Say one polite greeting and one polite response.',
+                prompt: 'Type a polite greeting (for example: Hello).',
+                solution: 'Hello',
+                validate: function (answer) {
+                    return /^(hello|hi|good morning|good afternoon|good evening)$/i.test(answer.trim());
+                }
+            },
+            2: {
+                task: 'Read one short sentence aloud with clear voice.',
+                prompt: 'Type this sentence exactly: I can read.',
+                solution: 'I can read.',
+                validate: function (answer) {
+                    return answer.trim().toLowerCase() === 'i can read.';
+                }
+            },
+            3: {
+                task: 'Spell one topic word and use it in a sentence.',
+                prompt: 'Type this word: book',
+                solution: 'book',
+                validate: function (answer) {
+                    return answer.trim().toLowerCase() === 'book';
+                }
+            },
+            4: {
+                task: 'Retell a short story in three simple steps.',
+                prompt: 'How many steps should your retell have? Type the number only.',
+                solution: '3',
+                validate: function (answer) {
+                    return answer.trim() === '3';
+                }
+            },
+            5: {
+                task: 'Write one sentence and check punctuation.',
+                prompt: 'Fix punctuation: we like stories',
+                solution: 'We like stories.',
+                validate: function (answer) {
+                    return answer.trim().toLowerCase() === 'we like stories.';
+                }
+            },
+            6: {
+                task: 'Find two rhyming words from your lesson.',
+                prompt: 'Type a rhyming pair with cat (example: cat, hat).',
+                solution: 'cat, hat',
+                validate: function (answer) {
+                    const normalized = answer.trim().toLowerCase();
+                    return normalized.includes('cat') && /(hat|bat|mat|rat)/.test(normalized);
+                }
+            }
         };
 
-        function runDiceGame() {
-            const result = Math.floor(Math.random() * 6) + 1;
-            if (diceFaceValue) {
-                diceFaceValue.textContent = String(result);
-                diceFaceValue.classList.remove('is-rolled');
-                void diceFaceValue.offsetWidth;
-                diceFaceValue.classList.add('is-rolled');
+        const dicePipMap = {
+            1: [5],
+            2: [1, 9],
+            3: [1, 5, 9],
+            4: [1, 3, 7, 9],
+            5: [1, 3, 5, 7, 9],
+            6: [1, 3, 4, 6, 7, 9]
+        };
+
+        function shuffleWord(word) {
+            const letters = word.toUpperCase().split('');
+            for (let i = letters.length - 1; i > 0; i -= 1) {
+                const j = Math.floor(Math.random() * (i + 1));
+                const temp = letters[i];
+                letters[i] = letters[j];
+                letters[j] = temp;
             }
-            if (diceTaskText) {
-                diceTaskText.textContent = diceActivities[result];
+            return letters.join('');
+        }
+
+        function loadScrambleWord() {
+            if (!scrambleWord || !scrambleInput || !scrambleFeedback) return;
+            const selectedWord = scrambleWords[Math.floor(Math.random() * scrambleWords.length)];
+            currentScrambleAnswer = selectedWord;
+
+            let scrambled = shuffleWord(selectedWord);
+            if (scrambled.toLowerCase() === selectedWord.toLowerCase()) {
+                scrambled = shuffleWord(selectedWord);
+            }
+
+            scrambleWord.textContent = scrambled;
+            scrambleInput.value = '';
+            scrambleFeedback.textContent = '';
+            scrambleFeedback.classList.remove('is-correct', 'is-incorrect');
+            scrambleInput.focus();
+        }
+
+        function validateScrambleWord() {
+            if (!scrambleInput || !scrambleFeedback) return;
+            const answer = (scrambleInput.value || '').trim().toLowerCase();
+
+            scrambleFeedback.classList.remove('is-correct', 'is-incorrect');
+            if (!answer) {
+                scrambleFeedback.classList.add('is-incorrect');
+                scrambleFeedback.textContent = 'Type an answer first.';
+                return;
+            }
+
+            if (answer === currentScrambleAnswer.toLowerCase()) {
+                scrambleFeedback.classList.add('is-correct');
+                scrambleFeedback.textContent = 'Great job. That is correct!';
+            } else {
+                scrambleFeedback.classList.add('is-incorrect');
+                scrambleFeedback.textContent = `Not quite. Try again.`;
             }
         }
 
+        function loadTrueFalseItem() {
+            if (!trueFalseStatement || !trueFalseFeedback) return;
+            currentTrueFalseItem = trueFalseItems[Math.floor(Math.random() * trueFalseItems.length)];
+            trueFalseStatement.textContent = currentTrueFalseItem.statement;
+            trueFalseFeedback.textContent = '';
+            trueFalseFeedback.classList.remove('is-correct', 'is-incorrect');
+        }
+
+        function validateTrueFalse(choice) {
+            if (!trueFalseFeedback || !currentTrueFalseItem) return;
+            const isCorrect = choice === currentTrueFalseItem.answer;
+            trueFalseFeedback.classList.remove('is-correct', 'is-incorrect');
+            if (isCorrect) {
+                trueFalseFeedback.classList.add('is-correct');
+                trueFalseFeedback.textContent = 'Correct. Great job!';
+            } else {
+                trueFalseFeedback.classList.add('is-incorrect');
+                trueFalseFeedback.textContent = 'Not quite. Try again or tap Next for another statement.';
+            }
+        }
+
+        function renderDiceFace(value) {
+            if (!diceFaceValue) return;
+            diceFaceValue.innerHTML = '';
+            const activePips = dicePipMap[value] || [5];
+
+            for (let index = 1; index <= 9; index += 1) {
+                const pip = document.createElement('span');
+                pip.className = 'dice-pip';
+                if (activePips.includes(index)) {
+                    pip.classList.add('is-active');
+                }
+                diceFaceValue.appendChild(pip);
+            }
+
+            diceFaceValue.setAttribute('aria-label', `Dice value ${value}`);
+        }
+
+        function openDiceActivityModal(result) {
+            if (!diceActivityModal || !diceActivities[result]) return;
+            const activity = diceActivities[result];
+            currentDiceResult = result;
+            diceAttemptCount = 0;
+            lastFocusedBeforeDiceActivity = document.activeElement;
+
+            if (diceActivityChip) {
+                diceActivityChip.textContent = `Number ${result} Activity`;
+            }
+            if (diceActivityTitle) {
+                diceActivityTitle.textContent = `Number ${result}: Language Task`;
+            }
+            if (diceActivityPrompt) {
+                diceActivityPrompt.textContent = activity.prompt;
+            }
+            if (diceActivityInput) {
+                diceActivityInput.value = '';
+            }
+            if (diceActivityFeedback) {
+                diceActivityFeedback.textContent = '';
+                diceActivityFeedback.classList.remove('is-correct', 'is-incorrect');
+            }
+
+            diceActivityModal.hidden = false;
+            updateModalBodyLock();
+            if (diceActivityInput) {
+                diceActivityInput.focus();
+            }
+        }
+
+        function closeDiceActivityModal() {
+            if (!diceActivityModal) return;
+            diceActivityModal.hidden = true;
+            updateModalBodyLock();
+            if (lastFocusedBeforeDiceActivity && typeof lastFocusedBeforeDiceActivity.focus === 'function') {
+                lastFocusedBeforeDiceActivity.focus();
+            }
+        }
+
+        function validateDiceActivity() {
+            if (!diceActivityInput || !diceActivityFeedback) return;
+            const activity = diceActivities[currentDiceResult];
+            if (!activity) return;
+
+            const answer = diceActivityInput.value || '';
+            const isCorrect = activity.validate(answer);
+
+            diceActivityFeedback.classList.remove('is-correct', 'is-incorrect');
+            if (isCorrect) {
+                diceActivityFeedback.classList.add('is-correct');
+                diceActivityFeedback.textContent = `Excellent work. You completed Number ${currentDiceResult}. Keep it up!`;
+            } else {
+                diceAttemptCount += 1;
+                diceActivityFeedback.classList.add('is-incorrect');
+                if (diceAttemptCount >= 3) {
+                    const solutionText = activity.solution || 'Please check the prompt and example above.';
+                    diceActivityFeedback.textContent = `Not quite yet. Solution: ${solutionText}`;
+                } else {
+                    const triesLeft = 3 - diceAttemptCount;
+                    diceActivityFeedback.textContent = `Not quite yet. Try again and check the prompt carefully. ${triesLeft} attempt${triesLeft === 1 ? '' : 's'} left before solution.`;
+                }
+            }
+        }
+
+        function runDiceGame() {
+            if (!diceFaceValue || !diceTaskText || !rollDiceBtn) return;
+            rollDiceBtn.disabled = true;
+            diceFaceValue.classList.remove('is-rolled');
+            diceFaceValue.classList.add('is-rolling');
+
+            let ticks = 0;
+            const totalTicks = 12;
+            const rollingInterval = setInterval(function () {
+                const rollingValue = Math.floor(Math.random() * 6) + 1;
+                renderDiceFace(rollingValue);
+                ticks += 1;
+
+                if (ticks >= totalTicks) {
+                    clearInterval(rollingInterval);
+                    const result = Math.floor(Math.random() * 6) + 1;
+                    renderDiceFace(result);
+                    diceFaceValue.classList.remove('is-rolling');
+                    void diceFaceValue.offsetWidth;
+                    diceFaceValue.classList.add('is-rolled');
+                    diceTaskText.textContent = diceActivities[result].task;
+                    rollDiceBtn.disabled = false;
+                    openDiceActivityModal(result);
+                }
+            }, 85);
+        }
+
+        renderDiceFace(1);
+        loadScrambleWord();
+        loadTrueFalseItem();
+
         if (rollDiceBtn) {
             rollDiceBtn.addEventListener('click', runDiceGame);
+        }
+
+        if (scrambleCheckBtn) {
+            scrambleCheckBtn.addEventListener('click', validateScrambleWord);
+        }
+
+        if (scrambleNewBtn) {
+            scrambleNewBtn.addEventListener('click', loadScrambleWord);
+        }
+
+        if (scrambleInput) {
+            scrambleInput.addEventListener('keydown', function (event) {
+                if (event.key === 'Enter') {
+                    event.preventDefault();
+                    validateScrambleWord();
+                }
+            });
+        }
+
+        if (trueFalseTrueBtn) {
+            trueFalseTrueBtn.addEventListener('click', function () {
+                validateTrueFalse(true);
+            });
+        }
+
+        if (trueFalseFalseBtn) {
+            trueFalseFalseBtn.addEventListener('click', function () {
+                validateTrueFalse(false);
+            });
+        }
+
+        if (trueFalseNextBtn) {
+            trueFalseNextBtn.addEventListener('click', loadTrueFalseItem);
+        }
+
+        if (diceActivityValidateBtn) {
+            diceActivityValidateBtn.addEventListener('click', validateDiceActivity);
+        }
+
+        if (diceActivityInput) {
+            diceActivityInput.addEventListener('keydown', function (event) {
+                if (event.key === 'Enter') {
+                    event.preventDefault();
+                    validateDiceActivity();
+                }
+            });
+        }
+
+        if (closeDiceActivityModalBtn) {
+            closeDiceActivityModalBtn.addEventListener('click', closeDiceActivityModal);
+        }
+
+        if (diceActivityModal) {
+            diceActivityModal.addEventListener('click', function (event) {
+                if (event.target === diceActivityModal) {
+                    closeDiceActivityModal();
+                }
+            });
         }
 
         document.addEventListener('keydown', function (event) {
@@ -973,6 +1360,10 @@
 
             if (event.key === 'Escape' && messagesModal && !messagesModal.hidden) {
                 closeMessagesModal();
+            }
+
+            if (event.key === 'Escape' && diceActivityModal && !diceActivityModal.hidden) {
+                closeDiceActivityModal();
             }
         });
 
@@ -990,6 +1381,63 @@
         const topicCopy = document.getElementById('practice-topic-copy');
         const routineList = document.getElementById('practice-routine-list');
         const tableBody = document.getElementById('practice-question-table-body');
+        const feedbackCopy = {
+            chooseOptionLabel: 'Choose an option',
+            chooseWordLabel: 'Choose a word',
+            selectOptionFirst: 'Select an option first.',
+            mcqCorrect: 'Correct. Good choice for this task.',
+            mcqIncorrect: 'Not quite. Choose the option that best supports your learning.',
+            selectTrueFalseFirst: 'Select True or False first.',
+            tfCorrect: 'Correct.',
+            tfIncorrect: 'Not quite. Read the statement again and try once more.',
+            typeAnswerFirst: 'Type an answer first.',
+            fillCorrect: 'Well done. Good response.',
+            fillFallback: 'Try another suitable keyword from the topic.',
+            arrangeCorrect: 'Well done. Your picture order is correct.',
+            arrangeIncorrect: 'Nearly there. Try moving the cards again.',
+            completeMatchesFirst: 'Complete all matches first.',
+            matchCorrect: 'Excellent. All picture words are correct.',
+            matchIncorrectPrefix: 'Good attempt. You got '
+        };
+
+        function setFeedbackTone(isKindergarten) {
+            if (isKindergarten) {
+                feedbackCopy.chooseOptionLabel = 'Pick an option';
+                feedbackCopy.chooseWordLabel = 'Pick a word';
+                feedbackCopy.selectOptionFirst = 'Pick an option first.';
+                feedbackCopy.mcqCorrect = 'Brilliant. Great choice!';
+                feedbackCopy.mcqIncorrect = 'Good try. Have another go.';
+                feedbackCopy.selectTrueFalseFirst = 'Pick True or False first.';
+                feedbackCopy.tfCorrect = 'Correct. Well done!';
+                feedbackCopy.tfIncorrect = 'Almost. Read it again and try.';
+                feedbackCopy.typeAnswerFirst = 'Type one word first.';
+                feedbackCopy.fillCorrect = 'Brilliant effort!';
+                feedbackCopy.fillFallback = 'Good try. Use a topic word and try again.';
+                feedbackCopy.arrangeCorrect = 'Excellent. The order is correct.';
+                feedbackCopy.arrangeIncorrect = 'Nearly there. Move the cards and try again.';
+                feedbackCopy.completeMatchesFirst = 'Finish all matches first.';
+                feedbackCopy.matchCorrect = 'Brilliant. All matches are correct.';
+                feedbackCopy.matchIncorrectPrefix = 'Good try. You got ';
+                return;
+            }
+
+            feedbackCopy.chooseOptionLabel = 'Choose an option';
+            feedbackCopy.chooseWordLabel = 'Choose a word';
+            feedbackCopy.selectOptionFirst = 'Select an option first.';
+            feedbackCopy.mcqCorrect = 'Correct. Good choice for this task.';
+            feedbackCopy.mcqIncorrect = 'Not quite. Choose the option that best supports your learning.';
+            feedbackCopy.selectTrueFalseFirst = 'Select True or False first.';
+            feedbackCopy.tfCorrect = 'Correct.';
+            feedbackCopy.tfIncorrect = 'Not quite. Read the statement again and try once more.';
+            feedbackCopy.typeAnswerFirst = 'Type an answer first.';
+            feedbackCopy.fillCorrect = 'Well done. Good response.';
+            feedbackCopy.fillFallback = 'Try another suitable keyword from the topic.';
+            feedbackCopy.arrangeCorrect = 'Well done. Your picture order is correct.';
+            feedbackCopy.arrangeIncorrect = 'Nearly there. Try moving the cards again.';
+            feedbackCopy.completeMatchesFirst = 'Complete all matches first.';
+            feedbackCopy.matchCorrect = 'Excellent. All picture words are correct.';
+            feedbackCopy.matchIncorrectPrefix = 'Good attempt. You got ';
+        }
 
         function titleCase(value) {
             return value
@@ -1332,6 +1780,22 @@
             });
         }
 
+        function ensureQuestionCount(questionSet, targetCount) {
+            if (!Array.isArray(questionSet) || !questionSet.length) return [];
+            if (questionSet.length >= targetCount) {
+                return questionSet.slice(0, targetCount);
+            }
+
+            const expanded = questionSet.slice();
+            let cursor = 0;
+            while (expanded.length < targetCount) {
+                const baseQuestion = questionSet[cursor % questionSet.length];
+                expanded.push(Object.assign({}, baseQuestion, { isRevision: true }));
+                cursor += 1;
+            }
+            return expanded;
+        }
+
         function buildInteractiveQuestionSet(strand, title, gradeValue, topicSlug) {
             const focus = getTopicFocus(title, topicSlug);
             const gradeContext = getGradeContext(gradeValue);
@@ -1340,7 +1804,7 @@
             const topicExamples = buildTopicExamples(strand, focus, keywords);
 
             if (gradeValue === 'kindergarten') {
-                return [
+                return ensureQuestionCount([
                     {
                         type: 'badge',
                         task: 'Kindergarten Play Mode',
@@ -1348,7 +1812,7 @@
                     },
                     {
                         type: 'mcq',
-                        prompt: 'Pick the best class rule for this activity:',
+                        prompt: 'Choose the best classroom rule for this activity:',
                         options: [
                             'Listen, take turns, and speak kindly',
                             'Shout while others are speaking',
@@ -1426,9 +1890,27 @@
                         type: 'match',
                         prompt: 'Picture-word match: choose the best word for each picture idea.',
                         pairs: [
-                            { picture: 'book', options: ['book', 'shoe', 'tree'], answer: 'book' },
-                            { picture: 'ball', options: ['rice', 'ball', 'chair'], answer: 'ball' },
-                            { picture: 'sun', options: ['sun', 'pen', 'bag'], answer: 'sun' }
+                            {
+                                picture: 'book',
+                                image: 'Images/match-book.svg',
+                                imageAlt: 'A book',
+                                options: ['book', 'shoe', 'tree'],
+                                answer: 'book'
+                            },
+                            {
+                                picture: 'ball',
+                                image: 'Images/Ball.svg',
+                                imageAlt: 'A ball',
+                                options: ['rice', 'ball', 'chair'],
+                                answer: 'ball'
+                            },
+                            {
+                                picture: 'sun',
+                                image: 'Images/match-sun.svg',
+                                imageAlt: 'The sun',
+                                options: ['sun', 'pen', 'bag'],
+                                answer: 'sun'
+                            }
                         ]
                     },
                     {
@@ -1472,7 +1954,7 @@
                         accepted: focus.toLowerCase().split(' ').filter(Boolean),
                         help: 'Try a key word from this topic.'
                     }
-                ];
+                ], 20);
             }
 
             const questions = [
@@ -1600,7 +2082,7 @@
                 }
             ];
 
-            return questions.slice(0, 15);
+            return ensureQuestionCount(questions, 20);
         }
 
         function createCheckButton(text) {
@@ -1653,6 +2135,8 @@
                     cleaned.pairs = cleaned.pairs.map(function (pair) {
                         return {
                             picture: removeOverviewWord(pair.picture),
+                            image: pair.image,
+                            imageAlt: removeOverviewWord(pair.imageAlt),
                             options: Array.isArray(pair.options) ? pair.options.map(removeOverviewWord) : pair.options,
                             answer: removeOverviewWord(pair.answer)
                         };
@@ -1704,6 +2188,13 @@
                     card.insertBefore(badge, prompt);
                 }
 
+                if (question.isRevision) {
+                    const revisionTag = document.createElement('span');
+                    revisionTag.className = 'practice-q-badge';
+                    revisionTag.textContent = 'Revision Item';
+                    card.insertBefore(revisionTag, prompt);
+                }
+
                 if (question.type === 'mcq') {
                     const controls = document.createElement('div');
                     const select = document.createElement('select');
@@ -1716,7 +2207,7 @@
                     feedback.className = 'practice-q-feedback';
 
                     defaultOption.value = '';
-                    defaultOption.textContent = 'Choose an option';
+                    defaultOption.textContent = feedbackCopy.chooseOptionLabel;
                     select.appendChild(defaultOption);
 
                     question.options.forEach(function (item, optionIndex) {
@@ -1728,14 +2219,14 @@
 
                     checkButton.addEventListener('click', function () {
                         if (select.value === '') {
-                            setFeedback(feedback, 'Select an option first.', false);
+                            setFeedback(feedback, feedbackCopy.selectOptionFirst, false);
                             return;
                         }
 
                         const isCorrect = Number(select.value) === question.answerIndex;
                         setFeedback(
                             feedback,
-                            isCorrect ? 'Correct. Great choice for your practice.' : 'Not quite. Try the option that best supports your practice.',
+                            isCorrect ? feedbackCopy.mcqCorrect : feedbackCopy.mcqIncorrect,
                             isCorrect
                         );
                     });
@@ -1771,14 +2262,14 @@
                     checkButton.addEventListener('click', function () {
                         const selected = document.querySelector('input[name="' + name + '"]:checked');
                         if (!selected) {
-                            setFeedback(feedback, 'Select True or False first.', false);
+                            setFeedback(feedback, feedbackCopy.selectTrueFalseFirst, false);
                             return;
                         }
 
                         const isCorrect = (selected.value === 'true') === question.answer;
                         setFeedback(
                             feedback,
-                            isCorrect ? 'Correct.' : 'Try again and think about the curriculum principle.',
+                            isCorrect ? feedbackCopy.tfCorrect : feedbackCopy.tfIncorrect,
                             isCorrect
                         );
                     });
@@ -1804,7 +2295,7 @@
                     checkButton.addEventListener('click', function () {
                         const value = input.value.trim().toLowerCase();
                         if (!value) {
-                            setFeedback(feedback, 'Type an answer first.', false);
+                            setFeedback(feedback, feedbackCopy.typeAnswerFirst, false);
                             return;
                         }
 
@@ -1816,11 +2307,11 @@
                         });
 
                         if (isCorrect) {
-                            setFeedback(feedback, 'Good response.', true);
+                            setFeedback(feedback, feedbackCopy.fillCorrect, true);
                             return;
                         }
 
-                        setFeedback(feedback, question.help || 'Try another suitable keyword from the topic.', false);
+                        setFeedback(feedback, question.help || feedbackCopy.fillFallback, false);
                     });
 
                     controls.appendChild(input);
@@ -1913,7 +2404,7 @@
                         const isCorrect = JSON.stringify(items) === JSON.stringify(question.answerOrder || []);
                         setFeedback(
                             feedback,
-                            isCorrect ? 'Great job. Your picture order is correct.' : 'Almost there. Try moving the cards again.',
+                            isCorrect ? feedbackCopy.arrangeCorrect : feedbackCopy.arrangeIncorrect,
                             isCorrect
                         );
                     });
@@ -1928,26 +2419,39 @@
 
                 if (question.type === 'match') {
                     const matchWrap = document.createElement('div');
+                    const controls = document.createElement('div');
                     const feedback = document.createElement('span');
                     const checkButton = createCheckButton('Check matches');
                     const selectors = [];
 
                     matchWrap.className = 'practice-q-match-wrap';
+                    controls.className = 'practice-q-control';
                     feedback.className = 'practice-q-feedback';
+                    feedback.setAttribute('aria-live', 'polite');
+                    feedback.textContent = 'Select a word for each picture, then check matches.';
 
                     (question.pairs || []).forEach(function (pair, pairIndex) {
                         const row = document.createElement('div');
                         const labelText = document.createElement('span');
+                        const imageNode = document.createElement('img');
                         const select = document.createElement('select');
                         const defaultOption = document.createElement('option');
 
                         row.className = 'practice-q-match-row';
                         labelText.className = 'practice-q-match-label';
-                        labelText.textContent = 'Picture ' + (pairIndex + 1) + ': ' + pair.picture;
+                        imageNode.className = 'practice-q-match-image';
+                        imageNode.src = pair.image || '';
+                        imageNode.alt = pair.imageAlt || pair.picture || ('Picture ' + (pairIndex + 1));
+                        imageNode.loading = 'lazy';
+                        if (pair.image) {
+                            labelText.appendChild(imageNode);
+                        } else {
+                            labelText.textContent = 'Picture ' + (pairIndex + 1);
+                        }
 
                         select.className = 'practice-q-input';
                         defaultOption.value = '';
-                        defaultOption.textContent = 'Choose word';
+                        defaultOption.textContent = feedbackCopy.chooseWordLabel;
                         select.appendChild(defaultOption);
 
                         (pair.options || []).forEach(function (opt) {
@@ -1966,25 +2470,28 @@
                     checkButton.addEventListener('click', function () {
                         const allAnswered = selectors.every(function (entry) { return entry.select.value !== ''; });
                         if (!allAnswered) {
-                            setFeedback(feedback, 'Complete all matches first.', false);
+                            setFeedback(feedback, feedbackCopy.completeMatchesFirst, false);
                             return;
                         }
 
                         const score = selectors.reduce(function (total, entry) {
-                            return total + (entry.select.value === entry.answer ? 1 : 0);
+                            const selected = String(entry.select.value || '').trim().toLowerCase();
+                            const expected = String(entry.answer || '').trim().toLowerCase();
+                            return total + (selected === expected ? 1 : 0);
                         }, 0);
                         const isCorrect = score === selectors.length;
 
                         setFeedback(
                             feedback,
-                            isCorrect ? 'Excellent. All picture words are correct.' : 'Good try. You got ' + score + ' out of ' + selectors.length + '. Try again.',
+                            isCorrect ? feedbackCopy.matchCorrect : feedbackCopy.matchIncorrectPrefix + score + ' out of ' + selectors.length + '. Try again.',
                             isCorrect
                         );
                     });
 
                     card.appendChild(matchWrap);
-                    card.appendChild(checkButton);
-                    card.appendChild(feedback);
+                    controls.appendChild(checkButton);
+                    controls.appendChild(feedback);
+                    card.appendChild(controls);
                 }
 
                 taskCell.appendChild(card);
@@ -1997,6 +2504,7 @@
         if (label) {
             const gradeLabel = formatGrade(grade);
             const isKindergarten = grade === 'kindergarten';
+            setFeedbackTone(isKindergarten);
             const displayLabel = sanitizeDisplayTitle(label || titleCase(topic || 'primary-language-arts'));
             const strand = inferStrand(displayLabel || topic);
             const routine = getPracticeRoutine(strand, displayLabel);
@@ -2014,9 +2522,9 @@
             gradeMeta.textContent = gradeLabel;
             topicTitle.textContent = displayLabel;
             strandTag.textContent = strand;
-            skillTag.textContent = '15 Interactive Questions';
+            skillTag.textContent = '20 Interactive Questions';
             topicCopy.textContent = isKindergarten
-                ? 'Use these colorful and playful tasks to build listening, speaking, early reading, and simple writing skills.'
+                ? 'Use these colourful and playful tasks to build listening, speaking, early reading, and simple writing skills.'
                 : 'Use this practice set to practise ' + displayLabel + ' through speaking, reading, and writing tasks.';
 
             routineList.innerHTML = '';

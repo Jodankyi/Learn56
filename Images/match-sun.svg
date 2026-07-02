@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 120" role="img" aria-labelledby="title desc">
+  <title id="title">Sun</title>
+  <desc id="desc">A simple yellow sun icon.</desc>
+  <circle cx="80" cy="60" r="26" fill="#ffd54a" stroke="#f3a21d" stroke-width="6" />
+  <g stroke="#f3a21d" stroke-width="6" stroke-linecap="round">
+    <line x1="80" y1="12" x2="80" y2="28" />
+    <line x1="80" y1="92" x2="80" y2="108" />
+    <line x1="32" y1="60" x2="48" y2="60" />
+    <line x1="112" y1="60" x2="128" y2="60" />
+    <line x1="47" y1="27" x2="58" y2="38" />
+    <line x1="102" y1="82" x2="113" y2="93" />
+    <line x1="47" y1="93" x2="58" y2="82" />
+    <line x1="102" y1="38" x2="113" y2="27" />
+  </g>
+</svg>

@@ -1,7 +1,7 @@
 {
   "p1": [
     {
-      "prompt": "Solve: 7 + 5 = ?",
+      "prompt": "Work out: 7 + 5 = ?",
       "options": [
         "10",
         "11",
@@ -16,7 +16,7 @@
       ]
     },
     {
-      "prompt": "Solve: 14 - 6 = ?",
+      "prompt": "Work out: 14 - 6 = ?",
       "options": [
         "7",
         "8",
@@ -31,7 +31,7 @@
       ]
     },
     {
-      "prompt": "Solve: 9 + 4 = ?",
+      "prompt": "Work out: 9 + 4 = ?",
       "options": [
         "12",
         "13",
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "prompt": "Solve: 15 - 7 = ?",
+      "prompt": "Work out: 15 - 7 = ?",
       "options": [
         "7",
         "8",
@@ -61,7 +61,7 @@
       ]
     },
     {
-      "prompt": "Solve: 6 + 6 = ?",
+      "prompt": "Work out: 6 + 6 = ?",
       "options": [
         "10",
         "11",
@@ -76,7 +76,7 @@
       ]
     },
     {
-      "prompt": "Solve: 13 - 4 = ?",
+      "prompt": "Work out: 13 - 4 = ?",
       "options": [
         "8",
         "9",
@@ -91,7 +91,7 @@
       ]
     },
     {
-      "prompt": "Solve: 10 + 9 = ?",
+      "prompt": "Work out: 10 + 9 = ?",
       "options": [
         "18",
         "19",
@@ -106,7 +106,7 @@
       ]
     },
     {
-      "prompt": "Solve: 18 - 9 = ?",
+      "prompt": "Work out: 18 - 9 = ?",
       "options": [
         "8",
         "9",
@@ -121,7 +121,7 @@
       ]
     },
     {
-      "prompt": "Solve: 5 + 8 = ?",
+      "prompt": "Work out: 5 + 8 = ?",
       "options": [
         "12",
         "13",
@@ -136,7 +136,7 @@
       ]
     },
     {
-      "prompt": "Solve: 16 - 8 = ?",
+      "prompt": "Work out: 16 - 8 = ?",
       "options": [
         "7",
         "8",
@@ -151,7 +151,7 @@
       ]
     },
     {
-      "prompt": "Solve: 16 + 9 = ?",
+      "prompt": "Work out: 16 + 9 = ?",
       "options": [
         "25",
         "24",
@@ -166,7 +166,7 @@
       ]
     },
     {
-      "prompt": "Solve: 18 + 7 = ?",
+      "prompt": "Work out: 18 + 7 = ?",
       "options": [
         "25",
         "24",
@@ -181,7 +181,7 @@
       ]
     },
     {
-      "prompt": "Solve: 6 + 5 = ?",
+      "prompt": "Work out: 6 + 5 = ?",
       "options": [
         "11",
         "10",
@@ -196,7 +196,7 @@
       ]
     },
     {
-      "prompt": "Solve: 8 + 3 = ?",
+      "prompt": "Work out: 8 + 3 = ?",
       "options": [
         "11",
         "10",
@@ -211,7 +211,7 @@
       ]
     },
     {
-      "prompt": "Solve: 10 + 9 = ?",
+      "prompt": "Work out: 10 + 9 = ?",
       "options": [
         "19",
         "18",
@@ -226,7 +226,7 @@
       ]
     },
     {
-      "prompt": "Solve: 12 + 7 = ?",
+      "prompt": "Work out: 12 + 7 = ?",
       "options": [
         "19",
         "18",
@@ -241,7 +241,7 @@
       ]
     },
     {
-      "prompt": "Solve: 14 + 5 = ?",
+      "prompt": "Work out: 14 + 5 = ?",
       "options": [
         "19",
         "18",
@@ -256,7 +256,7 @@
       ]
     },
     {
-      "prompt": "Solve: 16 + 3 = ?",
+      "prompt": "Work out: 16 + 3 = ?",
       "options": [
         "19",
         "18",
@@ -271,7 +271,7 @@
       ]
     },
     {
-      "prompt": "Solve: 18 + 9 = ?",
+      "prompt": "Work out: 18 + 9 = ?",
       "options": [
         "27",
         "26",
@@ -286,7 +286,7 @@
       ]
     },
     {
-      "prompt": "Solve: 6 + 7 = ?",
+      "prompt": "Work out: 6 + 7 = ?",
       "options": [
         "13",
         "12",
@@ -301,7 +301,7 @@
       ]
     },
     {
-      "prompt": "Solve: 8 + 5 = ?",
+      "prompt": "Work out: 8 + 5 = ?",
       "options": [
         "13",
         "12",
@@ -316,7 +316,7 @@
       ]
     },
     {
-      "prompt": "Solve: 10 + 3 = ?",
+      "prompt": "Work out: 10 + 3 = ?",
       "options": [
         "13",
         "12",
@@ -331,7 +331,7 @@
       ]
     },
     {
-      "prompt": "Solve: 12 + 9 = ?",
+      "prompt": "Work out: 12 + 9 = ?",
       "options": [
         "21",
         "20",
@@ -346,7 +346,7 @@
       ]
     },
     {
-      "prompt": "Solve: 14 + 7 = ?",
+      "prompt": "Work out: 14 + 7 = ?",
       "options": [
         "21",
         "20",
@@ -361,7 +361,7 @@
       ]
     },
     {
-      "prompt": "Solve: 16 + 5 = ?",
+      "prompt": "Work out: 16 + 5 = ?",
       "options": [
         "21",
         "20",
@@ -376,7 +376,7 @@
       ]
     },
     {
-      "prompt": "Solve: 18 + 3 = ?",
+      "prompt": "Work out: 18 + 3 = ?",
       "options": [
         "21",
         "20",
@@ -391,7 +391,7 @@
       ]
     },
     {
-      "prompt": "Solve: 6 + 9 = ?",
+      "prompt": "Work out: 6 + 9 = ?",
       "options": [
         "15",
         "14",
@@ -406,7 +406,7 @@
       ]
     },
     {
-      "prompt": "Solve: 8 + 7 = ?",
+      "prompt": "Work out: 8 + 7 = ?",
       "options": [
         "15",
         "14",
@@ -421,7 +421,7 @@
       ]
     },
     {
-      "prompt": "Solve: 10 + 5 = ?",
+      "prompt": "Work out: 10 + 5 = ?",
       "options": [
         "15",
         "14",
@@ -436,7 +436,7 @@
       ]
     },
     {
-      "prompt": "Solve: 12 + 3 = ?",
+      "prompt": "Work out: 12 + 3 = ?",
       "options": [
         "15",
         "14",
@@ -451,7 +451,7 @@
       ]
     },
     {
-      "prompt": "Solve: 14 + 9 = ?",
+      "prompt": "Work out: 14 + 9 = ?",
       "options": [
         "23",
         "22",
@@ -466,7 +466,7 @@
       ]
     },
     {
-      "prompt": "Solve: 16 + 7 = ?",
+      "prompt": "Work out: 16 + 7 = ?",
       "options": [
         "23",
         "22",
@@ -481,7 +481,7 @@
       ]
     },
     {
-      "prompt": "Solve: 18 + 5 = ?",
+      "prompt": "Work out: 18 + 5 = ?",
       "options": [
         "23",
         "22",
@@ -496,7 +496,7 @@
       ]
     },
     {
-      "prompt": "Solve: 6 + 3 = ?",
+      "prompt": "Work out: 6 + 3 = ?",
       "options": [
         "9",
         "8",
@@ -511,7 +511,7 @@
       ]
     },
     {
-      "prompt": "Solve: 8 + 9 = ?",
+      "prompt": "Work out: 8 + 9 = ?",
       "options": [
         "17",
         "16",
@@ -526,7 +526,7 @@
       ]
     },
     {
-      "prompt": "Solve: 10 + 7 = ?",
+      "prompt": "Work out: 10 + 7 = ?",
       "options": [
         "17",
         "16",
@@ -541,7 +541,7 @@
       ]
     },
     {
-      "prompt": "Solve: 12 + 5 = ?",
+      "prompt": "Work out: 12 + 5 = ?",
       "options": [
         "17",
         "16",
@@ -556,7 +556,7 @@
       ]
     },
     {
-      "prompt": "Solve: 14 + 3 = ?",
+      "prompt": "Work out: 14 + 3 = ?",
       "options": [
         "17",
         "16",
@@ -571,7 +571,7 @@
       ]
     },
     {
-      "prompt": "Solve: 16 + 9 = ?",
+      "prompt": "Work out: 16 + 9 = ?",
       "options": [
         "25",
         "24",
@@ -586,7 +586,7 @@
       ]
     },
     {
-      "prompt": "Solve: 18 + 7 = ?",
+      "prompt": "Work out: 18 + 7 = ?",
       "options": [
         "25",
         "24",
@@ -603,7 +603,7 @@
   ],
   "p2": [
     {
-      "prompt": "Solve: 23 + 14 = ?",
+      "prompt": "Work out: 23 + 14 = ?",
       "options": [
         "35",
         "36",
@@ -618,7 +618,7 @@
       ]
     },
     {
-      "prompt": "Solve: 45 - 18 = ?",
+      "prompt": "Work out: 45 - 18 = ?",
       "options": [
         "26",
         "27",
@@ -633,7 +633,7 @@
       ]
     },
     {
-      "prompt": "Solve: 36 + 27 = ?",
+      "prompt": "Work out: 36 + 27 = ?",
       "options": [
         "61",
         "62",
@@ -648,7 +648,7 @@
       ]
     },
     {
-      "prompt": "Solve: 72 - 29 = ?",
+      "prompt": "Work out: 72 - 29 = ?",
       "options": [
         "42",
         "43",
@@ -663,7 +663,7 @@
       ]
     },
     {
-      "prompt": "Solve: 8 x 4 = ?",
+      "prompt": "Work out: 8 x 4 = ?",
       "options": [
         "28",
         "30",
@@ -678,7 +678,7 @@
       ]
     },
     {
-      "prompt": "Solve: 42 / 6 = ?",
+      "prompt": "Work out: 42 / 6 = ?",
       "options": [
         "6",
         "7",
@@ -693,7 +693,7 @@
       ]
     },
     {
-      "prompt": "Solve: 55 + 19 = ?",
+      "prompt": "Work out: 55 + 19 = ?",
       "options": [
         "72",
         "73",
@@ -708,7 +708,7 @@
       ]
     },
     {
-      "prompt": "Solve: 64 - 37 = ?",
+      "prompt": "Work out: 64 - 37 = ?",
       "options": [
         "25",
         "26",
@@ -723,7 +723,7 @@
       ]
     },
     {
-      "prompt": "Solve: 9 x 3 = ?",
+      "prompt": "Work out: 9 x 3 = ?",
       "options": [
         "24",
         "25",
@@ -738,7 +738,7 @@
       ]
     },
     {
-      "prompt": "Solve: 48 / 8 = ?",
+      "prompt": "Work out: 48 / 8 = ?",
       "options": [
         "5",
         "6",
@@ -753,7 +753,7 @@
       ]
     },
     {
-      "prompt": "Solve: 80 - 14 = ?",
+      "prompt": "Work out: 80 - 14 = ?",
       "options": [
         "66",
         "64",
@@ -768,7 +768,7 @@
       ]
     },
     {
-      "prompt": "Solve: 44 + 23 = ?",
+      "prompt": "Work out: 44 + 23 = ?",
       "options": [
         "67",
         "65",
@@ -783,7 +783,7 @@
       ]
     },
     {
-      "prompt": "Solve: 3 x 8 = ?",
+      "prompt": "Work out: 3 x 8 = ?",
       "options": [
         "24",
         "22",
@@ -798,7 +798,7 @@
       ]
     },
     {
-      "prompt": "Solve: 63 - 26 = ?",
+      "prompt": "Work out: 63 - 26 = ?",
       "options": [
         "37",
         "35",
@@ -813,7 +813,7 @@
       ]
     },
     {
-      "prompt": "Solve: 21 + 17 = ?",
+      "prompt": "Work out: 21 + 17 = ?",
       "options": [
         "38",
         "36",
@@ -828,7 +828,7 @@
       ]
     },
     {
-      "prompt": "Solve: 9 x 8 = ?",
+      "prompt": "Work out: 9 x 8 = ?",
       "options": [
         "72",
         "70",
@@ -843,7 +843,7 @@
       ]
     },
     {
-      "prompt": "Solve: 81 - 20 = ?",
+      "prompt": "Work out: 81 - 20 = ?",
       "options": [
         "61",
         "59",
@@ -858,7 +858,7 @@
       ]
     },
     {
-      "prompt": "Solve: 33 + 11 = ?",
+      "prompt": "Work out: 33 + 11 = ?",
       "options": [
         "44",
         "42",
@@ -873,7 +873,7 @@
       ]
     },
     {
-      "prompt": "Solve: 8 x 8 = ?",
+      "prompt": "Work out: 8 x 8 = ?",
       "options": [
         "64",
         "62",
@@ -888,7 +888,7 @@
       ]
     },
     {
-      "prompt": "Solve: 64 - 14 = ?",
+      "prompt": "Work out: 64 - 14 = ?",
       "options": [
         "50",
         "48",
@@ -903,7 +903,7 @@
       ]
     },
     {
-      "prompt": "Solve: 45 + 29 = ?",
+      "prompt": "Work out: 45 + 29 = ?",
       "options": [
         "74",
         "72",
@@ -918,7 +918,7 @@
       ]
     },
     {
-      "prompt": "Solve: 7 x 8 = ?",
+      "prompt": "Work out: 7 x 8 = ?",
       "options": [
         "56",
         "54",
@@ -933,7 +933,7 @@
       ]
     },
     {
-      "prompt": "Solve: 82 - 26 = ?",
+      "prompt": "Work out: 82 - 26 = ?",
       "options": [
         "56",
         "54",
@@ -948,7 +948,7 @@
       ]
     },
     {
-      "prompt": "Solve: 22 + 23 = ?",
+      "prompt": "Work out: 22 + 23 = ?",
       "options": [
         "45",
         "43",
@@ -963,7 +963,7 @@
       ]
     },
     {
-      "prompt": "Solve: 6 x 8 = ?",
+      "prompt": "Work out: 6 x 8 = ?",
       "options": [
         "48",
         "46",
@@ -978,7 +978,7 @@
       ]
     },
     {
-      "prompt": "Solve: 65 - 20 = ?",
+      "prompt": "Work out: 65 - 20 = ?",
       "options": [
         "45",
         "43",
@@ -993,7 +993,7 @@
       ]
     },
     {
-      "prompt": "Solve: 34 + 17 = ?",
+      "prompt": "Work out: 34 + 17 = ?",
       "options": [
         "51",
         "49",
@@ -1008,7 +1008,7 @@
       ]
     },
     {
-      "prompt": "Solve: 5 x 8 = ?",
+      "prompt": "Work out: 5 x 8 = ?",
       "options": [
         "40",
         "38",
@@ -1023,7 +1023,7 @@
       ]
     },
     {
-      "prompt": "Solve: 83 - 14 = ?",
+      "prompt": "Work out: 83 - 14 = ?",
       "options": [
         "69",
         "67",
@@ -1038,7 +1038,7 @@
       ]
     },
     {
-      "prompt": "Solve: 46 + 11 = ?",
+      "prompt": "Work out: 46 + 11 = ?",
       "options": [
         "57",
         "55",
@@ -1053,7 +1053,7 @@
       ]
     },
     {
-      "prompt": "Solve: 4 x 8 = ?",
+      "prompt": "Work out: 4 x 8 = ?",
       "options": [
         "32",
         "30",
@@ -1068,7 +1068,7 @@
       ]
     },
     {
-      "prompt": "Solve: 66 - 26 = ?",
+      "prompt": "Work out: 66 - 26 = ?",
       "options": [
         "40",
         "38",
@@ -1083,7 +1083,7 @@
       ]
     },
     {
-      "prompt": "Solve: 23 + 29 = ?",
+      "prompt": "Work out: 23 + 29 = ?",
       "options": [
         "52",
         "50",
@@ -1098,7 +1098,7 @@
       ]
     },
     {
-      "prompt": "Solve: 3 x 8 = ?",
+      "prompt": "Work out: 3 x 8 = ?",
       "options": [
         "24",
         "22",
@@ -1113,7 +1113,7 @@
       ]
     },
     {
-      "prompt": "Solve: 84 - 20 = ?",
+      "prompt": "Work out: 84 - 20 = ?",
       "options": [
         "64",
         "62",
@@ -1128,7 +1128,7 @@
       ]
     },
     {
-      "prompt": "Solve: 35 + 23 = ?",
+      "prompt": "Work out: 35 + 23 = ?",
       "options": [
         "58",
         "56",
@@ -1143,7 +1143,7 @@
       ]
     },
     {
-      "prompt": "Solve: 9 x 8 = ?",
+      "prompt": "Work out: 9 x 8 = ?",
       "options": [
         "72",
         "70",
@@ -1158,7 +1158,7 @@
       ]
     },
     {
-      "prompt": "Solve: 67 - 14 = ?",
+      "prompt": "Work out: 67 - 14 = ?",
       "options": [
         "53",
         "51",
@@ -1173,7 +1173,7 @@
       ]
     },
     {
-      "prompt": "Solve: 47 + 17 = ?",
+      "prompt": "Work out: 47 + 17 = ?",
       "options": [
         "64",
         "62",
@@ -1188,7 +1188,7 @@
       ]
     },
     {
-      "prompt": "Solve: 8 x 8 = ?",
+      "prompt": "Work out: 8 x 8 = ?",
       "options": [
         "64",
         "62",
@@ -1205,7 +1205,7 @@
   ],
   "p3": [
     {
-      "prompt": "Solve: 36 \u00f7 4 = ?",
+      "prompt": "Work out: 36 ÷ 4 = ?",
       "options": [
         "8",
         "9",
@@ -1215,12 +1215,12 @@
       "correctIndex": 1,
       "steps": [
         "Think of the multiplication fact with 4.",
-        "4 \u00d7 9 = 36.",
-        "So 36 \u00f7 4 = 9."
+        "4 × 9 = 36.",
+        "So 36 ÷ 4 = 9."
       ]
     },
     {
-      "prompt": "Solve: 27 \u00d7 3 = ?",
+      "prompt": "Work out: 27 × 3 = ?",
       "options": [
         "72",
         "78",
@@ -1229,13 +1229,13 @@
       ],
       "correctIndex": 2,
       "steps": [
-        "Multiply ones: 7 \u00d7 3 = 21.",
-        "Carry 2 and multiply tens: 2 \u00d7 3 = 6, then +2 = 8.",
+        "Multiply ones: 7 × 3 = 21.",
+        "Carry 2 and multiply tens: 2 × 3 = 6, then +2 = 8.",
         "Answer is 81."
       ]
     },
     {
-      "prompt": "Solve: 54 \u00f7 6 = ?",
+      "prompt": "Work out: 54 ÷ 6 = ?",
       "options": [
         "8",
         "9",
@@ -1250,7 +1250,7 @@
       ]
     },
     {
-      "prompt": "Solve: 125 + 268 = ?",
+      "prompt": "Work out: 125 + 268 = ?",
       "options": [
         "383",
         "393",
@@ -1265,7 +1265,7 @@
       ]
     },
     {
-      "prompt": "Solve: 400 - 175 = ?",
+      "prompt": "Work out: 400 - 175 = ?",
       "options": [
         "215",
         "225",
@@ -1280,7 +1280,7 @@
       ]
     },
     {
-      "prompt": "Solve: 9 x 12 = ?",
+      "prompt": "Work out: 9 x 12 = ?",
       "options": [
         "98",
         "102",
@@ -1295,7 +1295,7 @@
       ]
     },
     {
-      "prompt": "Solve: 72 \u00f7 9 = ?",
+      "prompt": "Work out: 72 ÷ 9 = ?",
       "options": [
         "6",
         "7",
@@ -1310,7 +1310,7 @@
       ]
     },
     {
-      "prompt": "Solve: 3/8 + 2/8 = ?",
+      "prompt": "Work out: 3/8 + 2/8 = ?",
       "options": [
         "5/8",
         "5/16",
@@ -1325,7 +1325,7 @@
       ]
     },
     {
-      "prompt": "Solve: 7/10 - 3/10 = ?",
+      "prompt": "Work out: 7/10 - 3/10 = ?",
       "options": [
         "3/10",
         "4/10",
@@ -1340,7 +1340,7 @@
       ]
     },
     {
-      "prompt": "Solve: 215 + 90 = ?",
+      "prompt": "Work out: 215 + 90 = ?",
       "options": [
         "295",
         "305",
@@ -1355,7 +1355,7 @@
       ]
     },
     {
-      "prompt": "Solve: 2/10 + 1/10 = ?",
+      "prompt": "Work out: 2/10 + 1/10 = ?",
       "options": [
         "3/10",
         "4/10",
@@ -1370,7 +1370,7 @@
       ]
     },
     {
-      "prompt": "Solve: 204 + 95 = ?",
+      "prompt": "Work out: 204 + 95 = ?",
       "options": [
         "299",
         "289",
@@ -1385,7 +1385,7 @@
       ]
     },
     {
-      "prompt": "Solve: 4/12 + 5/12 = ?",
+      "prompt": "Work out: 4/12 + 5/12 = ?",
       "options": [
         "9/12",
         "10/12",
@@ -1400,7 +1400,7 @@
       ]
     },
     {
-      "prompt": "Solve: 232 + 115 = ?",
+      "prompt": "Work out: 232 + 115 = ?",
       "options": [
         "347",
         "337",
@@ -1415,7 +1415,7 @@
       ]
     },
     {
-      "prompt": "Solve: 4/8 + 1/8 = ?",
+      "prompt": "Work out: 4/8 + 1/8 = ?",
       "options": [
         "5/8",
         "6/8",
@@ -1430,7 +1430,7 @@
       ]
     },
     {
-      "prompt": "Solve: 260 + 45 = ?",
+      "prompt": "Work out: 260 + 45 = ?",
       "options": [
         "305",
         "295",
@@ -1445,7 +1445,7 @@
       ]
     },
     {
-      "prompt": "Solve: 4/10 + 5/10 = ?",
+      "prompt": "Work out: 4/10 + 5/10 = ?",
       "options": [
         "9/10",
         "10/10",
@@ -1460,7 +1460,7 @@
       ]
     },
     {
-      "prompt": "Solve: 288 + 65 = ?",
+      "prompt": "Work out: 288 + 65 = ?",
       "options": [
         "353",
         "343",
@@ -1475,7 +1475,7 @@
       ]
     },
     {
-      "prompt": "Solve: 4/12 + 5/12 = ?",
+      "prompt": "Work out: 4/12 + 5/12 = ?",
       "options": [
         "9/12",
         "10/12",
@@ -1490,7 +1490,7 @@
       ]
     },
     {
-      "prompt": "Solve: 146 + 85 = ?",
+      "prompt": "Work out: 146 + 85 = ?",
       "options": [
         "231",
         "221",
@@ -1505,7 +1505,7 @@
       ]
     },
     {
-      "prompt": "Solve: 4/8 + 1/8 = ?",
+      "prompt": "Work out: 4/8 + 1/8 = ?",
       "options": [
         "5/8",
         "6/8",
@@ -1520,7 +1520,7 @@
       ]
     },
     {
-      "prompt": "Solve: 174 + 105 = ?",
+      "prompt": "Work out: 174 + 105 = ?",
       "options": [
         "279",
         "269",
@@ -1535,7 +1535,7 @@
       ]
     },
     {
-      "prompt": "Solve: 6/10 + 4/10 = ?",
+      "prompt": "Work out: 6/10 + 4/10 = ?",
       "options": [
         "10/10",
         "11/10",
@@ -1550,7 +1550,7 @@
       ]
     },
     {
-      "prompt": "Solve: 202 + 35 = ?",
+      "prompt": "Work out: 202 + 35 = ?",
       "options": [
         "237",
         "227",
@@ -1565,7 +1565,7 @@
       ]
     },
     {
-      "prompt": "Solve: 4/12 + 5/12 = ?",
+      "prompt": "Work out: 4/12 + 5/12 = ?",
       "options": [
         "9/12",
         "10/12",
@@ -1580,7 +1580,7 @@
       ]
     },
     {
-      "prompt": "Solve: 230 + 55 = ?",
+      "prompt": "Work out: 230 + 55 = ?",
       "options": [
         "285",
         "275",
@@ -1595,7 +1595,7 @@
       ]
     },
     {
-      "prompt": "Solve: 4/8 + 1/8 = ?",
+      "prompt": "Work out: 4/8 + 1/8 = ?",
       "options": [
         "5/8",
         "6/8",
@@ -1610,7 +1610,7 @@
       ]
     },
     {
-      "prompt": "Solve: 258 + 75 = ?",
+      "prompt": "Work out: 258 + 75 = ?",
       "options": [
         "333",
         "323",
@@ -1625,7 +1625,7 @@
       ]
     },
     {
-      "prompt": "Solve: 3/10 + 3/10 = ?",
+      "prompt": "Work out: 3/10 + 3/10 = ?",
       "options": [
         "6/10",
         "7/10",
@@ -1640,7 +1640,7 @@
       ]
     },
     {
-      "prompt": "Solve: 286 + 95 = ?",
+      "prompt": "Work out: 286 + 95 = ?",
       "options": [
         "381",
         "371",
@@ -1655,7 +1655,7 @@
       ]
     },
     {
-      "prompt": "Solve: 4/12 + 5/12 = ?",
+      "prompt": "Work out: 4/12 + 5/12 = ?",
       "options": [
         "9/12",
         "10/12",
@@ -1670,7 +1670,7 @@
       ]
     },
     {
-      "prompt": "Solve: 144 + 115 = ?",
+      "prompt": "Work out: 144 + 115 = ?",
       "options": [
         "259",
         "249",
@@ -1685,7 +1685,7 @@
       ]
     },
     {
-      "prompt": "Solve: 4/8 + 1/8 = ?",
+      "prompt": "Work out: 4/8 + 1/8 = ?",
       "options": [
         "5/8",
         "6/8",
@@ -1700,7 +1700,7 @@
       ]
     },
     {
-      "prompt": "Solve: 172 + 45 = ?",
+      "prompt": "Work out: 172 + 45 = ?",
       "options": [
         "217",
         "207",
@@ -1715,7 +1715,7 @@
       ]
     },
     {
-      "prompt": "Solve: 5/10 + 2/10 = ?",
+      "prompt": "Work out: 5/10 + 2/10 = ?",
       "options": [
         "7/10",
         "8/10",
@@ -1730,7 +1730,7 @@
       ]
     },
     {
-      "prompt": "Solve: 200 + 65 = ?",
+      "prompt": "Work out: 200 + 65 = ?",
       "options": [
         "265",
         "255",
@@ -1745,7 +1745,7 @@
       ]
     },
     {
-      "prompt": "Solve: 4/12 + 5/12 = ?",
+      "prompt": "Work out: 4/12 + 5/12 = ?",
       "options": [
         "9/12",
         "10/12",
@@ -1760,7 +1760,7 @@
       ]
     },
     {
-      "prompt": "Solve: 228 + 85 = ?",
+      "prompt": "Work out: 228 + 85 = ?",
       "options": [
         "313",
         "303",
@@ -1775,7 +1775,7 @@
       ]
     },
     {
-      "prompt": "Solve: 4/8 + 1/8 = ?",
+      "prompt": "Work out: 4/8 + 1/8 = ?",
       "options": [
         "5/8",
         "6/8",
@@ -1790,7 +1790,7 @@
       ]
     },
     {
-      "prompt": "Solve: 256 + 105 = ?",
+      "prompt": "Work out: 256 + 105 = ?",
       "options": [
         "361",
         "351",
@@ -1807,7 +1807,7 @@
   ],
   "p4": [
     {
-      "prompt": "Solve: 3/4 + 1/4 = ?",
+      "prompt": "Work out: 3/4 + 1/4 = ?",
       "options": [
         "1/2",
         "3/4",
@@ -1822,7 +1822,7 @@
       ]
     },
     {
-      "prompt": "Solve: 125 \u00d7 4 = ?",
+      "prompt": "Work out: 125 × 4 = ?",
       "options": [
         "450",
         "500",
@@ -1832,12 +1832,12 @@
       "correctIndex": 1,
       "steps": [
         "Multiply 125 by 2 to get 250.",
-        "Multiply by 2 again (for \u00d74) to get 500.",
+        "Multiply by 2 again (for ×4) to get 500.",
         "Answer is 500."
       ]
     },
     {
-      "prompt": "Solve: 2/3 + 1/6 = ?",
+      "prompt": "Work out: 2/3 + 1/6 = ?",
       "options": [
         "3/9",
         "4/6",
@@ -1852,7 +1852,7 @@
       ]
     },
     {
-      "prompt": "Solve: 5/8 - 1/4 = ?",
+      "prompt": "Work out: 5/8 - 1/4 = ?",
       "options": [
         "1/8",
         "2/8",
@@ -1867,7 +1867,7 @@
       ]
     },
     {
-      "prompt": "Solve: 36 x 25 = ?",
+      "prompt": "Work out: 36 x 25 = ?",
       "options": [
         "800",
         "850",
@@ -1882,7 +1882,7 @@
       ]
     },
     {
-      "prompt": "Solve: 840 / 7 = ?",
+      "prompt": "Work out: 840 / 7 = ?",
       "options": [
         "110",
         "120",
@@ -1897,7 +1897,7 @@
       ]
     },
     {
-      "prompt": "Solve: 2.5 + 1.75 = ?",
+      "prompt": "Work out: 2.5 + 1.75 = ?",
       "options": [
         "4.05",
         "4.15",
@@ -1912,7 +1912,7 @@
       ]
     },
     {
-      "prompt": "Solve: 6.2 - 3.8 = ?",
+      "prompt": "Work out: 6.2 - 3.8 = ?",
       "options": [
         "2.2",
         "2.3",
@@ -1927,7 +1927,7 @@
       ]
     },
     {
-      "prompt": "Solve: Perimeter of a rectangle with sides 9 cm and 4 cm = ?",
+      "prompt": "Work out: Perimeter of a rectangle with sides 9 cm and 4 cm = ?",
       "options": [
         "13 cm",
         "18 cm",
@@ -1942,7 +1942,7 @@
       ]
     },
     {
-      "prompt": "Solve: 3/5 of 20 = ?",
+      "prompt": "Work out: 3/5 of 20 = ?",
       "options": [
         "10",
         "12",
@@ -1957,7 +1957,7 @@
       ]
     },
     {
-      "prompt": "Solve: 2.20 + 1.80 = ?",
+      "prompt": "Work out: 2.20 + 1.80 = ?",
       "options": [
         "4.00",
         "4.10",
@@ -1972,7 +1972,7 @@
       ]
     },
     {
-      "prompt": "Solve: 1/6 + 1/6 = ?",
+      "prompt": "Work out: 1/6 + 1/6 = ?",
       "options": [
         "2/6",
         "3/6",
@@ -1987,7 +1987,7 @@
       ]
     },
     {
-      "prompt": "Solve: 4.20 + 1.30 = ?",
+      "prompt": "Work out: 4.20 + 1.30 = ?",
       "options": [
         "5.50",
         "5.60",
@@ -2002,7 +2002,7 @@
       ]
     },
     {
-      "prompt": "Solve: 1/8 + 1/8 = ?",
+      "prompt": "Work out: 1/8 + 1/8 = ?",
       "options": [
         "2/8",
         "3/8",
@@ -2017,7 +2017,7 @@
       ]
     },
     {
-      "prompt": "Solve: 2.20 + 0.80 = ?",
+      "prompt": "Work out: 2.20 + 0.80 = ?",
       "options": [
         "3.00",
         "3.10",
@@ -2032,7 +2032,7 @@
       ]
     },
     {
-      "prompt": "Solve: 1/10 + 1/10 = ?",
+      "prompt": "Work out: 1/10 + 1/10 = ?",
       "options": [
         "2/10",
         "3/10",
@@ -2047,7 +2047,7 @@
       ]
     },
     {
-      "prompt": "Solve: 4.20 + 1.80 = ?",
+      "prompt": "Work out: 4.20 + 1.80 = ?",
       "options": [
         "6.00",
         "6.10",
@@ -2062,7 +2062,7 @@
       ]
     },
     {
-      "prompt": "Solve: 1/6 + 1/6 = ?",
+      "prompt": "Work out: 1/6 + 1/6 = ?",
       "options": [
         "2/6",
         "3/6",
@@ -2077,7 +2077,7 @@
       ]
     },
     {
-      "prompt": "Solve: 2.20 + 1.30 = ?",
+      "prompt": "Work out: 2.20 + 1.30 = ?",
       "options": [
         "3.50",
         "3.60",
@@ -2092,7 +2092,7 @@
       ]
     },
     {
-      "prompt": "Solve: 1/8 + 1/8 = ?",
+      "prompt": "Work out: 1/8 + 1/8 = ?",
       "options": [
         "2/8",
         "3/8",
@@ -2107,7 +2107,7 @@
       ]
     },
     {
-      "prompt": "Solve: 4.20 + 0.80 = ?",
+      "prompt": "Work out: 4.20 + 0.80 = ?",
       "options": [
         "5.00",
         "5.10",
@@ -2122,7 +2122,7 @@
       ]
     },
     {
-      "prompt": "Solve: 3/10 + 5/10 = ?",
+      "prompt": "Work out: 3/10 + 5/10 = ?",
       "options": [
         "8/10",
         "9/10",
@@ -2137,7 +2137,7 @@
       ]
     },
     {
-      "prompt": "Solve: 2.20 + 1.80 = ?",
+      "prompt": "Work out: 2.20 + 1.80 = ?",
       "options": [
         "4.00",
         "4.10",
@@ -2152,7 +2152,7 @@
       ]
     },
     {
-      "prompt": "Solve: 1/6 + 1/6 = ?",
+      "prompt": "Work out: 1/6 + 1/6 = ?",
       "options": [
         "2/6",
         "3/6",
@@ -2167,7 +2167,7 @@
       ]
     },
     {
-      "prompt": "Solve: 4.20 + 1.30 = ?",
+      "prompt": "Work out: 4.20 + 1.30 = ?",
       "options": [
         "5.50",
         "5.60",
@@ -2182,7 +2182,7 @@
       ]
     },
     {
-      "prompt": "Solve: 1/8 + 1/8 = ?",
+      "prompt": "Work out: 1/8 + 1/8 = ?",
       "options": [
         "2/8",
         "3/8",
@@ -2197,7 +2197,7 @@
       ]
     },
     {
-      "prompt": "Solve: 2.20 + 0.80 = ?",
+      "prompt": "Work out: 2.20 + 0.80 = ?",
       "options": [
         "3.00",
         "3.10",
@@ -2212,7 +2212,7 @@
       ]
     },
     {
-      "prompt": "Solve: 5/10 + 4/10 = ?",
+      "prompt": "Work out: 5/10 + 4/10 = ?",
       "options": [
         "9/10",
         "10/10",
@@ -2227,7 +2227,7 @@
       ]
     },
     {
-      "prompt": "Solve: 4.20 + 1.80 = ?",
+      "prompt": "Work out: 4.20 + 1.80 = ?",
       "options": [
         "6.00",
         "6.10",
@@ -2242,7 +2242,7 @@
       ]
     },
     {
-      "prompt": "Solve: 1/6 + 1/6 = ?",
+      "prompt": "Work out: 1/6 + 1/6 = ?",
       "options": [
         "2/6",
         "3/6",
@@ -2257,7 +2257,7 @@
       ]
     },
     {
-      "prompt": "Solve: 2.20 + 1.30 = ?",
+      "prompt": "Work out: 2.20 + 1.30 = ?",
       "options": [
         "3.50",
         "3.60",
@@ -2272,7 +2272,7 @@
       ]
     },
     {
-      "prompt": "Solve: 1/8 + 1/8 = ?",
+      "prompt": "Work out: 1/8 + 1/8 = ?",
       "options": [
         "2/8",
         "3/8",
@@ -2287,7 +2287,7 @@
       ]
     },
     {
-      "prompt": "Solve: 4.20 + 0.80 = ?",
+      "prompt": "Work out: 4.20 + 0.80 = ?",
       "options": [
         "5.00",
         "5.10",
@@ -2302,7 +2302,7 @@
       ]
     },
     {
-      "prompt": "Solve: 2/10 + 3/10 = ?",
+      "prompt": "Work out: 2/10 + 3/10 = ?",
       "options": [
         "5/10",
         "6/10",
@@ -2317,7 +2317,7 @@
       ]
     },
     {
-      "prompt": "Solve: 2.20 + 1.80 = ?",
+      "prompt": "Work out: 2.20 + 1.80 = ?",
       "options": [
         "4.00",
         "4.10",
@@ -2332,7 +2332,7 @@
       ]
     },
     {
-      "prompt": "Solve: 1/6 + 1/6 = ?",
+      "prompt": "Work out: 1/6 + 1/6 = ?",
       "options": [
         "2/6",
         "3/6",
@@ -2347,7 +2347,7 @@
       ]
     },
     {
-      "prompt": "Solve: 4.20 + 1.30 = ?",
+      "prompt": "Work out: 4.20 + 1.30 = ?",
       "options": [
         "5.50",
         "5.60",
@@ -2362,7 +2362,7 @@
       ]
     },
     {
-      "prompt": "Solve: 1/8 + 1/8 = ?",
+      "prompt": "Work out: 1/8 + 1/8 = ?",
       "options": [
         "2/8",
         "3/8",
@@ -2377,7 +2377,7 @@
       ]
     },
     {
-      "prompt": "Solve: 2.20 + 0.80 = ?",
+      "prompt": "Work out: 2.20 + 0.80 = ?",
       "options": [
         "3.00",
         "3.10",
@@ -2392,7 +2392,7 @@
       ]
     },
     {
-      "prompt": "Solve: 4/10 + 2/10 = ?",
+      "prompt": "Work out: 4/10 + 2/10 = ?",
       "options": [
         "6/10",
         "7/10",
@@ -2409,7 +2409,7 @@
   ],
   "p5": [
     {
-      "prompt": "Solve: 0.6 + 1.25 = ?",
+      "prompt": "Work out: 0.6 + 1.25 = ?",
       "options": [
         "1.75",
         "1.85",
@@ -2424,7 +2424,7 @@
       ]
     },
     {
-      "prompt": "Solve: 60% of 50 = ?",
+      "prompt": "Work out: 60% of 50 = ?",
       "options": [
         "25",
         "30",
@@ -2434,12 +2434,12 @@
       "correctIndex": 1,
       "steps": [
         "Convert 60% to 0.6.",
-        "Compute 0.6 \u00d7 50.",
+        "Compute 0.6 × 50.",
         "Answer is 30."
       ]
     },
     {
-      "prompt": "Solve: 3/5 + 7/10 = ?",
+      "prompt": "Work out: 3/5 + 7/10 = ?",
       "options": [
         "9/10",
         "11/10",
@@ -2454,7 +2454,7 @@
       ]
     },
     {
-      "prompt": "Solve: 4.8 - 2.35 = ?",
+      "prompt": "Work out: 4.8 - 2.35 = ?",
       "options": [
         "2.35",
         "2.45",
@@ -2469,7 +2469,7 @@
       ]
     },
     {
-      "prompt": "Solve: 15% of 200 = ?",
+      "prompt": "Work out: 15% of 200 = ?",
       "options": [
         "25",
         "30",
@@ -2484,7 +2484,7 @@
       ]
     },
     {
-      "prompt": "Solve: 2.4 x 3 = ?",
+      "prompt": "Work out: 2.4 x 3 = ?",
       "options": [
         "6.2",
         "6.8",
@@ -2499,7 +2499,7 @@
       ]
     },
     {
-      "prompt": "Solve: 7.2 / 0.9 = ?",
+      "prompt": "Work out: 7.2 / 0.9 = ?",
       "options": [
         "7",
         "8",
@@ -2514,7 +2514,7 @@
       ]
     },
     {
-      "prompt": "Solve: 5/6 - 1/3 = ?",
+      "prompt": "Work out: 5/6 - 1/3 = ?",
       "options": [
         "1/6",
         "2/6",
@@ -2529,7 +2529,7 @@
       ]
     },
     {
-      "prompt": "Solve: 125% as a decimal = ?",
+      "prompt": "Work out: 125% as a decimal = ?",
       "options": [
         "0.125",
         "1.25",
@@ -2544,7 +2544,7 @@
       ]
     },
     {
-      "prompt": "Solve: Ratio 8:12 in simplest form = ?",
+      "prompt": "Work out: Ratio 8:12 in simplest form = ?",
       "options": [
         "1:2",
         "2:3",
@@ -2559,7 +2559,7 @@
       ]
     },
     {
-      "prompt": "Solve: 6/10 + 1/10 = ?",
+      "prompt": "Work out: 6/10 + 1/10 = ?",
       "options": [
         "7/10",
         "8/10",
@@ -2574,7 +2574,7 @@
       ]
     },
     {
-      "prompt": "Solve: 1.90 + 1.10 = ?",
+      "prompt": "Work out: 1.90 + 1.10 = ?",
       "options": [
         "3.00",
         "3.10",
@@ -2589,7 +2589,7 @@
       ]
     },
     {
-      "prompt": "Solve: 4/10 + 4/10 = ?",
+      "prompt": "Work out: 4/10 + 4/10 = ?",
       "options": [
         "8/10",
         "9/10",
@@ -2604,7 +2604,7 @@
       ]
     },
     {
-      "prompt": "Solve: 1.00 + 2.10 = ?",
+      "prompt": "Work out: 1.00 + 2.10 = ?",
       "options": [
         "3.10",
         "3.20",
@@ -2619,7 +2619,7 @@
       ]
     },
     {
-      "prompt": "Solve: 2/10 + 2/10 = ?",
+      "prompt": "Work out: 2/10 + 2/10 = ?",
       "options": [
         "4/10",
         "5/10",
@@ -2634,7 +2634,7 @@
       ]
     },
     {
-      "prompt": "Solve: 2.20 + 1.60 = ?",
+      "prompt": "Work out: 2.20 + 1.60 = ?",
       "options": [
         "3.80",
         "3.90",
@@ -2649,7 +2649,7 @@
       ]
     },
     {
-      "prompt": "Solve: 6/10 + 5/10 = ?",
+      "prompt": "Work out: 6/10 + 5/10 = ?",
       "options": [
         "11/10",
         "12/10",
@@ -2664,7 +2664,7 @@
       ]
     },
     {
-      "prompt": "Solve: 1.30 + 1.10 = ?",
+      "prompt": "Work out: 1.30 + 1.10 = ?",
       "options": [
         "2.40",
         "2.50",
@@ -2679,7 +2679,7 @@
       ]
     },
     {
-      "prompt": "Solve: 4/10 + 3/10 = ?",
+      "prompt": "Work out: 4/10 + 3/10 = ?",
       "options": [
         "7/10",
         "8/10",
@@ -2694,7 +2694,7 @@
       ]
     },
     {
-      "prompt": "Solve: 0.40 + 2.10 = ?",
+      "prompt": "Work out: 0.40 + 2.10 = ?",
       "options": [
         "2.50",
         "2.60",
@@ -2709,7 +2709,7 @@
       ]
     },
     {
-      "prompt": "Solve: 2/10 + 1/10 = ?",
+      "prompt": "Work out: 2/10 + 1/10 = ?",
       "options": [
         "3/10",
         "4/10",
@@ -2724,7 +2724,7 @@
       ]
     },
     {
-      "prompt": "Solve: 1.60 + 1.60 = ?",
+      "prompt": "Work out: 1.60 + 1.60 = ?",
       "options": [
         "3.20",
         "3.30",
@@ -2739,7 +2739,7 @@
       ]
     },
     {
-      "prompt": "Solve: 6/10 + 4/10 = ?",
+      "prompt": "Work out: 6/10 + 4/10 = ?",
       "options": [
         "10/10",
         "11/10",
@@ -2754,7 +2754,7 @@
       ]
     },
     {
-      "prompt": "Solve: 0.70 + 1.10 = ?",
+      "prompt": "Work out: 0.70 + 1.10 = ?",
       "options": [
         "1.80",
         "1.90",
@@ -2769,7 +2769,7 @@
       ]
     },
     {
-      "prompt": "Solve: 4/10 + 2/10 = ?",
+      "prompt": "Work out: 4/10 + 2/10 = ?",
       "options": [
         "6/10",
         "7/10",
@@ -2784,7 +2784,7 @@
       ]
     },
     {
-      "prompt": "Solve: 1.90 + 2.10 = ?",
+      "prompt": "Work out: 1.90 + 2.10 = ?",
       "options": [
         "4.00",
         "4.10",
@@ -2799,7 +2799,7 @@
       ]
     },
     {
-      "prompt": "Solve: 2/10 + 5/10 = ?",
+      "prompt": "Work out: 2/10 + 5/10 = ?",
       "options": [
         "7/10",
         "8/10",
@@ -2814,7 +2814,7 @@
       ]
     },
     {
-      "prompt": "Solve: 1.00 + 1.60 = ?",
+      "prompt": "Work out: 1.00 + 1.60 = ?",
       "options": [
         "2.60",
         "2.70",
@@ -2829,7 +2829,7 @@
       ]
     },
     {
-      "prompt": "Solve: 6/10 + 3/10 = ?",
+      "prompt": "Work out: 6/10 + 3/10 = ?",
       "options": [
         "9/10",
         "10/10",
@@ -2844,7 +2844,7 @@
       ]
     },
     {
-      "prompt": "Solve: 2.20 + 1.10 = ?",
+      "prompt": "Work out: 2.20 + 1.10 = ?",
       "options": [
         "3.30",
         "3.40",
@@ -2859,7 +2859,7 @@
       ]
     },
     {
-      "prompt": "Solve: 4/10 + 1/10 = ?",
+      "prompt": "Work out: 4/10 + 1/10 = ?",
       "options": [
         "5/10",
         "6/10",
@@ -2874,7 +2874,7 @@
       ]
     },
     {
-      "prompt": "Solve: 1.30 + 2.10 = ?",
+      "prompt": "Work out: 1.30 + 2.10 = ?",
       "options": [
         "3.40",
         "3.50",
@@ -2889,7 +2889,7 @@
       ]
     },
     {
-      "prompt": "Solve: 2/10 + 4/10 = ?",
+      "prompt": "Work out: 2/10 + 4/10 = ?",
       "options": [
         "6/10",
         "7/10",
@@ -2904,7 +2904,7 @@
       ]
     },
     {
-      "prompt": "Solve: 0.40 + 1.60 = ?",
+      "prompt": "Work out: 0.40 + 1.60 = ?",
       "options": [
         "2.00",
         "2.10",
@@ -2919,7 +2919,7 @@
       ]
     },
     {
-      "prompt": "Solve: 6/10 + 2/10 = ?",
+      "prompt": "Work out: 6/10 + 2/10 = ?",
       "options": [
         "8/10",
         "9/10",
@@ -2934,7 +2934,7 @@
       ]
     },
     {
-      "prompt": "Solve: 1.60 + 1.10 = ?",
+      "prompt": "Work out: 1.60 + 1.10 = ?",
       "options": [
         "2.70",
         "2.80",
@@ -2949,7 +2949,7 @@
       ]
     },
     {
-      "prompt": "Solve: 4/10 + 5/10 = ?",
+      "prompt": "Work out: 4/10 + 5/10 = ?",
       "options": [
         "9/10",
         "10/10",
@@ -2964,7 +2964,7 @@
       ]
     },
     {
-      "prompt": "Solve: 0.70 + 2.10 = ?",
+      "prompt": "Work out: 0.70 + 2.10 = ?",
       "options": [
         "2.80",
         "2.90",
@@ -2979,7 +2979,7 @@
       ]
     },
     {
-      "prompt": "Solve: 2/10 + 3/10 = ?",
+      "prompt": "Work out: 2/10 + 3/10 = ?",
       "options": [
         "5/10",
         "6/10",
@@ -2994,7 +2994,7 @@
       ]
     },
     {
-      "prompt": "Solve: 1.90 + 1.60 = ?",
+      "prompt": "Work out: 1.90 + 1.60 = ?",
       "options": [
         "3.50",
         "3.60",
@@ -3011,7 +3011,7 @@
   ],
   "p6": [
     {
-      "prompt": "Solve: 3x + 5 = 20. Find x.",
+      "prompt": "Work out: 3x + 5 = 20. Find x.",
       "options": [
         "3",
         "4",
@@ -3026,7 +3026,7 @@
       ]
     },
     {
-      "prompt": "Solve: Area of rectangle (length 12, width 7) = ?",
+      "prompt": "Work out: Area of rectangle (length 12, width 7) = ?",
       "options": [
         "72",
         "84",
@@ -3035,13 +3035,13 @@
       ],
       "correctIndex": 1,
       "steps": [
-        "Area = length \u00d7 width.",
-        "12 \u00d7 7 = 84.",
+        "Area = length × width.",
+        "12 × 7 = 84.",
         "So the area is 84 square units."
       ]
     },
     {
-      "prompt": "Solve: 2x - 7 = 15. Find x.",
+      "prompt": "Work out: 2x - 7 = 15. Find x.",
       "options": [
         "9",
         "10",
@@ -3056,7 +3056,7 @@
       ]
     },
     {
-      "prompt": "Solve: 3/4 + 5/8 = ?",
+      "prompt": "Work out: 3/4 + 5/8 = ?",
       "options": [
         "9/8",
         "10/8",
@@ -3071,7 +3071,7 @@
       ]
     },
     {
-      "prompt": "Solve: 2.5 x 1.2 = ?",
+      "prompt": "Work out: 2.5 x 1.2 = ?",
       "options": [
         "2.8",
         "3.0",
@@ -3086,7 +3086,7 @@
       ]
     },
     {
-      "prompt": "Solve: 7.5 / 0.5 = ?",
+      "prompt": "Work out: 7.5 / 0.5 = ?",
       "options": [
         "10",
         "12",
@@ -3101,7 +3101,7 @@
       ]
     },
     {
-      "prompt": "Solve: 35% of 240 = ?",
+      "prompt": "Work out: 35% of 240 = ?",
       "options": [
         "72",
         "84",
@@ -3116,7 +3116,7 @@
       ]
     },
     {
-      "prompt": "Solve: Volume of a box (l=5, w=4, h=3) = ?",
+      "prompt": "Work out: Volume of a box (l=5, w=4, h=3) = ?",
       "options": [
         "48",
         "50",
@@ -3131,7 +3131,7 @@
       ]
     },
     {
-      "prompt": "Solve: 4(x + 3) = 28. Find x.",
+      "prompt": "Work out: 4(x + 3) = 28. Find x.",
       "options": [
         "3",
         "4",
@@ -3146,7 +3146,7 @@
       ]
     },
     {
-      "prompt": "Solve: Mean of 6, 8, 10, 12 = ?",
+      "prompt": "Work out: Mean of 6, 8, 10, 12 = ?",
       "options": [
         "8",
         "9",
@@ -3161,7 +3161,7 @@
       ]
     },
     {
-      "prompt": "Solve: 5/8 + 2/8 = ?",
+      "prompt": "Work out: 5/8 + 2/8 = ?",
       "options": [
         "7/8",
         "8/8",
@@ -3176,7 +3176,7 @@
       ]
     },
     {
-      "prompt": "Solve: 4x + 8 = 32. Find x.",
+      "prompt": "Work out: 4x + 8 = 32. Find x.",
       "options": [
         "6",
         "5",
@@ -3191,7 +3191,7 @@
       ]
     },
     {
-      "prompt": "Solve: 5/8 + 2/8 = ?",
+      "prompt": "Work out: 5/8 + 2/8 = ?",
       "options": [
         "7/8",
         "8/8",
@@ -3206,7 +3206,7 @@
       ]
     },
     {
-      "prompt": "Solve: 3x + 4 = 34. Find x.",
+      "prompt": "Work out: 3x + 4 = 34. Find x.",
       "options": [
         "10",
         "9",
@@ -3221,7 +3221,7 @@
       ]
     },
     {
-      "prompt": "Solve: 5/8 + 2/8 = ?",
+      "prompt": "Work out: 5/8 + 2/8 = ?",
       "options": [
         "7/8",
         "8/8",
@@ -3236,7 +3236,7 @@
       ]
     },
     {
-      "prompt": "Solve: 2x + 8 = 18. Find x.",
+      "prompt": "Work out: 2x + 8 = 18. Find x.",
       "options": [
         "5",
         "4",
@@ -3251,7 +3251,7 @@
       ]
     },
     {
-      "prompt": "Solve: 5/8 + 2/8 = ?",
+      "prompt": "Work out: 5/8 + 2/8 = ?",
       "options": [
         "7/8",
         "8/8",
@@ -3266,7 +3266,7 @@
       ]
     },
     {
-      "prompt": "Solve: 6x + 4 = 58. Find x.",
+      "prompt": "Work out: 6x + 4 = 58. Find x.",
       "options": [
         "9",
         "8",
@@ -3281,7 +3281,7 @@
       ]
     },
     {
-      "prompt": "Solve: 5/8 + 2/8 = ?",
+      "prompt": "Work out: 5/8 + 2/8 = ?",
       "options": [
         "7/8",
         "8/8",
@@ -3296,7 +3296,7 @@
       ]
     },
     {
-      "prompt": "Solve: 5x + 8 = 28. Find x.",
+      "prompt": "Work out: 5x + 8 = 28. Find x.",
       "options": [
         "4",
         "3",
@@ -3311,7 +3311,7 @@
       ]
     },
     {
-      "prompt": "Solve: 5/8 + 2/8 = ?",
+      "prompt": "Work out: 5/8 + 2/8 = ?",
       "options": [
         "7/8",
         "8/8",
@@ -3326,7 +3326,7 @@
       ]
     },
     {
-      "prompt": "Solve: 4x + 4 = 36. Find x.",
+      "prompt": "Work out: 4x + 4 = 36. Find x.",
       "options": [
         "8",
         "7",
@@ -3341,7 +3341,7 @@
       ]
     },
     {
-      "prompt": "Solve: 5/8 + 2/8 = ?",
+      "prompt": "Work out: 5/8 + 2/8 = ?",
       "options": [
         "7/8",
         "8/8",
@@ -3356,7 +3356,7 @@
       ]
     },
     {
-      "prompt": "Solve: 3x + 8 = 17. Find x.",
+      "prompt": "Work out: 3x + 8 = 17. Find x.",
       "options": [
         "3",
         "2",
@@ -3371,7 +3371,7 @@
       ]
     },
     {
-      "prompt": "Solve: 5/8 + 2/8 = ?",
+      "prompt": "Work out: 5/8 + 2/8 = ?",
       "options": [
         "7/8",
         "8/8",
@@ -3386,7 +3386,7 @@
       ]
     },
     {
-      "prompt": "Solve: 2x + 4 = 18. Find x.",
+      "prompt": "Work out: 2x + 4 = 18. Find x.",
       "options": [
         "7",
         "6",
@@ -3401,7 +3401,7 @@
       ]
     },
     {
-      "prompt": "Solve: 5/8 + 2/8 = ?",
+      "prompt": "Work out: 5/8 + 2/8 = ?",
       "options": [
         "7/8",
         "8/8",
@@ -3416,7 +3416,7 @@
       ]
     },
     {
-      "prompt": "Solve: 6x + 8 = 74. Find x.",
+      "prompt": "Work out: 6x + 8 = 74. Find x.",
       "options": [
         "11",
         "10",
@@ -3431,7 +3431,7 @@
       ]
     },
     {
-      "prompt": "Solve: 5/8 + 2/8 = ?",
+      "prompt": "Work out: 5/8 + 2/8 = ?",
       "options": [
         "7/8",
         "8/8",
@@ -3446,7 +3446,7 @@
       ]
     },
     {
-      "prompt": "Solve: 5x + 4 = 34. Find x.",
+      "prompt": "Work out: 5x + 4 = 34. Find x.",
       "options": [
         "6",
         "5",
@@ -3461,7 +3461,7 @@
       ]
     },
     {
-      "prompt": "Solve: 5/8 + 2/8 = ?",
+      "prompt": "Work out: 5/8 + 2/8 = ?",
       "options": [
         "7/8",
         "8/8",
@@ -3476,7 +3476,7 @@
       ]
     },
     {
-      "prompt": "Solve: 4x + 8 = 48. Find x.",
+      "prompt": "Work out: 4x + 8 = 48. Find x.",
       "options": [
         "10",
         "9",
@@ -3491,7 +3491,7 @@
       ]
     },
     {
-      "prompt": "Solve: 5/8 + 2/8 = ?",
+      "prompt": "Work out: 5/8 + 2/8 = ?",
       "options": [
         "7/8",
         "8/8",
@@ -3506,7 +3506,7 @@
       ]
     },
     {
-      "prompt": "Solve: 3x + 4 = 19. Find x.",
+      "prompt": "Work out: 3x + 4 = 19. Find x.",
       "options": [
         "5",
         "4",
@@ -3521,7 +3521,7 @@
       ]
     },
     {
-      "prompt": "Solve: 5/8 + 2/8 = ?",
+      "prompt": "Work out: 5/8 + 2/8 = ?",
       "options": [
         "7/8",
         "8/8",
@@ -3536,7 +3536,7 @@
       ]
     },
     {
-      "prompt": "Solve: 2x + 8 = 26. Find x.",
+      "prompt": "Work out: 2x + 8 = 26. Find x.",
       "options": [
         "9",
         "8",
@@ -3551,7 +3551,7 @@
       ]
     },
     {
-      "prompt": "Solve: 5/8 + 2/8 = ?",
+      "prompt": "Work out: 5/8 + 2/8 = ?",
       "options": [
         "7/8",
         "8/8",
@@ -3566,7 +3566,7 @@
       ]
     },
     {
-      "prompt": "Solve: 6x + 4 = 28. Find x.",
+      "prompt": "Work out: 6x + 4 = 28. Find x.",
       "options": [
         "4",
         "3",
@@ -3581,7 +3581,7 @@
       ]
     },
     {
-      "prompt": "Solve: 5/8 + 2/8 = ?",
+      "prompt": "Work out: 5/8 + 2/8 = ?",
       "options": [
         "7/8",
         "8/8",
@@ -3596,7 +3596,7 @@
       ]
     },
     {
-      "prompt": "Solve: 5x + 8 = 48. Find x.",
+      "prompt": "Work out: 5x + 8 = 48. Find x.",
       "options": [
         "8",
         "7",

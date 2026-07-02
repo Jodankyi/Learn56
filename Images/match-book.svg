@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 120" role="img" aria-labelledby="title desc">
+  <title id="title">Book</title>
+  <desc id="desc">A simple blue book icon.</desc>
+  <rect x="12" y="20" width="62" height="84" rx="6" fill="#2f7dcc" />
+  <rect x="86" y="20" width="62" height="84" rx="6" fill="#63a4e8" />
+  <rect x="74" y="20" width="12" height="84" fill="#f2f7ff" />
+  <line x1="26" y1="36" x2="62" y2="36" stroke="#dcebff" stroke-width="4" />
+  <line x1="26" y1="50" x2="62" y2="50" stroke="#dcebff" stroke-width="4" />
+  <line x1="98" y1="36" x2="134" y2="36" stroke="#dcebff" stroke-width="4" />
+  <line x1="98" y1="50" x2="134" y2="50" stroke="#dcebff" stroke-width="4" />
+</svg>

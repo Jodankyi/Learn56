@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 120" role="img" aria-labelledby="title desc">
+  <title id="title">Ball</title>
+  <desc id="desc">A black and white football with panel details.</desc>
+  <defs>
+    <radialGradient id="ballShade" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="70%" stop-color="#f1f3f6" />
+      <stop offset="100%" stop-color="#d5dae0" />
+    </radialGradient>
+  </defs>
+
+  <circle cx="80" cy="60" r="38" fill="url(#ballShade)" stroke="#3a3f46" stroke-width="3" />
+
+  <polygon points="80,41 91,49 87,62 73,62 69,49" fill="#1f2329" />
+  <polygon points="64,53 73,62 69,75 56,74 52,62" fill="#1f2329" />
+  <polygon points="96,53 108,62 104,74 91,75 87,62" fill="#1f2329" />
+
+  <path d="M73 62 L60 66" stroke="#1f2329" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M87 62 L100 66" stroke="#1f2329" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M69 49 L58 44" stroke="#1f2329" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M91 49 L102 44" stroke="#1f2329" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M69 75 L58 81" stroke="#1f2329" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M91 75 L102 81" stroke="#1f2329" stroke-width="2.5" stroke-linecap="round" />
+
+  <ellipse cx="66" cy="46" rx="6" ry="4" fill="#ffffff" opacity="0.45" />
+</svg>

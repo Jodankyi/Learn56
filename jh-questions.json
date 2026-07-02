@@ -2,7 +2,7 @@
   "jh1": [
     {
       "topic": "integers-and-place-value",
-      "prompt": "Integers and Place Value: Evaluate 30 + 14.",
+      "prompt": "Evaluate 30 + 14.",
       "options": [
         "44",
         "43",
@@ -11,15 +11,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "integers-and-place-value",
-      "prompt": "Integers and Place Value: Find 95 - 38.",
+      "prompt": "Find 95 - 38.",
       "options": [
         "57",
         "55",
@@ -28,15 +28,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "integers-and-place-value",
-      "prompt": "Integers and Place Value: Compute 7 x 6.",
+      "prompt": "Compute 7 x 6.",
       "options": [
         "42",
         "40",
@@ -45,15 +45,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "integers-and-place-value",
-      "prompt": "Integers and Place Value: Compute 84 / 7.",
+      "prompt": "Compute 84 / 7.",
       "options": [
         "12",
         "13",
@@ -62,16 +62,16 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "integers-and-place-value",
       "type": "input",
-      "prompt": "Work out and enter your answer: Integers and Place Value: 120 + 80",
+      "prompt": "Work out and write your answer: 120 + 80",
       "answerValue": "200",
       "steps": [
         "Identify the method.",
@@ -83,7 +83,7 @@
     {
       "topic": "integers-and-place-value",
       "type": "input",
-      "prompt": "Work out and enter your answer: Integers and Place Value: 240 - 115",
+      "prompt": "Work out and write your answer: 240 - 115",
       "answerValue": "125",
       "steps": [
         "Identify the method.",
@@ -95,7 +95,7 @@
     {
       "topic": "integers-and-place-value",
       "type": "input",
-      "prompt": "Work out and enter your answer: Integers and Place Value: -8 + 15",
+      "prompt": "Work out and write your answer: -8 + 15",
       "answerValue": "7",
       "steps": [
         "Identify the method.",
@@ -107,7 +107,7 @@
     {
       "topic": "integers-and-place-value",
       "type": "graph",
-      "prompt": "Integers and Place Value: Plot integer point A.",
+      "prompt": "Plot integer point A.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -134,7 +134,7 @@
     {
       "topic": "integers-and-place-value",
       "type": "graph",
-      "prompt": "Integers and Place Value: Plot integer point B.",
+      "prompt": "Plot integer point B.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -161,7 +161,7 @@
     {
       "topic": "integers-and-place-value",
       "type": "graph",
-      "prompt": "Integers and Place Value: Plot points C and D.",
+      "prompt": "Plot points C and D.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -191,7 +191,7 @@
     },
     {
       "topic": "fractions-and-decimals",
-      "prompt": "Fractions and Decimals: Add 3/10 + 5/10.",
+      "prompt": "Add 3/10 + 5/10.",
       "options": [
         "8/10",
         "7/10",
@@ -200,15 +200,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "fractions-and-decimals",
-      "prompt": "Fractions and Decimals: Convert 1/4 to decimal.",
+      "prompt": "Convert 1/4 to decimal.",
       "options": [
         "0.25",
         "0.4",
@@ -217,15 +217,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "fractions-and-decimals",
-      "prompt": "Fractions and Decimals: Which is greater, 0.6 or 0.56?",
+      "prompt": "Which is greater, 0.6 or 0.56?",
       "options": [
         "0.6",
         "0.56",
@@ -234,15 +234,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "fractions-and-decimals",
-      "prompt": "Fractions and Decimals: Simplify 6/12.",
+      "prompt": "Simplify 6/12.",
       "options": [
         "1/2",
         "2/3",
@@ -251,16 +251,16 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "fractions-and-decimals",
       "type": "input",
-      "prompt": "Work out and enter your answer: Fractions and Decimals: 7/8 + 1/8",
+      "prompt": "Work out and write your answer: 7/8 + 1/8",
       "answerValue": "1",
       "steps": [
         "Identify the method.",
@@ -272,7 +272,7 @@
     {
       "topic": "fractions-and-decimals",
       "type": "input",
-      "prompt": "Work out and enter your answer: Fractions and Decimals: Write 3/5 as a decimal",
+      "prompt": "Work out and write your answer: Write 3/5 as a decimal",
       "answerValue": "0.6",
       "steps": [
         "Identify the method.",
@@ -284,7 +284,7 @@
     {
       "topic": "fractions-and-decimals",
       "type": "input",
-      "prompt": "Work out and enter your answer: Fractions and Decimals: 0.75 + 0.2",
+      "prompt": "Work out and write your answer: 0.75 + 0.2",
       "answerValue": "0.95",
       "steps": [
         "Identify the method.",
@@ -296,7 +296,7 @@
     {
       "topic": "fractions-and-decimals",
       "type": "graph",
-      "prompt": "Fractions and Decimals: Plot decimal-as-coordinate point (5, 2).",
+      "prompt": "Plot decimal-as-coordinate point (5, 2).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -323,7 +323,7 @@
     {
       "topic": "fractions-and-decimals",
       "type": "graph",
-      "prompt": "Fractions and Decimals: Plot points representing 1/4 and 3/4 on x-axis.",
+      "prompt": "Plot points representing 1/4 and 3/4 on x-axis.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -354,7 +354,7 @@
     {
       "topic": "fractions-and-decimals",
       "type": "graph",
-      "prompt": "Fractions and Decimals: Plot two equivalent fraction points.",
+      "prompt": "Plot two equivalent fraction points.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -384,7 +384,7 @@
     },
     {
       "topic": "ratio-and-rates",
-      "prompt": "Ratio and Rates: Find ratio equivalent to 2:3.",
+      "prompt": "Find ratio equivalent to 2:3.",
       "options": [
         "4:6",
         "3:4",
@@ -393,15 +393,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "ratio-and-rates",
-      "prompt": "Ratio and Rates: Find 25% of 200.",
+      "prompt": "Find 25% of 200.",
       "options": [
         "50",
         "40",
@@ -410,15 +410,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "ratio-and-rates",
-      "prompt": "Ratio and Rates: 3:5 = ? : 20",
+      "prompt": "3:5 = ? : 20",
       "options": [
         "12",
         "10",
@@ -427,15 +427,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "ratio-and-rates",
-      "prompt": "Ratio and Rates: 40% as decimal is",
+      "prompt": "40% as decimal is",
       "options": [
         "0.4",
         "4",
@@ -444,16 +444,16 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "ratio-and-rates",
       "type": "input",
-      "prompt": "Work out and enter your answer: Ratio and Rates: 30% of 150",
+      "prompt": "Work out and write your answer: 30% of 150",
       "answerValue": "45",
       "steps": [
         "Identify the method.",
@@ -465,7 +465,7 @@
     {
       "topic": "ratio-and-rates",
       "type": "input",
-      "prompt": "Work out and enter your answer: Ratio and Rates: Scale ratio 4:7 by 3, give first term only",
+      "prompt": "Work out and write your answer: Scale ratio 4:7 by 3, give first term only",
       "answerValue": "12",
       "steps": [
         "Identify the method.",
@@ -477,7 +477,7 @@
     {
       "topic": "ratio-and-rates",
       "type": "input",
-      "prompt": "Work out and enter your answer: Ratio and Rates: If 2 pens cost 10, cost of 1 pen",
+      "prompt": "Work out and write your answer: If 2 pens cost 10, cost of 1 pen",
       "answerValue": "5",
       "steps": [
         "Identify the method.",
@@ -489,7 +489,7 @@
     {
       "topic": "ratio-and-rates",
       "type": "graph",
-      "prompt": "Ratio and Rates: Plot ratio pair (4, 6).",
+      "prompt": "Plot ratio pair (4, 6).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -516,7 +516,7 @@
     {
       "topic": "ratio-and-rates",
       "type": "graph",
-      "prompt": "Ratio and Rates: Plot percentage pair (25, 5).",
+      "prompt": "Plot percentage pair (25, 5).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -543,7 +543,7 @@
     {
       "topic": "ratio-and-rates",
       "type": "graph",
-      "prompt": "Ratio and Rates: Plot rate points (2,4) and (4,8).",
+      "prompt": "Plot rate points (2,4) and (4,8).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -574,7 +574,7 @@
     },
     {
       "topic": "percent-basics",
-      "prompt": "Percent Basics: Find ratio equivalent to 2:3.",
+      "prompt": "Find ratio equivalent to 2:3.",
       "options": [
         "4:6",
         "3:4",
@@ -583,15 +583,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "percent-basics",
-      "prompt": "Percent Basics: Find 25% of 200.",
+      "prompt": "Find 25% of 200.",
       "options": [
         "50",
         "40",
@@ -600,15 +600,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "percent-basics",
-      "prompt": "Percent Basics: 3:5 = ? : 20",
+      "prompt": "3:5 = ? : 20",
       "options": [
         "12",
         "10",
@@ -617,15 +617,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "percent-basics",
-      "prompt": "Percent Basics: 40% as decimal is",
+      "prompt": "40% as decimal is",
       "options": [
         "0.4",
         "4",
@@ -634,16 +634,16 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "percent-basics",
       "type": "input",
-      "prompt": "Work out and enter your answer: Percent Basics: 30% of 150",
+      "prompt": "Work out and write your answer: 30% of 150",
       "answerValue": "45",
       "steps": [
         "Identify the method.",
@@ -655,7 +655,7 @@
     {
       "topic": "percent-basics",
       "type": "input",
-      "prompt": "Work out and enter your answer: Percent Basics: Scale ratio 4:7 by 3, give first term only",
+      "prompt": "Work out and write your answer: Scale ratio 4:7 by 3, give first term only",
       "answerValue": "12",
       "steps": [
         "Identify the method.",
@@ -667,7 +667,7 @@
     {
       "topic": "percent-basics",
       "type": "input",
-      "prompt": "Work out and enter your answer: Percent Basics: If 2 pens cost 10, cost of 1 pen",
+      "prompt": "Work out and write your answer: If 2 pens cost 10, cost of 1 pen",
       "answerValue": "5",
       "steps": [
         "Identify the method.",
@@ -679,7 +679,7 @@
     {
       "topic": "percent-basics",
       "type": "graph",
-      "prompt": "Percent Basics: Plot ratio pair (4, 6).",
+      "prompt": "Plot ratio pair (4, 6).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -706,7 +706,7 @@
     {
       "topic": "percent-basics",
       "type": "graph",
-      "prompt": "Percent Basics: Plot percentage pair (25, 5).",
+      "prompt": "Plot percentage pair (25, 5).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -733,7 +733,7 @@
     {
       "topic": "percent-basics",
       "type": "graph",
-      "prompt": "Percent Basics: Plot rate points (2,4) and (4,8).",
+      "prompt": "Plot rate points (2,4) and (4,8).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -764,7 +764,7 @@
     },
     {
       "topic": "algebraic-thinking",
-      "prompt": "Algebraic Thinking: Solve x + 10 = 18.",
+      "prompt": "Solve x + 10 = 18.",
       "options": [
         "8",
         "7",
@@ -773,15 +773,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "algebraic-thinking",
-      "prompt": "Algebraic Thinking: Solve 3x = 27.",
+      "prompt": "Solve 3x = 27.",
       "options": [
         "9",
         "8",
@@ -790,15 +790,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "algebraic-thinking",
-      "prompt": "Algebraic Thinking: Evaluate 2x + 3 for x=4.",
+      "prompt": "Evaluate 2x + 3 for x=4.",
       "options": [
         "11",
         "10",
@@ -807,15 +807,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "algebraic-thinking",
-      "prompt": "Algebraic Thinking: If x=5, x^2 =",
+      "prompt": "If x=5, x^2 =",
       "options": [
         "25",
         "10",
@@ -824,16 +824,16 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "algebraic-thinking",
       "type": "input",
-      "prompt": "Work out and enter your answer: Algebraic Thinking: Solve x - 7 = 12",
+      "prompt": "Work out and write your answer: Solve x - 7 = 12",
       "answerValue": "19",
       "steps": [
         "Identify the method.",
@@ -845,7 +845,7 @@
     {
       "topic": "algebraic-thinking",
       "type": "input",
-      "prompt": "Work out and enter your answer: Algebraic Thinking: Solve 5x = 45",
+      "prompt": "Work out and write your answer: Solve 5x = 45",
       "answerValue": "9",
       "steps": [
         "Identify the method.",
@@ -857,7 +857,7 @@
     {
       "topic": "algebraic-thinking",
       "type": "input",
-      "prompt": "Work out and enter your answer: Algebraic Thinking: Evaluate 4x + 1 for x = 6",
+      "prompt": "Work out and write your answer: Evaluate 4x + 1 for x = 6",
       "answerValue": "25",
       "steps": [
         "Identify the method.",
@@ -869,7 +869,7 @@
     {
       "topic": "algebraic-thinking",
       "type": "graph",
-      "prompt": "Algebraic Thinking: Plot point on y = x + 1 for x=3.",
+      "prompt": "Plot point on y = x + 1 for x=3.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -896,7 +896,7 @@
     {
       "topic": "algebraic-thinking",
       "type": "graph",
-      "prompt": "Algebraic Thinking: Plot two points for y = 2x.",
+      "prompt": "Plot two points for y = 2x.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -928,7 +928,7 @@
     {
       "topic": "algebraic-thinking",
       "type": "graph",
-      "prompt": "Algebraic Thinking: Plot solution point of x + y = 6 using x=2.",
+      "prompt": "Plot solution point of x + y = 6 using x=2.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -954,7 +954,7 @@
     },
     {
       "topic": "geometry-basics",
-      "prompt": "Geometry Basics: Sum of angles in a triangle is",
+      "prompt": "Sum of angles in a triangle is",
       "options": [
         "180",
         "90",
@@ -963,17 +963,17 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/triangle-area.svg",
       "imageAlt": "Triangle geometry diagram"
     },
     {
       "topic": "geometry-basics",
-      "prompt": "Geometry Basics: Right angle measure is",
+      "prompt": "Right angle measure is",
       "options": [
         "90",
         "45",
@@ -982,17 +982,17 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/rectangle-dimensions.svg",
       "imageAlt": "Geometry dimensions diagram"
     },
     {
       "topic": "geometry-basics",
-      "prompt": "Geometry Basics: Hypotenuse in 3-4-5 triangle is",
+      "prompt": "Hypotenuse in 3-4-5 triangle is",
       "options": [
         "5",
         "4",
@@ -1001,17 +1001,17 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/triangle-area.svg",
       "imageAlt": "Triangle geometry diagram"
     },
     {
       "topic": "geometry-basics",
-      "prompt": "Geometry Basics: A line through origin and (2,2) has slope",
+      "prompt": "A line through origin and (2,2) has slope",
       "options": [
         "1",
         "2",
@@ -1020,10 +1020,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/rectangle-dimensions.svg",
       "imageAlt": "Geometry dimensions diagram"
@@ -1031,7 +1031,7 @@
     {
       "topic": "geometry-basics",
       "type": "input",
-      "prompt": "Work out and enter your answer: Geometry Basics: Find missing angle if two angles are 50 and 60 in triangle",
+      "prompt": "Work out and write your answer: Find missing angle if two angles are 50 and 60 in triangle",
       "answerValue": "70",
       "steps": [
         "Identify the method.",
@@ -1045,7 +1045,7 @@
     {
       "topic": "geometry-basics",
       "type": "input",
-      "prompt": "Work out and enter your answer: Geometry Basics: In 3-4-5 triangle, square of hypotenuse",
+      "prompt": "Work out and write your answer: In 3-4-5 triangle, square of hypotenuse",
       "answerValue": "25",
       "steps": [
         "Identify the method.",
@@ -1059,7 +1059,7 @@
     {
       "topic": "geometry-basics",
       "type": "input",
-      "prompt": "Work out and enter your answer: Geometry Basics: Reflection keeps x same on y-axis? enter 0 for no, 1 for yes",
+      "prompt": "Work out and write your answer: Reflection keeps x same on y-axis? enter 0 for no, 1 for yes",
       "answerValue": "0",
       "steps": [
         "Identify the method.",
@@ -1073,7 +1073,7 @@
     {
       "topic": "geometry-basics",
       "type": "graph",
-      "prompt": "Geometry Basics: Plot vertex A at (3,3).",
+      "prompt": "Plot vertex A at (3,3).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -1100,7 +1100,7 @@
     {
       "topic": "geometry-basics",
       "type": "graph",
-      "prompt": "Geometry Basics: Plot triangle points A(2,2), B(6,2), C(4,6).",
+      "prompt": "Plot triangle points A(2,2), B(6,2), C(4,6).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -1135,7 +1135,7 @@
     {
       "topic": "geometry-basics",
       "type": "graph",
-      "prompt": "Geometry Basics: Plot reflected point of (2,5) over y-axis.",
+      "prompt": "Plot reflected point of (2,5) over y-axis.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -1161,7 +1161,7 @@
     },
     {
       "topic": "perimeter-and-area",
-      "prompt": "Perimeter and Area: Area of rectangle 8 by 5 is",
+      "prompt": "Area of rectangle 8 by 5 is",
       "options": [
         "40",
         "26",
@@ -1170,17 +1170,17 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/rectangle-dimensions.svg",
       "imageAlt": "Geometry dimensions diagram"
     },
     {
       "topic": "perimeter-and-area",
-      "prompt": "Perimeter and Area: Perimeter of square side 6 is",
+      "prompt": "Perimeter of square side 6 is",
       "options": [
         "24",
         "12",
@@ -1189,17 +1189,17 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/square-perimeter.svg",
       "imageAlt": "Square geometry diagram"
     },
     {
       "topic": "perimeter-and-area",
-      "prompt": "Perimeter and Area: Volume of cube side 3 is",
+      "prompt": "Volume of cube side 3 is",
       "options": [
         "27",
         "9",
@@ -1208,17 +1208,17 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/rectangle-dimensions.svg",
       "imageAlt": "Geometry dimensions diagram"
     },
     {
       "topic": "perimeter-and-area",
-      "prompt": "Perimeter and Area: Surface area of cube side 2 is",
+      "prompt": "Surface area of cube side 2 is",
       "options": [
         "24",
         "8",
@@ -1227,10 +1227,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/rectangle-dimensions.svg",
       "imageAlt": "Geometry dimensions diagram"
@@ -1238,7 +1238,7 @@
     {
       "topic": "perimeter-and-area",
       "type": "input",
-      "prompt": "Work out and enter your answer: Perimeter and Area: Area of triangle base 10 and height 6",
+      "prompt": "Work out and write your answer: Area of triangle base 10 and height 6",
       "answerValue": "30",
       "steps": [
         "Identify the method.",
@@ -1252,7 +1252,7 @@
     {
       "topic": "perimeter-and-area",
       "type": "input",
-      "prompt": "Work out and enter your answer: Perimeter and Area: Perimeter of rectangle length 9 width 4",
+      "prompt": "Work out and write your answer: Perimeter of rectangle length 9 width 4",
       "answerValue": "26",
       "steps": [
         "Identify the method.",
@@ -1266,7 +1266,7 @@
     {
       "topic": "perimeter-and-area",
       "type": "input",
-      "prompt": "Work out and enter your answer: Perimeter and Area: Volume of cuboid 2 x 3 x 5",
+      "prompt": "Work out and write your answer: Volume of cuboid 2 x 3 x 5",
       "answerValue": "30",
       "steps": [
         "Identify the method.",
@@ -1280,7 +1280,7 @@
     {
       "topic": "perimeter-and-area",
       "type": "graph",
-      "prompt": "Perimeter and Area: Plot rectangle corners A(1,1), B(7,1), C(7,5), D(1,5).",
+      "prompt": "Plot rectangle corners A(1,1), B(7,1), C(7,5), D(1,5).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -1319,7 +1319,7 @@
     {
       "topic": "perimeter-and-area",
       "type": "graph",
-      "prompt": "Perimeter and Area: Plot base-height point (10,6).",
+      "prompt": "Plot base-height point (10,6).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -1346,7 +1346,7 @@
     {
       "topic": "perimeter-and-area",
       "type": "graph",
-      "prompt": "Perimeter and Area: Plot prism dimensions point (3,5).",
+      "prompt": "Plot prism dimensions point (3,5).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -1372,76 +1372,76 @@
     },
     {
       "topic": "data",
-      "prompt": "Data: Mean of 4, 6, 8 is",
+      "prompt": "In a survey chart, Banana has the tallest bar. Which fruit is most popular?",
       "options": [
-        "6",
-        "5",
-        "7",
-        "8"
+        "Banana",
+        "Apple",
+        "Orange",
+        "Mango"
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/bar-chart-example.svg",
       "imageAlt": "Data chart example"
     },
     {
       "topic": "data",
-      "prompt": "Data: Median of 2, 5, 7, 9, 10 is",
+      "prompt": "A bar chart shows Monday 6 books, Tuesday 4 books, and Wednesday 8 books read. Which day has the highest value?",
       "options": [
-        "7",
-        "5",
-        "9",
-        "6"
+        "Wednesday",
+        "Tuesday",
+        "Monday",
+        "All days are equal"
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/bar-chart-example.svg",
       "imageAlt": "Data chart example"
     },
     {
       "topic": "data",
-      "prompt": "Data: Mode of 3, 4, 4, 5 is",
+      "prompt": "A frequency table shows Red = 5, Blue = 7, Green = 3. What is the frequency for Blue?",
       "options": [
-        "4",
+        "7",
+        "5",
         "3",
-        "5",
-        "2"
+        "10"
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/bar-chart-example.svg",
       "imageAlt": "Data chart example"
     },
     {
       "topic": "data",
-      "prompt": "Data: Range of 2, 8, 11 is",
+      "prompt": "Out of 12 learners surveyed, 9 chose football. What fraction chose football?",
       "options": [
-        "9",
-        "8",
-        "11",
-        "6"
+        "3/4",
+        "1/4",
+        "9/10",
+        "1/2"
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/bar-chart-example.svg",
       "imageAlt": "Data chart example"
@@ -1449,8 +1449,8 @@
     {
       "topic": "data",
       "type": "input",
-      "prompt": "Work out and enter your answer: Data: Mean of 5, 7, 9, 11",
-      "answerValue": "8",
+      "prompt": "Work out and write your answer: A chart shows Boys = 14 and Girls = 11. How many learners are there in total?",
+      "answerValue": "25",
       "steps": [
         "Identify the method.",
         "Substitute values.",
@@ -1463,8 +1463,8 @@
     {
       "topic": "data",
       "type": "input",
-      "prompt": "Work out and enter your answer: Data: Median of 3, 6, 8, 12",
-      "answerValue": "7",
+      "prompt": "Work out and write your answer: A frequency table has Buses = 6, Cars = 9, Bikes = 5. Find the total number counted.",
+      "answerValue": "20",
       "steps": [
         "Identify the method.",
         "Substitute values.",
@@ -1477,8 +1477,8 @@
     {
       "topic": "data",
       "type": "input",
-      "prompt": "Work out and enter your answer: Data: Mode of 2, 2, 5, 7",
-      "answerValue": "2",
+      "prompt": "Work out and write your answer: In a survey of 18 learners, 5 prefer reading and 7 prefer music. How many prefer sports?",
+      "answerValue": "6",
       "steps": [
         "Identify the method.",
         "Substitute values.",
@@ -1491,7 +1491,7 @@
     {
       "topic": "data",
       "type": "graph",
-      "prompt": "Data: Plot data pair (2,5).",
+      "prompt": "Plot data pair (2,5).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -1518,7 +1518,7 @@
     {
       "topic": "data",
       "type": "graph",
-      "prompt": "Data: Plot trend points (1,2), (2,4), (3,6).",
+      "prompt": "Plot trend points (1,2), (2,4), (3,6).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -1554,7 +1554,7 @@
     {
       "topic": "data",
       "type": "graph",
-      "prompt": "Data: Mark median value 7 on x-axis.",
+      "prompt": "Mark data value 9 on x-axis.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -1562,11 +1562,11 @@
         "yMax": 12,
         "points": [
           [
-            7,
+            9,
             0
           ]
         ],
-        "instruction": "Plot (7,0).",
+        "instruction": "Plot (9,0).",
         "ordered": false
       },
       "steps": [
@@ -1579,6 +1579,214 @@
       "imageAlt": "Data chart example"
     },
     {
+      "topic": "data",
+      "prompt": "A pictogram key says 1 symbol = 2 learners. If there are 5 symbols for Volleyball, how many learners chose Volleyball?",
+      "options": [
+        "10",
+        "7",
+        "12",
+        "5"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read the question carefully.",
+        "Use an appropriate method.",
+        "Calculate carefully.",
+        "Choose the correct option."
+      ],
+      "image": "Images/bar-chart-example.svg",
+      "imageAlt": "Data chart example"
+    },
+    {
+      "topic": "data",
+      "prompt": "A survey records Tea = 8, Juice = 5, Water = 9. Which option is least selected?",
+      "options": [
+        "Juice",
+        "Tea",
+        "Water",
+        "All are equal"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read the question carefully.",
+        "Use an appropriate method.",
+        "Calculate carefully.",
+        "Choose the correct option."
+      ],
+      "image": "Images/bar-chart-example.svg",
+      "imageAlt": "Data chart example"
+    },
+    {
+      "topic": "data",
+      "prompt": "A table shows Maths = 12, Science = 10, English = 8. What is the total number of votes?",
+      "options": [
+        "30",
+        "28",
+        "32",
+        "20"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read the question carefully.",
+        "Use an appropriate method.",
+        "Calculate carefully.",
+        "Choose the correct option."
+      ],
+      "image": "Images/bar-chart-example.svg",
+      "imageAlt": "Data chart example"
+    },
+    {
+      "topic": "data",
+      "prompt": "A class attendance chart gives Week 1 = 24 and Week 2 = 27. By how many did attendance increase?",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "5"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Read the question carefully.",
+        "Use an appropriate method.",
+        "Calculate carefully.",
+        "Choose the correct option."
+      ],
+      "image": "Images/bar-chart-example.svg",
+      "imageAlt": "Data chart example"
+    },
+    {
+      "topic": "data",
+      "type": "input",
+      "prompt": "Work out and write your answer: In a poll, 13 learners chose rice and 9 chose yam. Find the total responses.",
+      "answerValue": "22",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/bar-chart-example.svg",
+      "imageAlt": "Data chart example"
+    },
+    {
+      "topic": "data",
+      "type": "input",
+      "prompt": "Work out and write your answer: A frequency chart shows Cats = 7 and Dogs = 11. How many more chose Dogs?",
+      "answerValue": "4",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/bar-chart-example.svg",
+      "imageAlt": "Data chart example"
+    },
+    {
+      "topic": "data",
+      "type": "input",
+      "prompt": "Work out and write your answer: Out of 24 learners, 6 chose Art. How many did not choose Art?",
+      "answerValue": "18",
+      "steps": [
+        "Identify the method.",
+        "Substitute values.",
+        "Compute.",
+        "Enter the final value."
+      ],
+      "image": "Images/bar-chart-example.svg",
+      "imageAlt": "Data chart example"
+    },
+    {
+      "topic": "data",
+      "type": "graph",
+      "prompt": "Plot data pair (4,9).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            4,
+            9
+          ]
+        ],
+        "instruction": "Plot (4,9).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
+      "topic": "data",
+      "type": "graph",
+      "prompt": "Plot trend points (2,1), (4,3), (6,5).",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            2,
+            1
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "instruction": "Plot all three points.",
+        "ordered": true,
+        "connectPoints": true
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/line-graph-example.svg",
+      "imageAlt": "Line graph trend example"
+    },
+    {
+      "topic": "data",
+      "type": "graph",
+      "prompt": "Mark data value 5 on y-axis.",
+      "graph": {
+        "xMin": 0,
+        "xMax": 12,
+        "yMin": 0,
+        "yMax": 12,
+        "points": [
+          [
+            0,
+            5
+          ]
+        ],
+        "instruction": "Plot (0,5).",
+        "ordered": false
+      },
+      "steps": [
+        "Read coordinates required.",
+        "Plot each point correctly.",
+        "Verify plotted points.",
+        "Submit when complete."
+      ],
+      "image": "Images/coordinate-grid-guide.svg",
+      "imageAlt": "Coordinate grid guide"
+    },
+    {
       "topic": "mean-median-mode",
       "prompt": "Mean, Median, and Mode: Mean of 4, 6, 8 is",
       "options": [
@@ -1589,10 +1797,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
@@ -1606,10 +1814,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
@@ -1623,10 +1831,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
@@ -1640,16 +1848,16 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "mean-median-mode",
       "type": "input",
-      "prompt": "Work out and enter your answer: Mean, Median, and Mode: Mean of 5, 7, 9, 11",
+      "prompt": "Work out and write your answer: Mean, Median, and Mode: Mean of 5, 7, 9, 11",
       "answerValue": "8",
       "steps": [
         "Identify the method.",
@@ -1661,7 +1869,7 @@
     {
       "topic": "mean-median-mode",
       "type": "input",
-      "prompt": "Work out and enter your answer: Mean, Median, and Mode: Median of 3, 6, 8, 12",
+      "prompt": "Work out and write your answer: Mean, Median, and Mode: Median of 3, 6, 8, 12",
       "answerValue": "7",
       "steps": [
         "Identify the method.",
@@ -1673,7 +1881,7 @@
     {
       "topic": "mean-median-mode",
       "type": "input",
-      "prompt": "Work out and enter your answer: Mean, Median, and Mode: Mode of 2, 2, 5, 7",
+      "prompt": "Work out and write your answer: Mean, Median, and Mode: Mode of 2, 2, 5, 7",
       "answerValue": "2",
       "steps": [
         "Identify the method.",
@@ -1774,7 +1982,7 @@
     },
     {
       "topic": "basic-probability",
-      "prompt": "Basic Probability: Probability of odd number on fair die is",
+      "prompt": "Probability of odd number on fair die is",
       "options": [
         "1/2",
         "1/3",
@@ -1783,17 +1991,17 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/probability-die.svg",
       "imageAlt": "Die and coin probability diagram"
     },
     {
       "topic": "basic-probability",
-      "prompt": "Basic Probability: Probability of head on fair coin is",
+      "prompt": "Probability of head on fair coin is",
       "options": [
         "1/2",
         "1",
@@ -1802,17 +2010,17 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/probability-die.svg",
       "imageAlt": "Die and coin probability diagram"
     },
     {
       "topic": "basic-probability",
-      "prompt": "Basic Probability: Probability of rolling 7 on die is",
+      "prompt": "Probability of rolling 7 on die is",
       "options": [
         "0",
         "1/6",
@@ -1821,17 +2029,17 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/probability-die.svg",
       "imageAlt": "Die and coin probability diagram"
     },
     {
       "topic": "basic-probability",
-      "prompt": "Basic Probability: Favourable outcomes 2 out of 8 gives probability",
+      "prompt": "Favourable outcomes 2 out of 8 gives probability",
       "options": [
         "1/4",
         "1/2",
@@ -1840,10 +2048,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/probability-die.svg",
       "imageAlt": "Die and coin probability diagram"
@@ -1851,7 +2059,7 @@
     {
       "topic": "basic-probability",
       "type": "input",
-      "prompt": "Work out and enter your answer: Basic Probability: Probability of selecting red from 3 red and 1 blue (as decimal)",
+      "prompt": "Work out and write your answer: Probability of selecting red from 3 red and 1 blue (as decimal)",
       "answerValue": "0.75",
       "steps": [
         "Identify the method.",
@@ -1865,7 +2073,7 @@
     {
       "topic": "basic-probability",
       "type": "input",
-      "prompt": "Work out and enter your answer: Basic Probability: Number of odd outcomes on a die",
+      "prompt": "Work out and write your answer: Number of odd outcomes on a die",
       "answerValue": "3",
       "steps": [
         "Identify the method.",
@@ -1879,7 +2087,7 @@
     {
       "topic": "basic-probability",
       "type": "input",
-      "prompt": "Work out and enter your answer: Basic Probability: Probability of even on die as fraction numerator only",
+      "prompt": "Work out and write your answer: Probability of even on die as fraction numerator only",
       "answerValue": "3",
       "steps": [
         "Identify the method.",
@@ -1893,7 +2101,7 @@
     {
       "topic": "basic-probability",
       "type": "graph",
-      "prompt": "Basic Probability: Plot probability pair (favorable,total) = (3,6).",
+      "prompt": "Plot probability pair (favorable,total) = (3,6).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -1920,7 +2128,7 @@
     {
       "topic": "basic-probability",
       "type": "graph",
-      "prompt": "Basic Probability: Plot event points (1,2) and (2,4).",
+      "prompt": "Plot event points (1,2) and (2,4).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -1951,7 +2159,7 @@
     {
       "topic": "basic-probability",
       "type": "graph",
-      "prompt": "Basic Probability: Plot certainty point (1,1).",
+      "prompt": "Plot certainty point (1,1).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -1977,7 +2185,7 @@
     },
     {
       "topic": "word-problem-strategies",
-      "prompt": "Word Problem Strategies: Find ratio equivalent to 2:3.",
+      "prompt": "Find ratio equivalent to 2:3.",
       "options": [
         "4:6",
         "3:4",
@@ -1986,15 +2194,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "word-problem-strategies",
-      "prompt": "Word Problem Strategies: Find 25% of 200.",
+      "prompt": "Find 25% of 200.",
       "options": [
         "50",
         "40",
@@ -2003,15 +2211,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "word-problem-strategies",
-      "prompt": "Word Problem Strategies: 3:5 = ? : 20",
+      "prompt": "3:5 = ? : 20",
       "options": [
         "12",
         "10",
@@ -2020,15 +2228,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "word-problem-strategies",
-      "prompt": "Word Problem Strategies: 40% as decimal is",
+      "prompt": "40% as decimal is",
       "options": [
         "0.4",
         "4",
@@ -2037,16 +2245,16 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "word-problem-strategies",
       "type": "input",
-      "prompt": "Work out and enter your answer: Word Problem Strategies: 30% of 150",
+      "prompt": "Work out and write your answer: 30% of 150",
       "answerValue": "45",
       "steps": [
         "Identify the method.",
@@ -2058,7 +2266,7 @@
     {
       "topic": "word-problem-strategies",
       "type": "input",
-      "prompt": "Work out and enter your answer: Word Problem Strategies: Scale ratio 4:7 by 3, give first term only",
+      "prompt": "Work out and write your answer: Scale ratio 4:7 by 3, give first term only",
       "answerValue": "12",
       "steps": [
         "Identify the method.",
@@ -2070,7 +2278,7 @@
     {
       "topic": "word-problem-strategies",
       "type": "input",
-      "prompt": "Work out and enter your answer: Word Problem Strategies: If 2 pens cost 10, cost of 1 pen",
+      "prompt": "Work out and write your answer: If 2 pens cost 10, cost of 1 pen",
       "answerValue": "5",
       "steps": [
         "Identify the method.",
@@ -2082,7 +2290,7 @@
     {
       "topic": "word-problem-strategies",
       "type": "graph",
-      "prompt": "Word Problem Strategies: Plot ratio pair (4, 6).",
+      "prompt": "Plot ratio pair (4, 6).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -2109,7 +2317,7 @@
     {
       "topic": "word-problem-strategies",
       "type": "graph",
-      "prompt": "Word Problem Strategies: Plot percentage pair (25, 5).",
+      "prompt": "Plot percentage pair (25, 5).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -2136,7 +2344,7 @@
     {
       "topic": "word-problem-strategies",
       "type": "graph",
-      "prompt": "Word Problem Strategies: Plot rate points (2,4) and (4,8).",
+      "prompt": "Plot rate points (2,4) and (4,8).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -2167,7 +2375,7 @@
     },
     {
       "topic": "end-of-term-review",
-      "prompt": "End-of-Term Review: A trader sold 12 pens at 3 each. Total?",
+      "prompt": "A trader sold 12 pens at 3 each. Total?",
       "options": [
         "36",
         "24",
@@ -2176,15 +2384,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "end-of-term-review",
-      "prompt": "End-of-Term Review: If 2x = 18, x = ?",
+      "prompt": "If 2x = 18, x = ?",
       "options": [
         "9",
         "8",
@@ -2193,15 +2401,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "end-of-term-review",
-      "prompt": "End-of-Term Review: 15% of 200 equals",
+      "prompt": "15% of 200 equals",
       "options": [
         "30",
         "20",
@@ -2210,15 +2418,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "end-of-term-review",
-      "prompt": "End-of-Term Review: Area of rectangle 9 by 4 is",
+      "prompt": "Area of rectangle 9 by 4 is",
       "options": [
         "36",
         "13",
@@ -2227,16 +2435,16 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "end-of-term-review",
       "type": "input",
-      "prompt": "Work out and enter your answer: End-of-Term Review: Solve x + 14 = 27",
+      "prompt": "Work out and write your answer: Solve x + 14 = 27",
       "answerValue": "13",
       "steps": [
         "Identify the method.",
@@ -2248,7 +2456,7 @@
     {
       "topic": "end-of-term-review",
       "type": "input",
-      "prompt": "Work out and enter your answer: End-of-Term Review: Mean of 6, 8, 10, 12",
+      "prompt": "Work out and write your answer: Mean of 6, 8, 10, 12",
       "answerValue": "9",
       "steps": [
         "Identify the method.",
@@ -2260,7 +2468,7 @@
     {
       "topic": "end-of-term-review",
       "type": "input",
-      "prompt": "Work out and enter your answer: End-of-Term Review: Probability of head on coin as decimal",
+      "prompt": "Work out and write your answer: Probability of head on coin as decimal",
       "answerValue": "0.5",
       "steps": [
         "Identify the method.",
@@ -2272,7 +2480,7 @@
     {
       "topic": "end-of-term-review",
       "type": "graph",
-      "prompt": "End-of-Term Review: Plot checkpoint point (4,7).",
+      "prompt": "Plot checkpoint point (4,7).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -2299,7 +2507,7 @@
     {
       "topic": "end-of-term-review",
       "type": "graph",
-      "prompt": "End-of-Term Review: Plot two-step problem points (2,3) and (5,9).",
+      "prompt": "Plot two-step problem points (2,3) and (5,9).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -2330,7 +2538,7 @@
     {
       "topic": "end-of-term-review",
       "type": "graph",
-      "prompt": "End-of-Term Review: Plot review line points (1,1), (2,2), (3,3).",
+      "prompt": "Plot review line points (1,1), (2,2), (3,3).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -2695,7 +2903,7 @@
   "jh2": [
     {
       "topic": "rational-numbers-review",
-      "prompt": "Rational Numbers Review: Evaluate 30 + 14.",
+      "prompt": "Evaluate 30 + 14.",
       "options": [
         "44",
         "43",
@@ -2704,15 +2912,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "rational-numbers-review",
-      "prompt": "Rational Numbers Review: Find 95 - 38.",
+      "prompt": "Find 95 - 38.",
       "options": [
         "57",
         "55",
@@ -2721,15 +2929,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "rational-numbers-review",
-      "prompt": "Rational Numbers Review: Compute 7 x 6.",
+      "prompt": "Compute 7 x 6.",
       "options": [
         "42",
         "40",
@@ -2738,15 +2946,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "rational-numbers-review",
-      "prompt": "Rational Numbers Review: Compute 84 / 7.",
+      "prompt": "Compute 84 / 7.",
       "options": [
         "12",
         "13",
@@ -2755,16 +2963,16 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "rational-numbers-review",
       "type": "input",
-      "prompt": "Work out and enter your answer: Rational Numbers Review: 120 + 80",
+      "prompt": "Work out and write your answer: 120 + 80",
       "answerValue": "200",
       "steps": [
         "Identify the method.",
@@ -2776,7 +2984,7 @@
     {
       "topic": "rational-numbers-review",
       "type": "input",
-      "prompt": "Work out and enter your answer: Rational Numbers Review: 240 - 115",
+      "prompt": "Work out and write your answer: 240 - 115",
       "answerValue": "125",
       "steps": [
         "Identify the method.",
@@ -2788,7 +2996,7 @@
     {
       "topic": "rational-numbers-review",
       "type": "input",
-      "prompt": "Work out and enter your answer: Rational Numbers Review: -8 + 15",
+      "prompt": "Work out and write your answer: -8 + 15",
       "answerValue": "7",
       "steps": [
         "Identify the method.",
@@ -2800,7 +3008,7 @@
     {
       "topic": "rational-numbers-review",
       "type": "graph",
-      "prompt": "Rational Numbers Review: Plot integer point A.",
+      "prompt": "Plot integer point A.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -2827,7 +3035,7 @@
     {
       "topic": "rational-numbers-review",
       "type": "graph",
-      "prompt": "Rational Numbers Review: Plot integer point B.",
+      "prompt": "Plot integer point B.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -2854,7 +3062,7 @@
     {
       "topic": "rational-numbers-review",
       "type": "graph",
-      "prompt": "Rational Numbers Review: Plot points C and D.",
+      "prompt": "Plot points C and D.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -2884,7 +3092,7 @@
     },
     {
       "topic": "operations-with-integers",
-      "prompt": "Operations with Integers: Evaluate 31 + 15.",
+      "prompt": "Evaluate 31 + 15.",
       "options": [
         "46",
         "45",
@@ -2893,15 +3101,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "operations-with-integers",
-      "prompt": "Operations with Integers: Find 96 - 39.",
+      "prompt": "Find 96 - 39.",
       "options": [
         "57",
         "55",
@@ -2910,15 +3118,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "operations-with-integers",
-      "prompt": "Operations with Integers: Compute 8 x 7.",
+      "prompt": "Compute 8 x 7.",
       "options": [
         "56",
         "54",
@@ -2927,15 +3135,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "operations-with-integers",
-      "prompt": "Operations with Integers: Compute 91 / 8.",
+      "prompt": "Compute 91 / 8.",
       "options": [
         "11",
         "12",
@@ -2944,16 +3152,16 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "operations-with-integers",
       "type": "input",
-      "prompt": "Work out and enter your answer: Operations with Integers: 121 + 81",
+      "prompt": "Work out and write your answer: 121 + 81",
       "answerValue": "202",
       "steps": [
         "Identify the method.",
@@ -2965,7 +3173,7 @@
     {
       "topic": "operations-with-integers",
       "type": "input",
-      "prompt": "Work out and enter your answer: Operations with Integers: 242 - 116",
+      "prompt": "Work out and write your answer: 242 - 116",
       "answerValue": "126",
       "steps": [
         "Identify the method.",
@@ -2977,7 +3185,7 @@
     {
       "topic": "operations-with-integers",
       "type": "input",
-      "prompt": "Work out and enter your answer: Operations with Integers: -9 + 16",
+      "prompt": "Work out and write your answer: -9 + 16",
       "answerValue": "7",
       "steps": [
         "Identify the method.",
@@ -2989,7 +3197,7 @@
     {
       "topic": "operations-with-integers",
       "type": "graph",
-      "prompt": "Operations with Integers: Plot integer point A.",
+      "prompt": "Plot integer point A.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -3016,7 +3224,7 @@
     {
       "topic": "operations-with-integers",
       "type": "graph",
-      "prompt": "Operations with Integers: Plot integer point B.",
+      "prompt": "Plot integer point B.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -3043,7 +3251,7 @@
     {
       "topic": "operations-with-integers",
       "type": "graph",
-      "prompt": "Operations with Integers: Plot points C and D.",
+      "prompt": "Plot points C and D.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -3073,7 +3281,7 @@
     },
     {
       "topic": "expressions-and-equations",
-      "prompt": "Expressions and Equations: Solve x + 11 = 19.",
+      "prompt": "Solve x + 11 = 19.",
       "options": [
         "8",
         "7",
@@ -3082,15 +3290,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "expressions-and-equations",
-      "prompt": "Expressions and Equations: Solve 3x = 30.",
+      "prompt": "Solve 3x = 30.",
       "options": [
         "10",
         "9",
@@ -3099,15 +3307,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "expressions-and-equations",
-      "prompt": "Expressions and Equations: Evaluate 2x + 3 for x=4.",
+      "prompt": "Evaluate 2x + 3 for x=4.",
       "options": [
         "11",
         "10",
@@ -3116,15 +3324,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "expressions-and-equations",
-      "prompt": "Expressions and Equations: If x=5, x^2 =",
+      "prompt": "If x=5, x^2 =",
       "options": [
         "25",
         "10",
@@ -3133,16 +3341,16 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "expressions-and-equations",
       "type": "input",
-      "prompt": "Work out and enter your answer: Expressions and Equations: Solve x - 7 = 12",
+      "prompt": "Work out and write your answer: Solve x - 7 = 12",
       "answerValue": "19",
       "steps": [
         "Identify the method.",
@@ -3154,7 +3362,7 @@
     {
       "topic": "expressions-and-equations",
       "type": "input",
-      "prompt": "Work out and enter your answer: Expressions and Equations: Solve 5x = 45",
+      "prompt": "Work out and write your answer: Solve 5x = 45",
       "answerValue": "9",
       "steps": [
         "Identify the method.",
@@ -3166,7 +3374,7 @@
     {
       "topic": "expressions-and-equations",
       "type": "input",
-      "prompt": "Work out and enter your answer: Expressions and Equations: Evaluate 4x + 1 for x = 6",
+      "prompt": "Work out and write your answer: Evaluate 4x + 1 for x = 6",
       "answerValue": "25",
       "steps": [
         "Identify the method.",
@@ -3178,7 +3386,7 @@
     {
       "topic": "expressions-and-equations",
       "type": "graph",
-      "prompt": "Expressions and Equations: Plot point on y = x + 1 for x=3.",
+      "prompt": "Plot point on y = x + 1 for x=3.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -3205,7 +3413,7 @@
     {
       "topic": "expressions-and-equations",
       "type": "graph",
-      "prompt": "Expressions and Equations: Plot two points for y = 2x.",
+      "prompt": "Plot two points for y = 2x.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -3237,7 +3445,7 @@
     {
       "topic": "expressions-and-equations",
       "type": "graph",
-      "prompt": "Expressions and Equations: Plot solution point of x + y = 6 using x=2.",
+      "prompt": "Plot solution point of x + y = 6 using x=2.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -3263,7 +3471,7 @@
     },
     {
       "topic": "one-step-equations",
-      "prompt": "One-Step Equations: Solve x + 9 = 17.",
+      "prompt": "Solve x + 9 = 17.",
       "options": [
         "8",
         "7",
@@ -3272,15 +3480,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "one-step-equations",
-      "prompt": "One-Step Equations: Solve 3x = 24.",
+      "prompt": "Solve 3x = 24.",
       "options": [
         "8",
         "7",
@@ -3289,15 +3497,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "one-step-equations",
-      "prompt": "One-Step Equations: Evaluate 2x + 3 for x=4.",
+      "prompt": "Evaluate 2x + 3 for x=4.",
       "options": [
         "11",
         "10",
@@ -3306,15 +3514,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "one-step-equations",
-      "prompt": "One-Step Equations: If x=5, x^2 =",
+      "prompt": "If x=5, x^2 =",
       "options": [
         "25",
         "10",
@@ -3323,16 +3531,16 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "one-step-equations",
       "type": "input",
-      "prompt": "Work out and enter your answer: One-Step Equations: Solve x - 7 = 12",
+      "prompt": "Work out and write your answer: Solve x - 7 = 12",
       "answerValue": "19",
       "steps": [
         "Identify the method.",
@@ -3344,7 +3552,7 @@
     {
       "topic": "one-step-equations",
       "type": "input",
-      "prompt": "Work out and enter your answer: One-Step Equations: Solve 5x = 45",
+      "prompt": "Work out and write your answer: Solve 5x = 45",
       "answerValue": "9",
       "steps": [
         "Identify the method.",
@@ -3356,7 +3564,7 @@
     {
       "topic": "one-step-equations",
       "type": "input",
-      "prompt": "Work out and enter your answer: One-Step Equations: Evaluate 4x + 1 for x = 6",
+      "prompt": "Work out and write your answer: Evaluate 4x + 1 for x = 6",
       "answerValue": "25",
       "steps": [
         "Identify the method.",
@@ -3368,7 +3576,7 @@
     {
       "topic": "one-step-equations",
       "type": "graph",
-      "prompt": "One-Step Equations: Plot point on y = x + 1 for x=3.",
+      "prompt": "Plot point on y = x + 1 for x=3.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -3395,7 +3603,7 @@
     {
       "topic": "one-step-equations",
       "type": "graph",
-      "prompt": "One-Step Equations: Plot two points for y = 2x.",
+      "prompt": "Plot two points for y = 2x.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -3427,7 +3635,7 @@
     {
       "topic": "one-step-equations",
       "type": "graph",
-      "prompt": "One-Step Equations: Plot solution point of x + y = 6 using x=2.",
+      "prompt": "Plot solution point of x + y = 6 using x=2.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -3453,7 +3661,7 @@
     },
     {
       "topic": "inequalities",
-      "prompt": "Inequalities: Solve x + 10 = 18.",
+      "prompt": "Solve x + 10 = 18.",
       "options": [
         "8",
         "7",
@@ -3462,15 +3670,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "inequalities",
-      "prompt": "Inequalities: Solve 3x = 27.",
+      "prompt": "Solve 3x = 27.",
       "options": [
         "9",
         "8",
@@ -3479,15 +3687,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "inequalities",
-      "prompt": "Inequalities: Evaluate 2x + 3 for x=4.",
+      "prompt": "Evaluate 2x + 3 for x=4.",
       "options": [
         "11",
         "10",
@@ -3496,15 +3704,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "inequalities",
-      "prompt": "Inequalities: If x=5, x^2 =",
+      "prompt": "If x=5, x^2 =",
       "options": [
         "25",
         "10",
@@ -3513,16 +3721,16 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "inequalities",
       "type": "input",
-      "prompt": "Work out and enter your answer: Inequalities: Solve x - 7 = 12",
+      "prompt": "Work out and write your answer: Solve x - 7 = 12",
       "answerValue": "19",
       "steps": [
         "Identify the method.",
@@ -3534,7 +3742,7 @@
     {
       "topic": "inequalities",
       "type": "input",
-      "prompt": "Work out and enter your answer: Inequalities: Solve 5x = 45",
+      "prompt": "Work out and write your answer: Solve 5x = 45",
       "answerValue": "9",
       "steps": [
         "Identify the method.",
@@ -3546,7 +3754,7 @@
     {
       "topic": "inequalities",
       "type": "input",
-      "prompt": "Work out and enter your answer: Inequalities: Evaluate 4x + 1 for x = 6",
+      "prompt": "Work out and write your answer: Evaluate 4x + 1 for x = 6",
       "answerValue": "25",
       "steps": [
         "Identify the method.",
@@ -3558,7 +3766,7 @@
     {
       "topic": "inequalities",
       "type": "graph",
-      "prompt": "Inequalities: Plot point on y = x + 1 for x=3.",
+      "prompt": "Plot point on y = x + 1 for x=3.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -3585,7 +3793,7 @@
     {
       "topic": "inequalities",
       "type": "graph",
-      "prompt": "Inequalities: Plot two points for y = 2x.",
+      "prompt": "Plot two points for y = 2x.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -3617,7 +3825,7 @@
     {
       "topic": "inequalities",
       "type": "graph",
-      "prompt": "Inequalities: Plot solution point of x + y = 6 using x=2.",
+      "prompt": "Plot solution point of x + y = 6 using x=2.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -3643,7 +3851,7 @@
     },
     {
       "topic": "angles-and-triangles",
-      "prompt": "Angles and Triangles: Sum of angles in a triangle is",
+      "prompt": "Sum of angles in a triangle is",
       "options": [
         "180",
         "90",
@@ -3652,17 +3860,17 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/triangle-area.svg",
       "imageAlt": "Triangle geometry diagram"
     },
     {
       "topic": "angles-and-triangles",
-      "prompt": "Angles and Triangles: Right angle measure is",
+      "prompt": "Right angle measure is",
       "options": [
         "90",
         "45",
@@ -3671,17 +3879,17 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/triangle-area.svg",
       "imageAlt": "Triangle geometry diagram"
     },
     {
       "topic": "angles-and-triangles",
-      "prompt": "Angles and Triangles: Hypotenuse in 3-4-5 triangle is",
+      "prompt": "Hypotenuse in 3-4-5 triangle is",
       "options": [
         "5",
         "4",
@@ -3690,17 +3898,17 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/triangle-area.svg",
       "imageAlt": "Triangle geometry diagram"
     },
     {
       "topic": "angles-and-triangles",
-      "prompt": "Angles and Triangles: A line through origin and (2,2) has slope",
+      "prompt": "A line through origin and (2,2) has slope",
       "options": [
         "1",
         "2",
@@ -3709,10 +3917,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/triangle-area.svg",
       "imageAlt": "Triangle geometry diagram"
@@ -3720,7 +3928,7 @@
     {
       "topic": "angles-and-triangles",
       "type": "input",
-      "prompt": "Work out and enter your answer: Angles and Triangles: Find missing angle if two angles are 50 and 60 in triangle",
+      "prompt": "Work out and write your answer: Find missing angle if two angles are 50 and 60 in triangle",
       "answerValue": "70",
       "steps": [
         "Identify the method.",
@@ -3734,7 +3942,7 @@
     {
       "topic": "angles-and-triangles",
       "type": "input",
-      "prompt": "Work out and enter your answer: Angles and Triangles: In 3-4-5 triangle, square of hypotenuse",
+      "prompt": "Work out and write your answer: In 3-4-5 triangle, square of hypotenuse",
       "answerValue": "25",
       "steps": [
         "Identify the method.",
@@ -3748,7 +3956,7 @@
     {
       "topic": "angles-and-triangles",
       "type": "input",
-      "prompt": "Work out and enter your answer: Angles and Triangles: Reflection keeps x same on y-axis? enter 0 for no, 1 for yes",
+      "prompt": "Work out and write your answer: Reflection keeps x same on y-axis? enter 0 for no, 1 for yes",
       "answerValue": "0",
       "steps": [
         "Identify the method.",
@@ -3762,7 +3970,7 @@
     {
       "topic": "angles-and-triangles",
       "type": "graph",
-      "prompt": "Angles and Triangles: Plot vertex A at (3,3).",
+      "prompt": "Plot vertex A at (3,3).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -3789,7 +3997,7 @@
     {
       "topic": "angles-and-triangles",
       "type": "graph",
-      "prompt": "Angles and Triangles: Plot triangle points A(2,2), B(6,2), C(4,6).",
+      "prompt": "Plot triangle points A(2,2), B(6,2), C(4,6).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -3824,7 +4032,7 @@
     {
       "topic": "angles-and-triangles",
       "type": "graph",
-      "prompt": "Angles and Triangles: Plot reflected point of (2,5) over y-axis.",
+      "prompt": "Plot reflected point of (2,5) over y-axis.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -3850,7 +4058,7 @@
     },
     {
       "topic": "surface-area-and-volume",
-      "prompt": "Surface Area and Volume: Area of rectangle 8 by 5 is",
+      "prompt": "Area of rectangle 8 by 5 is",
       "options": [
         "40",
         "26",
@@ -3859,17 +4067,17 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/rectangle-dimensions.svg",
       "imageAlt": "Rectangle dimensions for area and perimeter"
     },
     {
       "topic": "surface-area-and-volume",
-      "prompt": "Surface Area and Volume: Perimeter of square side 6 is",
+      "prompt": "Perimeter of square side 6 is",
       "options": [
         "24",
         "12",
@@ -3878,17 +4086,17 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/square-perimeter.svg",
       "imageAlt": "Square side and perimeter"
     },
     {
       "topic": "surface-area-and-volume",
-      "prompt": "Surface Area and Volume: Volume of cube side 3 is",
+      "prompt": "Volume of cube side 3 is",
       "options": [
         "27",
         "9",
@@ -3897,17 +4105,17 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/cube-surface-area.svg",
       "imageAlt": "Cube for surface area"
     },
     {
       "topic": "surface-area-and-volume",
-      "prompt": "Surface Area and Volume: Surface area of cube side 2 is",
+      "prompt": "Surface area of cube side 2 is",
       "options": [
         "24",
         "8",
@@ -3916,10 +4124,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/cube-surface-area.svg",
       "imageAlt": "Cube for surface area"
@@ -3927,7 +4135,7 @@
     {
       "topic": "surface-area-and-volume",
       "type": "input",
-      "prompt": "Work out and enter your answer: Surface Area and Volume: Area of triangle base 10 and height 6",
+      "prompt": "Work out and write your answer: Area of triangle base 10 and height 6",
       "answerValue": "30",
       "steps": [
         "Identify the method.",
@@ -3941,7 +4149,7 @@
     {
       "topic": "surface-area-and-volume",
       "type": "input",
-      "prompt": "Work out and enter your answer: Surface Area and Volume: Perimeter of rectangle length 9 width 4",
+      "prompt": "Work out and write your answer: Perimeter of rectangle length 9 width 4",
       "answerValue": "26",
       "steps": [
         "Identify the method.",
@@ -3955,7 +4163,7 @@
     {
       "topic": "surface-area-and-volume",
       "type": "input",
-      "prompt": "Work out and enter your answer: Surface Area and Volume: Volume of cuboid 2 x 3 x 5",
+      "prompt": "Work out and write your answer: Volume of cuboid 2 x 3 x 5",
       "answerValue": "30",
       "steps": [
         "Identify the method.",
@@ -3969,7 +4177,7 @@
     {
       "topic": "surface-area-and-volume",
       "type": "graph",
-      "prompt": "Surface Area and Volume: Plot rectangle corners A(1,1), B(7,1), C(7,5), D(1,5).",
+      "prompt": "Plot rectangle corners A(1,1), B(7,1), C(7,5), D(1,5).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -4008,7 +4216,7 @@
     {
       "topic": "surface-area-and-volume",
       "type": "graph",
-      "prompt": "Surface Area and Volume: Plot base-height point (10,6).",
+      "prompt": "Plot base-height point (10,6).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -4035,7 +4243,7 @@
     {
       "topic": "surface-area-and-volume",
       "type": "graph",
-      "prompt": "Surface Area and Volume: Plot prism dimensions point (3,5).",
+      "prompt": "Plot prism dimensions point (3,5).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -4061,7 +4269,7 @@
     },
     {
       "topic": "probability-basics",
-      "prompt": "Probability Basics: Probability of odd number on fair die is",
+      "prompt": "Probability of odd number on fair die is",
       "options": [
         "1/2",
         "1/3",
@@ -4070,17 +4278,17 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/probability-die.svg",
       "imageAlt": "Die and coin probability diagram"
     },
     {
       "topic": "probability-basics",
-      "prompt": "Probability Basics: Probability of head on fair coin is",
+      "prompt": "Probability of head on fair coin is",
       "options": [
         "1/2",
         "1",
@@ -4089,17 +4297,17 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/probability-die.svg",
       "imageAlt": "Die and coin probability diagram"
     },
     {
       "topic": "probability-basics",
-      "prompt": "Probability Basics: Probability of rolling 7 on die is",
+      "prompt": "Probability of rolling 7 on die is",
       "options": [
         "0",
         "1/6",
@@ -4108,17 +4316,17 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/probability-die.svg",
       "imageAlt": "Die and coin probability diagram"
     },
     {
       "topic": "probability-basics",
-      "prompt": "Probability Basics: Favourable outcomes 2 out of 8 gives probability",
+      "prompt": "Favourable outcomes 2 out of 8 gives probability",
       "options": [
         "1/4",
         "1/2",
@@ -4127,10 +4335,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/probability-die.svg",
       "imageAlt": "Die and coin probability diagram"
@@ -4138,7 +4346,7 @@
     {
       "topic": "probability-basics",
       "type": "input",
-      "prompt": "Work out and enter your answer: Probability Basics: Probability of selecting red from 3 red and 1 blue (as decimal)",
+      "prompt": "Work out and write your answer: Probability of selecting red from 3 red and 1 blue (as decimal)",
       "answerValue": "0.75",
       "steps": [
         "Identify the method.",
@@ -4152,7 +4360,7 @@
     {
       "topic": "probability-basics",
       "type": "input",
-      "prompt": "Work out and enter your answer: Probability Basics: Number of odd outcomes on a die",
+      "prompt": "Work out and write your answer: Number of odd outcomes on a die",
       "answerValue": "3",
       "steps": [
         "Identify the method.",
@@ -4166,7 +4374,7 @@
     {
       "topic": "probability-basics",
       "type": "input",
-      "prompt": "Work out and enter your answer: Probability Basics: Probability of even on die as fraction numerator only",
+      "prompt": "Work out and write your answer: Probability of even on die as fraction numerator only",
       "answerValue": "3",
       "steps": [
         "Identify the method.",
@@ -4180,7 +4388,7 @@
     {
       "topic": "probability-basics",
       "type": "graph",
-      "prompt": "Probability Basics: Plot probability pair (favorable,total) = (3,6).",
+      "prompt": "Plot probability pair (favorable,total) = (3,6).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -4207,7 +4415,7 @@
     {
       "topic": "probability-basics",
       "type": "graph",
-      "prompt": "Probability Basics: Plot event points (1,2) and (2,4).",
+      "prompt": "Plot event points (1,2) and (2,4).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -4238,7 +4446,7 @@
     {
       "topic": "probability-basics",
       "type": "graph",
-      "prompt": "Probability Basics: Plot certainty point (1,1).",
+      "prompt": "Plot certainty point (1,1).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -4273,10 +4481,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/coordinate-grid-guide.svg",
       "imageAlt": "Coordinate grid guide"
@@ -4292,10 +4500,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/coordinate-grid-guide.svg",
       "imageAlt": "Coordinate grid guide"
@@ -4311,10 +4519,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/coordinate-grid-guide.svg",
       "imageAlt": "Coordinate grid guide"
@@ -4330,10 +4538,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/coordinate-grid-guide.svg",
       "imageAlt": "Coordinate grid guide"
@@ -4341,7 +4549,7 @@
     {
       "topic": "coordinate-plane",
       "type": "input",
-      "prompt": "Work out and enter your answer: Coordinate Geometry: Find the distance between (2,3) and (2,9)",
+      "prompt": "Work out and write your answer: Coordinate Geometry: Find the distance between (2,3) and (2,9)",
       "answerValue": "6",
       "steps": [
         "Identify the method.",
@@ -4355,7 +4563,7 @@
     {
       "topic": "coordinate-plane",
       "type": "input",
-      "prompt": "Work out and enter your answer: Coordinate Geometry: Find the x-coordinate of the midpoint of (2,8) and (6,4)",
+      "prompt": "Work out and write your answer: Coordinate Geometry: Find the x-coordinate of the midpoint of (2,8) and (6,4)",
       "answerValue": "4",
       "steps": [
         "Identify the method.",
@@ -4369,7 +4577,7 @@
     {
       "topic": "coordinate-plane",
       "type": "input",
-      "prompt": "Work out and enter your answer: Coordinate Geometry: Find the gradient of the line through (0,0) and (4,2)",
+      "prompt": "Work out and write your answer: Coordinate Geometry: Find the gradient of the line through (0,0) and (4,2)",
       "answerValue": "0.5",
       "steps": [
         "Identify the method.",
@@ -4480,10 +4688,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
@@ -4497,10 +4705,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
@@ -4514,10 +4722,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
@@ -4531,16 +4739,16 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "pythagorean-intro",
       "type": "input",
-      "prompt": "Work out and enter your answer: Pythagorean Theorem Intro: Find missing angle if two angles are 50 and 60 in triangle",
+      "prompt": "Work out and write your answer: Pythagorean Theorem Intro: Find missing angle if two angles are 50 and 60 in triangle",
       "answerValue": "70",
       "steps": [
         "Identify the method.",
@@ -4552,7 +4760,7 @@
     {
       "topic": "pythagorean-intro",
       "type": "input",
-      "prompt": "Work out and enter your answer: Pythagorean Theorem Intro: In 3-4-5 triangle, square of hypotenuse",
+      "prompt": "Work out and write your answer: Pythagorean Theorem Intro: In 3-4-5 triangle, square of hypotenuse",
       "answerValue": "25",
       "steps": [
         "Identify the method.",
@@ -4564,7 +4772,7 @@
     {
       "topic": "pythagorean-intro",
       "type": "input",
-      "prompt": "Work out and enter your answer: Pythagorean Theorem Intro: Reflection keeps x same on y-axis? enter 0 for no, 1 for yes",
+      "prompt": "Work out and write your answer: Pythagorean Theorem Intro: Reflection keeps x same on y-axis? enter 0 for no, 1 for yes",
       "answerValue": "0",
       "steps": [
         "Identify the method.",
@@ -4664,7 +4872,7 @@
     },
     {
       "topic": "multi-step-problems",
-      "prompt": "Multi-Step Problems: A trader sold 12 pens at 3 each. Total?",
+      "prompt": "A trader sold 12 pens at 3 each. Total?",
       "options": [
         "36",
         "24",
@@ -4673,15 +4881,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "multi-step-problems",
-      "prompt": "Multi-Step Problems: If 2x = 18, x = ?",
+      "prompt": "If 2x = 18, x = ?",
       "options": [
         "9",
         "8",
@@ -4690,15 +4898,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "multi-step-problems",
-      "prompt": "Multi-Step Problems: 15% of 200 equals",
+      "prompt": "15% of 200 equals",
       "options": [
         "30",
         "20",
@@ -4707,15 +4915,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "multi-step-problems",
-      "prompt": "Multi-Step Problems: Area of rectangle 9 by 4 is",
+      "prompt": "Area of rectangle 9 by 4 is",
       "options": [
         "36",
         "13",
@@ -4724,16 +4932,16 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "multi-step-problems",
       "type": "input",
-      "prompt": "Work out and enter your answer: Multi-Step Problems: Solve x + 14 = 27",
+      "prompt": "Work out and write your answer: Solve x + 14 = 27",
       "answerValue": "13",
       "steps": [
         "Identify the method.",
@@ -4745,7 +4953,7 @@
     {
       "topic": "multi-step-problems",
       "type": "input",
-      "prompt": "Work out and enter your answer: Multi-Step Problems: Mean of 6, 8, 10, 12",
+      "prompt": "Work out and write your answer: Mean of 6, 8, 10, 12",
       "answerValue": "9",
       "steps": [
         "Identify the method.",
@@ -4757,7 +4965,7 @@
     {
       "topic": "multi-step-problems",
       "type": "input",
-      "prompt": "Work out and enter your answer: Multi-Step Problems: Probability of head on coin as decimal",
+      "prompt": "Work out and write your answer: Probability of head on coin as decimal",
       "answerValue": "0.5",
       "steps": [
         "Identify the method.",
@@ -4769,7 +4977,7 @@
     {
       "topic": "multi-step-problems",
       "type": "graph",
-      "prompt": "Multi-Step Problems: Plot checkpoint point (4,7).",
+      "prompt": "Plot checkpoint point (4,7).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -4796,7 +5004,7 @@
     {
       "topic": "multi-step-problems",
       "type": "graph",
-      "prompt": "Multi-Step Problems: Plot two-step problem points (2,3) and (5,9).",
+      "prompt": "Plot two-step problem points (2,3) and (5,9).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -4827,7 +5035,7 @@
     {
       "topic": "multi-step-problems",
       "type": "graph",
-      "prompt": "Multi-Step Problems: Plot review line points (1,1), (2,2), (3,3).",
+      "prompt": "Plot review line points (1,1), (2,2), (3,3).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -4862,7 +5070,7 @@
     },
     {
       "topic": "final-skill-check",
-      "prompt": "Final Skill Check: A trader sold 12 pens at 3 each. Total?",
+      "prompt": "A trader sold 12 pens at 3 each. Total?",
       "options": [
         "36",
         "24",
@@ -4871,15 +5079,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "final-skill-check",
-      "prompt": "Final Skill Check: If 2x = 18, x = ?",
+      "prompt": "If 2x = 18, x = ?",
       "options": [
         "9",
         "8",
@@ -4888,15 +5096,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "final-skill-check",
-      "prompt": "Final Skill Check: 15% of 200 equals",
+      "prompt": "15% of 200 equals",
       "options": [
         "30",
         "20",
@@ -4905,15 +5113,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "final-skill-check",
-      "prompt": "Final Skill Check: Area of rectangle 9 by 4 is",
+      "prompt": "Area of rectangle 9 by 4 is",
       "options": [
         "36",
         "13",
@@ -4922,16 +5130,16 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "final-skill-check",
       "type": "input",
-      "prompt": "Work out and enter your answer: Final Skill Check: Solve x + 14 = 27",
+      "prompt": "Work out and write your answer: Solve x + 14 = 27",
       "answerValue": "13",
       "steps": [
         "Identify the method.",
@@ -4943,7 +5151,7 @@
     {
       "topic": "final-skill-check",
       "type": "input",
-      "prompt": "Work out and enter your answer: Final Skill Check: Mean of 6, 8, 10, 12",
+      "prompt": "Work out and write your answer: Mean of 6, 8, 10, 12",
       "answerValue": "9",
       "steps": [
         "Identify the method.",
@@ -4955,7 +5163,7 @@
     {
       "topic": "final-skill-check",
       "type": "input",
-      "prompt": "Work out and enter your answer: Final Skill Check: Probability of head on coin as decimal",
+      "prompt": "Work out and write your answer: Probability of head on coin as decimal",
       "answerValue": "0.5",
       "steps": [
         "Identify the method.",
@@ -4967,7 +5175,7 @@
     {
       "topic": "final-skill-check",
       "type": "graph",
-      "prompt": "Final Skill Check: Plot checkpoint point (4,7).",
+      "prompt": "Plot checkpoint point (4,7).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -4994,7 +5202,7 @@
     {
       "topic": "final-skill-check",
       "type": "graph",
-      "prompt": "Final Skill Check: Plot two-step problem points (2,3) and (5,9).",
+      "prompt": "Plot two-step problem points (2,3) and (5,9).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -5025,7 +5233,7 @@
     {
       "topic": "final-skill-check",
       "type": "graph",
-      "prompt": "Final Skill Check: Plot review line points (1,1), (2,2), (3,3).",
+      "prompt": "Plot review line points (1,1), (2,2), (3,3).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -5062,7 +5270,7 @@
   "jh3": [
     {
       "topic": "real-number-system",
-      "prompt": "Real Number System: Evaluate 30 + 14.",
+      "prompt": "Evaluate 30 + 14.",
       "options": [
         "44",
         "43",
@@ -5071,15 +5279,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "real-number-system",
-      "prompt": "Real Number System: Find 95 - 38.",
+      "prompt": "Find 95 - 38.",
       "options": [
         "57",
         "55",
@@ -5088,15 +5296,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "real-number-system",
-      "prompt": "Real Number System: Compute 7 x 6.",
+      "prompt": "Compute 7 x 6.",
       "options": [
         "42",
         "40",
@@ -5105,15 +5313,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "real-number-system",
-      "prompt": "Real Number System: Compute 84 / 7.",
+      "prompt": "Compute 84 / 7.",
       "options": [
         "12",
         "13",
@@ -5122,16 +5330,16 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "real-number-system",
       "type": "input",
-      "prompt": "Work out and enter your answer: Real Number System: 120 + 80",
+      "prompt": "Work out and write your answer: 120 + 80",
       "answerValue": "200",
       "steps": [
         "Identify the method.",
@@ -5143,7 +5351,7 @@
     {
       "topic": "real-number-system",
       "type": "input",
-      "prompt": "Work out and enter your answer: Real Number System: 240 - 115",
+      "prompt": "Work out and write your answer: 240 - 115",
       "answerValue": "125",
       "steps": [
         "Identify the method.",
@@ -5155,7 +5363,7 @@
     {
       "topic": "real-number-system",
       "type": "input",
-      "prompt": "Work out and enter your answer: Real Number System: -8 + 15",
+      "prompt": "Work out and write your answer: -8 + 15",
       "answerValue": "7",
       "steps": [
         "Identify the method.",
@@ -5167,7 +5375,7 @@
     {
       "topic": "real-number-system",
       "type": "graph",
-      "prompt": "Real Number System: Plot integer point A.",
+      "prompt": "Plot integer point A.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -5194,7 +5402,7 @@
     {
       "topic": "real-number-system",
       "type": "graph",
-      "prompt": "Real Number System: Plot integer point B.",
+      "prompt": "Plot integer point B.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -5221,7 +5429,7 @@
     {
       "topic": "real-number-system",
       "type": "graph",
-      "prompt": "Real Number System: Plot points C and D.",
+      "prompt": "Plot points C and D.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -5251,7 +5459,7 @@
     },
     {
       "topic": "scientific-notation",
-      "prompt": "Scientific Notation: Evaluate 31 + 15.",
+      "prompt": "Evaluate 31 + 15.",
       "options": [
         "46",
         "45",
@@ -5260,15 +5468,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "scientific-notation",
-      "prompt": "Scientific Notation: Find 96 - 39.",
+      "prompt": "Find 96 - 39.",
       "options": [
         "57",
         "55",
@@ -5277,15 +5485,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "scientific-notation",
-      "prompt": "Scientific Notation: Compute 8 x 7.",
+      "prompt": "Compute 8 x 7.",
       "options": [
         "56",
         "54",
@@ -5294,15 +5502,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "scientific-notation",
-      "prompt": "Scientific Notation: Compute 91 / 8.",
+      "prompt": "Compute 91 / 8.",
       "options": [
         "11",
         "12",
@@ -5311,16 +5519,16 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "scientific-notation",
       "type": "input",
-      "prompt": "Work out and enter your answer: Scientific Notation: 121 + 81",
+      "prompt": "Work out and write your answer: 121 + 81",
       "answerValue": "202",
       "steps": [
         "Identify the method.",
@@ -5332,7 +5540,7 @@
     {
       "topic": "scientific-notation",
       "type": "input",
-      "prompt": "Work out and enter your answer: Scientific Notation: 242 - 116",
+      "prompt": "Work out and write your answer: 242 - 116",
       "answerValue": "126",
       "steps": [
         "Identify the method.",
@@ -5344,7 +5552,7 @@
     {
       "topic": "scientific-notation",
       "type": "input",
-      "prompt": "Work out and enter your answer: Scientific Notation: -9 + 16",
+      "prompt": "Work out and write your answer: -9 + 16",
       "answerValue": "7",
       "steps": [
         "Identify the method.",
@@ -5356,7 +5564,7 @@
     {
       "topic": "scientific-notation",
       "type": "graph",
-      "prompt": "Scientific Notation: Plot integer point A.",
+      "prompt": "Plot integer point A.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -5383,7 +5591,7 @@
     {
       "topic": "scientific-notation",
       "type": "graph",
-      "prompt": "Scientific Notation: Plot integer point B.",
+      "prompt": "Plot integer point B.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -5410,7 +5618,7 @@
     {
       "topic": "scientific-notation",
       "type": "graph",
-      "prompt": "Scientific Notation: Plot points C and D.",
+      "prompt": "Plot points C and D.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -5440,7 +5648,7 @@
     },
     {
       "topic": "linear-equations",
-      "prompt": "Linear Equations: Solve x + 11 = 19.",
+      "prompt": "Solve x + 11 = 19.",
       "options": [
         "8",
         "7",
@@ -5449,15 +5657,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "linear-equations",
-      "prompt": "Linear Equations: Solve 3x = 30.",
+      "prompt": "Solve 3x = 30.",
       "options": [
         "10",
         "9",
@@ -5466,15 +5674,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "linear-equations",
-      "prompt": "Linear Equations: Evaluate 2x + 3 for x=4.",
+      "prompt": "Evaluate 2x + 3 for x=4.",
       "options": [
         "11",
         "10",
@@ -5483,15 +5691,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "linear-equations",
-      "prompt": "Linear Equations: If x=5, x^2 =",
+      "prompt": "If x=5, x^2 =",
       "options": [
         "25",
         "10",
@@ -5500,16 +5708,16 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "linear-equations",
       "type": "input",
-      "prompt": "Work out and enter your answer: Linear Equations: Solve x - 7 = 12",
+      "prompt": "Work out and write your answer: Solve x - 7 = 12",
       "answerValue": "19",
       "steps": [
         "Identify the method.",
@@ -5521,7 +5729,7 @@
     {
       "topic": "linear-equations",
       "type": "input",
-      "prompt": "Work out and enter your answer: Linear Equations: Solve 5x = 45",
+      "prompt": "Work out and write your answer: Solve 5x = 45",
       "answerValue": "9",
       "steps": [
         "Identify the method.",
@@ -5533,7 +5741,7 @@
     {
       "topic": "linear-equations",
       "type": "input",
-      "prompt": "Work out and enter your answer: Linear Equations: Evaluate 4x + 1 for x = 6",
+      "prompt": "Work out and write your answer: Evaluate 4x + 1 for x = 6",
       "answerValue": "25",
       "steps": [
         "Identify the method.",
@@ -5545,7 +5753,7 @@
     {
       "topic": "linear-equations",
       "type": "graph",
-      "prompt": "Linear Equations: Plot point on y = x + 1 for x=3.",
+      "prompt": "Plot point on y = x + 1 for x=3.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -5572,7 +5780,7 @@
     {
       "topic": "linear-equations",
       "type": "graph",
-      "prompt": "Linear Equations: Plot two points for y = 2x.",
+      "prompt": "Plot two points for y = 2x.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -5604,7 +5812,7 @@
     {
       "topic": "linear-equations",
       "type": "graph",
-      "prompt": "Linear Equations: Plot solution point of x + y = 6 using x=2.",
+      "prompt": "Plot solution point of x + y = 6 using x=2.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -5630,7 +5838,7 @@
     },
     {
       "topic": "systems-of-equations",
-      "prompt": "Systems of Equations: Solve x + 9 = 17.",
+      "prompt": "Solve x + 9 = 17.",
       "options": [
         "8",
         "7",
@@ -5639,15 +5847,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "systems-of-equations",
-      "prompt": "Systems of Equations: Solve 3x = 24.",
+      "prompt": "Solve 3x = 24.",
       "options": [
         "8",
         "7",
@@ -5656,15 +5864,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "systems-of-equations",
-      "prompt": "Systems of Equations: Evaluate 2x + 3 for x=4.",
+      "prompt": "Evaluate 2x + 3 for x=4.",
       "options": [
         "11",
         "10",
@@ -5673,15 +5881,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "systems-of-equations",
-      "prompt": "Systems of Equations: If x=5, x^2 =",
+      "prompt": "If x=5, x^2 =",
       "options": [
         "25",
         "10",
@@ -5690,16 +5898,16 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "systems-of-equations",
       "type": "input",
-      "prompt": "Work out and enter your answer: Systems of Equations: Solve x - 7 = 12",
+      "prompt": "Work out and write your answer: Solve x - 7 = 12",
       "answerValue": "19",
       "steps": [
         "Identify the method.",
@@ -5711,7 +5919,7 @@
     {
       "topic": "systems-of-equations",
       "type": "input",
-      "prompt": "Work out and enter your answer: Systems of Equations: Solve 5x = 45",
+      "prompt": "Work out and write your answer: Solve 5x = 45",
       "answerValue": "9",
       "steps": [
         "Identify the method.",
@@ -5723,7 +5931,7 @@
     {
       "topic": "systems-of-equations",
       "type": "input",
-      "prompt": "Work out and enter your answer: Systems of Equations: Evaluate 4x + 1 for x = 6",
+      "prompt": "Work out and write your answer: Evaluate 4x + 1 for x = 6",
       "answerValue": "25",
       "steps": [
         "Identify the method.",
@@ -5735,7 +5943,7 @@
     {
       "topic": "systems-of-equations",
       "type": "graph",
-      "prompt": "Systems of Equations: Plot point on y = x + 1 for x=3.",
+      "prompt": "Plot point on y = x + 1 for x=3.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -5762,7 +5970,7 @@
     {
       "topic": "systems-of-equations",
       "type": "graph",
-      "prompt": "Systems of Equations: Plot two points for y = 2x.",
+      "prompt": "Plot two points for y = 2x.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -5794,7 +6002,7 @@
     {
       "topic": "systems-of-equations",
       "type": "graph",
-      "prompt": "Systems of Equations: Plot solution point of x + y = 6 using x=2.",
+      "prompt": "Plot solution point of x + y = 6 using x=2.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -5820,7 +6028,7 @@
     },
     {
       "topic": "functions-and-graphs",
-      "prompt": "Functions and Graphs: A trader sold 12 pens at 3 each. Total?",
+      "prompt": "A trader sold 12 pens at 3 each. Total?",
       "options": [
         "36",
         "24",
@@ -5829,17 +6037,17 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/coordinate-grid-guide.svg",
       "imageAlt": "Coordinate grid guide"
     },
     {
       "topic": "functions-and-graphs",
-      "prompt": "Functions and Graphs: If 2x = 18, x = ?",
+      "prompt": "If 2x = 18, x = ?",
       "options": [
         "9",
         "8",
@@ -5848,17 +6056,17 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/coordinate-grid-guide.svg",
       "imageAlt": "Coordinate grid guide"
     },
     {
       "topic": "functions-and-graphs",
-      "prompt": "Functions and Graphs: 15% of 200 equals",
+      "prompt": "15% of 200 equals",
       "options": [
         "30",
         "20",
@@ -5867,17 +6075,17 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/coordinate-grid-guide.svg",
       "imageAlt": "Coordinate grid guide"
     },
     {
       "topic": "functions-and-graphs",
-      "prompt": "Functions and Graphs: Area of rectangle 9 by 4 is",
+      "prompt": "Area of rectangle 9 by 4 is",
       "options": [
         "36",
         "13",
@@ -5886,10 +6094,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/coordinate-grid-guide.svg",
       "imageAlt": "Coordinate grid guide"
@@ -5897,7 +6105,7 @@
     {
       "topic": "functions-and-graphs",
       "type": "input",
-      "prompt": "Work out and enter your answer: Functions and Graphs: Solve x + 14 = 27",
+      "prompt": "Work out and write your answer: Solve x + 14 = 27",
       "answerValue": "13",
       "steps": [
         "Identify the method.",
@@ -5911,7 +6119,7 @@
     {
       "topic": "functions-and-graphs",
       "type": "input",
-      "prompt": "Work out and enter your answer: Functions and Graphs: Mean of 6, 8, 10, 12",
+      "prompt": "Work out and write your answer: Mean of 6, 8, 10, 12",
       "answerValue": "9",
       "steps": [
         "Identify the method.",
@@ -5925,7 +6133,7 @@
     {
       "topic": "functions-and-graphs",
       "type": "input",
-      "prompt": "Work out and enter your answer: Functions and Graphs: Probability of head on coin as decimal",
+      "prompt": "Work out and write your answer: Probability of head on coin as decimal",
       "answerValue": "0.5",
       "steps": [
         "Identify the method.",
@@ -5939,7 +6147,7 @@
     {
       "topic": "functions-and-graphs",
       "type": "graph",
-      "prompt": "Functions and Graphs: Plot checkpoint point (4,7).",
+      "prompt": "Plot checkpoint point (4,7).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -5966,7 +6174,7 @@
     {
       "topic": "functions-and-graphs",
       "type": "graph",
-      "prompt": "Functions and Graphs: Plot two-step problem points (2,3) and (5,9).",
+      "prompt": "Plot two-step problem points (2,3) and (5,9).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -5997,7 +6205,7 @@
     {
       "topic": "functions-and-graphs",
       "type": "graph",
-      "prompt": "Functions and Graphs: Plot review line points (1,1), (2,2), (3,3).",
+      "prompt": "Plot review line points (1,1), (2,2), (3,3).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -6032,7 +6240,7 @@
     },
     {
       "topic": "congruence-and-similarity",
-      "prompt": "Congruence and Similarity: Sum of angles in a triangle is",
+      "prompt": "Sum of angles in a triangle is",
       "options": [
         "180",
         "90",
@@ -6041,17 +6249,17 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/triangle-area.svg",
       "imageAlt": "Triangle geometry diagram"
     },
     {
       "topic": "congruence-and-similarity",
-      "prompt": "Congruence and Similarity: Right angle measure is",
+      "prompt": "Right angle measure is",
       "options": [
         "90",
         "45",
@@ -6060,17 +6268,17 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/rectangle-dimensions.svg",
       "imageAlt": "Geometry dimensions diagram"
     },
     {
       "topic": "congruence-and-similarity",
-      "prompt": "Congruence and Similarity: Hypotenuse in 3-4-5 triangle is",
+      "prompt": "Hypotenuse in 3-4-5 triangle is",
       "options": [
         "5",
         "4",
@@ -6079,17 +6287,17 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/triangle-area.svg",
       "imageAlt": "Triangle geometry diagram"
     },
     {
       "topic": "congruence-and-similarity",
-      "prompt": "Congruence and Similarity: A line through origin and (2,2) has slope",
+      "prompt": "A line through origin and (2,2) has slope",
       "options": [
         "1",
         "2",
@@ -6098,10 +6306,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/rectangle-dimensions.svg",
       "imageAlt": "Geometry dimensions diagram"
@@ -6109,7 +6317,7 @@
     {
       "topic": "congruence-and-similarity",
       "type": "input",
-      "prompt": "Work out and enter your answer: Congruence and Similarity: Find missing angle if two angles are 50 and 60 in triangle",
+      "prompt": "Work out and write your answer: Find missing angle if two angles are 50 and 60 in triangle",
       "answerValue": "70",
       "steps": [
         "Identify the method.",
@@ -6123,7 +6331,7 @@
     {
       "topic": "congruence-and-similarity",
       "type": "input",
-      "prompt": "Work out and enter your answer: Congruence and Similarity: In 3-4-5 triangle, square of hypotenuse",
+      "prompt": "Work out and write your answer: In 3-4-5 triangle, square of hypotenuse",
       "answerValue": "25",
       "steps": [
         "Identify the method.",
@@ -6137,7 +6345,7 @@
     {
       "topic": "congruence-and-similarity",
       "type": "input",
-      "prompt": "Work out and enter your answer: Congruence and Similarity: Reflection keeps x same on y-axis? enter 0 for no, 1 for yes",
+      "prompt": "Work out and write your answer: Reflection keeps x same on y-axis? enter 0 for no, 1 for yes",
       "answerValue": "0",
       "steps": [
         "Identify the method.",
@@ -6151,7 +6359,7 @@
     {
       "topic": "congruence-and-similarity",
       "type": "graph",
-      "prompt": "Congruence and Similarity: Plot vertex A at (3,3).",
+      "prompt": "Plot vertex A at (3,3).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -6178,7 +6386,7 @@
     {
       "topic": "congruence-and-similarity",
       "type": "graph",
-      "prompt": "Congruence and Similarity: Plot triangle points A(2,2), B(6,2), C(4,6).",
+      "prompt": "Plot triangle points A(2,2), B(6,2), C(4,6).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -6213,7 +6421,7 @@
     {
       "topic": "congruence-and-similarity",
       "type": "graph",
-      "prompt": "Congruence and Similarity: Plot reflected point of (2,5) over y-axis.",
+      "prompt": "Plot reflected point of (2,5) over y-axis.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -6239,7 +6447,7 @@
     },
     {
       "topic": "circle-theorems",
-      "prompt": "Circle Theorems: Sum of angles in a triangle is",
+      "prompt": "Sum of angles in a triangle is",
       "options": [
         "180",
         "90",
@@ -6248,17 +6456,17 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/circle-geometry.svg",
       "imageAlt": "Circle geometry diagram"
     },
     {
       "topic": "circle-theorems",
-      "prompt": "Circle Theorems: Right angle measure is",
+      "prompt": "Right angle measure is",
       "options": [
         "90",
         "45",
@@ -6267,17 +6475,17 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/circle-geometry.svg",
       "imageAlt": "Circle geometry diagram"
     },
     {
       "topic": "circle-theorems",
-      "prompt": "Circle Theorems: Hypotenuse in 3-4-5 triangle is",
+      "prompt": "Hypotenuse in 3-4-5 triangle is",
       "options": [
         "5",
         "4",
@@ -6286,17 +6494,17 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/circle-geometry.svg",
       "imageAlt": "Circle geometry diagram"
     },
     {
       "topic": "circle-theorems",
-      "prompt": "Circle Theorems: A line through origin and (2,2) has slope",
+      "prompt": "A line through origin and (2,2) has slope",
       "options": [
         "1",
         "2",
@@ -6305,10 +6513,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/circle-geometry.svg",
       "imageAlt": "Circle geometry diagram"
@@ -6316,7 +6524,7 @@
     {
       "topic": "circle-theorems",
       "type": "input",
-      "prompt": "Work out and enter your answer: Circle Theorems: Find missing angle if two angles are 50 and 60 in triangle",
+      "prompt": "Work out and write your answer: Find missing angle if two angles are 50 and 60 in triangle",
       "answerValue": "70",
       "steps": [
         "Identify the method.",
@@ -6330,7 +6538,7 @@
     {
       "topic": "circle-theorems",
       "type": "input",
-      "prompt": "Work out and enter your answer: Circle Theorems: In 3-4-5 triangle, square of hypotenuse",
+      "prompt": "Work out and write your answer: In 3-4-5 triangle, square of hypotenuse",
       "answerValue": "25",
       "steps": [
         "Identify the method.",
@@ -6344,7 +6552,7 @@
     {
       "topic": "circle-theorems",
       "type": "input",
-      "prompt": "Work out and enter your answer: Circle Theorems: Reflection keeps x same on y-axis? enter 0 for no, 1 for yes",
+      "prompt": "Work out and write your answer: Reflection keeps x same on y-axis? enter 0 for no, 1 for yes",
       "answerValue": "0",
       "steps": [
         "Identify the method.",
@@ -6358,7 +6566,7 @@
     {
       "topic": "circle-theorems",
       "type": "graph",
-      "prompt": "Circle Theorems: Plot vertex A at (3,3).",
+      "prompt": "Plot vertex A at (3,3).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -6385,7 +6593,7 @@
     {
       "topic": "circle-theorems",
       "type": "graph",
-      "prompt": "Circle Theorems: Plot triangle points A(2,2), B(6,2), C(4,6).",
+      "prompt": "Plot triangle points A(2,2), B(6,2), C(4,6).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -6420,7 +6628,7 @@
     {
       "topic": "circle-theorems",
       "type": "graph",
-      "prompt": "Circle Theorems: Plot reflected point of (2,5) over y-axis.",
+      "prompt": "Plot reflected point of (2,5) over y-axis.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -6446,7 +6654,7 @@
     },
     {
       "topic": "statistics-and-trends",
-      "prompt": "Statistics and Trends: Mean of 4, 6, 8 is",
+      "prompt": "Mean of 4, 6, 8 is",
       "options": [
         "6",
         "5",
@@ -6455,17 +6663,17 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/line-graph-example.svg",
       "imageAlt": "Line graph trend example"
     },
     {
       "topic": "statistics-and-trends",
-      "prompt": "Statistics and Trends: Median of 2, 5, 7, 9, 10 is",
+      "prompt": "Median of 2, 5, 7, 9, 10 is",
       "options": [
         "7",
         "5",
@@ -6474,17 +6682,17 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/line-graph-example.svg",
       "imageAlt": "Line graph trend example"
     },
     {
       "topic": "statistics-and-trends",
-      "prompt": "Statistics and Trends: Mode of 3, 4, 4, 5 is",
+      "prompt": "Mode of 3, 4, 4, 5 is",
       "options": [
         "4",
         "3",
@@ -6493,17 +6701,17 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/line-graph-example.svg",
       "imageAlt": "Line graph trend example"
     },
     {
       "topic": "statistics-and-trends",
-      "prompt": "Statistics and Trends: Range of 2, 8, 11 is",
+      "prompt": "Range of 2, 8, 11 is",
       "options": [
         "9",
         "8",
@@ -6512,10 +6720,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/line-graph-example.svg",
       "imageAlt": "Line graph trend example"
@@ -6523,7 +6731,7 @@
     {
       "topic": "statistics-and-trends",
       "type": "input",
-      "prompt": "Work out and enter your answer: Statistics and Trends: Mean of 5, 7, 9, 11",
+      "prompt": "Work out and write your answer: Mean of 5, 7, 9, 11",
       "answerValue": "8",
       "steps": [
         "Identify the method.",
@@ -6537,7 +6745,7 @@
     {
       "topic": "statistics-and-trends",
       "type": "input",
-      "prompt": "Work out and enter your answer: Statistics and Trends: Median of 3, 6, 8, 12",
+      "prompt": "Work out and write your answer: Median of 3, 6, 8, 12",
       "answerValue": "7",
       "steps": [
         "Identify the method.",
@@ -6551,7 +6759,7 @@
     {
       "topic": "statistics-and-trends",
       "type": "input",
-      "prompt": "Work out and enter your answer: Statistics and Trends: Mode of 2, 2, 5, 7",
+      "prompt": "Work out and write your answer: Mode of 2, 2, 5, 7",
       "answerValue": "2",
       "steps": [
         "Identify the method.",
@@ -6565,7 +6773,7 @@
     {
       "topic": "statistics-and-trends",
       "type": "graph",
-      "prompt": "Statistics and Trends: Plot data pair (2,5).",
+      "prompt": "Plot data pair (2,5).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -6592,7 +6800,7 @@
     {
       "topic": "statistics-and-trends",
       "type": "graph",
-      "prompt": "Statistics and Trends: Plot trend points (1,2), (2,4), (3,6).",
+      "prompt": "Plot trend points (1,2), (2,4), (3,6).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -6628,7 +6836,7 @@
     {
       "topic": "statistics-and-trends",
       "type": "graph",
-      "prompt": "Statistics and Trends: Mark median value 7 on x-axis.",
+      "prompt": "Mark median value 7 on x-axis.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -6654,7 +6862,7 @@
     },
     {
       "topic": "transformations",
-      "prompt": "Transformations: Sum of angles in a triangle is",
+      "prompt": "Sum of angles in a triangle is",
       "options": [
         "180",
         "90",
@@ -6663,17 +6871,17 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/coordinate-grid-guide.svg",
       "imageAlt": "Coordinate grid guide"
     },
     {
       "topic": "transformations",
-      "prompt": "Transformations: Right angle measure is",
+      "prompt": "Right angle measure is",
       "options": [
         "90",
         "45",
@@ -6682,17 +6890,17 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/coordinate-grid-guide.svg",
       "imageAlt": "Coordinate grid guide"
     },
     {
       "topic": "transformations",
-      "prompt": "Transformations: Hypotenuse in 3-4-5 triangle is",
+      "prompt": "Hypotenuse in 3-4-5 triangle is",
       "options": [
         "5",
         "4",
@@ -6701,17 +6909,17 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/coordinate-grid-guide.svg",
       "imageAlt": "Coordinate grid guide"
     },
     {
       "topic": "transformations",
-      "prompt": "Transformations: A line through origin and (2,2) has slope",
+      "prompt": "A line through origin and (2,2) has slope",
       "options": [
         "1",
         "2",
@@ -6720,10 +6928,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ],
       "image": "Images/coordinate-grid-guide.svg",
       "imageAlt": "Coordinate grid guide"
@@ -6731,7 +6939,7 @@
     {
       "topic": "transformations",
       "type": "input",
-      "prompt": "Work out and enter your answer: Transformations: Find missing angle if two angles are 50 and 60 in triangle",
+      "prompt": "Work out and write your answer: Find missing angle if two angles are 50 and 60 in triangle",
       "answerValue": "70",
       "steps": [
         "Identify the method.",
@@ -6745,7 +6953,7 @@
     {
       "topic": "transformations",
       "type": "input",
-      "prompt": "Work out and enter your answer: Transformations: In 3-4-5 triangle, square of hypotenuse",
+      "prompt": "Work out and write your answer: In 3-4-5 triangle, square of hypotenuse",
       "answerValue": "25",
       "steps": [
         "Identify the method.",
@@ -6759,7 +6967,7 @@
     {
       "topic": "transformations",
       "type": "input",
-      "prompt": "Work out and enter your answer: Transformations: Reflection keeps x same on y-axis? enter 0 for no, 1 for yes",
+      "prompt": "Work out and write your answer: Reflection keeps x same on y-axis? enter 0 for no, 1 for yes",
       "answerValue": "0",
       "steps": [
         "Identify the method.",
@@ -6773,7 +6981,7 @@
     {
       "topic": "transformations",
       "type": "graph",
-      "prompt": "Transformations: Plot vertex A at (3,3).",
+      "prompt": "Plot vertex A at (3,3).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -6800,7 +7008,7 @@
     {
       "topic": "transformations",
       "type": "graph",
-      "prompt": "Transformations: Plot triangle points A(2,2), B(6,2), C(4,6).",
+      "prompt": "Plot triangle points A(2,2), B(6,2), C(4,6).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -6835,7 +7043,7 @@
     {
       "topic": "transformations",
       "type": "graph",
-      "prompt": "Transformations: Plot reflected point of (2,5) over y-axis.",
+      "prompt": "Plot reflected point of (2,5) over y-axis.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -6870,10 +7078,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
@@ -6887,10 +7095,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
@@ -6904,10 +7112,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
@@ -6921,16 +7129,16 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "quadratic-intro",
       "type": "input",
-      "prompt": "Work out and enter your answer: Quadratic Expressions Intro: Solve x - 7 = 12",
+      "prompt": "Work out and write your answer: Quadratic Expressions Intro: Solve x - 7 = 12",
       "answerValue": "19",
       "steps": [
         "Identify the method.",
@@ -6942,7 +7150,7 @@
     {
       "topic": "quadratic-intro",
       "type": "input",
-      "prompt": "Work out and enter your answer: Quadratic Expressions Intro: Solve 5x = 45",
+      "prompt": "Work out and write your answer: Quadratic Expressions Intro: Solve 5x = 45",
       "answerValue": "9",
       "steps": [
         "Identify the method.",
@@ -6954,7 +7162,7 @@
     {
       "topic": "quadratic-intro",
       "type": "input",
-      "prompt": "Work out and enter your answer: Quadratic Expressions Intro: Evaluate 4x + 1 for x = 6",
+      "prompt": "Work out and write your answer: Quadratic Expressions Intro: Evaluate 4x + 1 for x = 6",
       "answerValue": "25",
       "steps": [
         "Identify the method.",
@@ -7051,7 +7259,7 @@
     },
     {
       "topic": "exam-techniques",
-      "prompt": "Exam Techniques: A trader sold 12 pens at 3 each. Total?",
+      "prompt": "A trader sold 12 pens at 3 each. Total?",
       "options": [
         "36",
         "24",
@@ -7060,15 +7268,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "exam-techniques",
-      "prompt": "Exam Techniques: If 2x = 18, x = ?",
+      "prompt": "If 2x = 18, x = ?",
       "options": [
         "9",
         "8",
@@ -7077,15 +7285,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "exam-techniques",
-      "prompt": "Exam Techniques: 15% of 200 equals",
+      "prompt": "15% of 200 equals",
       "options": [
         "30",
         "20",
@@ -7094,15 +7302,15 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "exam-techniques",
-      "prompt": "Exam Techniques: Area of rectangle 9 by 4 is",
+      "prompt": "Area of rectangle 9 by 4 is",
       "options": [
         "36",
         "13",
@@ -7111,16 +7319,16 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "exam-techniques",
       "type": "input",
-      "prompt": "Work out and enter your answer: Exam Techniques: Solve x + 14 = 27",
+      "prompt": "Work out and write your answer: Solve x + 14 = 27",
       "answerValue": "13",
       "steps": [
         "Identify the method.",
@@ -7132,7 +7340,7 @@
     {
       "topic": "exam-techniques",
       "type": "input",
-      "prompt": "Work out and enter your answer: Exam Techniques: Mean of 6, 8, 10, 12",
+      "prompt": "Work out and write your answer: Mean of 6, 8, 10, 12",
       "answerValue": "9",
       "steps": [
         "Identify the method.",
@@ -7144,7 +7352,7 @@
     {
       "topic": "exam-techniques",
       "type": "input",
-      "prompt": "Work out and enter your answer: Exam Techniques: Probability of head on coin as decimal",
+      "prompt": "Work out and write your answer: Probability of head on coin as decimal",
       "answerValue": "0.5",
       "steps": [
         "Identify the method.",
@@ -7156,7 +7364,7 @@
     {
       "topic": "exam-techniques",
       "type": "graph",
-      "prompt": "Exam Techniques: Plot checkpoint point (4,7).",
+      "prompt": "Plot checkpoint point (4,7).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -7183,7 +7391,7 @@
     {
       "topic": "exam-techniques",
       "type": "graph",
-      "prompt": "Exam Techniques: Plot two-step problem points (2,3) and (5,9).",
+      "prompt": "Plot two-step problem points (2,3) and (5,9).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -7214,7 +7422,7 @@
     {
       "topic": "exam-techniques",
       "type": "graph",
-      "prompt": "Exam Techniques: Plot review line points (1,1), (2,2), (3,3).",
+      "prompt": "Plot review line points (1,1), (2,2), (3,3).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -7258,10 +7466,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
@@ -7275,10 +7483,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
@@ -7292,10 +7500,10 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
@@ -7309,16 +7517,16 @@
       ],
       "correctIndex": 0,
       "steps": [
-        "Read and identify what is asked.",
-        "Use the correct method.",
+        "Read the question carefully.",
+        "Use an appropriate method.",
         "Calculate carefully.",
-        "Match the result to the right option."
+        "Choose the correct option."
       ]
     },
     {
       "topic": "bece-prep",
       "type": "input",
-      "prompt": "Work out and enter your answer: BECE Prep Set: Solve x + 14 = 27",
+      "prompt": "Work out and write your answer: BECE Prep Set: Solve x + 14 = 27",
       "answerValue": "13",
       "steps": [
         "Identify the method.",
@@ -7330,7 +7538,7 @@
     {
       "topic": "bece-prep",
       "type": "input",
-      "prompt": "Work out and enter your answer: BECE Prep Set: Mean of 6, 8, 10, 12",
+      "prompt": "Work out and write your answer: BECE Prep Set: Mean of 6, 8, 10, 12",
       "answerValue": "9",
       "steps": [
         "Identify the method.",
@@ -7342,7 +7550,7 @@
     {
       "topic": "bece-prep",
       "type": "input",
-      "prompt": "Work out and enter your answer: BECE Prep Set: Probability of head on coin as decimal",
+      "prompt": "Work out and write your answer: BECE Prep Set: Probability of head on coin as decimal",
       "answerValue": "0.5",
       "steps": [
         "Identify the method.",
