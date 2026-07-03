@@ -792,7 +792,7 @@
     },
     {
       "topic": "mean-median-mode",
-      "prompt": "Mean, Median, and Mode: Mean of 4, 6, 8 is",
+      "prompt": "Mean of 4, 6, 8 is",
       "options": [
         "6",
         "5",
@@ -812,7 +812,7 @@
     },
     {
       "topic": "mean-median-mode",
-      "prompt": "Mean, Median, and Mode: Median of 2, 5, 7, 9, 10 is",
+      "prompt": "Median of 2, 5, 7, 9, 10 is",
       "options": [
         "7",
         "5",
@@ -832,7 +832,7 @@
     },
     {
       "topic": "mean-median-mode",
-      "prompt": "Mean, Median, and Mode: Mode of 3, 4, 4, 5 is",
+      "prompt": "Mode of 3, 4, 4, 5 is",
       "options": [
         "4",
         "3",
@@ -852,7 +852,7 @@
     },
     {
       "topic": "mean-median-mode",
-      "prompt": "Mean, Median, and Mode: Range of 2, 8, 11 is",
+      "prompt": "Range of 2, 8, 11 is",
       "options": [
         "9",
         "8",
@@ -873,7 +873,7 @@
     {
       "topic": "mean-median-mode",
       "type": "input",
-      "prompt": "Work out and write your answer: Mean, Median, and Mode: Mean of 5, 7, 9, 11",
+      "prompt": "Work out and write your answer: Mean of 5, 7, 9, 11",
       "answerValue": "8",
       "steps": [
         "Identify the method.",
@@ -1183,7 +1183,7 @@
     {
       "topic": "charts",
       "type": "graph",
-      "prompt": "Charts: Plot the bar-top coordinate for category A with height 7 at x = 2.",
+      "prompt": "Plot the bar-top coordinate for category A with height 7 at x = 2.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -1213,7 +1213,7 @@
     {
       "topic": "charts",
       "type": "graph",
-      "prompt": "Charts: Plot the bar-top coordinate for category B with height 5 at x = 4.",
+      "prompt": "Plot the bar-top coordinate for category B with height 5 at x = 4.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -1243,7 +1243,7 @@
     {
       "topic": "charts",
       "type": "graph",
-      "prompt": "Charts: Plot line-chart points (1,3), (2,5), (3,7).",
+      "prompt": "Plot line-chart points (1,3), (2,5), (3,7).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -1282,7 +1282,7 @@
     {
       "topic": "charts",
       "type": "graph",
-      "prompt": "Charts: Plot trend points (2,4), (4,8).",
+      "prompt": "Plot trend points (2,4), (4,8).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -1317,7 +1317,7 @@
     {
       "topic": "charts",
       "type": "graph",
-      "prompt": "Charts: Plot pie-chart comparison points (4,6) and (8,3).",
+      "prompt": "Plot pie-chart comparison points (4,6) and (8,3).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -2247,80 +2247,78 @@
     },
     {
       "topic": "pythagorean-intro",
-      "prompt": "Pythagorean Theorem Intro: Sum of angles in a triangle is",
+      "prompt": "In Figure A, which side is the hypotenuse?",
       "options": [
-        "180",
-        "90",
-        "270",
-        "360"
+        "AC",
+        "AB",
+        "BC",
+        "No side"
       ],
       "correctIndex": 0,
       "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
+        "Find the side opposite the 90 degree angle.",
+        "That opposite side is the hypotenuse.",
+        "Use the vertex labels in the figure.",
+        "Choose the correct side."
       ],
+      "image": "Images/pythagoras-right-angle-identification.svg",
+      "imageAlt": "Triangle ABC with right angle at B.",
       "source": "bece-past",
       "examYear": "2024",
       "paper": "Paper 1"
     },
     {
       "topic": "pythagorean-intro",
-      "prompt": "Pythagorean Theorem Intro: Right angle measure is",
+      "prompt": "Which equation correctly verifies the theorem for sides 6, 8, and 10?",
       "options": [
-        "90",
-        "45",
-        "180",
-        "60"
+        "6^2 + 8^2 = 10^2",
+        "6 + 8 = 10^2",
+        "10^2 - 8^2 = 6",
+        "6^2 + 10^2 = 8^2"
       ],
       "correctIndex": 0,
       "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
+        "Use the theorem form a^2 + b^2 = c^2.",
+        "Place the longest side as c.",
+        "Square each side and compare.",
+        "Choose the correct formula statement."
       ],
+      "image": "Images/pythagoras-formula-verification.svg",
+      "imageAlt": "Right triangle with labels 6, 8, 10 and formula hint.",
       "source": "bece-past",
       "examYear": "2023",
       "paper": "Paper 1"
     },
     {
       "topic": "pythagorean-intro",
-      "prompt": "Pythagorean Theorem Intro: Hypotenuse in 3-4-5 triangle is",
-      "options": [
-        "5",
-        "4",
-        "3",
-        "7"
-      ],
-      "correctIndex": 0,
+      "type": "input",
+      "prompt": "Work out and write your answer: For a right triangle with legs 9 and 12, find the hypotenuse.",
+      "answerValue": "15",
       "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
+        "Square both leg lengths.",
+        "Add the squared results.",
+        "Take the positive square root.",
+        "Enter the hypotenuse."
       ],
+      "image": "Images/pythagoras-formula-verification.svg",
+      "imageAlt": "Right triangle used for theorem application practice.",
       "source": "bece-past",
       "examYear": "2022",
       "paper": "Paper 1"
     },
     {
       "topic": "pythagorean-intro",
-      "prompt": "Pythagorean Theorem Intro: A line through origin and (2,2) has slope",
-      "options": [
-        "1",
-        "2",
-        "0",
-        "3"
-      ],
-      "correctIndex": 0,
+      "type": "input",
+      "prompt": "Work out and write your answer: A right triangle has hypotenuse 13 and one leg 5. Find the other leg.",
+      "answerValue": "12",
       "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
+        "Start with a^2 + b^2 = c^2.",
+        "Substitute c = 13 and one leg = 5.",
+        "Subtract to isolate the missing leg squared.",
+        "Square-root and enter the leg length."
       ],
+      "image": "Images/pythagoras-formula-verification.svg",
+      "imageAlt": "Triangle with one missing leg and known hypotenuse.",
       "source": "bece-past",
       "examYear": "2021",
       "paper": "Paper 1"
@@ -2328,14 +2326,16 @@
     {
       "topic": "pythagorean-intro",
       "type": "input",
-      "prompt": "Work out and write your answer: Pythagorean Theorem Intro: Find missing angle if two angles are 50 and 60 in triangle",
-      "answerValue": "70",
+      "prompt": "Work out and write your answer: A ladder is 6 m from a wall and reaches 8 m high. Find the ladder length.",
+      "answerValue": "10",
       "steps": [
-        "Identify the method.",
-        "Substitute values.",
-        "Compute.",
-        "Enter the final value."
+        "Recognize the wall-ground-ladder right triangle.",
+        "Use 6 and 8 as the legs.",
+        "Compute c = sqrt(6^2 + 8^2).",
+        "Enter the ladder length."
       ],
+      "image": "Images/pythagoras-application-ladder.svg",
+      "imageAlt": "Ladder, wall, and ground forming a right triangle.",
       "source": "bece-past",
       "examYear": "2020",
       "paper": "Paper 1"
@@ -3439,7 +3439,7 @@
     },
     {
       "topic": "quadratic-intro",
-      "prompt": "Quadratic Expressions Intro: Solve x + 9 = 17.",
+      "prompt": "Solve x + 9 = 17.",
       "options": [
         "8",
         "7",
@@ -3459,7 +3459,7 @@
     },
     {
       "topic": "quadratic-intro",
-      "prompt": "Quadratic Expressions Intro: Solve 3x = 24.",
+      "prompt": "Solve 3x = 24.",
       "options": [
         "8",
         "7",
@@ -3479,7 +3479,7 @@
     },
     {
       "topic": "quadratic-intro",
-      "prompt": "Quadratic Expressions Intro: Evaluate 2x + 3 for x=4.",
+      "prompt": "Evaluate 2x + 3 for x=4.",
       "options": [
         "11",
         "10",
@@ -3499,7 +3499,7 @@
     },
     {
       "topic": "quadratic-intro",
-      "prompt": "Quadratic Expressions Intro: If x=5, x^2 =",
+      "prompt": "If x=5, x^2 =",
       "options": [
         "25",
         "10",
@@ -3520,7 +3520,7 @@
     {
       "topic": "quadratic-intro",
       "type": "input",
-      "prompt": "Work out and write your answer: Quadratic Expressions Intro: Solve x - 7 = 12",
+      "prompt": "Work out and write your answer: Solve x - 7 = 12",
       "answerValue": "19",
       "steps": [
         "Identify the method.",
@@ -3629,7 +3629,7 @@
     },
     {
       "topic": "bece-prep",
-      "prompt": "BECE Prep Set: A trader sold 12 pens at 3 each. Total?",
+      "prompt": "A trader sold 12 pens at 3 each. Total?",
       "options": [
         "36",
         "24",
@@ -3649,7 +3649,7 @@
     },
     {
       "topic": "bece-prep",
-      "prompt": "BECE Prep Set: If 2x = 18, x = ?",
+      "prompt": "If 2x = 18, x = ?",
       "options": [
         "9",
         "8",
@@ -3669,7 +3669,7 @@
     },
     {
       "topic": "bece-prep",
-      "prompt": "BECE Prep Set: 15% of 200 equals",
+      "prompt": "15% of 200 equals",
       "options": [
         "30",
         "20",
@@ -3689,7 +3689,7 @@
     },
     {
       "topic": "bece-prep",
-      "prompt": "BECE Prep Set: Area of rectangle 9 by 4 is",
+      "prompt": "Area of rectangle 9 by 4 is",
       "options": [
         "36",
         "13",
@@ -3710,7 +3710,7 @@
     {
       "topic": "bece-prep",
       "type": "input",
-      "prompt": "Work out and write your answer: BECE Prep Set: Solve x + 14 = 27",
+      "prompt": "Work out and write your answer: Solve x + 14 = 27",
       "answerValue": "13",
       "steps": [
         "Identify the method.",

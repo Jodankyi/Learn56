@@ -1,13 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" role="img" aria-label="Pie chart example">
-  <rect width="360" height="220" fill="#fffaf5"/>
-  <circle cx="150" cy="115" r="70" fill="#f3e3d0"/>
-  <path d="M150 115 L150 45 A70 70 0 0 1 216 156 Z" fill="#f2b17f"/>
-  <path d="M150 115 L216 156 A70 70 0 0 1 95 173 Z" fill="#e2945f"/>
-  <path d="M150 115 L95 173 A70 70 0 0 1 80 80 Z" fill="#f4c598"/>
-  <path d="M150 115 L80 80 A70 70 0 0 1 150 45 Z" fill="#d97f49"/>
-  <text x="260" y="82" font-family="Arial" font-size="13" fill="#6f3e1f">Sector A</text>
-  <text x="260" y="102" font-family="Arial" font-size="13" fill="#6f3e1f">Sector B</text>
-  <text x="260" y="122" font-family="Arial" font-size="13" fill="#6f3e1f">Sector C</text>
-  <text x="260" y="142" font-family="Arial" font-size="13" fill="#6f3e1f">Sector D</text>
-  <text x="180" y="24" text-anchor="middle" font-family="Arial" font-size="16" fill="#6f3e1f">Pie Chart</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-label="Pie chart example">
+  <rect width="320" height="320" fill="#fffaf5"/>
+  <text x="160" y="30" text-anchor="middle" font-family="Arial" font-size="18" fill="#6f3e1f">Pie Chart</text>
+
+  <!-- Pie center (160,138), radius 64 -->
+  <circle cx="160" cy="138" r="64" fill="#ecf2f9"/>
+
+  <!-- Sector A: 35% -->
+  <path d="M160 138 L160 74 A64 64 0 0 1 220.9 157.1 Z" fill="#2563eb"/>
+
+  <!-- Sector B: 25% -->
+  <path d="M160 138 L220.9 157.1 A64 64 0 0 1 160 202 Z" fill="#f97316"/>
+
+  <!-- Sector C: 20% -->
+  <path d="M160 138 L160 202 A64 64 0 0 1 99.1 157.1 Z" fill="#10b981"/>
+
+  <!-- Sector D: 20% -->
+  <path d="M160 138 L99.1 157.1 A64 64 0 0 1 160 74 Z" fill="#eab308"/>
+
+  <!-- Legend -->
+  <rect x="36" y="248" width="10" height="10" fill="#2563eb"/>
+  <text x="52" y="257" font-family="Arial" font-size="11" fill="#374151">A 35%</text>
+
+  <rect x="108" y="248" width="10" height="10" fill="#f97316"/>
+  <text x="124" y="257" font-family="Arial" font-size="11" fill="#374151">B 25%</text>
+
+  <rect x="180" y="248" width="10" height="10" fill="#10b981"/>
+  <text x="196" y="257" font-family="Arial" font-size="11" fill="#374151">C 20%</text>
+
+  <rect x="252" y="248" width="10" height="10" fill="#eab308"/>
+  <text x="268" y="257" font-family="Arial" font-size="11" fill="#374151">D 20%</text>
+
+  <text x="160" y="278" text-anchor="middle" font-family="Arial" font-size="11" fill="#6b7280">Legend: A, B, C, D are pie sectors</text>
 </svg>

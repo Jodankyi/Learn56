@@ -2948,6 +2948,9 @@ body.kindergarten-mode .primary-language-practice-tag {
 }
 
 .question-image-stage {
+  width: 100%;
+  max-width: 320px;
+  aspect-ratio: 16 / 10;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2955,17 +2958,25 @@ body.kindergarten-mode .primary-language-practice-tag {
   border: 1px solid #d5e3f2;
   border-radius: var(--radius-sm);
   background: #f8fbff;
-  min-height: 140px;
 }
 
 .question-image {
-  width: min(100%, 320px);
-  max-height: 180px;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
   object-fit: contain;
   transform-origin: center center;
   transition: transform 120ms ease-out;
   cursor: grab;
   user-select: none;
+}
+
+.question-image-wrap {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
 }
 
 .question-image.is-dragging {
@@ -3307,6 +3318,69 @@ body.kindergarten-mode .primary-language-practice-tag {
   height: 100%;
   width: 68%;
   background: linear-gradient(90deg, #3b82f6, #16a34a);
+}
+
+.practice-progress-chart {
+  margin-top: 0.48rem;
+  padding: 0.45rem 0.55rem 0.5rem;
+  border: 1px solid #d7e4f2;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #f8fbff, #eef5fc);
+}
+
+.practice-progress-chart-title {
+  display: block;
+  margin-bottom: 0.28rem;
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #1f4b7a;
+}
+
+.practice-progress-chart-bars {
+  height: 68px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  align-items: end;
+  gap: 0.45rem;
+}
+
+.practice-progress-chart-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.18rem;
+}
+
+.practice-progress-chart-bar {
+  --value: 0;
+  width: 100%;
+  max-width: 22px;
+  min-height: 14px;
+  height: calc(var(--value) * 0.68px);
+  border-radius: 8px 8px 4px 4px;
+  background: linear-gradient(180deg, #2563eb 0%, #60a5fa 100%);
+  box-shadow: 0 3px 8px rgba(37, 99, 235, 0.2);
+}
+
+.practice-progress-chart-item:nth-child(2) .practice-progress-chart-bar {
+  background: linear-gradient(180deg, #0ea5e9 0%, #7dd3fc 100%);
+}
+
+.practice-progress-chart-item:nth-child(3) .practice-progress-chart-bar {
+  background: linear-gradient(180deg, #14b8a6 0%, #5eead4 100%);
+}
+
+.practice-progress-chart-item:nth-child(4) .practice-progress-chart-bar {
+  background: linear-gradient(180deg, #22c55e 0%, #86efac 100%);
+}
+
+.practice-progress-chart-week {
+  font-size: 0.62rem;
+  font-weight: 700;
+  color: #334155;
 }
 
 .practice-progress-single-col {
@@ -5469,5 +5543,227 @@ body.kindergarten-mode .primary-language-practice-tag {
   .messages-send-btn {
     padding-top: 0.55rem;
     padding-bottom: 0.55rem;
+  }
+}
+
+/* Extra mobile hardening for app-sized screens */
+@media (max-width: 640px) {
+  section,
+  .cards-section,
+  .course-preview-section,
+  .features-header-section,
+  .features-grid-section,
+  .reviews-section,
+  .teacher-analytics-section,
+  .analytics-overview-section,
+  .practice-cards-section,
+  .featured-skills-section,
+  .performance-section,
+  .tools-container-section,
+  .teacher-admin-section {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  section img,
+  section svg,
+  section video,
+  section canvas,
+  section iframe,
+  .practice-question-image,
+  .question-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .dice-activity-actions,
+  .teacher-question-actions,
+  .practice-card-actions,
+  .practice-card-actions-next {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .dice-activity-validate-btn,
+  .teacher-question-actions .btn,
+  .practice-card-actions .btn,
+  .practice-card-actions-next .btn,
+  .practice-next-btn {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .timetable-editable-table {
+    min-width: 520px;
+  }
+}
+
+@media (max-width: 520px) {
+  .btn-hero-cta {
+    position: static;
+    inset: auto;
+    transform: none;
+    margin: 0.7rem auto 0;
+    display: inline-flex;
+    justify-content: center;
+  }
+
+  .btn-hero-cta:hover {
+    transform: none;
+  }
+
+  .timetable-editable-table,
+  .primary-language-practice-table-wrap .practice-single-table {
+    min-width: 100%;
+  }
+}
+
+/* iPhone SE specific tuning (375px and below) */
+@media (max-width: 390px) {
+  .top-bar {
+    padding: 0.3rem 0.4rem;
+  }
+
+  .top-bar-container {
+    gap: 0.25rem;
+  }
+
+  .top-bar-left {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 0.64rem;
+  }
+
+  .top-bar-right {
+    flex: 0 0 auto;
+  }
+
+  .social-icon {
+    width: 17px;
+    height: 17px;
+    font-size: 0.52rem;
+  }
+
+  .cards-grid,
+  .course-cards-grid,
+  .features-grid,
+  .reviews-grid,
+  .jh-assessments-grid,
+  .sh-assessments-grid,
+  .stats-container,
+  .insights-cards-grid,
+  .featured-skills-grid,
+  .tools-container,
+  .practice-cards-grid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-sm);
+  }
+
+  .card,
+  .course-card,
+  .review-card,
+  .practice-card,
+  .insight-card,
+  .performance-card,
+  .tool-card,
+  .jh-assessment-card,
+  .sh-assessment-card,
+  .teacher-admin-wrap,
+  .jh-assessments-wrap,
+  .sh-assessments-wrap {
+    padding: var(--spacing-sm);
+  }
+
+  .card-title,
+  .course-card-title,
+  .teacher-analytics-title,
+  .performance-title-large,
+  .jh-assessments-title,
+  .sh-assessments-title {
+    font-size: 1.05rem;
+    line-height: 1.25;
+  }
+
+  .jh-assessment-marquee-track,
+  .sh-assessment-marquee-track {
+    gap: 1rem;
+    padding: 0.38rem 0.55rem;
+  }
+
+  .practice-mode-pie-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.45rem;
+  }
+
+  .practice-mode-pie {
+    width: 62px;
+    height: 62px;
+  }
+
+  .practice-progress-chart-bars {
+    height: 58px;
+    gap: 0.3rem;
+  }
+
+  .assessment-mode-banner {
+    padding: 0.6rem;
+  }
+
+  .assessment-mode-kicker {
+    font-size: 0.66rem;
+  }
+
+  .assessment-mode-summary,
+  .assessment-mode-stat {
+    font-size: 0.72rem;
+  }
+
+  .practice-question-grade-btn,
+  .grade-level-btn,
+  .featured-skill-btn,
+  .btn-explore,
+  .btn-view-list,
+  .btn-span,
+  .btn-learn-more {
+    font-size: 0.72rem;
+  }
+
+  .grade-level-btn,
+  .practice-question-grade-btn,
+  .teacher-admin-toolbar .btn,
+  .btn-hero-cta {
+    white-space: normal;
+    word-break: break-word;
+  }
+
+  .teacher-admin-toolbar {
+    grid-template-columns: 1fr;
+  }
+
+  .teacher-admin-toolbar > * {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .timetable-editable-table tbody th {
+    white-space: normal;
+  }
+
+  .assessment-mode-stat,
+  .assessment-mode-summary,
+  .practice-notification-text,
+  .question-image-caption {
+    overflow-wrap: anywhere;
+  }
+
+  .teacher-admin-toolbar {
+    padding: 0.55rem;
+    gap: 0.45rem;
+  }
+
+  .teacher-admin-toolbar .btn {
+    white-space: normal;
   }
 }

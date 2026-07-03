@@ -1788,7 +1788,7 @@
     },
     {
       "topic": "mean-median-mode",
-      "prompt": "Mean, Median, and Mode: Mean of 4, 6, 8 is",
+      "prompt": "Mean of 4, 6, 8 is",
       "options": [
         "6",
         "5",
@@ -1805,7 +1805,7 @@
     },
     {
       "topic": "mean-median-mode",
-      "prompt": "Mean, Median, and Mode: Median of 2, 5, 7, 9, 10 is",
+      "prompt": "Median of 2, 5, 7, 9, 10 is",
       "options": [
         "7",
         "5",
@@ -1822,7 +1822,7 @@
     },
     {
       "topic": "mean-median-mode",
-      "prompt": "Mean, Median, and Mode: Mode of 3, 4, 4, 5 is",
+      "prompt": "Mode of 3, 4, 4, 5 is",
       "options": [
         "4",
         "3",
@@ -1839,7 +1839,7 @@
     },
     {
       "topic": "mean-median-mode",
-      "prompt": "Mean, Median, and Mode: Range of 2, 8, 11 is",
+      "prompt": "Range of 2, 8, 11 is",
       "options": [
         "9",
         "8",
@@ -1857,7 +1857,7 @@
     {
       "topic": "mean-median-mode",
       "type": "input",
-      "prompt": "Work out and write your answer: Mean, Median, and Mode: Mean of 5, 7, 9, 11",
+      "prompt": "Work out and write your answer: Mean of 5, 7, 9, 11",
       "answerValue": "8",
       "steps": [
         "Identify the method.",
@@ -1869,7 +1869,7 @@
     {
       "topic": "mean-median-mode",
       "type": "input",
-      "prompt": "Work out and write your answer: Mean, Median, and Mode: Median of 3, 6, 8, 12",
+      "prompt": "Work out and write your answer: Median of 3, 6, 8, 12",
       "answerValue": "7",
       "steps": [
         "Identify the method.",
@@ -1881,7 +1881,7 @@
     {
       "topic": "mean-median-mode",
       "type": "input",
-      "prompt": "Work out and write your answer: Mean, Median, and Mode: Mode of 2, 2, 5, 7",
+      "prompt": "Work out and write your answer: Mode of 2, 2, 5, 7",
       "answerValue": "2",
       "steps": [
         "Identify the method.",
@@ -1893,7 +1893,7 @@
     {
       "topic": "mean-median-mode",
       "type": "graph",
-      "prompt": "Mean, Median, and Mode: Plot data pair (2,5).",
+      "prompt": "Plot data pair (2,5).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -1920,7 +1920,7 @@
     {
       "topic": "mean-median-mode",
       "type": "graph",
-      "prompt": "Mean, Median, and Mode: Plot trend points (1,2), (2,4), (3,6).",
+      "prompt": "Plot trend points (1,2), (2,4), (3,6).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -1956,7 +1956,7 @@
     {
       "topic": "mean-median-mode",
       "type": "graph",
-      "prompt": "Mean, Median, and Mode: Mark median value 7 on x-axis.",
+      "prompt": "Mark median value 7 on x-axis.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -2574,7 +2574,7 @@
     {
       "topic": "charts",
       "type": "graph",
-      "prompt": "Charts: Plot the bar-top coordinate for category A with height 7 at x = 2.",
+      "prompt": "Plot the bar-top coordinate for category A with height 7 at x = 2.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -2601,7 +2601,7 @@
     {
       "topic": "charts",
       "type": "graph",
-      "prompt": "Charts: Plot the bar-top coordinate for category B with height 5 at x = 4.",
+      "prompt": "Plot the bar-top coordinate for category B with height 5 at x = 4.",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -2628,7 +2628,7 @@
     {
       "topic": "charts",
       "type": "graph",
-      "prompt": "Charts: Plot line-chart points (1,3), (2,5), (3,7).",
+      "prompt": "Plot line-chart points (1,3), (2,5), (3,7).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -2664,7 +2664,7 @@
     {
       "topic": "charts",
       "type": "graph",
-      "prompt": "Charts: Plot trend points (2,4), (4,8).",
+      "prompt": "Plot trend points (2,4), (4,8).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -2696,7 +2696,7 @@
     {
       "topic": "charts",
       "type": "graph",
-      "prompt": "Charts: Plot pie-chart comparison points (4,6) and (8,3).",
+      "prompt": "Plot pie-chart comparison points (4,6) and (8,3).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -2727,7 +2727,7 @@
     {
       "topic": "charts",
       "type": "graph",
-      "prompt": "Charts: Plot frequency points for categories A, B, C as (1,4), (2,7), (3,5).",
+      "prompt": "Plot frequency points for categories A, B, C as (1,4), (2,7), (3,5).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -2763,7 +2763,7 @@
     {
       "topic": "charts",
       "type": "graph",
-      "prompt": "Charts: Plot cumulative frequency points (1,2), (2,5), (3,9).",
+      "prompt": "Plot cumulative frequency points (1,2), (2,5), (3,9).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -2799,7 +2799,7 @@
     {
       "topic": "charts",
       "type": "graph",
-      "prompt": "Charts: Plot two bar-chart peaks at (5,9) and (7,6).",
+      "prompt": "Plot two bar-chart peaks at (5,9) and (7,6).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -2830,7 +2830,7 @@
     {
       "topic": "charts",
       "type": "graph",
-      "prompt": "Charts: Plot points showing equal bars at (2,6), (4,6), (6,6).",
+      "prompt": "Plot points showing equal bars at (2,6), (4,6), (6,6).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -2866,7 +2866,7 @@
     {
       "topic": "charts",
       "type": "graph",
-      "prompt": "Charts: Plot three dashboard chart points (3,2), (6,5), (9,8).",
+      "prompt": "Plot three dashboard chart points (3,2), (6,5), (9,8).",
       "graph": {
         "xMin": 0,
         "xMax": 12,
@@ -4472,7 +4472,7 @@
     },
     {
       "topic": "coordinate-plane",
-      "prompt": "Coordinate Geometry: Find the gradient of the line through (1,2) and (5,10).",
+      "prompt": "Find the gradient of the line through (1,2) and (5,10).",
       "options": [
         "2",
         "1/2",
@@ -4491,7 +4491,7 @@
     },
     {
       "topic": "coordinate-plane",
-      "prompt": "Coordinate Geometry: Which coordinate lies in the fourth quadrant?",
+      "prompt": "Which coordinate lies in the fourth quadrant?",
       "options": [
         "(3,-2)",
         "(-3,2)",
@@ -4510,7 +4510,7 @@
     },
     {
       "topic": "coordinate-plane",
-      "prompt": "Coordinate Geometry: Distance between (-2,4) and (5,4) is",
+      "prompt": "Distance between (-2,4) and (5,4) is",
       "options": [
         "7",
         "9",
@@ -4529,7 +4529,7 @@
     },
     {
       "topic": "coordinate-plane",
-      "prompt": "Coordinate Geometry: The angle between perpendicular lines is",
+      "prompt": "The angle between perpendicular lines is",
       "options": [
         "90",
         "45",
@@ -4549,7 +4549,7 @@
     {
       "topic": "coordinate-plane",
       "type": "input",
-      "prompt": "Work out and write your answer: Coordinate Geometry: Find the distance between (2,3) and (2,9)",
+      "prompt": "Work out and write your answer: Find the distance between (2,3) and (2,9)",
       "answerValue": "6",
       "steps": [
         "Identify the method.",
@@ -4563,7 +4563,7 @@
     {
       "topic": "coordinate-plane",
       "type": "input",
-      "prompt": "Work out and write your answer: Coordinate Geometry: Find the x-coordinate of the midpoint of (2,8) and (6,4)",
+      "prompt": "Work out and write your answer: Find the x-coordinate of the midpoint of (2,8) and (6,4)",
       "answerValue": "4",
       "steps": [
         "Identify the method.",
@@ -4577,7 +4577,7 @@
     {
       "topic": "coordinate-plane",
       "type": "input",
-      "prompt": "Work out and write your answer: Coordinate Geometry: Find the gradient of the line through (0,0) and (4,2)",
+      "prompt": "Work out and write your answer: Find the gradient of the line through (0,0) and (4,2)",
       "answerValue": "0.5",
       "steps": [
         "Identify the method.",
@@ -4591,7 +4591,7 @@
     {
       "topic": "coordinate-plane",
       "type": "graph",
-      "prompt": "Coordinate Geometry: Plot point A at (-3,4).",
+      "prompt": "Plot point A at (-3,4).",
       "graph": {
         "xMin": -10,
         "xMax": 10,
@@ -4618,7 +4618,7 @@
     {
       "topic": "coordinate-plane",
       "type": "graph",
-      "prompt": "Coordinate Geometry: Plot triangle points A(-4,1), B(2,1), C(-1,5).",
+      "prompt": "Plot triangle points A(-4,1), B(2,1), C(-1,5).",
       "graph": {
         "xMin": -10,
         "xMax": 10,
@@ -4653,7 +4653,7 @@
     {
       "topic": "coordinate-plane",
       "type": "graph",
-      "prompt": "Coordinate Geometry: Plot the reflection of (2,5) over the y-axis.",
+      "prompt": "Plot the reflection of (2,5) over the y-axis.",
       "graph": {
         "xMin": -10,
         "xMax": 10,
@@ -4679,196 +4679,189 @@
     },
     {
       "topic": "pythagorean-intro",
-      "prompt": "Pythagorean Theorem Intro: Sum of angles in a triangle is",
+      "prompt": "In Figure A, which angle is the right angle?",
       "options": [
-        "180",
-        "90",
-        "270",
-        "360"
+        "Angle B",
+        "Angle A",
+        "Angle C",
+        "No right angle"
       ],
       "correctIndex": 0,
       "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ]
+        "Look for the small square corner marker.",
+        "A square marker means a 90 degree angle.",
+        "Identify which vertex has that marker.",
+        "Choose the matching option."
+      ],
+      "image": "Images/pythagoras-right-angle-identification.svg",
+      "imageAlt": "Triangle ABC with angle B marked as 90 degrees and other angles labeled."
     },
     {
       "topic": "pythagorean-intro",
-      "prompt": "Pythagorean Theorem Intro: Right angle measure is",
+      "prompt": "A triangle has angles 90 degrees, 35 degrees, and 55 degrees. Is it a right triangle?",
       "options": [
-        "90",
-        "45",
-        "180",
-        "60"
+        "Yes",
+        "No",
+        "Only if all sides are equal",
+        "Cannot be determined"
       ],
       "correctIndex": 0,
       "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ]
+        "Check whether one angle is exactly 90 degrees.",
+        "A triangle with one 90 degree angle is right-angled.",
+        "Use the angle information directly.",
+        "Choose the correct statement."
+      ],
+      "image": "Images/pythagoras-right-angle-identification.svg",
+      "imageAlt": "Triangle with one right angle and two acute angles."
     },
     {
       "topic": "pythagorean-intro",
-      "prompt": "Pythagorean Theorem Intro: Hypotenuse in 3-4-5 triangle is",
+      "prompt": "Which formula is correct for a right triangle with legs a and b, and hypotenuse c?",
       "options": [
-        "5",
-        "4",
-        "3",
-        "7"
+        "a^2 + b^2 = c^2",
+        "a + b = c^2",
+        "a^2 - b^2 = c",
+        "2a + 2b = c"
       ],
       "correctIndex": 0,
       "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ]
-    },
-    {
-      "topic": "pythagorean-intro",
-      "prompt": "Pythagorean Theorem Intro: A line through origin and (2,2) has slope",
-      "options": [
-        "1",
-        "2",
-        "0",
-        "3"
+        "Recall the Pythagorean theorem.",
+        "The theorem relates the two legs and hypotenuse.",
+        "Use squares on all three side lengths.",
+        "Select the correct equation."
       ],
-      "correctIndex": 0,
-      "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ]
+      "image": "Images/pythagoras-formula-verification.svg",
+      "imageAlt": "Right triangle with side labels and theorem equation shown."
     },
     {
       "topic": "pythagorean-intro",
       "type": "input",
-      "prompt": "Work out and write your answer: Pythagorean Theorem Intro: Find missing angle if two angles are 50 and 60 in triangle",
-      "answerValue": "70",
+      "prompt": "Work out and write your answer: Verify the left side for a = 6 and b = 8 in a^2 + b^2 = c^2",
+      "answerValue": "100",
       "steps": [
-        "Identify the method.",
-        "Substitute values.",
-        "Compute.",
-        "Enter the final value."
-      ]
+        "Square each leg length.",
+        "Compute 6^2 and 8^2.",
+        "Add the two squared values.",
+        "Enter the total."
+      ],
+      "image": "Images/pythagoras-formula-verification.svg",
+      "imageAlt": "Right triangle with legs 6 and 8 and hypotenuse 10."
     },
     {
       "topic": "pythagorean-intro",
       "type": "input",
-      "prompt": "Work out and write your answer: Pythagorean Theorem Intro: In 3-4-5 triangle, square of hypotenuse",
-      "answerValue": "25",
+      "prompt": "Work out and write your answer: A right triangle has legs 5 and 12. Find the hypotenuse length.",
+      "answerValue": "13",
       "steps": [
-        "Identify the method.",
-        "Substitute values.",
-        "Compute.",
-        "Enter the final value."
-      ]
+        "Use a^2 + b^2 = c^2.",
+        "Calculate 5^2 + 12^2.",
+        "Take the positive square root.",
+        "Enter the hypotenuse length."
+      ],
+      "image": "Images/pythagoras-formula-verification.svg",
+      "imageAlt": "Right triangle example for applying the theorem."
     },
     {
       "topic": "pythagorean-intro",
       "type": "input",
-      "prompt": "Work out and write your answer: Pythagorean Theorem Intro: Reflection keeps x same on y-axis? enter 0 for no, 1 for yes",
-      "answerValue": "0",
+      "prompt": "Work out and write your answer: In a right triangle, c = 13 and one leg is 5. Find the other leg.",
+      "answerValue": "12",
       "steps": [
-        "Identify the method.",
-        "Substitute values.",
-        "Compute.",
-        "Enter the final value."
-      ]
+        "Start from a^2 + b^2 = c^2.",
+        "Substitute c = 13 and one leg = 5.",
+        "Rearrange to isolate the unknown leg squared.",
+        "Take the square root and enter the value."
+      ],
+      "image": "Images/pythagoras-formula-verification.svg",
+      "imageAlt": "Right triangle with hypotenuse and one leg known."
+    },
+    {
+      "topic": "pythagorean-intro",
+      "prompt": "In which situation should you apply the Pythagorean theorem?",
+      "options": [
+        "When the triangle has a right angle",
+        "When all angles are equal",
+        "When the shape is a circle",
+        "When sides are in arithmetic sequence"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Identify the condition for the theorem.",
+        "It applies specifically to right triangles.",
+        "Look for a 90 degree angle.",
+        "Choose the valid situation."
+      ],
+      "image": "Images/pythagoras-right-angle-identification.svg",
+      "imageAlt": "Diagram highlighting a right-angle marker in a triangle."
     },
     {
       "topic": "pythagorean-intro",
       "type": "graph",
-      "prompt": "Pythagorean Theorem Intro: Plot vertex A at (3,3).",
+      "prompt": "Plot right-triangle points A(1,1), B(1,5), C(4,1).",
       "graph": {
         "xMin": 0,
-        "xMax": 12,
+        "xMax": 8,
         "yMin": 0,
-        "yMax": 12,
+        "yMax": 8,
         "points": [
           [
-            3,
-            3
-          ]
-        ],
-        "instruction": "Plot (3,3).",
-        "ordered": false
-      },
-      "steps": [
-        "Read coordinates required.",
-        "Plot each point correctly.",
-        "Verify plotted points.",
-        "Submit when complete."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
-    },
-    {
-      "topic": "pythagorean-intro",
-      "type": "graph",
-      "prompt": "Pythagorean Theorem Intro: Plot triangle points A(2,2), B(6,2), C(4,6).",
-      "graph": {
-        "xMin": 0,
-        "xMax": 12,
-        "yMin": 0,
-        "yMax": 12,
-        "points": [
-          [
-            2,
-            2
+            1,
+            1
           ],
           [
-            6,
-            2
+            1,
+            5
           ],
           [
             4,
-            6
+            1
           ]
         ],
-        "instruction": "Plot all three points.",
+        "instruction": "Plot A, B, and C. The right angle is at A.",
         "ordered": false
       },
       "steps": [
-        "Read coordinates required.",
-        "Plot each point correctly.",
-        "Verify plotted points.",
-        "Submit when complete."
+        "Plot point A first.",
+        "Plot B directly above A, then C to the right of A.",
+        "Check that AB is vertical and AC is horizontal.",
+        "Submit after all three points are correct."
       ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
+      "image": "Images/pythagoras-right-angle-identification.svg",
+      "imageAlt": "Coordinate-style right triangle with labeled vertices."
     },
     {
       "topic": "pythagorean-intro",
-      "type": "graph",
-      "prompt": "Pythagorean Theorem Intro: Plot reflected point of (2,5) over y-axis.",
-      "graph": {
-        "xMin": 0,
-        "xMax": 12,
-        "yMin": 0,
-        "yMax": 12,
-        "points": [
-          [
-            0,
-            5
-          ]
-        ],
-        "instruction": "Plot (0,5).",
-        "ordered": false
-      },
-      "steps": [
-        "Read coordinates required.",
-        "Plot each point correctly.",
-        "Verify plotted points.",
-        "Submit when complete."
+      "prompt": "From Figure B with legs 6 and 8 and hypotenuse 10, which statement is true?",
+      "options": [
+        "6^2 + 8^2 = 10^2",
+        "6 + 8 = 10^2",
+        "6^2 + 10^2 = 8^2",
+        "6 + 8 + 10 = 0"
       ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
+      "correctIndex": 0,
+      "steps": [
+        "Square each side in the candidate equation.",
+        "Compare the sum of the legs squared with hypotenuse squared.",
+        "The equality should hold exactly.",
+        "Choose the true statement."
+      ],
+      "image": "Images/pythagoras-formula-verification.svg",
+      "imageAlt": "Right triangle showing side lengths 6, 8, and 10."
+    },
+    {
+      "topic": "pythagorean-intro",
+      "type": "input",
+      "prompt": "Work out and write your answer: A ladder is 6 m from a wall and reaches 8 m up the wall. Find ladder length in meters.",
+      "answerValue": "10",
+      "steps": [
+        "Model the wall, ground, and ladder as a right triangle.",
+        "Use 6 and 8 as the two legs.",
+        "Compute c = sqrt(6^2 + 8^2).",
+        "Enter the ladder length."
+      ],
+      "image": "Images/pythagoras-application-ladder.svg",
+      "imageAlt": "Ladder leaning on wall with labeled 6 m base and 8 m height."
     },
     {
       "topic": "multi-step-problems",
@@ -5270,2388 +5263,2523 @@
   "jh3": [
     {
       "topic": "real-number-system",
-      "prompt": "Evaluate 30 + 14.",
-      "options": [
-        "44",
-        "43",
-        "45",
-        "46"
-      ],
-      "correctIndex": 0,
-      "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ]
-    },
-    {
-      "topic": "real-number-system",
-      "prompt": "Find 95 - 38.",
-      "options": [
-        "57",
-        "55",
-        "59",
-        "61"
-      ],
-      "correctIndex": 0,
-      "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ]
-    },
-    {
-      "topic": "real-number-system",
-      "prompt": "Compute 7 x 6.",
-      "options": [
-        "42",
-        "40",
-        "44",
-        "46"
-      ],
-      "correctIndex": 0,
-      "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ]
-    },
-    {
-      "topic": "real-number-system",
-      "prompt": "Compute 84 / 7.",
-      "options": [
-        "12",
-        "13",
-        "11",
-        "14"
-      ],
-      "correctIndex": 0,
-      "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ]
-    },
-    {
-      "topic": "real-number-system",
-      "type": "input",
-      "prompt": "Work out and write your answer: 120 + 80",
-      "answerValue": "200",
-      "steps": [
-        "Identify the method.",
-        "Substitute values.",
-        "Compute.",
-        "Enter the final value."
-      ]
-    },
-    {
-      "topic": "real-number-system",
-      "type": "input",
-      "prompt": "Work out and write your answer: 240 - 115",
-      "answerValue": "125",
-      "steps": [
-        "Identify the method.",
-        "Substitute values.",
-        "Compute.",
-        "Enter the final value."
-      ]
-    },
-    {
-      "topic": "real-number-system",
-      "type": "input",
-      "prompt": "Work out and write your answer: -8 + 15",
-      "answerValue": "7",
-      "steps": [
-        "Identify the method.",
-        "Substitute values.",
-        "Compute.",
-        "Enter the final value."
-      ]
-    },
-    {
-      "topic": "real-number-system",
-      "type": "graph",
-      "prompt": "Plot integer point A.",
-      "graph": {
-        "xMin": 0,
-        "xMax": 12,
-        "yMin": 0,
-        "yMax": 12,
-        "points": [
-          [
-            2,
-            6
-          ]
-        ],
-        "instruction": "Plot A at (2, 6).",
-        "ordered": false
-      },
-      "steps": [
-        "Read coordinates required.",
-        "Plot each point correctly.",
-        "Verify plotted points.",
-        "Submit when complete."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
-    },
-    {
-      "topic": "real-number-system",
-      "type": "graph",
-      "prompt": "Plot integer point B.",
-      "graph": {
-        "xMin": 0,
-        "xMax": 12,
-        "yMin": 0,
-        "yMax": 12,
-        "points": [
-          [
-            7,
-            3
-          ]
-        ],
-        "instruction": "Plot B at (7, 3).",
-        "ordered": false
-      },
-      "steps": [
-        "Read coordinates required.",
-        "Plot each point correctly.",
-        "Verify plotted points.",
-        "Submit when complete."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
-    },
-    {
-      "topic": "real-number-system",
-      "type": "graph",
-      "prompt": "Plot points C and D.",
-      "graph": {
-        "xMin": 0,
-        "xMax": 12,
-        "yMin": 0,
-        "yMax": 12,
-        "points": [
-          [
-            3,
-            2
-          ],
-          [
-            9,
-            5
-          ]
-        ],
-        "instruction": "Plot (3, 2) and (9, 5).",
-        "ordered": false
-      },
-      "steps": [
-        "Read coordinates required.",
-        "Plot each point correctly.",
-        "Verify plotted points.",
-        "Submit when complete."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
-    },
-    {
-      "topic": "scientific-notation",
-      "prompt": "Evaluate 31 + 15.",
-      "options": [
-        "46",
-        "45",
-        "47",
-        "48"
-      ],
-      "correctIndex": 0,
-      "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ]
-    },
-    {
-      "topic": "scientific-notation",
-      "prompt": "Find 96 - 39.",
-      "options": [
-        "57",
-        "55",
-        "59",
-        "61"
-      ],
-      "correctIndex": 0,
-      "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ]
-    },
-    {
-      "topic": "scientific-notation",
-      "prompt": "Compute 8 x 7.",
-      "options": [
-        "56",
-        "54",
-        "58",
-        "60"
-      ],
-      "correctIndex": 0,
-      "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ]
-    },
-    {
-      "topic": "scientific-notation",
-      "prompt": "Compute 91 / 8.",
+      "prompt": "Given f(x)=x^2-3x+1, determine f(5).",
       "options": [
         "11",
         "12",
+        "-11",
+        "10"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "real-number-system",
+      "prompt": "If g(x)=2x^2-x, evaluate g(-2).",
+      "options": [
+        "-10",
         "10",
+        "11",
+        "9"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "real-number-system",
+      "prompt": "Find the average rate of change of f(x)=x^2 from x=1 to x=4.",
+      "options": [
+        "5",
+        "4",
+        "6",
+        "-5"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "real-number-system",
+      "prompt": "For h(x)=3x+7, compute h(6)-h(2).",
+      "options": [
+        "-12",
+        "12",
+        "11",
         "13"
       ],
+      "correctIndex": 1,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "real-number-system",
+      "prompt": "Given p(x)=x^3, determine p(3)-p(2).",
+      "options": [
+        "19",
+        "20",
+        "18",
+        "-19"
+      ],
       "correctIndex": 0,
       "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
       ]
     },
     {
-      "topic": "scientific-notation",
-      "type": "input",
-      "prompt": "Work out and write your answer: 121 + 81",
-      "answerValue": "202",
+      "topic": "real-number-system",
+      "prompt": "Evaluate f(a+1) for f(x)=x^2 at a=2.",
+      "options": [
+        "9",
+        "10",
+        "-9",
+        "8"
+      ],
+      "correctIndex": 0,
       "steps": [
-        "Identify the method.",
-        "Substitute values.",
-        "Compute.",
-        "Enter the final value."
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
       ]
     },
     {
-      "topic": "scientific-notation",
+      "topic": "real-number-system",
       "type": "input",
-      "prompt": "Work out and write your answer: 242 - 116",
-      "answerValue": "126",
+      "prompt": "Given y=x^2, find dy/dx at x=5.",
+      "answerValue": "10",
       "steps": [
-        "Identify the method.",
-        "Substitute values.",
-        "Compute.",
-        "Enter the final value."
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
       ]
     },
     {
-      "topic": "scientific-notation",
+      "topic": "real-number-system",
       "type": "input",
-      "prompt": "Work out and write your answer: -9 + 16",
+      "prompt": "For y=4x^2-1, compute y when x=3.",
+      "answerValue": "35",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "real-number-system",
+      "type": "input",
+      "prompt": "If f(x)=x^2+2x, find f(4)-f(3).",
+      "answerValue": "9",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "real-number-system",
+      "type": "input",
+      "prompt": "For s(t)=t^2+4t, determine instantaneous rate at t=2.",
+      "answerValue": "8",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "real-number-system",
+      "type": "input",
+      "prompt": "If q(x)=5x-9, evaluate q(11).",
+      "answerValue": "46",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "real-number-system",
+      "type": "input",
+      "prompt": "Determine the slope of y=7x-4.",
       "answerValue": "7",
       "steps": [
-        "Identify the method.",
-        "Substitute values.",
-        "Compute.",
-        "Enter the final value."
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "real-number-system",
+      "type": "input",
+      "prompt": "Given f(x)=x^2, calculate f(8)-f(7).",
+      "answerValue": "15",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "real-number-system",
+      "type": "input",
+      "prompt": "For y=2x^2+3, evaluate y at x=4.",
+      "answerValue": "35",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "real-number-system",
+      "type": "input",
+      "prompt": "Compute the derivative of y=x^2+5x at x=1.",
+      "answerValue": "7",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
       ]
     },
     {
       "topic": "scientific-notation",
-      "type": "graph",
-      "prompt": "Plot integer point A.",
-      "graph": {
-        "xMin": 0,
-        "xMax": 12,
-        "yMin": 0,
-        "yMax": 12,
-        "points": [
-          [
-            3,
-            6
-          ]
-        ],
-        "instruction": "Plot A at (3, 6).",
-        "ordered": false
-      },
-      "steps": [
-        "Read coordinates required.",
-        "Plot each point correctly.",
-        "Verify plotted points.",
-        "Submit when complete."
+      "prompt": "Evaluate lim x->2 (x^2-1).",
+      "options": [
+        "-3",
+        "4",
+        "2",
+        "3"
       ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
+      "correctIndex": 3,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
     },
     {
       "topic": "scientific-notation",
-      "type": "graph",
-      "prompt": "Plot integer point B.",
-      "graph": {
-        "xMin": 0,
-        "xMax": 12,
-        "yMin": 0,
-        "yMax": 12,
-        "points": [
-          [
-            7,
-            4
-          ]
-        ],
-        "instruction": "Plot B at (7, 4).",
-        "ordered": false
-      },
-      "steps": [
-        "Read coordinates required.",
-        "Plot each point correctly.",
-        "Verify plotted points.",
-        "Submit when complete."
+      "prompt": "Find lim x->-1 (3x+2).",
+      "options": [
+        "-1",
+        "-2",
+        "0",
+        "1"
       ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
+      "correctIndex": 0,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
     },
     {
       "topic": "scientific-notation",
-      "type": "graph",
-      "prompt": "Plot points C and D.",
-      "graph": {
-        "xMin": 0,
-        "xMax": 12,
-        "yMin": 0,
-        "yMax": 12,
-        "points": [
-          [
-            4,
-            2
-          ],
-          [
-            9,
-            6
-          ]
-        ],
-        "instruction": "Plot (4, 2) and (9, 6).",
-        "ordered": false
-      },
-      "steps": [
-        "Read coordinates required.",
-        "Plot each point correctly.",
-        "Verify plotted points.",
-        "Submit when complete."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
-    },
-    {
-      "topic": "linear-equations",
-      "prompt": "Solve x + 11 = 19.",
+      "prompt": "Determine lim x->4 (2x^2-5).",
       "options": [
-        "8",
-        "7",
-        "9",
-        "6"
-      ],
-      "correctIndex": 0,
-      "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ]
-    },
-    {
-      "topic": "linear-equations",
-      "prompt": "Solve 3x = 30.",
-      "options": [
-        "10",
-        "9",
-        "11",
-        "8"
-      ],
-      "correctIndex": 0,
-      "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ]
-    },
-    {
-      "topic": "linear-equations",
-      "prompt": "Evaluate 2x + 3 for x=4.",
-      "options": [
-        "11",
-        "10",
-        "9",
-        "12"
-      ],
-      "correctIndex": 0,
-      "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ]
-    },
-    {
-      "topic": "linear-equations",
-      "prompt": "If x=5, x^2 =",
-      "options": [
-        "25",
-        "10",
-        "15",
-        "20"
-      ],
-      "correctIndex": 0,
-      "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ]
-    },
-    {
-      "topic": "linear-equations",
-      "type": "input",
-      "prompt": "Work out and write your answer: Solve x - 7 = 12",
-      "answerValue": "19",
-      "steps": [
-        "Identify the method.",
-        "Substitute values.",
-        "Compute.",
-        "Enter the final value."
-      ]
-    },
-    {
-      "topic": "linear-equations",
-      "type": "input",
-      "prompt": "Work out and write your answer: Solve 5x = 45",
-      "answerValue": "9",
-      "steps": [
-        "Identify the method.",
-        "Substitute values.",
-        "Compute.",
-        "Enter the final value."
-      ]
-    },
-    {
-      "topic": "linear-equations",
-      "type": "input",
-      "prompt": "Work out and write your answer: Evaluate 4x + 1 for x = 6",
-      "answerValue": "25",
-      "steps": [
-        "Identify the method.",
-        "Substitute values.",
-        "Compute.",
-        "Enter the final value."
-      ]
-    },
-    {
-      "topic": "linear-equations",
-      "type": "graph",
-      "prompt": "Plot point on y = x + 1 for x=3.",
-      "graph": {
-        "xMin": 0,
-        "xMax": 12,
-        "yMin": 0,
-        "yMax": 12,
-        "points": [
-          [
-            3,
-            4
-          ]
-        ],
-        "instruction": "Plot (3,4).",
-        "ordered": false
-      },
-      "steps": [
-        "Read coordinates required.",
-        "Plot each point correctly.",
-        "Verify plotted points.",
-        "Submit when complete."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
-    },
-    {
-      "topic": "linear-equations",
-      "type": "graph",
-      "prompt": "Plot two points for y = 2x.",
-      "graph": {
-        "xMin": 0,
-        "xMax": 12,
-        "yMin": 0,
-        "yMax": 12,
-        "points": [
-          [
-            2,
-            4
-          ],
-          [
-            4,
-            8
-          ]
-        ],
-        "instruction": "Plot (2,4) and (4,8).",
-        "ordered": true,
-        "connectPoints": true
-      },
-      "steps": [
-        "Read coordinates required.",
-        "Plot each point correctly.",
-        "Verify plotted points.",
-        "Submit when complete."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
-    },
-    {
-      "topic": "linear-equations",
-      "type": "graph",
-      "prompt": "Plot solution point of x + y = 6 using x=2.",
-      "graph": {
-        "xMin": 0,
-        "xMax": 12,
-        "yMin": 0,
-        "yMax": 12,
-        "points": [
-          [
-            2,
-            4
-          ]
-        ],
-        "instruction": "Plot (2,4).",
-        "ordered": false
-      },
-      "steps": [
-        "Read coordinates required.",
-        "Plot each point correctly.",
-        "Verify plotted points.",
-        "Submit when complete."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
-    },
-    {
-      "topic": "systems-of-equations",
-      "prompt": "Solve x + 9 = 17.",
-      "options": [
-        "8",
-        "7",
-        "9",
-        "6"
-      ],
-      "correctIndex": 0,
-      "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ]
-    },
-    {
-      "topic": "systems-of-equations",
-      "prompt": "Solve 3x = 24.",
-      "options": [
-        "8",
-        "7",
-        "9",
-        "6"
-      ],
-      "correctIndex": 0,
-      "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ]
-    },
-    {
-      "topic": "systems-of-equations",
-      "prompt": "Evaluate 2x + 3 for x=4.",
-      "options": [
-        "11",
-        "10",
-        "9",
-        "12"
-      ],
-      "correctIndex": 0,
-      "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ]
-    },
-    {
-      "topic": "systems-of-equations",
-      "prompt": "If x=5, x^2 =",
-      "options": [
-        "25",
-        "10",
-        "15",
-        "20"
-      ],
-      "correctIndex": 0,
-      "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ]
-    },
-    {
-      "topic": "systems-of-equations",
-      "type": "input",
-      "prompt": "Work out and write your answer: Solve x - 7 = 12",
-      "answerValue": "19",
-      "steps": [
-        "Identify the method.",
-        "Substitute values.",
-        "Compute.",
-        "Enter the final value."
-      ]
-    },
-    {
-      "topic": "systems-of-equations",
-      "type": "input",
-      "prompt": "Work out and write your answer: Solve 5x = 45",
-      "answerValue": "9",
-      "steps": [
-        "Identify the method.",
-        "Substitute values.",
-        "Compute.",
-        "Enter the final value."
-      ]
-    },
-    {
-      "topic": "systems-of-equations",
-      "type": "input",
-      "prompt": "Work out and write your answer: Evaluate 4x + 1 for x = 6",
-      "answerValue": "25",
-      "steps": [
-        "Identify the method.",
-        "Substitute values.",
-        "Compute.",
-        "Enter the final value."
-      ]
-    },
-    {
-      "topic": "systems-of-equations",
-      "type": "graph",
-      "prompt": "Plot point on y = x + 1 for x=3.",
-      "graph": {
-        "xMin": 0,
-        "xMax": 12,
-        "yMin": 0,
-        "yMax": 12,
-        "points": [
-          [
-            3,
-            4
-          ]
-        ],
-        "instruction": "Plot (3,4).",
-        "ordered": false
-      },
-      "steps": [
-        "Read coordinates required.",
-        "Plot each point correctly.",
-        "Verify plotted points.",
-        "Submit when complete."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
-    },
-    {
-      "topic": "systems-of-equations",
-      "type": "graph",
-      "prompt": "Plot two points for y = 2x.",
-      "graph": {
-        "xMin": 0,
-        "xMax": 12,
-        "yMin": 0,
-        "yMax": 12,
-        "points": [
-          [
-            2,
-            4
-          ],
-          [
-            4,
-            8
-          ]
-        ],
-        "instruction": "Plot (2,4) and (4,8).",
-        "ordered": true,
-        "connectPoints": true
-      },
-      "steps": [
-        "Read coordinates required.",
-        "Plot each point correctly.",
-        "Verify plotted points.",
-        "Submit when complete."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
-    },
-    {
-      "topic": "systems-of-equations",
-      "type": "graph",
-      "prompt": "Plot solution point of x + y = 6 using x=2.",
-      "graph": {
-        "xMin": 0,
-        "xMax": 12,
-        "yMin": 0,
-        "yMax": 12,
-        "points": [
-          [
-            2,
-            4
-          ]
-        ],
-        "instruction": "Plot (2,4).",
-        "ordered": false
-      },
-      "steps": [
-        "Read coordinates required.",
-        "Plot each point correctly.",
-        "Verify plotted points.",
-        "Submit when complete."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
-    },
-    {
-      "topic": "functions-and-graphs",
-      "prompt": "A trader sold 12 pens at 3 each. Total?",
-      "options": [
-        "36",
-        "24",
-        "48",
-        "30"
-      ],
-      "correctIndex": 0,
-      "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
-    },
-    {
-      "topic": "functions-and-graphs",
-      "prompt": "If 2x = 18, x = ?",
-      "options": [
-        "9",
-        "8",
-        "6",
-        "12"
-      ],
-      "correctIndex": 0,
-      "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
-    },
-    {
-      "topic": "functions-and-graphs",
-      "prompt": "15% of 200 equals",
-      "options": [
-        "30",
-        "20",
-        "25",
-        "35"
-      ],
-      "correctIndex": 0,
-      "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
-    },
-    {
-      "topic": "functions-and-graphs",
-      "prompt": "Area of rectangle 9 by 4 is",
-      "options": [
-        "36",
-        "13",
+        "-27",
         "26",
-        "18"
+        "28",
+        "27"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
     },
     {
-      "topic": "functions-and-graphs",
-      "type": "input",
-      "prompt": "Work out and write your answer: Solve x + 14 = 27",
-      "answerValue": "13",
-      "steps": [
-        "Identify the method.",
-        "Substitute values.",
-        "Compute.",
-        "Enter the final value."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
-    },
-    {
-      "topic": "functions-and-graphs",
-      "type": "input",
-      "prompt": "Work out and write your answer: Mean of 6, 8, 10, 12",
-      "answerValue": "9",
-      "steps": [
-        "Identify the method.",
-        "Substitute values.",
-        "Compute.",
-        "Enter the final value."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
-    },
-    {
-      "topic": "functions-and-graphs",
-      "type": "input",
-      "prompt": "Work out and write your answer: Probability of head on coin as decimal",
-      "answerValue": "0.5",
-      "steps": [
-        "Identify the method.",
-        "Substitute values.",
-        "Compute.",
-        "Enter the final value."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
-    },
-    {
-      "topic": "functions-and-graphs",
-      "type": "graph",
-      "prompt": "Plot checkpoint point (4,7).",
-      "graph": {
-        "xMin": 0,
-        "xMax": 12,
-        "yMin": 0,
-        "yMax": 12,
-        "points": [
-          [
-            4,
-            7
-          ]
-        ],
-        "instruction": "Plot (4,7).",
-        "ordered": false
-      },
-      "steps": [
-        "Read coordinates required.",
-        "Plot each point correctly.",
-        "Verify plotted points.",
-        "Submit when complete."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
-    },
-    {
-      "topic": "functions-and-graphs",
-      "type": "graph",
-      "prompt": "Plot two-step problem points (2,3) and (5,9).",
-      "graph": {
-        "xMin": 0,
-        "xMax": 12,
-        "yMin": 0,
-        "yMax": 12,
-        "points": [
-          [
-            2,
-            3
-          ],
-          [
-            5,
-            9
-          ]
-        ],
-        "instruction": "Plot both points.",
-        "ordered": false
-      },
-      "steps": [
-        "Read coordinates required.",
-        "Plot each point correctly.",
-        "Verify plotted points.",
-        "Submit when complete."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
-    },
-    {
-      "topic": "functions-and-graphs",
-      "type": "graph",
-      "prompt": "Plot review line points (1,1), (2,2), (3,3).",
-      "graph": {
-        "xMin": 0,
-        "xMax": 12,
-        "yMin": 0,
-        "yMax": 12,
-        "points": [
-          [
-            1,
-            1
-          ],
-          [
-            2,
-            2
-          ],
-          [
-            3,
-            3
-          ]
-        ],
-        "instruction": "Plot all points.",
-        "ordered": true,
-        "connectPoints": true
-      },
-      "steps": [
-        "Read coordinates required.",
-        "Plot each point correctly.",
-        "Verify plotted points.",
-        "Submit when complete."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
-    },
-    {
-      "topic": "congruence-and-similarity",
-      "prompt": "Sum of angles in a triangle is",
-      "options": [
-        "180",
-        "90",
-        "270",
-        "360"
-      ],
-      "correctIndex": 0,
-      "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ],
-      "image": "Images/triangle-area.svg",
-      "imageAlt": "Triangle geometry diagram"
-    },
-    {
-      "topic": "congruence-and-similarity",
-      "prompt": "Right angle measure is",
-      "options": [
-        "90",
-        "45",
-        "180",
-        "60"
-      ],
-      "correctIndex": 0,
-      "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ],
-      "image": "Images/rectangle-dimensions.svg",
-      "imageAlt": "Geometry dimensions diagram"
-    },
-    {
-      "topic": "congruence-and-similarity",
-      "prompt": "Hypotenuse in 3-4-5 triangle is",
-      "options": [
-        "5",
-        "4",
-        "3",
-        "7"
-      ],
-      "correctIndex": 0,
-      "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ],
-      "image": "Images/triangle-area.svg",
-      "imageAlt": "Triangle geometry diagram"
-    },
-    {
-      "topic": "congruence-and-similarity",
-      "prompt": "A line through origin and (2,2) has slope",
-      "options": [
-        "1",
-        "2",
-        "0",
-        "3"
-      ],
-      "correctIndex": 0,
-      "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ],
-      "image": "Images/rectangle-dimensions.svg",
-      "imageAlt": "Geometry dimensions diagram"
-    },
-    {
-      "topic": "congruence-and-similarity",
-      "type": "input",
-      "prompt": "Work out and write your answer: Find missing angle if two angles are 50 and 60 in triangle",
-      "answerValue": "70",
-      "steps": [
-        "Identify the method.",
-        "Substitute values.",
-        "Compute.",
-        "Enter the final value."
-      ],
-      "image": "Images/triangle-area.svg",
-      "imageAlt": "Triangle geometry diagram"
-    },
-    {
-      "topic": "congruence-and-similarity",
-      "type": "input",
-      "prompt": "Work out and write your answer: In 3-4-5 triangle, square of hypotenuse",
-      "answerValue": "25",
-      "steps": [
-        "Identify the method.",
-        "Substitute values.",
-        "Compute.",
-        "Enter the final value."
-      ],
-      "image": "Images/triangle-area.svg",
-      "imageAlt": "Triangle geometry diagram"
-    },
-    {
-      "topic": "congruence-and-similarity",
-      "type": "input",
-      "prompt": "Work out and write your answer: Reflection keeps x same on y-axis? enter 0 for no, 1 for yes",
-      "answerValue": "0",
-      "steps": [
-        "Identify the method.",
-        "Substitute values.",
-        "Compute.",
-        "Enter the final value."
-      ],
-      "image": "Images/rectangle-dimensions.svg",
-      "imageAlt": "Geometry dimensions diagram"
-    },
-    {
-      "topic": "congruence-and-similarity",
-      "type": "graph",
-      "prompt": "Plot vertex A at (3,3).",
-      "graph": {
-        "xMin": 0,
-        "xMax": 12,
-        "yMin": 0,
-        "yMax": 12,
-        "points": [
-          [
-            3,
-            3
-          ]
-        ],
-        "instruction": "Plot (3,3).",
-        "ordered": false
-      },
-      "steps": [
-        "Read coordinates required.",
-        "Plot each point correctly.",
-        "Verify plotted points.",
-        "Submit when complete."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
-    },
-    {
-      "topic": "congruence-and-similarity",
-      "type": "graph",
-      "prompt": "Plot triangle points A(2,2), B(6,2), C(4,6).",
-      "graph": {
-        "xMin": 0,
-        "xMax": 12,
-        "yMin": 0,
-        "yMax": 12,
-        "points": [
-          [
-            2,
-            2
-          ],
-          [
-            6,
-            2
-          ],
-          [
-            4,
-            6
-          ]
-        ],
-        "instruction": "Plot all three points.",
-        "ordered": false
-      },
-      "steps": [
-        "Read coordinates required.",
-        "Plot each point correctly.",
-        "Verify plotted points.",
-        "Submit when complete."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
-    },
-    {
-      "topic": "congruence-and-similarity",
-      "type": "graph",
-      "prompt": "Plot reflected point of (2,5) over y-axis.",
-      "graph": {
-        "xMin": 0,
-        "xMax": 12,
-        "yMin": 0,
-        "yMax": 12,
-        "points": [
-          [
-            0,
-            5
-          ]
-        ],
-        "instruction": "Plot (0,5).",
-        "ordered": false
-      },
-      "steps": [
-        "Read coordinates required.",
-        "Plot each point correctly.",
-        "Verify plotted points.",
-        "Submit when complete."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
-    },
-    {
-      "topic": "circle-theorems",
-      "prompt": "Sum of angles in a triangle is",
-      "options": [
-        "180",
-        "90",
-        "270",
-        "360"
-      ],
-      "correctIndex": 0,
-      "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ],
-      "image": "Images/circle-geometry.svg",
-      "imageAlt": "Circle geometry diagram"
-    },
-    {
-      "topic": "circle-theorems",
-      "prompt": "Right angle measure is",
-      "options": [
-        "90",
-        "45",
-        "180",
-        "60"
-      ],
-      "correctIndex": 0,
-      "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ],
-      "image": "Images/circle-geometry.svg",
-      "imageAlt": "Circle geometry diagram"
-    },
-    {
-      "topic": "circle-theorems",
-      "prompt": "Hypotenuse in 3-4-5 triangle is",
-      "options": [
-        "5",
-        "4",
-        "3",
-        "7"
-      ],
-      "correctIndex": 0,
-      "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ],
-      "image": "Images/circle-geometry.svg",
-      "imageAlt": "Circle geometry diagram"
-    },
-    {
-      "topic": "circle-theorems",
-      "prompt": "A line through origin and (2,2) has slope",
-      "options": [
-        "1",
-        "2",
-        "0",
-        "3"
-      ],
-      "correctIndex": 0,
-      "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ],
-      "image": "Images/circle-geometry.svg",
-      "imageAlt": "Circle geometry diagram"
-    },
-    {
-      "topic": "circle-theorems",
-      "type": "input",
-      "prompt": "Work out and write your answer: Find missing angle if two angles are 50 and 60 in triangle",
-      "answerValue": "70",
-      "steps": [
-        "Identify the method.",
-        "Substitute values.",
-        "Compute.",
-        "Enter the final value."
-      ],
-      "image": "Images/circle-geometry.svg",
-      "imageAlt": "Circle geometry diagram"
-    },
-    {
-      "topic": "circle-theorems",
-      "type": "input",
-      "prompt": "Work out and write your answer: In 3-4-5 triangle, square of hypotenuse",
-      "answerValue": "25",
-      "steps": [
-        "Identify the method.",
-        "Substitute values.",
-        "Compute.",
-        "Enter the final value."
-      ],
-      "image": "Images/circle-geometry.svg",
-      "imageAlt": "Circle geometry diagram"
-    },
-    {
-      "topic": "circle-theorems",
-      "type": "input",
-      "prompt": "Work out and write your answer: Reflection keeps x same on y-axis? enter 0 for no, 1 for yes",
-      "answerValue": "0",
-      "steps": [
-        "Identify the method.",
-        "Substitute values.",
-        "Compute.",
-        "Enter the final value."
-      ],
-      "image": "Images/circle-geometry.svg",
-      "imageAlt": "Circle geometry diagram"
-    },
-    {
-      "topic": "circle-theorems",
-      "type": "graph",
-      "prompt": "Plot vertex A at (3,3).",
-      "graph": {
-        "xMin": 0,
-        "xMax": 12,
-        "yMin": 0,
-        "yMax": 12,
-        "points": [
-          [
-            3,
-            3
-          ]
-        ],
-        "instruction": "Plot (3,3).",
-        "ordered": false
-      },
-      "steps": [
-        "Read coordinates required.",
-        "Plot each point correctly.",
-        "Verify plotted points.",
-        "Submit when complete."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
-    },
-    {
-      "topic": "circle-theorems",
-      "type": "graph",
-      "prompt": "Plot triangle points A(2,2), B(6,2), C(4,6).",
-      "graph": {
-        "xMin": 0,
-        "xMax": 12,
-        "yMin": 0,
-        "yMax": 12,
-        "points": [
-          [
-            2,
-            2
-          ],
-          [
-            6,
-            2
-          ],
-          [
-            4,
-            6
-          ]
-        ],
-        "instruction": "Plot all three points.",
-        "ordered": false
-      },
-      "steps": [
-        "Read coordinates required.",
-        "Plot each point correctly.",
-        "Verify plotted points.",
-        "Submit when complete."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
-    },
-    {
-      "topic": "circle-theorems",
-      "type": "graph",
-      "prompt": "Plot reflected point of (2,5) over y-axis.",
-      "graph": {
-        "xMin": 0,
-        "xMax": 12,
-        "yMin": 0,
-        "yMax": 12,
-        "points": [
-          [
-            0,
-            5
-          ]
-        ],
-        "instruction": "Plot (0,5).",
-        "ordered": false
-      },
-      "steps": [
-        "Read coordinates required.",
-        "Plot each point correctly.",
-        "Verify plotted points.",
-        "Submit when complete."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
-    },
-    {
-      "topic": "statistics-and-trends",
-      "prompt": "Mean of 4, 6, 8 is",
+      "topic": "scientific-notation",
+      "prompt": "Evaluate lim x->0 (5x+7).",
       "options": [
         "6",
-        "5",
+        "-7",
         "7",
         "8"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ],
-      "image": "Images/line-graph-example.svg",
-      "imageAlt": "Line graph trend example"
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
     },
     {
-      "topic": "statistics-and-trends",
-      "prompt": "Median of 2, 5, 7, 9, 10 is",
+      "topic": "scientific-notation",
+      "prompt": "Compute lim x->3 (x^2+2x).",
       "options": [
-        "7",
-        "5",
-        "9",
-        "6"
+        "-15",
+        "16",
+        "15",
+        "14"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ],
-      "image": "Images/line-graph-example.svg",
-      "imageAlt": "Line graph trend example"
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
     },
     {
-      "topic": "statistics-and-trends",
-      "prompt": "Mode of 3, 4, 4, 5 is",
+      "topic": "scientific-notation",
+      "prompt": "Find lim x->-2 (x^2+4x).",
       "options": [
+        "-3",
         "4",
+        "-5",
+        "-4"
+      ],
+      "correctIndex": 3,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "scientific-notation",
+      "type": "input",
+      "prompt": "Evaluate lim x->1 (x^3-1).",
+      "answerValue": "0",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "scientific-notation",
+      "type": "input",
+      "prompt": "Compute lim x->5 (x-3).",
+      "answerValue": "2",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "scientific-notation",
+      "type": "input",
+      "prompt": "Determine lim x->2 (x^2+3x-4).",
+      "answerValue": "6",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "scientific-notation",
+      "type": "input",
+      "prompt": "Find lim x->-3 (2x+1).",
+      "answerValue": "-5",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "scientific-notation",
+      "type": "input",
+      "prompt": "Evaluate lim x->0 (x^2+9).",
+      "answerValue": "9",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "scientific-notation",
+      "type": "input",
+      "prompt": "Compute lim x->6 (x^2-2x).",
+      "answerValue": "24",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "scientific-notation",
+      "type": "input",
+      "prompt": "Determine lim x->1 (4x-6).",
+      "answerValue": "-2",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "scientific-notation",
+      "type": "input",
+      "prompt": "Find lim x->2 (3x^2-1).",
+      "answerValue": "11",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "scientific-notation",
+      "type": "input",
+      "prompt": "Evaluate lim x->-4 (x+8).",
+      "answerValue": "4",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "linear-equations",
+      "prompt": "Differentiate y=x^3.",
+      "options": [
+        "3x^2",
+        "2x^2",
+        "4x^2",
+        "3x"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "linear-equations",
+      "prompt": "Find d/dx(5x^2).",
+      "options": [
+        "10x",
+        "-10x",
+        "10",
+        "9x"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "linear-equations",
+      "prompt": "Determine d/dx(7x-4).",
+      "options": [
+        "0",
+        "8",
+        "-7",
+        "7"
+      ],
+      "correctIndex": 3,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "linear-equations",
+      "prompt": "Given y=x^2+3x, find y' at x=2.",
+      "options": [
+        "-7",
+        "7",
+        "0",
+        "8"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "linear-equations",
+      "prompt": "Differentiate y=4x^3-2x.",
+      "options": [
+        "0",
+        "12x^2+2",
+        "12x^2-2",
+        "-12x^2-2"
+      ],
+      "correctIndex": 2,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "linear-equations",
+      "prompt": "Find d/dx(9).",
+      "options": [
+        "1",
+        "0",
+        "x",
+        "-1"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "linear-equations",
+      "type": "input",
+      "prompt": "Given y=2x^2-x+1, find y' at x=3.",
+      "answerValue": "11",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "linear-equations",
+      "type": "input",
+      "prompt": "Differentiate y=x^4.",
+      "answerValue": "4x^3",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "linear-equations",
+      "type": "input",
+      "prompt": "Find d/dx(6x^2+3x).",
+      "answerValue": "12x+3",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "linear-equations",
+      "type": "input",
+      "prompt": "Given y=3x^2+5, determine y' at x=1.",
+      "answerValue": "6",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "linear-equations",
+      "type": "input",
+      "prompt": "Differentiate y=8x.",
+      "answerValue": "8",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "linear-equations",
+      "type": "input",
+      "prompt": "Find d/dx(x^5-2x^2).",
+      "answerValue": "5x^4-4x",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "linear-equations",
+      "type": "input",
+      "prompt": "Given y=x^2-4x, find y' at x=4.",
+      "answerValue": "4",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "linear-equations",
+      "type": "input",
+      "prompt": "Differentiate y=12x^2-7.",
+      "answerValue": "24x",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "linear-equations",
+      "type": "input",
+      "prompt": "Find d/dx(3x^3+2x^2).",
+      "answerValue": "9x^2+4x",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "systems-of-equations",
+      "prompt": "Evaluate integral of 2x dx.",
+      "options": [
+        "x^2+C only",
+        "x^2+C always",
+        "x^2+C",
+        "not x^2+C"
+      ],
+      "correctIndex": 2,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "systems-of-equations",
+      "prompt": "Find integral of 6 dx.",
+      "options": [
+        "6x+C",
+        "not 6x+C",
+        "6x+C always",
+        "6x+C only"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "systems-of-equations",
+      "prompt": "Compute integral of x^2 dx.",
+      "options": [
+        "not x^3/3+C",
+        "x^3/3+C",
+        "x^3/3+C only",
+        "x^3/3+C always"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "systems-of-equations",
+      "prompt": "Evaluate integral from 0 to 2 of x dx.",
+      "options": [
+        "-2",
         "3",
-        "5",
+        "1",
+        "2"
+      ],
+      "correctIndex": 3,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "systems-of-equations",
+      "prompt": "Find integral from 1 to 3 of 2x dx.",
+      "options": [
+        "8",
+        "9",
+        "7",
+        "-8"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "systems-of-equations",
+      "prompt": "Compute integral of 5x^4 dx.",
+      "options": [
+        "x^5+C only",
+        "x^5+C always",
+        "x^5+C",
+        "not x^5+C"
+      ],
+      "correctIndex": 2,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "systems-of-equations",
+      "type": "input",
+      "prompt": "Evaluate integral from 0 to 1 of 3x^2 dx.",
+      "answerValue": "1",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "systems-of-equations",
+      "type": "input",
+      "prompt": "Find integral of 4x+1 dx.",
+      "answerValue": "2x^2+x+C",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "systems-of-equations",
+      "type": "input",
+      "prompt": "Compute integral of 7 dx.",
+      "answerValue": "7x+C",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "systems-of-equations",
+      "type": "input",
+      "prompt": "Evaluate integral from 2 to 4 of x dx.",
+      "answerValue": "6",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "systems-of-equations",
+      "type": "input",
+      "prompt": "Find integral of x^3 dx.",
+      "answerValue": "x^4/4+C",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "systems-of-equations",
+      "type": "input",
+      "prompt": "Compute integral from 0 to 3 of 2 dx.",
+      "answerValue": "6",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "systems-of-equations",
+      "type": "input",
+      "prompt": "Evaluate integral of 9x^2 dx.",
+      "answerValue": "3x^3+C",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "systems-of-equations",
+      "type": "input",
+      "prompt": "Find integral from 1 to 2 of 3x dx.",
+      "answerValue": "9/2",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "systems-of-equations",
+      "type": "input",
+      "prompt": "Compute integral of x+5 dx.",
+      "answerValue": "x^2/2+5x+C",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "functions-and-graphs",
+      "prompt": "Evaluate sin 30 degrees.",
+      "options": [
+        "1",
+        "1/2",
+        "sqrt(3)/2",
+        "0"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "functions-and-graphs",
+      "prompt": "Find cos 60 degrees.",
+      "options": [
+        "sqrt(3)/2",
+        "1",
+        "0",
+        "1/2"
+      ],
+      "correctIndex": 3,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "functions-and-graphs",
+      "prompt": "Determine tan 45 degrees.",
+      "options": [
+        "2",
+        "0",
+        "-1",
+        "1"
+      ],
+      "correctIndex": 3,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "functions-and-graphs",
+      "prompt": "If sin theta = 3/5 for acute theta, find cos theta.",
+      "options": [
+        "sqrt(3)/2",
+        "4/5",
+        "0",
+        "1/2"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "functions-and-graphs",
+      "prompt": "Evaluate sin 0 degrees.",
+      "options": [
+        "1",
+        "-1",
+        "0",
+        "1/2"
+      ],
+      "correctIndex": 2,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "functions-and-graphs",
+      "prompt": "Find cos 0 degrees.",
+      "options": [
+        "1",
+        "-1",
+        "0",
         "2"
       ],
       "correctIndex": 0,
       "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ],
-      "image": "Images/line-graph-example.svg",
-      "imageAlt": "Line graph trend example"
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
     },
     {
-      "topic": "statistics-and-trends",
-      "prompt": "Range of 2, 8, 11 is",
+      "topic": "functions-and-graphs",
+      "type": "input",
+      "prompt": "Determine tan 0 degrees.",
+      "answerValue": "0",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "functions-and-graphs",
+      "type": "input",
+      "prompt": "Evaluate sin 90 degrees.",
+      "answerValue": "1",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "functions-and-graphs",
+      "type": "input",
+      "prompt": "Find cos 90 degrees.",
+      "answerValue": "0",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "functions-and-graphs",
+      "type": "input",
+      "prompt": "Determine tan 30 degrees.",
+      "answerValue": "1/sqrt(3)",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "functions-and-graphs",
+      "type": "input",
+      "prompt": "Evaluate sin 60 degrees.",
+      "answerValue": "sqrt(3)/2",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "functions-and-graphs",
+      "type": "input",
+      "prompt": "Find cos 30 degrees.",
+      "answerValue": "sqrt(3)/2",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "functions-and-graphs",
+      "type": "input",
+      "prompt": "If cos theta = 4/5 acute, find sin theta.",
+      "answerValue": "3/5",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "functions-and-graphs",
+      "type": "input",
+      "prompt": "Determine tan 60 degrees.",
+      "answerValue": "sqrt(3)",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "functions-and-graphs",
+      "type": "input",
+      "prompt": "Evaluate sin 45 degrees.",
+      "answerValue": "sqrt(2)/2",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "congruence-and-similarity",
+      "prompt": "Given P=1000, r=10%, t=2, compute A=P(1+r)^t.",
       "options": [
-        "9",
-        "8",
-        "11",
-        "6"
+        "1209",
+        "1211",
+        "1210",
+        "-1210"
+      ],
+      "correctIndex": 2,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "congruence-and-similarity",
+      "prompt": "For P=500, r=20%, t=1, find compound amount.",
+      "options": [
+        "601",
+        "-600",
+        "600",
+        "599"
+      ],
+      "correctIndex": 2,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "congruence-and-similarity",
+      "prompt": "Given P=2000, r=5%, t=1, determine A.",
+      "options": [
+        "2101",
+        "2099",
+        "-2100",
+        "2100"
+      ],
+      "correctIndex": 3,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "congruence-and-similarity",
+      "prompt": "If P=1500, r=10%, t=3, find A.",
+      "options": [
+        "1997.5",
+        "1995.5",
+        "-1996.5",
+        "1996.5"
+      ],
+      "correctIndex": 3,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "congruence-and-similarity",
+      "prompt": "Compute (1+0.10)^3.",
+      "options": [
+        "1.331",
+        "-1.331",
+        "2.331",
+        "0.33099999999999996"
       ],
       "correctIndex": 0,
       "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ],
-      "image": "Images/line-graph-example.svg",
-      "imageAlt": "Line graph trend example"
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
     },
     {
-      "topic": "statistics-and-trends",
-      "type": "input",
-      "prompt": "Work out and write your answer: Mean of 5, 7, 9, 11",
-      "answerValue": "8",
+      "topic": "congruence-and-similarity",
+      "prompt": "For P=800, r=25%, t=2, find A.",
+      "options": [
+        "1251",
+        "1249",
+        "1250",
+        "-1250"
+      ],
+      "correctIndex": 2,
       "steps": [
-        "Identify the method.",
-        "Substitute values.",
-        "Compute.",
-        "Enter the final value."
-      ],
-      "image": "Images/line-graph-example.svg",
-      "imageAlt": "Line graph trend example"
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
     },
     {
-      "topic": "statistics-and-trends",
+      "topic": "congruence-and-similarity",
       "type": "input",
-      "prompt": "Work out and write your answer: Median of 3, 6, 8, 12",
-      "answerValue": "7",
+      "prompt": "Given P=1200, r=15%, t=1, compute A.",
+      "answerValue": "1380",
       "steps": [
-        "Identify the method.",
-        "Substitute values.",
-        "Compute.",
-        "Enter the final value."
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "congruence-and-similarity",
+      "type": "input",
+      "prompt": "If P=1000, r=8%, t=2, find growth factor (1+r)^t.",
+      "answerValue": "1.1664",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "congruence-and-similarity",
+      "type": "input",
+      "prompt": "Given P=2500, r=4%, t=1, find A.",
+      "answerValue": "2600",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "congruence-and-similarity",
+      "type": "input",
+      "prompt": "Compute (1+0.05)^2.",
+      "answerValue": "1.1025",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "congruence-and-similarity",
+      "type": "input",
+      "prompt": "For P=900, r=10%, t=1, determine A.",
+      "answerValue": "990",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "congruence-and-similarity",
+      "type": "input",
+      "prompt": "Given P=3000, r=12%, t=1, find A.",
+      "answerValue": "3360",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "congruence-and-similarity",
+      "type": "input",
+      "prompt": "If P=1000, r=10%, t=3, compute A.",
+      "answerValue": "1331",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "congruence-and-similarity",
+      "type": "input",
+      "prompt": "Given P=5000, r=2%, t=2, find A.",
+      "answerValue": "5202",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "congruence-and-similarity",
+      "type": "input",
+      "prompt": "Compute (1+0.20)^2.",
+      "answerValue": "1.44",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "circle-theorems",
+      "prompt": "Evaluate 5!.",
+      "options": [
+        "119",
+        "-120",
+        "120",
+        "121"
       ],
-      "image": "Images/line-graph-example.svg",
-      "imageAlt": "Line graph trend example"
+      "correctIndex": 2,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "circle-theorems",
+      "prompt": "Compute 5C2.",
+      "options": [
+        "10",
+        "-10",
+        "9",
+        "11"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "circle-theorems",
+      "prompt": "Determine 4P2.",
+      "options": [
+        "13",
+        "11",
+        "-12",
+        "12"
+      ],
+      "correctIndex": 3,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "circle-theorems",
+      "prompt": "Find 6C1.",
+      "options": [
+        "6",
+        "7",
+        "-6",
+        "5"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "circle-theorems",
+      "prompt": "Evaluate 3!.",
+      "options": [
+        "5",
+        "6",
+        "-6",
+        "7"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "circle-theorems",
+      "prompt": "Compute 7P1.",
+      "options": [
+        "-7",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctIndex": 2,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "circle-theorems",
+      "type": "input",
+      "prompt": "Find 6C3.",
+      "answerValue": "20",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "circle-theorems",
+      "type": "input",
+      "prompt": "Determine 5P3.",
+      "answerValue": "60",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "circle-theorems",
+      "type": "input",
+      "prompt": "Evaluate 8C2.",
+      "answerValue": "28",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "circle-theorems",
+      "type": "input",
+      "prompt": "Compute 6P2.",
+      "answerValue": "30",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "circle-theorems",
+      "type": "input",
+      "prompt": "Find 7C2.",
+      "answerValue": "21",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "circle-theorems",
+      "type": "input",
+      "prompt": "Determine 4!.",
+      "answerValue": "24",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "circle-theorems",
+      "type": "input",
+      "prompt": "Evaluate 10C1.",
+      "answerValue": "10",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "circle-theorems",
+      "type": "input",
+      "prompt": "Compute 5C1.",
+      "answerValue": "5",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "circle-theorems",
+      "type": "input",
+      "prompt": "Find 9P1.",
+      "answerValue": "9",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "statistics-and-trends",
+      "prompt": "In a normal distribution, compare mean, median and mode.",
+      "options": [
+        "not equal",
+        "equal always",
+        "equal",
+        "equal only"
+      ],
+      "correctIndex": 2,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "statistics-and-trends",
+      "prompt": "State the percentage of data within 1 standard deviation in a normal distribution.",
+      "options": [
+        "67",
+        "69",
+        "-68",
+        "68"
+      ],
+      "correctIndex": 3,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "statistics-and-trends",
+      "prompt": "What is the total area under a normal curve?",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "2"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "statistics-and-trends",
+      "prompt": "Define the meaning of a z-score.",
+      "options": [
+        "distance in standard deviations only",
+        "distance in standard deviations always",
+        "not distance in standard deviations",
+        "distance in standard deviations"
+      ],
+      "correctIndex": 3,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "statistics-and-trends",
+      "prompt": "If mean=50, sd=10, find z for x=60.",
+      "options": [
+        "1",
+        "0",
+        "2",
+        "-1"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "statistics-and-trends",
+      "prompt": "If z=2, mean=40, sd=5, find x.",
+      "options": [
+        "49",
+        "50",
+        "-50",
+        "51"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
     },
     {
       "topic": "statistics-and-trends",
       "type": "input",
-      "prompt": "Work out and write your answer: Mode of 2, 2, 5, 7",
+      "prompt": "If z=-1, mean=30, sd=4, determine x.",
+      "answerValue": "26",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "statistics-and-trends",
+      "type": "input",
+      "prompt": "For x=70, mean=55, sd=5, compute z.",
+      "answerValue": "3",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "statistics-and-trends",
+      "type": "input",
+      "prompt": "If z=0, what is x relative to the mean?",
+      "answerValue": "x equals mean",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "statistics-and-trends",
+      "type": "input",
+      "prompt": "State the approximate percentage within 2 standard deviations.",
+      "answerValue": "95",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "statistics-and-trends",
+      "type": "input",
+      "prompt": "State the approximate percentage within 3 standard deviations.",
+      "answerValue": "99.7",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "statistics-and-trends",
+      "type": "input",
+      "prompt": "If mean=100, sd=20, find z for x=80.",
+      "answerValue": "-1",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "statistics-and-trends",
+      "type": "input",
+      "prompt": "If z=1.5, mean=10, sd=4, compute x.",
+      "answerValue": "16",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "statistics-and-trends",
+      "type": "input",
+      "prompt": "For mean=25, sd=5, find x when z=-2.",
+      "answerValue": "15",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "statistics-and-trends",
+      "type": "input",
+      "prompt": "If x equals mean, determine z.",
+      "answerValue": "0",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "transformations",
+      "prompt": "State the null hypothesis in standard terms.",
+      "options": [
+        "sample mean is maximum",
+        "all data are normal",
+        "research claim is true",
+        "no effect or no difference"
+      ],
+      "correctIndex": 3,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "transformations",
+      "prompt": "Define a Type I error.",
+      "options": [
+        "reject false H0",
+        "fail to reject true H0",
+        "fail to reject false H0",
+        "reject true H0"
+      ],
+      "correctIndex": 3,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "transformations",
+      "prompt": "If p-value < alpha, what is the decision about H0?",
+      "options": [
+        "reject H0",
+        "accept H0 always",
+        "increase sample size only",
+        "fail to reject H0"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "transformations",
+      "prompt": "State a common significance level used in tests.",
+      "options": [
+        "5",
+        "0.05",
+        "0.005",
+        "0.5"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "transformations",
+      "prompt": "Given p=0.03 and alpha=0.05, state decision code (1 reject, 0 fail to reject).",
+      "options": [
+        "1",
+        "fail to reject H0",
+        "Type I",
+        "reject H0"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "transformations",
+      "prompt": "Given p=0.20 and alpha=0.05, state decision code (1 reject, 0 fail to reject).",
+      "options": [
+        "reject H0",
+        "0",
+        "Type I",
+        "fail to reject H0"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "transformations",
+      "type": "input",
+      "prompt": "Define a Type II error.",
+      "answerValue": "fail to reject false H0",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "transformations",
+      "type": "input",
+      "prompt": "If p=0.049 and alpha=0.05, decide on H0.",
+      "answerValue": "reject H0",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "transformations",
+      "type": "input",
+      "prompt": "If p=0.50 and alpha=0.01, decide on H0.",
+      "answerValue": "fail to reject H0",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "transformations",
+      "type": "input",
+      "prompt": "State symbol commonly used for significance level.",
+      "answerValue": "alpha",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "transformations",
+      "type": "input",
+      "prompt": "In hypothesis testing, what does p-value measure?",
+      "answerValue": "evidence against H0",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "transformations",
+      "type": "input",
+      "prompt": "If p=alpha exactly, state the usual decision rule outcome.",
+      "answerValue": "borderline, often reject when p<=alpha",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "transformations",
+      "type": "input",
+      "prompt": "State the research hypothesis notation.",
+      "answerValue": "H1",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "transformations",
+      "type": "input",
+      "prompt": "If test is significant at 5%, what can be said about p?",
+      "answerValue": "p<0.05",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "transformations",
+      "type": "input",
+      "prompt": "Give one phrase describing H0.",
+      "answerValue": "status quo",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "quadratic-intro",
+      "prompt": "Add vectors (2,3) and (1,4).",
+      "options": [
+        "(3,7) always",
+        "not (3,7)",
+        "(3,7) only",
+        "(3,7)"
+      ],
+      "correctIndex": 3,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "quadratic-intro",
+      "prompt": "Find magnitude of vector (3,4).",
+      "options": [
+        "4",
+        "-5",
+        "6",
+        "5"
+      ],
+      "correctIndex": 3,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "quadratic-intro",
+      "prompt": "Scale vector (1,-3) by k=2.",
+      "options": [
+        "not (2,-6)",
+        "(2,-6) always",
+        "(2,-6)",
+        "(2,-6) only"
+      ],
+      "correctIndex": 2,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "quadratic-intro",
+      "prompt": "Compute dot product of (1,2) and (3,4).",
+      "options": [
+        "11",
+        "10",
+        "12",
+        "-11"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "quadratic-intro",
+      "prompt": "Find magnitude of (6,8).",
+      "options": [
+        "11",
+        "10",
+        "-10",
+        "9"
+      ],
+      "correctIndex": 1,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "quadratic-intro",
+      "prompt": "Compute dot product of (2,5) and (4,1).",
+      "options": [
+        "13",
+        "-13",
+        "14",
+        "12"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "quadratic-intro",
+      "type": "input",
+      "prompt": "Add vectors (-1,7) and (3,-2).",
+      "answerValue": "(2,5)",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "quadratic-intro",
+      "type": "input",
+      "prompt": "Find magnitude of (5,12).",
+      "answerValue": "13",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "quadratic-intro",
+      "type": "input",
+      "prompt": "Scale vector (4,0) by k=-3.",
+      "answerValue": "(-12,0)",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "quadratic-intro",
+      "type": "input",
+      "prompt": "Compute dot product of (0,2) and (7,1).",
       "answerValue": "2",
       "steps": [
-        "Identify the method.",
-        "Substitute values.",
-        "Compute.",
-        "Enter the final value."
-      ],
-      "image": "Images/line-graph-example.svg",
-      "imageAlt": "Line graph trend example"
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
     },
     {
-      "topic": "statistics-and-trends",
-      "type": "graph",
-      "prompt": "Plot data pair (2,5).",
-      "graph": {
-        "xMin": 0,
-        "xMax": 12,
-        "yMin": 0,
-        "yMax": 12,
-        "points": [
-          [
-            2,
-            5
-          ]
-        ],
-        "instruction": "Plot (2,5).",
-        "ordered": false
-      },
+      "topic": "quadratic-intro",
+      "type": "input",
+      "prompt": "Add vectors (9,-1) and (-4,6).",
+      "answerValue": "(5,5)",
       "steps": [
-        "Read coordinates required.",
-        "Plot each point correctly.",
-        "Verify plotted points.",
-        "Submit when complete."
-      ],
-      "image": "Images/line-graph-example.svg",
-      "imageAlt": "Line graph trend example"
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
     },
     {
-      "topic": "statistics-and-trends",
-      "type": "graph",
-      "prompt": "Plot trend points (1,2), (2,4), (3,6).",
-      "graph": {
-        "xMin": 0,
-        "xMax": 12,
-        "yMin": 0,
-        "yMax": 12,
-        "points": [
-          [
-            1,
-            2
-          ],
-          [
-            2,
-            4
-          ],
-          [
-            3,
-            6
-          ]
-        ],
-        "instruction": "Plot all three points.",
-        "ordered": true,
-        "connectPoints": true
-      },
+      "topic": "quadratic-intro",
+      "type": "input",
+      "prompt": "Find magnitude of (8,15).",
+      "answerValue": "17",
       "steps": [
-        "Read coordinates required.",
-        "Plot each point correctly.",
-        "Verify plotted points.",
-        "Submit when complete."
-      ],
-      "image": "Images/line-graph-example.svg",
-      "imageAlt": "Line graph trend example"
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
     },
     {
-      "topic": "statistics-and-trends",
-      "type": "graph",
-      "prompt": "Mark median value 7 on x-axis.",
-      "graph": {
-        "xMin": 0,
-        "xMax": 12,
-        "yMin": 0,
-        "yMax": 12,
-        "points": [
-          [
-            7,
-            0
-          ]
-        ],
-        "instruction": "Plot (7,0).",
-        "ordered": false
-      },
+      "topic": "quadratic-intro",
+      "type": "input",
+      "prompt": "Scale vector (-2,5) by k=4.",
+      "answerValue": "(-8,20)",
       "steps": [
-        "Read coordinates required.",
-        "Plot each point correctly.",
-        "Verify plotted points.",
-        "Submit when complete."
-      ],
-      "image": "Images/line-graph-example.svg",
-      "imageAlt": "Line graph trend example"
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
     },
     {
-      "topic": "transformations",
-      "prompt": "Sum of angles in a triangle is",
+      "topic": "quadratic-intro",
+      "type": "input",
+      "prompt": "Compute dot product of (3,3) and (2,-1).",
+      "answerValue": "3",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "quadratic-intro",
+      "type": "input",
+      "prompt": "Add vectors (0,0) and (5,-7).",
+      "answerValue": "(5,-7)",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "exam-techniques",
+      "prompt": "Evaluate i^2.",
       "options": [
-        "180",
-        "90",
-        "270",
-        "360"
+        "-1",
+        "-2",
+        "1",
+        "0"
       ],
       "correctIndex": 0,
       "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
     },
     {
-      "topic": "transformations",
-      "prompt": "Right angle measure is",
+      "topic": "exam-techniques",
+      "prompt": "Compute (3+2i)+(1-5i).",
       "options": [
-        "90",
-        "45",
-        "180",
-        "60"
+        "4-3i",
+        "4-3i always",
+        "4-3i only",
+        "not 4-3i"
       ],
       "correctIndex": 0,
       "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
     },
     {
-      "topic": "transformations",
-      "prompt": "Hypotenuse in 3-4-5 triangle is",
+      "topic": "exam-techniques",
+      "prompt": "Evaluate (2+i)(2-i).",
+      "options": [
+        "-5",
+        "4",
+        "6",
+        "5"
+      ],
+      "correctIndex": 3,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "exam-techniques",
+      "prompt": "Find the conjugate of 4-7i.",
+      "options": [
+        "4+7i",
+        "4+7i always",
+        "4+7i only",
+        "not 4+7i"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "exam-techniques",
+      "prompt": "Compute (5+3i)+(2+i).",
+      "options": [
+        "7+4i only",
+        "7+4i always",
+        "not 7+4i",
+        "7+4i"
+      ],
+      "correctIndex": 3,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "exam-techniques",
+      "prompt": "Evaluate (1+i)^2.",
+      "options": [
+        "not 2i",
+        "2i always",
+        "2i only",
+        "2i"
+      ],
+      "correctIndex": 3,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "exam-techniques",
+      "type": "input",
+      "prompt": "Compute (4-3i)+(6+2i).",
+      "answerValue": "10-i",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "exam-techniques",
+      "type": "input",
+      "prompt": "Evaluate (3+i)(3-i).",
+      "answerValue": "10",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "exam-techniques",
+      "type": "input",
+      "prompt": "Find conjugate of -2+9i.",
+      "answerValue": "-2-9i",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "exam-techniques",
+      "type": "input",
+      "prompt": "Compute (7-2i)-(3+i).",
+      "answerValue": "4-3i",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "exam-techniques",
+      "type": "input",
+      "prompt": "Evaluate i^3.",
+      "answerValue": "-i",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "exam-techniques",
+      "type": "input",
+      "prompt": "Compute i^4.",
+      "answerValue": "1",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "exam-techniques",
+      "type": "input",
+      "prompt": "Evaluate (2i)(3i).",
+      "answerValue": "-6",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "exam-techniques",
+      "type": "input",
+      "prompt": "Compute (1-2i)(1+2i).",
+      "answerValue": "5",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "exam-techniques",
+      "type": "input",
+      "prompt": "Find real part of 6-5i.",
+      "answerValue": "6",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "bece-prep",
+      "prompt": "Differentiate x^2+3x.",
+      "options": [
+        "2x+3 only",
+        "not 2x+3",
+        "2x+3",
+        "2x+3 always"
+      ],
+      "correctIndex": 2,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "bece-prep",
+      "prompt": "Integrate 4x dx.",
+      "options": [
+        "2x^2+C",
+        "not 2x^2+C",
+        "2x^2+C always",
+        "2x^2+C only"
+      ],
+      "correctIndex": 0,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "bece-prep",
+      "prompt": "Evaluate sin 30 degrees.",
+      "options": [
+        "1/2 always",
+        "not 1/2",
+        "1/2 only",
+        "1/2"
+      ],
+      "correctIndex": 3,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "bece-prep",
+      "prompt": "Evaluate i^2.",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "-2"
+      ],
+      "correctIndex": 2,
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "bece-prep",
+      "prompt": "Find lim x->2 (x^2+1).",
       "options": [
         "5",
         "4",
-        "3",
-        "7"
+        "6",
+        "-5"
       ],
       "correctIndex": 0,
       "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
     },
     {
-      "topic": "transformations",
-      "prompt": "A line through origin and (2,2) has slope",
+      "topic": "bece-prep",
+      "prompt": "Evaluate integral from 0 to 1 of 2x dx.",
       "options": [
-        "1",
-        "2",
         "0",
-        "3"
+        "1",
+        "-1",
+        "2"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
-    },
-    {
-      "topic": "transformations",
-      "type": "input",
-      "prompt": "Work out and write your answer: Find missing angle if two angles are 50 and 60 in triangle",
-      "answerValue": "70",
-      "steps": [
-        "Identify the method.",
-        "Substitute values.",
-        "Compute.",
-        "Enter the final value."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
-    },
-    {
-      "topic": "transformations",
-      "type": "input",
-      "prompt": "Work out and write your answer: In 3-4-5 triangle, square of hypotenuse",
-      "answerValue": "25",
-      "steps": [
-        "Identify the method.",
-        "Substitute values.",
-        "Compute.",
-        "Enter the final value."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
-    },
-    {
-      "topic": "transformations",
-      "type": "input",
-      "prompt": "Work out and write your answer: Reflection keeps x same on y-axis? enter 0 for no, 1 for yes",
-      "answerValue": "0",
-      "steps": [
-        "Identify the method.",
-        "Substitute values.",
-        "Compute.",
-        "Enter the final value."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
-    },
-    {
-      "topic": "transformations",
-      "type": "graph",
-      "prompt": "Plot vertex A at (3,3).",
-      "graph": {
-        "xMin": 0,
-        "xMax": 12,
-        "yMin": 0,
-        "yMax": 12,
-        "points": [
-          [
-            3,
-            3
-          ]
-        ],
-        "instruction": "Plot (3,3).",
-        "ordered": false
-      },
-      "steps": [
-        "Read coordinates required.",
-        "Plot each point correctly.",
-        "Verify plotted points.",
-        "Submit when complete."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
-    },
-    {
-      "topic": "transformations",
-      "type": "graph",
-      "prompt": "Plot triangle points A(2,2), B(6,2), C(4,6).",
-      "graph": {
-        "xMin": 0,
-        "xMax": 12,
-        "yMin": 0,
-        "yMax": 12,
-        "points": [
-          [
-            2,
-            2
-          ],
-          [
-            6,
-            2
-          ],
-          [
-            4,
-            6
-          ]
-        ],
-        "instruction": "Plot all three points.",
-        "ordered": false
-      },
-      "steps": [
-        "Read coordinates required.",
-        "Plot each point correctly.",
-        "Verify plotted points.",
-        "Submit when complete."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
-    },
-    {
-      "topic": "transformations",
-      "type": "graph",
-      "prompt": "Plot reflected point of (2,5) over y-axis.",
-      "graph": {
-        "xMin": 0,
-        "xMax": 12,
-        "yMin": 0,
-        "yMax": 12,
-        "points": [
-          [
-            0,
-            5
-          ]
-        ],
-        "instruction": "Plot (0,5).",
-        "ordered": false
-      },
-      "steps": [
-        "Read coordinates required.",
-        "Plot each point correctly.",
-        "Verify plotted points.",
-        "Submit when complete."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
-    },
-    {
-      "topic": "quadratic-intro",
-      "prompt": "Quadratic Expressions Intro: Solve x + 9 = 17.",
-      "options": [
-        "8",
-        "7",
-        "9",
-        "6"
-      ],
-      "correctIndex": 0,
-      "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ]
-    },
-    {
-      "topic": "quadratic-intro",
-      "prompt": "Quadratic Expressions Intro: Solve 3x = 24.",
-      "options": [
-        "8",
-        "7",
-        "9",
-        "6"
-      ],
-      "correctIndex": 0,
-      "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ]
-    },
-    {
-      "topic": "quadratic-intro",
-      "prompt": "Quadratic Expressions Intro: Evaluate 2x + 3 for x=4.",
-      "options": [
-        "11",
-        "10",
-        "9",
-        "12"
-      ],
-      "correctIndex": 0,
-      "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ]
-    },
-    {
-      "topic": "quadratic-intro",
-      "prompt": "Quadratic Expressions Intro: If x=5, x^2 =",
-      "options": [
-        "25",
-        "10",
-        "15",
-        "20"
-      ],
-      "correctIndex": 0,
-      "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ]
-    },
-    {
-      "topic": "quadratic-intro",
-      "type": "input",
-      "prompt": "Work out and write your answer: Quadratic Expressions Intro: Solve x - 7 = 12",
-      "answerValue": "19",
-      "steps": [
-        "Identify the method.",
-        "Substitute values.",
-        "Compute.",
-        "Enter the final value."
-      ]
-    },
-    {
-      "topic": "quadratic-intro",
-      "type": "input",
-      "prompt": "Work out and write your answer: Quadratic Expressions Intro: Solve 5x = 45",
-      "answerValue": "9",
-      "steps": [
-        "Identify the method.",
-        "Substitute values.",
-        "Compute.",
-        "Enter the final value."
-      ]
-    },
-    {
-      "topic": "quadratic-intro",
-      "type": "input",
-      "prompt": "Work out and write your answer: Quadratic Expressions Intro: Evaluate 4x + 1 for x = 6",
-      "answerValue": "25",
-      "steps": [
-        "Identify the method.",
-        "Substitute values.",
-        "Compute.",
-        "Enter the final value."
-      ]
-    },
-    {
-      "topic": "quadratic-intro",
-      "type": "graph",
-      "prompt": "Quadratic Expressions Intro: Plot point on y = x + 1 for x=3.",
-      "graph": {
-        "xMin": 0,
-        "xMax": 12,
-        "yMin": 0,
-        "yMax": 12,
-        "points": [
-          [
-            3,
-            4
-          ]
-        ],
-        "instruction": "Plot (3,4).",
-        "ordered": false
-      },
-      "steps": [
-        "Read coordinates required.",
-        "Plot each point correctly.",
-        "Verify plotted points.",
-        "Submit when complete."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
-    },
-    {
-      "topic": "quadratic-intro",
-      "type": "graph",
-      "prompt": "Quadratic Expressions Intro: Plot two points for y = 2x.",
-      "graph": {
-        "xMin": 0,
-        "xMax": 12,
-        "yMin": 0,
-        "yMax": 12,
-        "points": [
-          [
-            2,
-            4
-          ],
-          [
-            4,
-            8
-          ]
-        ],
-        "instruction": "Plot (2,4) and (4,8).",
-        "ordered": true,
-        "connectPoints": true
-      },
-      "steps": [
-        "Read coordinates required.",
-        "Plot each point correctly.",
-        "Verify plotted points.",
-        "Submit when complete."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
-    },
-    {
-      "topic": "quadratic-intro",
-      "type": "graph",
-      "prompt": "Quadratic Expressions Intro: Plot solution point of x + y = 6 using x=2.",
-      "graph": {
-        "xMin": 0,
-        "xMax": 12,
-        "yMin": 0,
-        "yMax": 12,
-        "points": [
-          [
-            2,
-            4
-          ]
-        ],
-        "instruction": "Plot (2,4).",
-        "ordered": false
-      },
-      "steps": [
-        "Read coordinates required.",
-        "Plot each point correctly.",
-        "Verify plotted points.",
-        "Submit when complete."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
-    },
-    {
-      "topic": "exam-techniques",
-      "prompt": "A trader sold 12 pens at 3 each. Total?",
-      "options": [
-        "36",
-        "24",
-        "48",
-        "30"
-      ],
-      "correctIndex": 0,
-      "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ]
-    },
-    {
-      "topic": "exam-techniques",
-      "prompt": "If 2x = 18, x = ?",
-      "options": [
-        "9",
-        "8",
-        "6",
-        "12"
-      ],
-      "correctIndex": 0,
-      "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ]
-    },
-    {
-      "topic": "exam-techniques",
-      "prompt": "15% of 200 equals",
-      "options": [
-        "30",
-        "20",
-        "25",
-        "35"
-      ],
-      "correctIndex": 0,
-      "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ]
-    },
-    {
-      "topic": "exam-techniques",
-      "prompt": "Area of rectangle 9 by 4 is",
-      "options": [
-        "36",
-        "13",
-        "26",
-        "18"
-      ],
-      "correctIndex": 0,
-      "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ]
-    },
-    {
-      "topic": "exam-techniques",
-      "type": "input",
-      "prompt": "Work out and write your answer: Solve x + 14 = 27",
-      "answerValue": "13",
-      "steps": [
-        "Identify the method.",
-        "Substitute values.",
-        "Compute.",
-        "Enter the final value."
-      ]
-    },
-    {
-      "topic": "exam-techniques",
-      "type": "input",
-      "prompt": "Work out and write your answer: Mean of 6, 8, 10, 12",
-      "answerValue": "9",
-      "steps": [
-        "Identify the method.",
-        "Substitute values.",
-        "Compute.",
-        "Enter the final value."
-      ]
-    },
-    {
-      "topic": "exam-techniques",
-      "type": "input",
-      "prompt": "Work out and write your answer: Probability of head on coin as decimal",
-      "answerValue": "0.5",
-      "steps": [
-        "Identify the method.",
-        "Substitute values.",
-        "Compute.",
-        "Enter the final value."
-      ]
-    },
-    {
-      "topic": "exam-techniques",
-      "type": "graph",
-      "prompt": "Plot checkpoint point (4,7).",
-      "graph": {
-        "xMin": 0,
-        "xMax": 12,
-        "yMin": 0,
-        "yMax": 12,
-        "points": [
-          [
-            4,
-            7
-          ]
-        ],
-        "instruction": "Plot (4,7).",
-        "ordered": false
-      },
-      "steps": [
-        "Read coordinates required.",
-        "Plot each point correctly.",
-        "Verify plotted points.",
-        "Submit when complete."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
-    },
-    {
-      "topic": "exam-techniques",
-      "type": "graph",
-      "prompt": "Plot two-step problem points (2,3) and (5,9).",
-      "graph": {
-        "xMin": 0,
-        "xMax": 12,
-        "yMin": 0,
-        "yMax": 12,
-        "points": [
-          [
-            2,
-            3
-          ],
-          [
-            5,
-            9
-          ]
-        ],
-        "instruction": "Plot both points.",
-        "ordered": false
-      },
-      "steps": [
-        "Read coordinates required.",
-        "Plot each point correctly.",
-        "Verify plotted points.",
-        "Submit when complete."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
-    },
-    {
-      "topic": "exam-techniques",
-      "type": "graph",
-      "prompt": "Plot review line points (1,1), (2,2), (3,3).",
-      "graph": {
-        "xMin": 0,
-        "xMax": 12,
-        "yMin": 0,
-        "yMax": 12,
-        "points": [
-          [
-            1,
-            1
-          ],
-          [
-            2,
-            2
-          ],
-          [
-            3,
-            3
-          ]
-        ],
-        "instruction": "Plot all points.",
-        "ordered": true,
-        "connectPoints": true
-      },
-      "steps": [
-        "Read coordinates required.",
-        "Plot each point correctly.",
-        "Verify plotted points.",
-        "Submit when complete."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
-    },
-    {
-      "topic": "bece-prep",
-      "prompt": "BECE Prep Set: A trader sold 12 pens at 3 each. Total?",
-      "options": [
-        "36",
-        "24",
-        "48",
-        "30"
-      ],
-      "correctIndex": 0,
-      "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ]
-    },
-    {
-      "topic": "bece-prep",
-      "prompt": "BECE Prep Set: If 2x = 18, x = ?",
-      "options": [
-        "9",
-        "8",
-        "6",
-        "12"
-      ],
-      "correctIndex": 0,
-      "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ]
-    },
-    {
-      "topic": "bece-prep",
-      "prompt": "BECE Prep Set: 15% of 200 equals",
-      "options": [
-        "30",
-        "20",
-        "25",
-        "35"
-      ],
-      "correctIndex": 0,
-      "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
-      ]
-    },
-    {
-      "topic": "bece-prep",
-      "prompt": "BECE Prep Set: Area of rectangle 9 by 4 is",
-      "options": [
-        "36",
-        "13",
-        "26",
-        "18"
-      ],
-      "correctIndex": 0,
-      "steps": [
-        "Read the question carefully.",
-        "Use an appropriate method.",
-        "Calculate carefully.",
-        "Choose the correct option."
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
       ]
     },
     {
       "topic": "bece-prep",
       "type": "input",
-      "prompt": "Work out and write your answer: BECE Prep Set: Solve x + 14 = 27",
-      "answerValue": "13",
+      "prompt": "Differentiate 5x^2.",
+      "answerValue": "10x",
       "steps": [
-        "Identify the method.",
-        "Substitute values.",
-        "Compute.",
-        "Enter the final value."
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
       ]
     },
     {
       "topic": "bece-prep",
       "type": "input",
-      "prompt": "Work out and write your answer: BECE Prep Set: Mean of 6, 8, 10, 12",
-      "answerValue": "9",
+      "prompt": "Integrate 6 dx.",
+      "answerValue": "6x+C",
       "steps": [
-        "Identify the method.",
-        "Substitute values.",
-        "Compute.",
-        "Enter the final value."
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
       ]
     },
     {
       "topic": "bece-prep",
       "type": "input",
-      "prompt": "Work out and write your answer: BECE Prep Set: Probability of head on coin as decimal",
-      "answerValue": "0.5",
+      "prompt": "Evaluate cos 60 degrees.",
+      "answerValue": "1/2",
       "steps": [
-        "Identify the method.",
-        "Substitute values.",
-        "Compute.",
-        "Enter the final value."
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
       ]
     },
     {
       "topic": "bece-prep",
-      "type": "graph",
-      "prompt": "BECE Prep Set: Plot checkpoint point (4,7).",
-      "graph": {
-        "xMin": 0,
-        "xMax": 12,
-        "yMin": 0,
-        "yMax": 12,
-        "points": [
-          [
-            4,
-            7
-          ]
-        ],
-        "instruction": "Plot (4,7).",
-        "ordered": false
-      },
+      "type": "input",
+      "prompt": "Compute 5C2.",
+      "answerValue": "10",
       "steps": [
-        "Read coordinates required.",
-        "Plot each point correctly.",
-        "Verify plotted points.",
-        "Submit when complete."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
     },
     {
       "topic": "bece-prep",
-      "type": "graph",
-      "prompt": "BECE Prep Set: Plot two-step problem points (2,3) and (5,9).",
-      "graph": {
-        "xMin": 0,
-        "xMax": 12,
-        "yMin": 0,
-        "yMax": 12,
-        "points": [
-          [
-            2,
-            3
-          ],
-          [
-            5,
-            9
-          ]
-        ],
-        "instruction": "Plot both points.",
-        "ordered": false
-      },
+      "type": "input",
+      "prompt": "Find magnitude of (3,4).",
+      "answerValue": "5",
       "steps": [
-        "Read coordinates required.",
-        "Plot each point correctly.",
-        "Verify plotted points.",
-        "Submit when complete."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
     },
     {
       "topic": "bece-prep",
-      "type": "graph",
-      "prompt": "BECE Prep Set: Plot review line points (1,1), (2,2), (3,3).",
-      "graph": {
-        "xMin": 0,
-        "xMax": 12,
-        "yMin": 0,
-        "yMax": 12,
-        "points": [
-          [
-            1,
-            1
-          ],
-          [
-            2,
-            2
-          ],
-          [
-            3,
-            3
-          ]
-        ],
-        "instruction": "Plot all points.",
-        "ordered": true,
-        "connectPoints": true
-      },
+      "type": "input",
+      "prompt": "For mean=50 sd=10, find z when x=40.",
+      "answerValue": "-1",
       "steps": [
-        "Read coordinates required.",
-        "Plot each point correctly.",
-        "Verify plotted points.",
-        "Submit when complete."
-      ],
-      "image": "Images/coordinate-grid-guide.svg",
-      "imageAlt": "Coordinate grid guide"
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "bece-prep",
+      "type": "input",
+      "prompt": "Given p=0.02 alpha=0.05, decide on H0.",
+      "answerValue": "reject H0",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "bece-prep",
+      "type": "input",
+      "prompt": "Compute (2+i)(2-i).",
+      "answerValue": "5",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
+    },
+    {
+      "topic": "bece-prep",
+      "type": "input",
+      "prompt": "Evaluate tan 45 degrees.",
+      "answerValue": "1",
+      "steps": [
+        "Identify the concept tested in the question statement.",
+        "Set up the required formula or rule clearly before substituting values.",
+        "Carry out the computation carefully and simplify to final form.",
+        "State the final answer exactly in the required format."
+      ]
     }
   ]
 }

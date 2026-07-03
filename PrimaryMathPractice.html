@@ -170,6 +170,17 @@
                             <tr>
                                 <td id="question-prompt"><strong>Work out: 12 + 8 = ?</strong></td>
                             </tr>
+                            <tr id="question-image-row" hidden>
+                                <td>
+                                    <figure class="question-image-wrap">
+                                        <div class="question-image-stage">
+                                            <img id="question-image" class="question-image" src="" alt="">
+                                        </div>
+                                        <figcaption id="question-image-caption" class="question-image-caption" hidden>
+                                        </figcaption>
+                                    </figure>
+                                </td>
+                            </tr>
                             <tr>
                                 <td><label class="answer-option"><input type="checkbox" class="question-answer"><span
                                             class="question-answer-text">18</span></label></td>
@@ -1041,12 +1052,59 @@
 
         const answerOptions = document.querySelectorAll('.question-answer');
         const feedbackBtn = document.getElementById('practice-feedback-btn');
+        const questionImageRow = document.getElementById('question-image-row');
+        const questionImage = document.getElementById('question-image');
+        const questionImageCaption = document.getElementById('question-image-caption');
         const solutionStepsTable = document.getElementById('solution-steps-table');
         const nextQuestionBtn = document.getElementById('practice-next-btn');
         const congratsPopup = document.getElementById('practice-congrats-popup');
         const badgeEarned = document.getElementById('practice-badge-earned');
         let wrongAttempts = 0;
         let congratsPopupTimer;
+
+        function resolveQuestionImageInfo(question) {
+            const explicitSrc = typeof question?.image === 'string' ? question.image.trim() : '';
+            const explicitAlt = typeof question?.imageAlt === 'string' ? question.imageAlt.trim() : '';
+            if (explicitSrc) {
+                return {
+                    src: explicitSrc,
+                    alt: explicitAlt || 'Question illustration'
+                };
+            }
+
+            const prompt = String(question?.prompt || '').toLowerCase();
+            if (/plot|graph|coordinate|point/.test(prompt)) {
+                return {
+                    src: 'Images/coordinate-grid-guide.svg',
+                    alt: 'Coordinate diagram to support graph and plotting questions.'
+                };
+            }
+            if (/triangle|angle|right angle|pythag|hypotenuse/.test(prompt)) {
+                return {
+                    src: 'Images/circle-geometry.svg',
+                    alt: 'Geometry figure highlighting angles and triangle labels.'
+                };
+            }
+            if (/area|perimeter|rectangle|square/.test(prompt)) {
+                return {
+                    src: 'Images/rectangle-dimensions.svg',
+                    alt: 'Rectangle figure with side labels for area and perimeter questions.'
+                };
+            }
+            if (/volume|cuboid|cube/.test(prompt)) {
+                return {
+                    src: 'Images/cuboid-volume.svg',
+                    alt: '3D cuboid diagram with dimensions for volume questions.'
+                };
+            }
+            if (/probability|die|dice|coin/.test(prompt)) {
+                return {
+                    src: 'Images/probability-die.svg',
+                    alt: 'Probability visual showing a die face example.'
+                };
+            }
+            return null;
+        }
 
         function hideCongratsPopup() {
             if (!congratsPopup) return;
@@ -1072,6 +1130,72 @@
             return questionBank[selectedGradeKey] || questionBank.p1 || [];
         }
 
+        function buildPrimarySolutionLines(question) {
+            const prompt = String(question?.prompt || '');
+            const lowerPrompt = prompt.toLowerCase();
+            const options = Array.isArray(question?.options) ? question.options : [];
+            const correctIndex = Number.isInteger(question?.correctIndex) ? question.correctIndex : -1;
+            const finalValue = correctIndex >= 0 ? String(options[correctIndex] ?? '').trim() : '';
+            const lines = [];
+
+            lines.push('Concept: identify what is given, what is required, and the operation that links them.');
+
+            const addMatch = prompt.match(/(-?\d+(?:\.\d+)?)\s*\+\s*(-?\d+(?:\.\d+)?)/);
+            if (addMatch) {
+                const a = Number(addMatch[1]);
+                const b = Number(addMatch[2]);
+                lines.push(`Compute the sum: ${a} + ${b} = ${a + b}.`);
+            }
+
+            const subMatch = prompt.match(/(-?\d+(?:\.\d+)?)\s*-\s*(-?\d+(?:\.\d+)?)/);
+            if (subMatch) {
+                const a = Number(subMatch[1]);
+                const b = Number(subMatch[2]);
+                lines.push(`Compute the difference: ${a} - ${b} = ${a - b}.`);
+            }
+
+            const mulMatch = prompt.match(/(-?\d+(?:\.\d+)?)\s*(?:x|\*)\s*(-?\d+(?:\.\d+)?)/i);
+            if (mulMatch) {
+                const a = Number(mulMatch[1]);
+                const b = Number(mulMatch[2]);
+                lines.push(`Multiply: ${a} x ${b} = ${a * b}.`);
+            }
+
+            const divMatch = prompt.match(/(-?\d+(?:\.\d+)?)\s*(?:\/|÷)\s*(-?\d+(?:\.\d+)?)/);
+            if (divMatch) {
+                const a = Number(divMatch[1]);
+                const b = Number(divMatch[2]);
+                lines.push(`Divide: ${a} ÷ ${b} = ${a / b}.`);
+            }
+
+            if (lowerPrompt.includes('fraction')) {
+                lines.push('For fractions, make denominators compatible before combining values.');
+            }
+            if (lowerPrompt.includes('percent')) {
+                lines.push('For percentages, convert percent to a fraction or decimal before multiplying.');
+            }
+            if (lowerPrompt.includes('area')) {
+                lines.push('Use the area formula that matches the shape before substituting values.');
+            }
+            if (lowerPrompt.includes('perimeter')) {
+                lines.push('Perimeter means adding all outer side lengths of the shape.');
+            }
+            if (lowerPrompt.includes('probability')) {
+                lines.push('Probability is favorable outcomes over total outcomes.');
+            }
+
+            const guidance = Array.isArray(question?.steps) ? question.steps : [];
+            if (guidance.length) {
+                lines.push(`Guide: ${guidance[0]}`);
+            }
+
+            if (finalValue) {
+                lines.push(`Verification: your final answer should match option value ${finalValue}.`);
+            }
+
+            return lines;
+        }
+
         function renderCurrentQuestion() {
             const gradeQuestions = getSelectedGradeQuestions();
             const question = gradeQuestions[currentQuestionIndex] || gradeQuestions[0];
@@ -1087,6 +1211,21 @@
 
             if (questionPrompt) {
                 questionPrompt.innerHTML = `<strong>${question.prompt}</strong>`;
+            }
+
+            const questionImageInfo = resolveQuestionImageInfo(question);
+            const hasQuestionImage = Boolean(questionImageInfo?.src);
+            if (questionImageRow) {
+                questionImageRow.hidden = !hasQuestionImage;
+            }
+            if (questionImage && hasQuestionImage) {
+                questionImage.src = questionImageInfo.src;
+                questionImage.alt = questionImageInfo.alt || 'Question illustration';
+            }
+            if (questionImageCaption) {
+                const captionText = hasQuestionImage ? (questionImageInfo.alt || '') : '';
+                questionImageCaption.textContent = captionText;
+                questionImageCaption.hidden = !captionText;
             }
 
             answerOptions.forEach(function (input, index) {
@@ -1106,7 +1245,8 @@
             if (solutionStepsTable) {
                 const solutionBody = solutionStepsTable.querySelector('tbody');
                 if (solutionBody) {
-                    solutionBody.innerHTML = question.steps
+                    const lines = buildPrimarySolutionLines(question);
+                    solutionBody.innerHTML = lines
                         .map(function (step, idx) {
                             return `<tr><td><strong>Step ${idx + 1}:</strong> ${step}</td></tr>`;
                         })
