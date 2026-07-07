@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn56 | Register</title>
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="top-bar">
+        <div class="top-bar-container">
+            <span class="top-bar-left"><i class="fas fa-envelope"></i> info@learn56.com</span>
+            <div class="top-bar-right social-icons">
+                <a href="#" class="social-icon" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon" title="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon" title="YouTube"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <header class="top-nav">
+        <div class="nav-container">
+            <a href="index.html" class="logo"><img src="Images/logo3.png" alt="Learn56 Logo" class="logo-img"></a>
+
+            <nav class="main-nav" id="primary-navigation" aria-label="Main Navigation">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Math.html">Maths</a></li>
+                    <li><a href="LanguageArts.html">Language Arts</a></li>
+                    <li><a href="Assessments.html">Assessments</a></li>
+                    <li><a href="Teacher.html">Teacher</a></li>
+                </ul>
+            </nav>
+
+            <div class="auth-buttons">
+                <a href="#" class="btn btn-signin" data-auth="signin">Sign In</a>
+                <a href="register.html" class="btn btn-join" data-auth="join">Join</a>
+            </div>
+
+            <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"
+                aria-controls="primary-navigation">☰</button>
+        </div>
+    </header>
+
+    <main class="register-page-main">
+        <section class="register-page-card">
+            <h1 class="register-title">Create Your Learn56 Account</h1>
+            <p class="register-subtitle">Join students, parents, and teachers building confidence every day.</p>
+
+            <form id="register-form" class="register-form" novalidate>
+                <label for="register-name">Full Name</label>
+                <input id="register-name" name="name" type="text" required autocomplete="name">
+
+                <label for="register-email">Email Address</label>
+                <input id="register-email" name="email" type="email" required autocomplete="email">
+
+                <label for="register-role">Role</label>
+                <select id="register-role" name="role" required>
+                    <option value="student">Student</option>
+                    <option value="parent">Parent</option>
+                    <option value="teacher">Teacher</option>
+                </select>
+
+                <label for="register-password">Password</label>
+                <input id="register-password" name="password" type="password" minlength="6" required
+                    autocomplete="new-password">
+
+                <button type="submit" class="btn btn-join register-submit">Create Account</button>
+                <button type="button" class="btn btn-signin register-signin-btn js-open-signin">Sign In Instead</button>
+                <p class="register-alt-hint">Already have an account? Use Sign In instead of creating a new account.</p>
+                <p class="register-feedback" id="register-feedback" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-bottom">
+            <p class="footer-copyright">&copy; 2026 Learn56 | All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="site.js"></script>
+    <script>
+        (function () {
+            'use strict';
+
+            const registerForm = document.getElementById('register-form');
+            const feedback = document.getElementById('register-feedback');
+            const defaultApiBase =
+                window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+                    ? 'http://localhost:8787'
+                    : '';
+            const apiBase = String(window.LEARN56_API_BASE_URL || window.LEARN56_OTP_API_BASE_URL || defaultApiBase).replace(/\/$/, '');
+
+            function buildApiUrl(path) {
+                return apiBase ? apiBase + path : path;
+            }
+
+            async function postApi(path, payload) {
+                const response = await fetch(buildApiUrl(path), {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(payload || {})
+                });
+
+                let data = {};
+                try {
+                    data = await response.json();
+                } catch (_) {
+                    data = {};
+                }
+
+                if (!response.ok) {
+                    throw new Error(data.error || 'Request failed. Please try again.');
+                }
+
+                return data;
+            }
+
+            registerForm.addEventListener('submit', async function (event) {
+                event.preventDefault();
+                const formData = new FormData(registerForm);
+                const name = String(formData.get('name') || '').trim();
+                const email = String(formData.get('email') || '').trim().toLowerCase();
+                const role = String(formData.get('role') || 'student');
+                const password = String(formData.get('password') || '');
+
+                if (!name || !email || password.length < 6) {
+                    feedback.textContent = 'Please complete all fields. Password must be at least 6 characters.';
+                    feedback.classList.add('is-error');
+                    return;
+                }
+
+                try {
+                    await postApi('/api/auth/register', {
+                        name: name,
+                        email: email,
+                        role: role,
+                        password: password
+                    });
+
+                    feedback.textContent = 'Registration successful. Use Sign In to continue.';
+                    feedback.classList.remove('is-error');
+                    registerForm.reset();
+                } catch (error) {
+                    feedback.textContent = error.message;
+                    feedback.classList.add('is-error');
+                }
+            });
+        })();
+    </script>
+</body>
+
+</html>

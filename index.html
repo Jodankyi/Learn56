@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <meta name="color-scheme" content="light dark">
+    <script src="site.js" defer></script>
 </head>
 
 <body>
@@ -63,6 +64,7 @@
                         <ul class="dropdown-menu">
                             <li><a href="#">Blog</a></li>
                             <li><a href="#">Tutorials</a></li>
+                            <li><a href="Afrikomiks.html">Afrikomiks</a></li>
                             <li><a href="#">Support</a></li>
                         </ul>
                     </li>
@@ -70,8 +72,8 @@
             </nav>
 
             <div class="auth-buttons">
-                <a href="#" class="btn btn-signin">Sign In</a>
-                <a href="#" class="btn btn-join">Join</a>
+                <a href="#" class="btn btn-signin" data-auth="signin">Sign In</a>
+                <a href="register.html" class="btn btn-join" data-auth="join">Join</a>
             </div>
 
             <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"
@@ -87,11 +89,12 @@
     <main>
         <section class="cards-section">
             <div class="section-header">
-                <h2 class="section-title">Choose Your Grade Level</h2>
-                <p class="section-subtitle">Tailored curriculum for every stage of learning.</p>
+                <h2 class="section-title" id="grade-section-title">Choose Your Grade Level</h2>
+                <p class="section-subtitle" id="grade-section-subtitle">Tailored curriculum for every stage of learning.
+                </p>
             </div>
 
-            <div class="cards-grid">
+            <div class="cards-grid" id="grade-cards-grid">
                 <div class="card">
                     <div class="card-icon"><i class="fas fa-child"></i></div>
                     <h3 class="card-title">Expert Courses</h3>
@@ -133,10 +136,10 @@
 
         <section class="course-preview-section">
             <div class="section-header">
-                <h2 class="section-title">Course Preview</h2>
+                <h2 class="section-title" id="course-section-title">Course Preview</h2>
             </div>
 
-            <div class="course-cards-grid">
+            <div class="course-cards-grid" id="course-cards-grid">
                 <div class="course-card">
                     <img src="Images/Math-1.png" alt="Maths Course" class="course-card-image">
                     <h3 class="course-card-title">Maths</h3>
@@ -179,13 +182,14 @@
 
         <section class="features-header-section">
             <div class="features-header">
-                <h2 class="features-title">Why Choose Learn56?</h2>
-                <p class="features-message">Powerful features designed to make learning engaging, effective, & fun.</p>
+                <h2 class="features-title" id="features-section-title">Why Choose Learn56?</h2>
+                <p class="features-message" id="features-section-subtitle">Powerful features designed to make learning
+                    engaging, effective, & fun.</p>
             </div>
         </section>
 
         <section class="features-grid-section">
-            <div class="features-grid">
+            <div class="features-grid" id="features-grid">
                 <div class="feature-item">
                     <div class="feature-icon">
                         <i class="fas fa-chalkboard-user"></i>
@@ -250,13 +254,13 @@
 
         <section class="features-header-section">
             <div class="features-header">
-                <h2 class="features-title">What Parents & Students Say</h2>
-                <p class="features-message">Real stories from our learning community.</p>
+                <h2 class="features-title" id="reviews-section-title">What Parents & Students Say</h2>
+                <p class="features-message" id="reviews-section-subtitle">Real stories from our learning community.</p>
             </div>
         </section>
 
         <section class="reviews-section">
-            <div class="reviews-grid">
+            <div class="reviews-grid" id="reviews-grid">
                 <div class="review-card">
                     <div class="review-stars">
                         <i class="fas fa-star"></i>

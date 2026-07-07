@@ -1,0 +1,142 @@
+{
+  "gradeSection": {
+    "title": "Choose Your Grade Level",
+    "subtitle": "Tailored curriculum for every stage of learning.",
+    "cards": [
+      {
+        "iconClass": "fas fa-child",
+        "title": "Expert Courses",
+        "message": "Access expertly crafted courses designed for learners of all levels",
+        "list": [
+          "100+ professional courses",
+          "Learn at your own pace",
+          "Lifetime access included"
+        ],
+        "buttonText": "Explore",
+        "buttonHref": "#"
+      },
+      {
+        "label": "Popular",
+        "iconClass": "fas fa-book-open",
+        "title": "Interactive Challenges",
+        "message": "Test your skills with real-world coding and practice exercises",
+        "list": [
+          "Hands-on projects",
+          "Instant feedback",
+          "Skill assessment tools"
+        ],
+        "buttonText": "Explore",
+        "buttonHref": "#"
+      },
+      {
+        "iconClass": "fas fa-graduation-cap",
+        "title": "Community Support",
+        "message": "Connect with thousands of learners and get help from mentors",
+        "list": [
+          "Active community forum",
+          "Peer learning groups",
+          "Expert mentorship"
+        ],
+        "buttonText": "Explore",
+        "buttonHref": "#"
+      }
+    ]
+  },
+  "courseSection": {
+    "title": "Course Preview",
+    "cards": [
+      {
+        "image": "Images/Math-1.png",
+        "alt": "Maths Course",
+        "title": "Maths",
+        "description": "Learn the fundamentals of mathematics and their applications",
+        "buttonText": "Learn more",
+        "buttonHref": "Math.html"
+      },
+      {
+        "image": "Images/LangArts-1.png",
+        "alt": "Language Arts",
+        "title": "Language Arts",
+        "description": "Develop your writing and communication skills",
+        "buttonText": "Learn more",
+        "buttonHref": "LanguageArts.html"
+      },
+      {
+        "image": "Images/Science-1.png",
+        "alt": "Science",
+        "title": "Science",
+        "description": "Explore data analysis, visualization, and machine learning techniques",
+        "buttonText": "Learn more",
+        "buttonHref": "#"
+      },
+      {
+        "image": "Images/SocStudies.png",
+        "alt": "Social Studies",
+        "title": "Social Studies",
+        "description": "Understand the complexities of society and its impact on individuals",
+        "buttonText": "Learn more",
+        "buttonHref": "#"
+      },
+      {
+        "image": "Images/History.png",
+        "alt": "History",
+        "title": "History",
+        "description": "Discover the fascinating world of history and its impact on today's society",
+        "buttonText": "Learn more",
+        "buttonHref": "#"
+      }
+    ]
+  },
+  "featuresSection": {
+    "title": "Why Choose Learn56?",
+    "subtitle": "Powerful features designed to make learning engaging, effective, and fun.",
+    "items": [
+      {
+        "iconClass": "fas fa-chalkboard-user",
+        "title": "Expert Instructors",
+        "message": "Learn from industry professionals with years of experience"
+      },
+      {
+        "iconClass": "fas fa-brain",
+        "title": "Adaptive Learning",
+        "message": "Personalised learning paths that adapt to your pace and style"
+      },
+      {
+        "iconClass": "fas fa-chart-line",
+        "title": "Progress Tracking",
+        "message": "Monitor your learning journey with detailed analytics"
+      },
+      {
+        "iconClass": "fas fa-globe",
+        "title": "Learn Anywhere",
+        "message": "Access courses anytime, anywhere on any device"
+      },
+      {
+        "iconClass": "fas fa-shield",
+        "title": "Safe and Secure",
+        "message": "Your data and privacy are protected with industry standards"
+      },
+      {
+        "iconClass": "fas fa-trophy",
+        "title": "Gamified Learning",
+        "message": "Earn badges, points, and rewards while learning"
+      }
+    ]
+  },
+  "reviewsSection": {
+    "title": "What Parents and Students Say",
+    "subtitle": "Real stories from our learning community.",
+    "items": [
+      {
+        "text": "Learn56 has completely transformed my child's learning experience. The courses are engaging, interactive, and my son loves the gamified approach. Highly recommended!",
+        "name": "Sarah Johnson",
+        "stars": 5
+      },
+      {
+        "text": "The adaptive learning system is fantastic! It adjusts to my learning pace perfectly. I've learned more in a few weeks here than I did in months elsewhere. Exceptional platform!",
+        "name": "Michael Chen",
+        "stars": 5
+      }
+    ]
+  }
+}

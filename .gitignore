@@ -28,3 +28,11 @@ yarn-error.log*
 dist/
 build/
 coverage/
+
+# Node.js
+node_modules/
+
+# Runtime database files
+data/
+*.sqlite
+*.sqlite3

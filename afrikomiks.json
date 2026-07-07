@@ -1,0 +1,360 @@
+{
+  "hero": {
+    "kicker": "Comic Stories",
+    "title": "Afrikomiks",
+    "subtitle": "Explore African-inspired stories through vivid characters, real values, and fun adventures designed for young readers.",
+    "backgroundLayers": [
+      "radial-gradient(circle at 20% 20%, rgba(243, 87, 17, 0.17), transparent 48%)",
+      "radial-gradient(circle at 80% 25%, rgba(15, 77, 146, 0.14), transparent 42%)",
+      "linear-gradient(135deg, #fff8ee 0%, #eef6ff 100%)"
+    ]
+  },
+  "footerResources": [
+    {
+      "label": "Blog",
+      "href": "#"
+    },
+    {
+      "label": "Tutorials",
+      "href": "#"
+    },
+    {
+      "label": "Afrikomiks",
+      "href": "Afrikomiks.html"
+    },
+    {
+      "label": "Documentation",
+      "href": "#"
+    },
+    {
+      "label": "FAQ",
+      "href": "#"
+    },
+    {
+      "label": "Support",
+      "href": "#"
+    }
+  ],
+  "stories": [
+    {
+      "storyId": "anansi-drum",
+      "badge": "Ages 8-12",
+      "coverClass": "afrikomik-cover-sunrise",
+      "title": "Anansi and the Talking Drum",
+      "meta": "Adventure | 6 episodes",
+      "summary": "Anansi discovers a magical drum that reveals hidden truths in his village. Every beat brings a lesson in honesty, courage, and teamwork.",
+      "buttonText": "Read Story",
+      "buttonHref": "#"
+    },
+    {
+      "storyId": "river-guardians",
+      "badge": "Ages 9-13",
+      "coverClass": "afrikomik-cover-river",
+      "title": "The River Guardians of Volta",
+      "meta": "Fantasy | 8 episodes",
+      "summary": "Three friends protect their river community from pollution and greed, using science and ancient wisdom to keep the waters alive.",
+      "buttonText": "Read Story",
+      "buttonHref": "#"
+    },
+    {
+      "storyId": "accra-sky-riders",
+      "badge": "Ages 10-14",
+      "coverClass": "afrikomik-cover-city",
+      "title": "The Accra Sky Riders",
+      "meta": "Sci-Fi | 10 episodes",
+      "summary": "A young inventor builds solar-powered gliders with her friends and takes on a citywide challenge to design a greener future.",
+      "buttonText": "Read Story",
+      "buttonHref": "#"
+    }
+  ],
+  "comicStories": [
+    {
+      "id": "anansi-drum",
+      "seriesId": "anansi-drum",
+      "episodeNumber": 1,
+      "title": "Anansi and the Talking Drum",
+      "meta": "Adventure | Episode 1",
+      "summary": "At sunrise, Anansi hears a mysterious drum speaking in rhythms no one else can decode.",
+      "characters": [
+        {
+          "id": "anansi",
+          "name": "Anansi",
+          "seed": "anansi-hero"
+        },
+        {
+          "id": "nana-efua",
+          "name": "Nana Efua",
+          "seed": "nana-efua-guide"
+        },
+        {
+          "id": "kwesi",
+          "name": "Kwesi",
+          "seed": "kwesi-friend"
+        }
+      ],
+      "panels": [
+        {
+          "speaker": "Anansi",
+          "characterId": "anansi",
+          "bubbleStyle": "shout",
+          "text": "That drum is calling my name. I can feel it in my chest!"
+        },
+        {
+          "speaker": "Kwesi",
+          "characterId": "kwesi",
+          "bubbleStyle": "speech",
+          "text": "My grandfather says the talking drum only speaks to those who tell the truth."
+        },
+        {
+          "speaker": "Nana Efua",
+          "characterId": "nana-efua",
+          "bubbleStyle": "thought",
+          "text": "Then listen carefully, children. The drum will guide you if your hearts are honest."
+        },
+        {
+          "speaker": "Narrator",
+          "characterId": "anansi",
+          "bubbleStyle": "narration",
+          "text": "As the rhythm grows stronger, Anansi and his friends begin a journey to uncover a hidden village secret."
+        }
+      ]
+    },
+    {
+      "id": "anansi-drum-2",
+      "seriesId": "anansi-drum",
+      "episodeNumber": 2,
+      "title": "Anansi and the Talking Drum",
+      "meta": "Adventure | Episode 2",
+      "summary": "The drum leads the children to an old baobab tree where hidden messages are carved in symbols.",
+      "characters": [
+        {
+          "id": "anansi",
+          "name": "Anansi",
+          "seed": "anansi-hero"
+        },
+        {
+          "id": "nana-efua",
+          "name": "Nana Efua",
+          "seed": "nana-efua-guide"
+        },
+        {
+          "id": "kwesi",
+          "name": "Kwesi",
+          "seed": "kwesi-friend"
+        }
+      ],
+      "panels": [
+        {
+          "speaker": "Kwesi",
+          "characterId": "kwesi",
+          "bubbleStyle": "whisper",
+          "text": "I think the symbols are directions. This one points north to the market road."
+        },
+        {
+          "speaker": "Anansi",
+          "characterId": "anansi",
+          "bubbleStyle": "speech",
+          "text": "Then we follow it before sunset. The drum is warning us about something." 
+        },
+        {
+          "speaker": "Nana Efua",
+          "characterId": "nana-efua",
+          "bubbleStyle": "narration",
+          "text": "Knowledge belongs to those who act with wisdom. Go, and return with truth."
+        }
+      ]
+    },
+    {
+      "id": "river-guardians",
+      "seriesId": "river-guardians",
+      "episodeNumber": 1,
+      "title": "The River Guardians of Volta",
+      "meta": "Fantasy | Episode 1",
+      "summary": "A sudden change in the river color warns three friends that their water source is in danger.",
+      "characters": [
+        {
+          "id": "ama",
+          "name": "Ama",
+          "seed": "ama-river"
+        },
+        {
+          "id": "kofi",
+          "name": "Kofi",
+          "seed": "kofi-river"
+        },
+        {
+          "id": "sena",
+          "name": "Sena",
+          "seed": "sena-river"
+        }
+      ],
+      "panels": [
+        {
+          "speaker": "Ama",
+          "characterId": "ama",
+          "bubbleStyle": "speech",
+          "text": "Look at the water, it is darker than yesterday. Something is wrong upstream."
+        },
+        {
+          "speaker": "Kofi",
+          "characterId": "kofi",
+          "bubbleStyle": "thought",
+          "text": "If we map where this starts, we can prove who is polluting the river."
+        },
+        {
+          "speaker": "Sena",
+          "characterId": "sena",
+          "bubbleStyle": "shout",
+          "text": "I brought test strips from school. Science first, then we confront them with facts."
+        },
+        {
+          "speaker": "Narrator",
+          "characterId": "ama",
+          "bubbleStyle": "narration",
+          "text": "Their mission begins with courage, friendship, and a promise to protect every drop."
+        }
+      ]
+    },
+    {
+      "id": "river-guardians-2",
+      "seriesId": "river-guardians",
+      "episodeNumber": 2,
+      "title": "The River Guardians of Volta",
+      "meta": "Fantasy | Episode 2",
+      "summary": "The friends track the source of pollution and discover illegal dumping near the old bridge.",
+      "characters": [
+        {
+          "id": "ama",
+          "name": "Ama",
+          "seed": "ama-river"
+        },
+        {
+          "id": "kofi",
+          "name": "Kofi",
+          "seed": "kofi-river"
+        },
+        {
+          "id": "sena",
+          "name": "Sena",
+          "seed": "sena-river"
+        }
+      ],
+      "panels": [
+        {
+          "speaker": "Sena",
+          "characterId": "sena",
+          "bubbleStyle": "speech",
+          "text": "The readings spike right here. This site is poisoning the river."
+        },
+        {
+          "speaker": "Ama",
+          "characterId": "ama",
+          "bubbleStyle": "shout",
+          "text": "Take photos now. We need evidence before anyone clears this place."
+        },
+        {
+          "speaker": "Kofi",
+          "characterId": "kofi",
+          "bubbleStyle": "narration",
+          "text": "By morning, their report reaches community leaders and sparks a cleanup campaign."
+        }
+      ]
+    },
+    {
+      "id": "accra-sky-riders",
+      "seriesId": "accra-sky-riders",
+      "episodeNumber": 1,
+      "title": "The Accra Sky Riders",
+      "meta": "Sci-Fi | Episode 1",
+      "summary": "In a buzzing city workshop, a young inventor tests a solar glider designed to clean the air.",
+      "characters": [
+        {
+          "id": "zuri",
+          "name": "Zuri",
+          "seed": "zuri-sky"
+        },
+        {
+          "id": "yaw",
+          "name": "Yaw",
+          "seed": "yaw-sky"
+        },
+        {
+          "id": "adwoa",
+          "name": "Adwoa",
+          "seed": "adwoa-sky"
+        }
+      ],
+      "panels": [
+        {
+          "speaker": "Zuri",
+          "characterId": "zuri",
+          "bubbleStyle": "shout",
+          "text": "Panels charged. Wings steady. Today we fly for cleaner skies!"
+        },
+        {
+          "speaker": "Yaw",
+          "characterId": "yaw",
+          "bubbleStyle": "speech",
+          "text": "Wind speed is perfect. Launch angle at twelve degrees and climbing."
+        },
+        {
+          "speaker": "Adwoa",
+          "characterId": "adwoa",
+          "bubbleStyle": "thought",
+          "text": "If this works, we can power street lights and cooling hubs with the same design."
+        },
+        {
+          "speaker": "Narrator",
+          "characterId": "zuri",
+          "bubbleStyle": "narration",
+          "text": "Above Accra's rooftops, the Sky Riders prove that innovation can be both bold and kind to the planet."
+        }
+      ]
+    },
+    {
+      "id": "accra-sky-riders-2",
+      "seriesId": "accra-sky-riders",
+      "episodeNumber": 2,
+      "title": "The Accra Sky Riders",
+      "meta": "Sci-Fi | Episode 2",
+      "summary": "A sudden storm forces the team to redesign their glider and test a safer emergency mode.",
+      "characters": [
+        {
+          "id": "zuri",
+          "name": "Zuri",
+          "seed": "zuri-sky"
+        },
+        {
+          "id": "yaw",
+          "name": "Yaw",
+          "seed": "yaw-sky"
+        },
+        {
+          "id": "adwoa",
+          "name": "Adwoa",
+          "seed": "adwoa-sky"
+        }
+      ],
+      "panels": [
+        {
+          "speaker": "Yaw",
+          "characterId": "yaw",
+          "bubbleStyle": "whisper",
+          "text": "The gusts are too strong. We need to switch to glide-safe mode now."
+        },
+        {
+          "speaker": "Adwoa",
+          "characterId": "adwoa",
+          "bubbleStyle": "speech",
+          "text": "I can reroute the power to stabilizers. Give me ten seconds."
+        },
+        {
+          "speaker": "Zuri",
+          "characterId": "zuri",
+          "bubbleStyle": "narration",
+          "text": "They land safely, then rebuild stronger than before. Innovation wins again."
+        }
+      ]
+    }
+  ]
+}
