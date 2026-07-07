@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anansi Story | Learn56</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .anansi-story-page {
+            min-height: 100vh;
+            margin: 0;
+            background:
+                radial-gradient(circle at top left, rgba(255, 214, 153, 0.55), transparent 36%),
+                linear-gradient(150deg, #fff3dd 0%, #ffd8a8 38%, #f97316 100%);
+            color: #4a1d08;
+            padding:
+                max(0.75rem, env(safe-area-inset-top)) max(0.75rem, env(safe-area-inset-right)) max(1rem, env(safe-area-inset-bottom)) max(0.75rem, env(safe-area-inset-left));
+            box-sizing: border-box;
+        }
+
+        .anansi-story-shell {
+            width: min(980px, 100%);
+            margin: 0 auto;
+            padding: 0.75rem 0 1.5rem;
+        }
+
+        .anansi-story-top {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .anansi-story-back {
+            color: #8a2f0b;
+            font-weight: 800;
+            text-decoration: none;
+        }
+
+        .anansi-hero {
+            position: relative;
+            border-radius: 28px;
+            overflow: hidden;
+            background: #ffffff;
+            box-shadow: 0 24px 60px rgba(124, 45, 18, 0.22);
+            border: 1px solid rgba(255, 255, 255, 0.7);
+            padding: 1rem;
+        }
+
+        .anansi-hero-slide {
+            position: relative;
+            aspect-ratio: 16 / 8.8;
+            background: #ffffff;
+            border-radius: 20px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .anansi-hero-image {
+            width: auto;
+            height: auto;
+            max-width: 100%;
+            max-height: 100%;
+            display: block;
+            image-rendering: -webkit-optimize-contrast;
+            image-rendering: crisp-edges;
+            image-rendering: high-quality;
+            backface-visibility: hidden;
+            transform: translateZ(0);
+        }
+
+        .anansi-hero-overlay {
+            position: absolute;
+            inset: 0;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            pointer-events: none;
+        }
+
+        .anansi-slide-controls {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            pointer-events: none;
+        }
+
+        .anansi-slide-btn {
+            border: 0;
+            background: rgba(255, 255, 255, 0.92);
+            color: #7c2d12;
+            width: 3rem;
+            height: 3rem;
+            border-radius: 999px;
+            cursor: pointer;
+            font-size: 1.05rem;
+            font-weight: 900;
+            box-shadow: 0 10px 22px rgba(124, 45, 18, 0.16);
+            pointer-events: auto;
+            touch-action: manipulation;
+        }
+
+        .anansi-slide-btn:hover {
+            background: #ffffff;
+        }
+
+        @media (max-width: 720px) {
+            .anansi-story-shell {
+                padding-bottom: 1rem;
+            }
+
+            .anansi-story-top {
+                margin-bottom: 0.7rem;
+            }
+
+            .anansi-story-back {
+                font-size: 0.95rem;
+            }
+
+            .anansi-hero {
+                padding: 0.55rem;
+                border-radius: 20px;
+                box-shadow: 0 16px 34px rgba(124, 45, 18, 0.18);
+            }
+
+            .anansi-hero-slide {
+                aspect-ratio: 4 / 3;
+                border-radius: 16px;
+            }
+
+            .anansi-hero-overlay {
+                padding: 0.55rem;
+            }
+
+            .anansi-slide-btn {
+                width: 2.85rem;
+                height: 2.85rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .anansi-story-page {
+                padding:
+                    max(0.5rem, env(safe-area-inset-top)) max(0.5rem, env(safe-area-inset-right)) max(0.85rem, env(safe-area-inset-bottom)) max(0.5rem, env(safe-area-inset-left));
+            }
+
+            .anansi-story-shell {
+                padding-top: 0.35rem;
+            }
+
+            .anansi-story-top {
+                margin-bottom: 0.5rem;
+            }
+
+            .anansi-hero {
+                padding: 0.4rem;
+                border-radius: 16px;
+            }
+
+            .anansi-hero-slide {
+                aspect-ratio: 1 / 1;
+                border-radius: 12px;
+            }
+
+            .anansi-hero-overlay {
+                padding: 0.4rem;
+            }
+
+            .anansi-slide-btn {
+                width: 2.6rem;
+                height: 2.6rem;
+                font-size: 0.95rem;
+            }
+        }
+    </style>
+</head>
+
+<body class="anansi-story-page">
+    <main class="anansi-story-shell">
+        <div class="anansi-story-top">
+            <a href="Afrikomiks.html" class="anansi-story-back">Back to Afrikomiks</a>
+        </div>
+
+        <section class="anansi-hero" aria-label="Anansi story slides">
+            <div class="anansi-hero-slide">
+                <img src="Images/Anansi/Anansi/Slide1.png" alt="Anansi story slide 1" class="anansi-hero-image"
+                    id="anansi-hero-image">
+                <div class="anansi-hero-overlay">
+                    <div class="anansi-slide-controls">
+                        <button type="button" class="anansi-slide-btn" id="anansi-prev"
+                            aria-label="Previous slide">&#10094;</button>
+                        <button type="button" class="anansi-slide-btn" id="anansi-next"
+                            aria-label="Next slide">&#10095;</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        (function () {
+            var slides = Array.from({ length: 19 }, function (_value, index) {
+                var slideNumber = index + 1;
+                return {
+                    src: 'Images/Anansi/Anansi/Slide' + slideNumber + '.png',
+                    alt: 'Anansi story slide ' + slideNumber,
+                    title: 'Anansi Story Slide ' + slideNumber
+                };
+            });
+
+            var heroImage = document.getElementById('anansi-hero-image');
+            var prevButton = document.getElementById('anansi-prev');
+            var nextButton = document.getElementById('anansi-next');
+            var heroSlide = document.querySelector('.anansi-hero-slide');
+            var currentIndex = 0;
+            var autoAdvanceId = null;
+            var touchStartX = 0;
+            var touchStartY = 0;
+
+            if (!heroImage || !prevButton || !nextButton || !heroSlide || !slides.length) {
+                return;
+            }
+
+            function renderSlide(index) {
+                currentIndex = (index + slides.length) % slides.length;
+                var slide = slides[currentIndex];
+                heroImage.src = slide.src;
+                heroImage.alt = slide.alt;
+            }
+
+            function restartAutoAdvance() {
+                if (autoAdvanceId) {
+                    window.clearInterval(autoAdvanceId);
+                }
+                autoAdvanceId = window.setInterval(function () {
+                    renderSlide(currentIndex + 1);
+                }, 25000);
+            }
+
+            prevButton.addEventListener('click', function () {
+                renderSlide(currentIndex - 1);
+                restartAutoAdvance();
+            });
+
+            nextButton.addEventListener('click', function () {
+                renderSlide(currentIndex + 1);
+                restartAutoAdvance();
+            });
+
+            heroSlide.addEventListener('touchstart', function (event) {
+                var touch = event.changedTouches && event.changedTouches[0];
+                if (!touch) {
+                    return;
+                }
+                touchStartX = touch.clientX;
+                touchStartY = touch.clientY;
+            }, { passive: true });
+
+            heroSlide.addEventListener('touchend', function (event) {
+                var touch = event.changedTouches && event.changedTouches[0];
+                if (!touch) {
+                    return;
+                }
+
+                var deltaX = touch.clientX - touchStartX;
+                var deltaY = touch.clientY - touchStartY;
+                if (Math.abs(deltaX) < 40 || Math.abs(deltaX) < Math.abs(deltaY)) {
+                    return;
+                }
+
+                if (deltaX < 0) {
+                    renderSlide(currentIndex + 1);
+                } else {
+                    renderSlide(currentIndex - 1);
+                }
+                restartAutoAdvance();
+            }, { passive: true });
+
+            renderSlide(0);
+            restartAutoAdvance();
+        })();
+    </script>
+</body>
+
+</html>

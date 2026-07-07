@@ -1,7 +1,7 @@
 {
   "hero": {
     "kicker": "Comic Stories",
-    "title": "Afrikomiks",
+    "title": "AfriKomics",
     "subtitle": "Explore African-inspired stories through vivid characters, real values, and fun adventures designed for young readers.",
     "backgroundLayers": [
       "radial-gradient(circle at 20% 20%, rgba(243, 87, 17, 0.17), transparent 48%)",
@@ -38,13 +38,24 @@
   "stories": [
     {
       "storyId": "anansi-drum",
-      "badge": "Ages 8-12",
+      "badge": "Ages 4 -10",
       "coverClass": "afrikomik-cover-sunrise",
+      "coverImage": "Images/Anansi.png",
+      "coverImageAlt": "Anansi",
       "title": "Anansi and the Talking Drum",
-      "meta": "Adventure | 6 episodes",
+      "meta": "Adventure | 4 Episodes",
       "summary": "Anansi discovers a magical drum that reveals hidden truths in his village. Every beat brings a lesson in honesty, courage, and teamwork.",
       "buttonText": "Read Story",
-      "buttonHref": "#"
+      "buttonHref": "AnansiVideo.html",
+      "secondaryStoryId": "kofi-moonlight-market",
+      "secondaryCoverClass": "afrikomik-cover-river",
+      "secondaryCoverImage": "Images/Kofi.png",
+      "secondaryCoverImageAlt": "Kofi Tortoise",
+      "secondaryTitle": "Kofi Tortoise and the Moonlight Market",
+      "secondaryMeta": "Moral Fable | 4 Episodes",
+      "secondarySummary": "When the Moonlight Market opens, clever Kofi Tortoise must follow one rule: take only what you can carry with honour. But greedy Hyena wants too much! Can Kofi Tortoise show everyone that sharing and keeping promises are the greatest treasures?",
+      "secondaryButtonText": "Read Story",
+      "secondaryButtonHref": "KofiVideo.html"
     },
     {
       "storyId": "river-guardians",
@@ -212,6 +223,96 @@
           "characterId": "ama",
           "bubbleStyle": "narration",
           "text": "Their mission begins with courage, friendship, and a promise to protect every drop."
+        }
+      ]
+    },
+    {
+      "id": "kofi-moonlight-market",
+      "seriesId": "kofi-moonlight-market",
+      "episodeNumber": 1,
+      "title": "Kofi Tortoise and the Moonlight Market",
+      "meta": "Moral Fable | Episode 1",
+      "summary": "On a bright full moon night, Kofi Tortoise discovers a hidden market that appears only for honest hearts.",
+      "characters": [
+        {
+          "id": "kofi",
+          "name": "Kofi Tortoise",
+          "seed": "kofi-moonlight"
+        },
+        {
+          "id": "abena",
+          "name": "Abena",
+          "seed": "abena-market"
+        },
+        {
+          "id": "auntie-esi",
+          "name": "Auntie Esi",
+          "seed": "esi-market"
+        }
+      ],
+      "panels": [
+        {
+          "speaker": "Kofi Tortoise",
+          "characterId": "kofi",
+          "bubbleStyle": "thought",
+          "text": "Those lanterns were not here at sunset. Where did this market come from?"
+        },
+        {
+          "speaker": "Abena",
+          "characterId": "abena",
+          "bubbleStyle": "speech",
+          "text": "Grandma says the moonlight market opens when people choose kindness over shortcuts."
+        },
+        {
+          "speaker": "Auntie Esi",
+          "characterId": "auntie-esi",
+          "bubbleStyle": "narration",
+          "text": "Every trader here asks for one true answer before any bargain. Speak wisely, little ones."
+        }
+      ]
+    },
+    {
+      "id": "kofi-moonlight-market-2",
+      "seriesId": "kofi-moonlight-market",
+      "episodeNumber": 2,
+      "title": "Kofi Tortoise and the Moonlight Market",
+      "meta": "Moral Fable | Episode 2",
+      "summary": "Kofi learns that the rarest gift in the market is not sold with coins, but with fairness and patience.",
+      "characters": [
+        {
+          "id": "kofi",
+          "name": "Kofi Tortoise",
+          "seed": "kofi-moonlight"
+        },
+        {
+          "id": "abena",
+          "name": "Abena",
+          "seed": "abena-market"
+        },
+        {
+          "id": "auntie-esi",
+          "name": "Auntie Esi",
+          "seed": "esi-market"
+        }
+      ],
+      "panels": [
+        {
+          "speaker": "Abena",
+          "characterId": "abena",
+          "bubbleStyle": "whisper",
+          "text": "We can rush and lose everything, or wait our turn and earn the moon seed."
+        },
+        {
+          "speaker": "Kofi Tortoise",
+          "characterId": "kofi",
+          "bubbleStyle": "speech",
+          "text": "Then we wait. A fair path may be slow, but it always carries us home."
+        },
+        {
+          "speaker": "Narrator",
+          "characterId": "kofi",
+          "bubbleStyle": "narration",
+          "text": "By dawn, Kofi leaves with a glowing seed and a bigger lesson: character is the true currency."
         }
       ]
     },

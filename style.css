@@ -5992,7 +5992,26 @@ body.modal-open {
 .afrikomiks-title {
   margin: 0.35rem 0 0;
   color: var(--primary-dark);
-  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  font-size: clamp(2.4rem, 6vw, 3.6rem);
+  font-family: 'Schoolbell', 'Comic Sans MS', 'Trebuchet MS', cursive;
+  letter-spacing: 0.02em;
+  line-height: 1.05;
+}
+
+.afrikomiks-title-part {
+  display: inline-block;
+}
+
+.afrikomiks-title-part-sun {
+  color: #f97316;
+}
+
+.afrikomiks-title-part-sky {
+  color: #0f4d92;
+}
+
+.afrikomiks-title-part-leaf {
+  color: #2f855a;
 }
 
 .afrikomiks-subtitle {
@@ -6021,6 +6040,16 @@ body.modal-open {
   position: relative;
 }
 
+.afrikomik-cover-image {
+  position: absolute;
+  left: 0.45rem;
+  bottom: 0;
+  height: 132px;
+  width: auto;
+  object-fit: contain;
+  z-index: 1;
+}
+
 .afrikomik-cover-sunrise {
   background: linear-gradient(140deg, #ffb347 0%, #f97316 45%, #b45309 100%);
 }
@@ -6043,16 +6072,45 @@ body.modal-open {
   border-radius: 999px;
   font-size: 0.72rem;
   font-weight: 700;
+  z-index: 2;
 }
 
 .afrikomik-body {
   padding: 0.9rem;
 }
 
+.afrikomik-secondary {
+  margin-top: 0.9rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid #d4e2f2;
+}
+
+.afrikomik-secondary-cover {
+  min-height: 112px;
+  border-radius: 0;
+  margin: 0 -0.9rem 0.8rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.afrikomik-secondary-cover-image {
+  position: absolute;
+  left: 0.45rem;
+  bottom: 0;
+  height: 104px;
+  width: auto;
+  object-fit: contain;
+  z-index: 1;
+}
+
 .afrikomik-title {
   margin: 0;
   font-size: 1.1rem;
   color: #162d45;
+}
+
+.afrikomik-title-secondary {
+  font-size: 1rem;
 }
 
 .afrikomik-meta {

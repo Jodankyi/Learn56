@@ -693,6 +693,23 @@
       return;
     }
 
+    function setAfrikomiksTitle(titleElement, titleText) {
+      if (!titleElement) {
+        return;
+      }
+      if (titleText === 'AfriKomics') {
+        titleElement.setAttribute('aria-label', titleText);
+        titleElement.innerHTML = [
+          '<span class="afrikomiks-title-part afrikomiks-title-part-sun">Afri</span>',
+          '<span class="afrikomiks-title-part afrikomiks-title-part-sky">Ko</span>',
+          '<span class="afrikomiks-title-part afrikomiks-title-part-leaf">mics</span>'
+        ].join('');
+        return;
+      }
+      titleElement.removeAttribute('aria-label');
+      titleElement.textContent = titleText;
+    }
+
     const heroSection = document.getElementById('afrikomiks-hero');
     const kicker = document.getElementById('afrikomiks-kicker');
     const title = document.getElementById('afrikomiks-title');
@@ -711,7 +728,7 @@
       kicker.textContent = content.hero.kicker;
     }
     if (title && content.hero && content.hero.title) {
-      title.textContent = content.hero.title;
+      setAfrikomiksTitle(title, content.hero.title);
     }
     if (subtitle && content.hero && content.hero.subtitle) {
       subtitle.textContent = content.hero.subtitle;
@@ -735,27 +752,53 @@
       return;
     }
 
-    grid.innerHTML = stories.map(function (story) {
-      const coverClass = story.coverClass ? ' ' + escapeHtml(story.coverClass) : '';
-      const buttonText = escapeHtml(story.buttonText || 'Read Story');
-      let resolvedHref = story.buttonHref || '#';
-      if (story.storyId) {
+    function resolveStoryHref(storyId, explicitHref) {
+      let resolvedHref = explicitHref || '#';
+      if (storyId && (!explicitHref || explicitHref === '#')) {
         const allComics = Array.isArray(content.comicStories) ? content.comicStories : [];
         const firstEpisode = allComics
           .filter(function (item) {
-            return (item.seriesId || item.id) === story.storyId;
+            return (item.seriesId || item.id) === storyId;
           })
           .sort(function (a, b) {
             return (Number(a.episodeNumber) || 1) - (Number(b.episodeNumber) || 1);
           })[0];
-        const storyTarget = firstEpisode ? firstEpisode.id : story.storyId;
+        const storyTarget = firstEpisode ? firstEpisode.id : storyId;
         resolvedHref = 'AfrikomiksReader.html?story=' + encodeURIComponent(storyTarget);
       }
-      const buttonHref = escapeHtml(resolvedHref);
+      return escapeHtml(resolvedHref);
+    }
+
+    grid.innerHTML = stories.map(function (story) {
+      const coverClass = story.coverClass ? ' ' + escapeHtml(story.coverClass) : '';
+      const coverImage = story.coverImage ? escapeHtml(story.coverImage) : '';
+      const coverImageAlt = escapeHtml(story.coverImageAlt || story.title || 'Story image');
+      const buttonText = escapeHtml(story.buttonText || 'Read Story');
+      const buttonHref = resolveStoryHref(story.storyId, story.buttonHref);
+      const secondaryTitle = escapeHtml(story.secondaryTitle || '');
+      const secondaryCoverClass = story.secondaryCoverClass ? ' ' + escapeHtml(story.secondaryCoverClass) : '';
+      const secondaryCoverImage = story.secondaryCoverImage ? escapeHtml(story.secondaryCoverImage) : '';
+      const secondaryCoverImageAlt = escapeHtml(story.secondaryCoverImageAlt || story.secondaryTitle || 'Story image');
+      const secondaryMeta = escapeHtml(story.secondaryMeta || '');
+      const secondarySummary = escapeHtml(story.secondarySummary || '');
+      const secondaryButtonText = escapeHtml(story.secondaryButtonText || 'Read Story');
+      const secondaryButtonHref = resolveStoryHref(story.secondaryStoryId, story.secondaryButtonHref);
+      const secondaryStoryHtml = story.secondaryTitle ? [
+        '<div class="afrikomik-secondary">',
+        '<div class="afrikomik-secondary-cover' + secondaryCoverClass + '">',
+        (secondaryCoverImage ? '<img src="' + secondaryCoverImage + '" alt="' + secondaryCoverImageAlt + '" class="afrikomik-secondary-cover-image">' : ''),
+        '</div>',
+        '<h3 class="afrikomik-title afrikomik-title-secondary">' + secondaryTitle + '</h3>',
+        '<p class="afrikomik-meta">' + secondaryMeta + '</p>',
+        '<p class="afrikomik-summary">' + secondarySummary + '</p>',
+        '<a href="' + secondaryButtonHref + '" class="btn btn-join">' + secondaryButtonText + '</a>',
+        '</div>'
+      ].join('') : '';
 
       return [
         '<article class="afrikomik-card">',
         '<div class="afrikomik-cover' + coverClass + '">',
+        (coverImage ? '<img src="' + coverImage + '" alt="' + coverImageAlt + '" class="afrikomik-cover-image">' : ''),
         '<span class="afrikomik-badge">' + escapeHtml(story.badge || '') + '</span>',
         '</div>',
         '<div class="afrikomik-body">',
@@ -763,6 +806,7 @@
         '<p class="afrikomik-meta">' + escapeHtml(story.meta || '') + '</p>',
         '<p class="afrikomik-summary">' + escapeHtml(story.summary || '') + '</p>',
         '<a href="' + buttonHref + '" class="btn btn-join">' + buttonText + '</a>',
+        secondaryStoryHtml,
         '</div>',
         '</article>'
       ].join('');
