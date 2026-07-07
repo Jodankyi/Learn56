@@ -5996,10 +5996,16 @@ body.modal-open {
   font-family: 'Schoolbell', 'Comic Sans MS', 'Trebuchet MS', cursive;
   letter-spacing: 0.02em;
   line-height: 1.05;
+  display: inline-flex;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+  gap: 0;
+  white-space: nowrap;
+  max-width: 100%;
 }
 
 .afrikomiks-title-part {
-  display: inline-block;
+  display: inline;
 }
 
 .afrikomiks-title-part-sun {
