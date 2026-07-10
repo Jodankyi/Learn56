@@ -68,10 +68,18 @@ async function initializeDatabase() {
       'role TEXT NOT NULL DEFAULT "student",' +
       'password_hash TEXT NOT NULL,' +
       'phone TEXT,' +
+      'profile_json TEXT,' +
       'created_at INTEGER NOT NULL,' +
       'updated_at INTEGER NOT NULL' +
     ')' 
   );
+  try {
+    await dbRun('ALTER TABLE users ADD COLUMN profile_json TEXT');
+  } catch (error) {
+    if (!String(error && error.message).includes('duplicate column name')) {
+      throw error;
+    }
+  }
   await dbRun('CREATE INDEX IF NOT EXISTS idx_users_email ON users(email)');
 }
 
@@ -96,6 +104,69 @@ function normalizePhone(input) {
   return String(input || '').trim();
 }
 
+function cleanString(input) {
+  return String(input || '').trim();
+}
+
+function cleanStringArray(input, maxLength) {
+  const rawItems = Array.isArray(input)
+    ? input
+    : String(input || '').split(',');
+  return rawItems
+    .map(function (value) {
+      return String(value || '').trim();
+    })
+    .filter(Boolean)
+    .slice(0, maxLength || 25);
+}
+
+function normalizeRoleProfile(role, profileInput) {
+  const profile = profileInput && typeof profileInput === 'object' ? profileInput : {};
+
+  if (role === 'student') {
+    const studentProfile = {
+      schoolName: cleanString(profile.schoolName),
+      teacherNames: cleanStringArray(profile.teacherNames, 30)
+    };
+    if (!studentProfile.schoolName) {
+      throw new Error('School name is required for student registration.');
+    }
+    return studentProfile;
+  }
+
+  if (role === 'parent') {
+    const parentProfile = {
+      studentNames: cleanStringArray(profile.studentNames, 30),
+      gradeLevel: cleanString(profile.gradeLevel),
+      schoolInfo: cleanString(profile.schoolInfo)
+    };
+    if (!parentProfile.studentNames.length || !parentProfile.gradeLevel || !parentProfile.schoolInfo) {
+      throw new Error('Student names, grade level, and school information are required for parent registration.');
+    }
+    return parentProfile;
+  }
+
+  const teacherProfile = {
+    schoolName: cleanString(profile.schoolName),
+    subjectsTaught: cleanStringArray(profile.subjectsTaught, 30)
+  };
+  if (!teacherProfile.schoolName || !teacherProfile.subjectsTaught.length) {
+    throw new Error('School and subjects taught are required for teacher registration.');
+  }
+  return teacherProfile;
+}
+
+function parseProfileJson(value) {
+  if (!value) {
+    return null;
+  }
+  try {
+    return JSON.parse(value);
+  } catch (_error) {
+    return null;
+  }
+}
+
 function generateCode() {
   return String(Math.floor(100000 + Math.random() * 900000));
 }
@@ -110,6 +181,7 @@ function toPublicUser(row) {
     email: row.email,
     role: row.role,
     phone: row.phone || null,
+    profile: parseProfileJson(row.profile_json),
     createdAt: row.created_at,
     updatedAt: row.updated_at
   };
@@ -158,12 +230,23 @@ app.post('/api/auth/register', async function (req, res) {
     const role = String((req.body && req.body.role) || 'student').trim().toLowerCase();
     const phone = normalizePhone(req.body && req.body.phone);
     const password = String((req.body && req.body.password) || '');
+    const allowedRoles = new Set(['student', 'parent', 'teacher']);
 
     if (!name || !email || !password) {
       return res.status(400).json({ error: 'Name, email, and password are required.' });
     }
     if (password.length < 6) {
       return res.status(400).json({ error: 'Password must be at least 6 characters.' });
+    }
+    if (!allowedRoles.has(role)) {
+      return res.status(400).json({ error: 'Role must be student, parent, or teacher.' });
+    }
+
+    let normalizedProfile = null;
+    try {
+      normalizedProfile = normalizeRoleProfile(role, req.body && req.body.profile);
+    } catch (error) {
+      return res.status(400).json({ error: error.message });
     }
 
     const existing = await getUserByEmail(email);
@@ -175,8 +258,8 @@ app.post('/api/auth/register', async function (req, res) {
     const now = nowMs();
 
     await dbRun(
-      'INSERT INTO users (name, email, role, password_hash, phone, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?)',
-      [name, email, role || 'student', passwordHash, phone || null, now, now]
+      'INSERT INTO users (name, email, role, password_hash, phone, profile_json, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?)',
+      [name, email, role || 'student', passwordHash, phone || null, JSON.stringify(normalizedProfile), now, now]
     );
 
     const created = await getUserByEmail(email);

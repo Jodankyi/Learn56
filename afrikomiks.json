@@ -1,7 +1,7 @@
 {
   "hero": {
     "kicker": "Comic Stories",
-    "title": "AfriKomics",
+    "title": "AfriKomiks",
     "subtitle": "Explore African-inspired stories through vivid characters, real values, and fun adventures designed for young readers.",
     "backgroundLayers": [
       "radial-gradient(circle at 20% 20%, rgba(243, 87, 17, 0.17), transparent 48%)",
@@ -65,7 +65,15 @@
       "meta": "Fantasy | 8 episodes",
       "summary": "Three friends protect their river community from pollution and greed, using science and ancient wisdom to keep the waters alive.",
       "buttonText": "Read Story",
-      "buttonHref": "#"
+      "buttonHref": "#",
+      "secondaryCoverClass": "afrikomik-cover-teal",
+      "secondaryCoverImage": "Images/AminaStaff2.png",
+      "secondaryCoverImageAlt": "Amina Staff",
+      "secondaryTitle": "Amina and the Ember Staff",
+      "secondaryMeta": "Fantasy",
+      "secondarySummary": "Amina uses the Ember Staff on a magical quest to defeat dark forces, discovering her strength and ancestral wisdom. It’s a story of adventure, heritage, and empowerment — blending African mythology with fantasy in a visually stunning AfriKomiks series.",
+      "secondaryButtonText": "Read Story",
+      "secondaryButtonHref": "AminaVideo.html"
     },
     {
       "storyId": "accra-sky-riders",

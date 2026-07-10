@@ -50,26 +50,69 @@
 
     <main class="register-page-main">
         <section class="register-page-card">
-            <h1 class="register-title">Create Your Learn56 Account</h1>
+            <h1 class="register-title">Register</h1>
             <p class="register-subtitle">Join students, parents, and teachers building confidence every day.</p>
 
             <form id="register-form" class="register-form" novalidate>
-                <label for="register-name">Full Name</label>
-                <input id="register-name" name="name" type="text" required autocomplete="name">
+                <label for="register-name">Full Name <span class="required-asterisk" aria-hidden="true">*</span></label>
+                <input id="register-name" name="name" type="text" required aria-required="true" autocomplete="name">
 
-                <label for="register-email">Email Address</label>
-                <input id="register-email" name="email" type="email" required autocomplete="email">
+                <label for="register-email">Email Address <span class="required-asterisk"
+                        aria-hidden="true">*</span></label>
+                <input id="register-email" name="email" type="email" required aria-required="true" autocomplete="email">
 
-                <label for="register-role">Role</label>
-                <select id="register-role" name="role" required>
+                <label for="register-role">Role <span class="required-asterisk" aria-hidden="true">*</span></label>
+                <select id="register-role" name="role" required aria-required="true">
+                    <option value="" selected disabled>Select role</option>
                     <option value="student">Student</option>
                     <option value="parent">Parent</option>
                     <option value="teacher">Teacher</option>
                 </select>
 
-                <label for="register-password">Password</label>
+                <section class="register-role-section" data-role-section="student" aria-label="Student Profile Details"
+                    hidden>
+                    <h2 class="register-section-title">Student Profile</h2>
+                    <label for="student-school-name">School Name</label>
+                    <input id="student-school-name" name="studentSchoolName" type="text" data-required-by-role="student"
+                        autocomplete="organization">
+
+                    <label for="student-teachers">Teacher Name(s) for Courses</label>
+                    <textarea id="student-teachers" name="studentTeacherNames" rows="2"
+                        placeholder="e.g. Ms. Mensah, Mr. Boateng"></textarea>
+                </section>
+
+                <section class="register-role-section" data-role-section="parent" aria-label="Parent Profile Details"
+                    hidden>
+                    <h2 class="register-section-title">Parent Profile</h2>
+                    <label for="parent-students">Student Name(s)</label>
+                    <textarea id="parent-students" name="parentStudentNames" rows="2" data-required-by-role="parent"
+                        placeholder="e.g. Ama Ofori, Kweku Osei"></textarea>
+
+                    <label for="parent-grade-level">Grade Level</label>
+                    <input id="parent-grade-level" name="parentGradeLevel" type="text" data-required-by-role="parent"
+                        placeholder="e.g. Primary 5, JHS 2">
+
+                    <label for="parent-school-info">School Information</label>
+                    <textarea id="parent-school-info" name="parentSchoolInfo" rows="2" data-required-by-role="parent"
+                        placeholder="School name and location"></textarea>
+                </section>
+
+                <section class="register-role-section" data-role-section="teacher" aria-label="Teacher Profile Details"
+                    hidden>
+                    <h2 class="register-section-title">Teacher Profile</h2>
+                    <label for="teacher-school">School</label>
+                    <input id="teacher-school" name="teacherSchool" type="text" data-required-by-role="teacher"
+                        autocomplete="organization">
+
+                    <label for="teacher-subjects">Subjects Taught</label>
+                    <textarea id="teacher-subjects" name="teacherSubjects" rows="2" data-required-by-role="teacher"
+                        placeholder="e.g. Mathematics, Science"></textarea>
+                </section>
+
+                <label for="register-password">Password <span class="required-asterisk"
+                        aria-hidden="true">*</span></label>
                 <input id="register-password" name="password" type="password" minlength="6" required
-                    autocomplete="new-password">
+                    aria-required="true" autocomplete="new-password">
 
                 <button type="submit" class="btn btn-join register-submit">Create Account</button>
                 <button type="button" class="btn btn-signin register-signin-btn js-open-signin">Sign In Instead</button>
@@ -92,6 +135,9 @@
 
             const registerForm = document.getElementById('register-form');
             const feedback = document.getElementById('register-feedback');
+            const roleInput = document.getElementById('register-role');
+            const roleSections = Array.prototype.slice.call(document.querySelectorAll('[data-role-section]'));
+            const roleRequiredInputs = Array.prototype.slice.call(document.querySelectorAll('[data-required-by-role]'));
             const defaultApiBase =
                 window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
                     ? 'http://localhost:8787'
@@ -125,16 +171,84 @@
                 return data;
             }
 
+            function parseCommaSeparatedNames(value) {
+                return String(value || '')
+                    .split(',')
+                    .map(function (item) {
+                        return item.trim();
+                    })
+                    .filter(Boolean);
+            }
+
+            function setRoleSections(activeRole) {
+                roleSections.forEach(function (section) {
+                    const sectionRole = section.getAttribute('data-role-section');
+                    section.hidden = sectionRole !== activeRole;
+                });
+
+                roleRequiredInputs.forEach(function (input) {
+                    const requiredRole = input.getAttribute('data-required-by-role');
+                    input.required = requiredRole === activeRole;
+                });
+            }
+
+            function buildRoleProfile(formData, role) {
+                if (role === 'student') {
+                    return {
+                        schoolName: String(formData.get('studentSchoolName') || '').trim(),
+                        teacherNames: parseCommaSeparatedNames(formData.get('studentTeacherNames'))
+                    };
+                }
+
+                if (role === 'parent') {
+                    return {
+                        studentNames: parseCommaSeparatedNames(formData.get('parentStudentNames')),
+                        gradeLevel: String(formData.get('parentGradeLevel') || '').trim(),
+                        schoolInfo: String(formData.get('parentSchoolInfo') || '').trim()
+                    };
+                }
+
+                return {
+                    schoolName: String(formData.get('teacherSchool') || '').trim(),
+                    subjectsTaught: parseCommaSeparatedNames(formData.get('teacherSubjects'))
+                };
+            }
+
+            function validateRoleProfile(role, profile) {
+                if (role === 'student') {
+                    return Boolean(profile.schoolName);
+                }
+
+                if (role === 'parent') {
+                    return profile.studentNames.length > 0 && Boolean(profile.gradeLevel) && Boolean(profile.schoolInfo);
+                }
+
+                return Boolean(profile.schoolName) && profile.subjectsTaught.length > 0;
+            }
+
+            roleInput.addEventListener('change', function () {
+                const selectedRole = String(roleInput.value || '').trim().toLowerCase();
+                setRoleSections(selectedRole);
+            });
+            setRoleSections('');
+
             registerForm.addEventListener('submit', async function (event) {
                 event.preventDefault();
                 const formData = new FormData(registerForm);
                 const name = String(formData.get('name') || '').trim();
                 const email = String(formData.get('email') || '').trim().toLowerCase();
-                const role = String(formData.get('role') || 'student');
+                const role = String(formData.get('role') || '').trim().toLowerCase();
                 const password = String(formData.get('password') || '');
+                const profile = buildRoleProfile(formData, role);
 
-                if (!name || !email || password.length < 6) {
-                    feedback.textContent = 'Please complete all fields. Password must be at least 6 characters.';
+                if (!name || !email || !role || password.length < 6) {
+                    feedback.textContent = 'Please complete all fields, including role. Password must be at least 6 characters.';
+                    feedback.classList.add('is-error');
+                    return;
+                }
+
+                if (!validateRoleProfile(role, profile)) {
+                    feedback.textContent = 'Please complete the required profile details for your selected role.';
                     feedback.classList.add('is-error');
                     return;
                 }
@@ -144,12 +258,14 @@
                         name: name,
                         email: email,
                         role: role,
-                        password: password
+                        password: password,
+                        profile: profile
                     });
 
                     feedback.textContent = 'Registration successful. Use Sign In to continue.';
                     feedback.classList.remove('is-error');
                     registerForm.reset();
+                    setRoleSections(roleInput.value);
                 } catch (error) {
                     feedback.textContent = error.message;
                     feedback.classList.add('is-error');

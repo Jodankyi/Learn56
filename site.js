@@ -697,12 +697,12 @@
       if (!titleElement) {
         return;
       }
-      if (titleText === 'AfriKomics') {
+      if (titleText === 'AfriKomiks') {
         titleElement.setAttribute('aria-label', titleText);
         titleElement.innerHTML = [
           '<span class="afrikomiks-title-part afrikomiks-title-part-sun">Afri</span>',
           '<span class="afrikomiks-title-part afrikomiks-title-part-sky">Ko</span>',
-          '<span class="afrikomiks-title-part afrikomiks-title-part-leaf">mics</span>'
+          '<span class="afrikomiks-title-part afrikomiks-title-part-leaf">miks</span>'
         ].join('');
         return;
       }
@@ -769,6 +769,18 @@
       return escapeHtml(resolvedHref);
     }
 
+    function cleanCardMeta(metaText) {
+      return String(metaText || '')
+        .replace(/\bEpisodes?\b/gi, '')
+        .replace(/\b\d+\b/g, '')
+        .replace(/\s{2,}/g, ' ')
+        .replace(/\s+\|\s+/g, ' | ')
+        .replace(/\s*\|\s*/g, ' | ')
+        .replace(/^\|\s*/g, '')
+        .replace(/\|\s*$/g, '')
+        .trim();
+    }
+
     grid.innerHTML = stories.map(function (story) {
       const coverClass = story.coverClass ? ' ' + escapeHtml(story.coverClass) : '';
       const coverImage = story.coverImage ? escapeHtml(story.coverImage) : '';
@@ -779,7 +791,7 @@
       const secondaryCoverClass = story.secondaryCoverClass ? ' ' + escapeHtml(story.secondaryCoverClass) : '';
       const secondaryCoverImage = story.secondaryCoverImage ? escapeHtml(story.secondaryCoverImage) : '';
       const secondaryCoverImageAlt = escapeHtml(story.secondaryCoverImageAlt || story.secondaryTitle || 'Story image');
-      const secondaryMeta = escapeHtml(story.secondaryMeta || '');
+      const secondaryMeta = escapeHtml(cleanCardMeta(story.secondaryMeta || ''));
       const secondarySummary = escapeHtml(story.secondarySummary || '');
       const secondaryButtonText = escapeHtml(story.secondaryButtonText || 'Read Story');
       const secondaryButtonHref = resolveStoryHref(story.secondaryStoryId, story.secondaryButtonHref);
@@ -803,7 +815,7 @@
         '</div>',
         '<div class="afrikomik-body">',
         '<h2 class="afrikomik-title">' + escapeHtml(story.title || '') + '</h2>',
-        '<p class="afrikomik-meta">' + escapeHtml(story.meta || '') + '</p>',
+        '<p class="afrikomik-meta">' + escapeHtml(cleanCardMeta(story.meta || '')) + '</p>',
         '<p class="afrikomik-summary">' + escapeHtml(story.summary || '') + '</p>',
         '<a href="' + buttonHref + '" class="btn btn-join">' + buttonText + '</a>',
         secondaryStoryHtml,
