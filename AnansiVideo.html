@@ -110,6 +110,14 @@
             background: #ffffff;
         }
 
+        .anansi-missing {
+            text-align: center;
+            margin: 0;
+            padding: 1.2rem;
+            color: #7c2d12;
+            font-weight: 700;
+        }
+
         @media (max-width: 720px) {
             .anansi-story-shell {
                 padding-bottom: 1rem;
@@ -191,6 +199,8 @@
             <div class="anansi-hero-slide">
                 <img src="Images/Anansi/Anansi/Slide1.png" alt="Anansi story slide 1" class="anansi-hero-image"
                     id="anansi-hero-image">
+                <p class="anansi-missing" id="anansi-missing" hidden>Anansi slides were not found in the Anansi folder.
+                </p>
                 <div class="anansi-hero-overlay">
                     <div class="anansi-slide-controls">
                         <button type="button" class="anansi-slide-btn" id="anansi-prev"
@@ -205,16 +215,8 @@
 
     <script>
         (function () {
-            var slides = Array.from({ length: 19 }, function (_value, index) {
-                var slideNumber = index + 1;
-                return {
-                    src: 'Images/Anansi/Anansi/Slide' + slideNumber + '.png',
-                    alt: 'Anansi story slide ' + slideNumber,
-                    title: 'Anansi Story Slide ' + slideNumber
-                };
-            });
-
             var heroImage = document.getElementById('anansi-hero-image');
+            var missing = document.getElementById('anansi-missing');
             var prevButton = document.getElementById('anansi-prev');
             var nextButton = document.getElementById('anansi-next');
             var heroSlide = document.querySelector('.anansi-hero-slide');
@@ -222,9 +224,54 @@
             var autoAdvanceId = null;
             var touchStartX = 0;
             var touchStartY = 0;
+            var slides = [];
 
-            if (!heroImage || !prevButton || !nextButton || !heroSlide || !slides.length) {
+            if (!heroImage || !prevButton || !nextButton || !heroSlide || !missing) {
                 return;
+            }
+
+            function loadSlide(src, altText) {
+                return new Promise(function (resolve) {
+                    var probe = new Image();
+                    probe.onload = function () {
+                        resolve({ ok: true, src: src, alt: altText });
+                    };
+                    probe.onerror = function () {
+                        resolve({ ok: false });
+                    };
+                    probe.src = src;
+                });
+            }
+
+            async function discoverSlides() {
+                var basePaths = [
+                    'Images/Anansi/Anansi',
+                    'Images/Anansi'
+                ];
+                var extensions = ['png', 'PNG', 'jpeg', 'JPEG', 'jpg', 'JPG', 'webp', 'WEBP'];
+                var found = [];
+                var misses = 0;
+                for (var i = 1; i <= 60; i += 1) {
+                    var slideFound = false;
+                    for (var pathIndex = 0; pathIndex < basePaths.length && !slideFound; pathIndex += 1) {
+                        for (var extIndex = 0; extIndex < extensions.length && !slideFound; extIndex += 1) {
+                            var src = basePaths[pathIndex] + '/Slide' + i + '.' + extensions[extIndex];
+                            var result = await loadSlide(src, 'Anansi story slide ' + i);
+                            if (result.ok) {
+                                found.push({ src: result.src, alt: result.alt });
+                                misses = 0;
+                                slideFound = true;
+                            }
+                        }
+                    }
+                    if (!slideFound) {
+                        misses += 1;
+                    }
+                    if (found.length && misses >= 3) {
+                        break;
+                    }
+                }
+                return found;
             }
 
             function renderSlide(index) {
@@ -243,47 +290,64 @@
                 }, 25000);
             }
 
-            prevButton.addEventListener('click', function () {
-                renderSlide(currentIndex - 1);
-                restartAutoAdvance();
-            });
+            function showMissing() {
+                heroImage.hidden = true;
+                missing.hidden = false;
+                prevButton.hidden = true;
+                nextButton.hidden = true;
+            }
 
-            nextButton.addEventListener('click', function () {
-                renderSlide(currentIndex + 1);
-                restartAutoAdvance();
-            });
-
-            heroSlide.addEventListener('touchstart', function (event) {
-                var touch = event.changedTouches && event.changedTouches[0];
-                if (!touch) {
-                    return;
-                }
-                touchStartX = touch.clientX;
-                touchStartY = touch.clientY;
-            }, { passive: true });
-
-            heroSlide.addEventListener('touchend', function (event) {
-                var touch = event.changedTouches && event.changedTouches[0];
-                if (!touch) {
-                    return;
-                }
-
-                var deltaX = touch.clientX - touchStartX;
-                var deltaY = touch.clientY - touchStartY;
-                if (Math.abs(deltaX) < 40 || Math.abs(deltaX) < Math.abs(deltaY)) {
-                    return;
-                }
-
-                if (deltaX < 0) {
-                    renderSlide(currentIndex + 1);
-                } else {
+            function bindControls() {
+                prevButton.addEventListener('click', function () {
                     renderSlide(currentIndex - 1);
-                }
-                restartAutoAdvance();
-            }, { passive: true });
+                    restartAutoAdvance();
+                });
 
-            renderSlide(0);
-            restartAutoAdvance();
+                nextButton.addEventListener('click', function () {
+                    renderSlide(currentIndex + 1);
+                    restartAutoAdvance();
+                });
+
+                heroSlide.addEventListener('touchstart', function (event) {
+                    var touch = event.changedTouches && event.changedTouches[0];
+                    if (!touch) {
+                        return;
+                    }
+                    touchStartX = touch.clientX;
+                    touchStartY = touch.clientY;
+                }, { passive: true });
+
+                heroSlide.addEventListener('touchend', function (event) {
+                    var touch = event.changedTouches && event.changedTouches[0];
+                    if (!touch) {
+                        return;
+                    }
+
+                    var deltaX = touch.clientX - touchStartX;
+                    var deltaY = touch.clientY - touchStartY;
+                    if (Math.abs(deltaX) < 40 || Math.abs(deltaX) < Math.abs(deltaY)) {
+                        return;
+                    }
+
+                    if (deltaX < 0) {
+                        renderSlide(currentIndex + 1);
+                    } else {
+                        renderSlide(currentIndex - 1);
+                    }
+                    restartAutoAdvance();
+                }, { passive: true });
+            }
+
+            discoverSlides().then(function (foundSlides) {
+                slides = foundSlides;
+                if (!slides.length) {
+                    showMissing();
+                    return;
+                }
+                bindControls();
+                renderSlide(0);
+                restartAutoAdvance();
+            });
         })();
     </script>
 </body>

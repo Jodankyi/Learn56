@@ -431,13 +431,33 @@
   }
 
   function isAfrikomiksPage() {
-    const page = window.location.pathname.split('/').pop();
-    return page === 'Afrikomiks.html';
+    const page = (window.location.pathname.split('/').pop() || '').toLowerCase();
+    return page === 'afrikomiks.html' || page === 'afrikomiks';
   }
 
   function isAfrikomiksReaderPage() {
-    const page = window.location.pathname.split('/').pop();
-    return page === 'AfrikomiksReader.html';
+    const page = (window.location.pathname.split('/').pop() || '').toLowerCase();
+    return page === 'afrikomiksreader.html' || page === 'afrikomiksreader';
+  }
+
+  async function fetchJsonWithFallback(paths) {
+    const tried = [];
+    for (let i = 0; i < paths.length; i += 1) {
+      const path = paths[i];
+      if (!path || tried.indexOf(path) !== -1) {
+        continue;
+      }
+      tried.push(path);
+      try {
+        const response = await fetch(path, { cache: 'no-store' });
+        if (response.ok) {
+          return response.json();
+        }
+      } catch (_) {
+        // Try next candidate URL.
+      }
+    }
+    return null;
   }
 
   function escapeHtml(value) {
@@ -473,12 +493,16 @@
     }
 
     try {
-      const response = await fetch('afrikomiks.json', { cache: 'no-store' });
-      if (!response.ok) {
+      const currentDir = window.location.pathname.replace(/[^/]*$/, '');
+      const content = await fetchJsonWithFallback([
+        'afrikomiks.json',
+        './afrikomiks.json',
+        currentDir + 'afrikomiks.json',
+        currentDir + 'Afrikomiks.json'
+      ]);
+      if (!content) {
         return;
       }
-
-      const content = await response.json();
       renderAfrikomiksContent(content);
     } catch (_) {
       // Keep static HTML fallback when JSON is unavailable.
@@ -491,12 +515,16 @@
     }
 
     try {
-      const response = await fetch('afrikomiks.json', { cache: 'no-store' });
-      if (!response.ok) {
+      const currentDir = window.location.pathname.replace(/[^/]*$/, '');
+      const content = await fetchJsonWithFallback([
+        'afrikomiks.json',
+        './afrikomiks.json',
+        currentDir + 'afrikomiks.json',
+        currentDir + 'Afrikomiks.json'
+      ]);
+      if (!content) {
         return;
       }
-
-      const content = await response.json();
       renderAfrikomiksReaderContent(content);
     } catch (_) {
       // Keep static fallback when JSON is unavailable.

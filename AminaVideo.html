@@ -243,26 +243,30 @@
 
             async function discoverSlides() {
                 var basePaths = [
-                    'Images/Amina',
-                    'Images/Amina/Amina'
+                    'Images/Amina/Amina',
+                    'Images/Amina'
                 ];
-                var extensions = ['PNG', 'png', 'jpeg', 'jpg', 'webp'];
+                var extensions = ['png', 'PNG', 'jpeg', 'JPEG', 'jpg', 'JPG', 'webp', 'WEBP'];
                 var found = [];
-                for (var i = 1; i <= 26; i += 1) {
-                    for (var pathIndex = 0; pathIndex < basePaths.length; pathIndex += 1) {
-                        var slideFound = false;
-                        for (var extIndex = 0; extIndex < extensions.length; extIndex += 1) {
+                var misses = 0;
+                for (var i = 1; i <= 60; i += 1) {
+                    var slideFound = false;
+                    for (var pathIndex = 0; pathIndex < basePaths.length && !slideFound; pathIndex += 1) {
+                        for (var extIndex = 0; extIndex < extensions.length && !slideFound; extIndex += 1) {
                             var src = basePaths[pathIndex] + '/Slide' + i + '.' + extensions[extIndex];
                             var result = await loadSlide(src, 'Amina story slide ' + i);
                             if (result.ok) {
                                 found.push({ src: result.src, alt: result.alt });
+                                misses = 0;
                                 slideFound = true;
-                                break;
                             }
                         }
-                        if (slideFound) {
-                            break;
-                        }
+                    }
+                    if (!slideFound) {
+                        misses += 1;
+                    }
+                    if (found.length && misses >= 3) {
+                        break;
                     }
                 }
                 return found;
