@@ -131,8 +131,8 @@
                     </div>
                     <div class="featured-skill-rule" aria-hidden="true"></div>
                     <div class="featured-skill-actions">
-                        <button class="featured-skill-btn" type="button">Practice</button>
-                        <button class="featured-skill-btn featured-skill-btn-start" type="button">Start</button>
+                        <a class="featured-skill-btn" href="PrimaryMathPractice.html">Practice</a>
+                        <a class="featured-skill-btn featured-skill-btn-start" href="PrimaryMathPractice.html">Start</a>
                     </div>
                 </article>
 
@@ -143,8 +143,8 @@
                     </div>
                     <div class="featured-skill-rule" aria-hidden="true"></div>
                     <div class="featured-skill-actions">
-                        <button class="featured-skill-btn" type="button">Practice</button>
-                        <button class="featured-skill-btn featured-skill-btn-start" type="button">Start</button>
+                        <a class="featured-skill-btn" href="PrimaryMathPractice.html">Practice</a>
+                        <a class="featured-skill-btn featured-skill-btn-start" href="PrimaryMathPractice.html">Start</a>
                     </div>
                 </article>
 
@@ -155,8 +155,8 @@
                     </div>
                     <div class="featured-skill-rule" aria-hidden="true"></div>
                     <div class="featured-skill-actions">
-                        <button class="featured-skill-btn" type="button">Practice</button>
-                        <button class="featured-skill-btn featured-skill-btn-start" type="button">Start</button>
+                        <a class="featured-skill-btn" href="PrimaryMathPractice.html">Practice</a>
+                        <a class="featured-skill-btn featured-skill-btn-start" href="PrimaryMathPractice.html">Start</a>
                     </div>
                 </article>
             </div>
@@ -173,8 +173,8 @@
                                     <div class="skills-grade-select-wrap">
                                         <select class="skills-grade-select" aria-label="Kindergaten options">
                                             <option selected>Select Grade</option>
-                                            <option>Pre-K</option>
-                                            <option>K</option>
+                                            <option value="MathPrimary.html">Pre-K</option>
+                                            <option value="MathPrimary.html">K</option>
                                         </select>
                                     </div>
                                 </div>
@@ -187,12 +187,12 @@
                                     <div class="skills-grade-select-wrap">
                                         <select class="skills-grade-select" aria-label="Primary options">
                                             <option selected>Select Grade</option>
-                                            <option value="PrimaryMathPractice.html?grade=primary-1">P - 1</option>
-                                            <option value="PrimaryMathPractice.html?grade=primary-2">P - 2</option>
-                                            <option value="PrimaryMathPractice.html?grade=primary-3">P - 3</option>
-                                            <option value="PrimaryMathPractice.html?grade=primary-4">P - 4</option>
-                                            <option value="PrimaryMathPractice.html?grade=primary-5">P - 5</option>
-                                            <option value="PrimaryMathPractice.html?grade=primary-6">P - 6</option>
+                                            <option value="MathPrimary.html">P - 1</option>
+                                            <option value="MathPrimary.html">P - 2</option>
+                                            <option value="MathPrimary.html">P - 3</option>
+                                            <option value="MathPrimary.html">P - 4</option>
+                                            <option value="MathPrimary.html">P - 5</option>
+                                            <option value="MathPrimary.html">P - 6</option>
                                         </select>
                                     </div>
                                 </div>
@@ -205,9 +205,9 @@
                                     <div class="skills-grade-select-wrap">
                                         <select class="skills-grade-select" aria-label="JHS options">
                                             <option selected>Select Grade</option>
-                                            <option>JHS 1</option>
-                                            <option>JHS 2</option>
-                                            <option>JHS 3</option>
+                                            <option value="MathJH.html">JHS 1</option>
+                                            <option value="MathJH.html">JHS 2</option>
+                                            <option value="MathJH.html">JHS 3</option>
                                         </select>
                                     </div>
                                 </div>
@@ -220,9 +220,9 @@
                                     <div class="skills-grade-select-wrap">
                                         <select class="skills-grade-select" aria-label="SHS options">
                                             <option selected>Select Grade</option>
-                                            <option>SHS 1</option>
-                                            <option>SHS 2</option>
-                                            <option>SHS 3</option>
+                                            <option value="MathSH.html">SHS 1</option>
+                                            <option value="MathSH.html">SHS 2</option>
+                                            <option value="MathSH.html">SHS 3</option>
                                         </select>
                                     </div>
                                 </div>
@@ -401,11 +401,24 @@
             }
         });
 
-        // Route selected foundational grades to the Primary Maths Practice page.
-        document.querySelectorAll('.skills-grade-select').forEach(function (select) {
+        const skillsGradeSelects = document.querySelectorAll('.skills-grade-select');
+
+        function resetSkillsGradeSelects() {
+            skillsGradeSelects.forEach(function (select) {
+                select.selectedIndex = 0;
+            });
+        }
+
+        resetSkillsGradeSelects();
+        window.addEventListener('pageshow', resetSkillsGradeSelects);
+
+        // Route selected grades to the relevant overview page.
+        skillsGradeSelects.forEach(function (select) {
             select.addEventListener('change', function () {
                 if (!select.value || select.value === 'Select Grade') return;
-                window.location.href = select.value;
+                const targetHref = select.value;
+                select.selectedIndex = 0;
+                window.location.href = targetHref;
             });
         });
     </script>

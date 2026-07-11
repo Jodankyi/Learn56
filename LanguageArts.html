@@ -130,8 +130,9 @@
                     </div>
                     <div class="featured-skill-rule" aria-hidden="true"></div>
                     <div class="featured-skill-actions">
-                        <button class="featured-skill-btn" type="button">Practice</button>
-                        <button class="featured-skill-btn featured-skill-btn-start" type="button">Start</button>
+                        <a class="featured-skill-btn" href="PrimaryLanguageArtsPractice.html">Practice</a>
+                        <a class="featured-skill-btn featured-skill-btn-start"
+                            href="PrimaryLanguageArtsPractice.html">Start</a>
                     </div>
                 </article>
 
@@ -142,8 +143,9 @@
                     </div>
                     <div class="featured-skill-rule" aria-hidden="true"></div>
                     <div class="featured-skill-actions">
-                        <button class="featured-skill-btn" type="button">Practice</button>
-                        <button class="featured-skill-btn featured-skill-btn-start" type="button">Start</button>
+                        <a class="featured-skill-btn" href="PrimaryLanguageArtsPractice.html">Practice</a>
+                        <a class="featured-skill-btn featured-skill-btn-start"
+                            href="PrimaryLanguageArtsPractice.html">Start</a>
                     </div>
                 </article>
 
@@ -154,8 +156,9 @@
                     </div>
                     <div class="featured-skill-rule" aria-hidden="true"></div>
                     <div class="featured-skill-actions">
-                        <button class="featured-skill-btn" type="button">Practice</button>
-                        <button class="featured-skill-btn featured-skill-btn-start" type="button">Start</button>
+                        <a class="featured-skill-btn" href="PrimaryLanguageArtsPractice.html">Practice</a>
+                        <a class="featured-skill-btn featured-skill-btn-start"
+                            href="PrimaryLanguageArtsPractice.html">Start</a>
                     </div>
                 </article>
             </div>
@@ -172,12 +175,8 @@
                                     <div class="skills-grade-select-wrap">
                                         <select class="skills-grade-select" aria-label="Kindergaten options">
                                             <option selected>Select Grade</option>
-                                            <option
-                                                value="PrimaryLanguageArtsPractice.html?grade=kindergarten&topic=kindergarten-language-arts-overview&label=Kindergarten%20Language%20Arts">
-                                                Pre-K</option>
-                                            <option
-                                                value="PrimaryLanguageArtsPractice.html?grade=kindergarten&topic=kindergarten-language-arts-overview&label=Kindergarten%20Language%20Arts">
-                                                K</option>
+                                            <option value="PrimaryLangArts.html">Pre-K</option>
+                                            <option value="PrimaryLangArts.html">K</option>
                                         </select>
                                     </div>
                                 </div>
@@ -190,24 +189,12 @@
                                     <div class="skills-grade-select-wrap">
                                         <select class="skills-grade-select" aria-label="Primary options">
                                             <option selected>Select Grade</option>
-                                            <option
-                                                value="PrimaryLanguageArtsPractice.html?grade=primary-1-2&topic=primary-1-2-language-arts-overview&label=Primary%201%20-%202%20Language%20Arts">
-                                                P 1</option>
-                                            <option
-                                                value="PrimaryLanguageArtsPractice.html?grade=primary-1-2&topic=primary-1-2-language-arts-overview&label=Primary%201%20-%202%20Language%20Arts">
-                                                P 2</option>
-                                            <option
-                                                value="PrimaryLanguageArtsPractice.html?grade=primary-3&topic=primary-3-language-arts-overview&label=Primary%203%20Language%20Arts">
-                                                P 3</option>
-                                            <option
-                                                value="PrimaryLanguageArtsPractice.html?grade=primary-4&topic=primary-4-language-arts-overview&label=Primary%204%20Language%20Arts">
-                                                P 4</option>
-                                            <option
-                                                value="PrimaryLanguageArtsPractice.html?grade=primary-5&topic=primary-5-language-arts-overview&label=Primary%205%20Language%20Arts">
-                                                P 5</option>
-                                            <option
-                                                value="PrimaryLanguageArtsPractice.html?grade=primary-6&topic=primary-6-language-arts-overview&label=Primary%206%20Language%20Arts">
-                                                P 6</option>
+                                            <option value="PrimaryLangArts.html">P 1</option>
+                                            <option value="PrimaryLangArts.html">P 2</option>
+                                            <option value="PrimaryLangArts.html">P 3</option>
+                                            <option value="PrimaryLangArts.html">P 4</option>
+                                            <option value="PrimaryLangArts.html">P 5</option>
+                                            <option value="PrimaryLangArts.html">P 6</option>
                                         </select>
                                     </div>
                                 </div>
@@ -220,9 +207,9 @@
                                     <div class="skills-grade-select-wrap">
                                         <select class="skills-grade-select" aria-label="JHS options">
                                             <option selected>Select Grade</option>
-                                            <option>JHS 1</option>
-                                            <option>JHS 2</option>
-                                            <option>JHS 3</option>
+                                            <option value="JHAssessments.html">JHS 1</option>
+                                            <option value="JHAssessments.html">JHS 2</option>
+                                            <option value="JHAssessments.html">JHS 3</option>
                                         </select>
                                     </div>
                                 </div>
@@ -235,9 +222,9 @@
                                     <div class="skills-grade-select-wrap">
                                         <select class="skills-grade-select" aria-label="SHS options">
                                             <option selected>Select Grade</option>
-                                            <option>SHS 1</option>
-                                            <option>SHS 2</option>
-                                            <option>SHS 3</option>
+                                            <option value="SHAssessments.html">SHS 1</option>
+                                            <option value="SHAssessments.html">SHS 2</option>
+                                            <option value="SHAssessments.html">SHS 3</option>
                                         </select>
                                     </div>
                                 </div>
@@ -432,7 +419,9 @@
         skillsGradeSelects.forEach(function (select) {
             select.addEventListener('change', function () {
                 if (!select.value || select.value === 'Select Grade') return;
-                window.location.href = select.value;
+                const targetHref = select.value;
+                select.selectedIndex = 0;
+                window.location.href = targetHref;
             });
         });
     </script>
